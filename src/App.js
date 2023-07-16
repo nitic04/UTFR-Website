@@ -13,6 +13,7 @@ import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
 import UT03 from "./components/HistoricCarPages/UT03";
 import UT23 from "./components/UT23";
+import Sponsors from "./components/Sponsors";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/joinUs" element={<JoinUs />} />
           <Route path="/UT03" element={<UT03 />} />
+          <Route path="/sponsors" element={<Sponsors />} />
         </Routes>
         <Footer />
       </Router>

@@ -1,12 +1,13 @@
 import React from 'react'
-import HeaderImage from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
+import HeaderImage from '../assets/TeamMembers/ActionPhotos/chassis_pic.jpeg'
+import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
 import ErgoPic from '../assets/TeamMembers/ActionPhotos/ergo_pic.jpeg'
 import SuspensionPic from '../assets/TeamMembers/ActionPhotos/suspension_pic.jpeg'
 import GoToTop from './GoToTop'
 
 const History = () => {
   return (
-    <div>
+    <div className='bg-[#181818]'>
       <div className='w-full h-screen' style={{
         backgroundImage: `url(${HeaderImage})`,
         backgroundPosition: 'center',
@@ -49,15 +50,15 @@ const History = () => {
           </div>
         </div>
       </div>
-      <div name='contact' className='w-full h-screen bg-[#181818] flex justify-center items-center p-4'>
+      <div name='contact' className='w-full h-screen bg-[#131212] flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/1060fb32-1dcc-4e30-8e7b-ba014a877625" className='flex flex-col max-w-[1000px] w-full'>
           <div className='pb-8'>
-              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833] text-gray-300'>Contact</p>
+              <p className='text-4xl font-bold text-white'>Contact</p>
           </div>
           <input className='bg-gray-300 p-2' type="text" placeholder='Name' name='name' required/>
           <input className='my-4 p-2 bg-gray-300' type="email" placeholder='Email' name='email' required/>
           <textarea className='bg-gray-300 p-2' name="message" rows="10" placeholder='Message' required></textarea>
-          <button className='text-white border-2 hover:bg-[#ED3833] hover:border-[#ED3833]
+          <button className='text-white border-2 transition duration-500 hover:bg-[#ffffff58]
           px-10 py-3 my-8 mx-auto flex items-center'>Submit</button>
         </form>
       </div>
