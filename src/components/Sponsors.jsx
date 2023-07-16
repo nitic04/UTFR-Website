@@ -45,6 +45,7 @@ const Sponsors = () => {
                     <img src={Skule} style={{width: '230px', height: '100px'}} className='mx-24 py-5'/>
                     <div className='bg-[#636363] h-[400px]'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Engineering Society (SKULE)</h1>
+                        <p className='px-10'>The University of Toronto's Department of Mechanical and Industrial (MIE) Engineering has been sponsoring UTFR since our inception 25 years ago. They have provided financial support through the centralized process for student initiative funding and provides us with the facilities and supervision that allow to bring our ideas to life.</p>
                     </div>
                 </div>
 
