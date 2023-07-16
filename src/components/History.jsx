@@ -77,7 +77,7 @@ const History = () => {
       <h1 className='text-8xl text-white pt-[500px] px-12 font-bold'>History</h1>
       </div>
       <div>
-        <div className='text-white flex flex-col justify-center items-center w-full h-full'>
+        <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>
           <div className='h-full w-full about grid lg:grid-cols-2'>
             <div className='my-auto p-10'>
               <p className='text-lg pt-5'>The University of Toronto began its involvement in FSAE in 1997, and completed a prototype vehicle in 1998. Through testing and research on the vehicle, a second, lighter frame was constructed in 1999. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016.</p>
@@ -93,7 +93,7 @@ const History = () => {
           </div>
         </div>
       </div>
-      <div className=''>
+      <div className='bg-[#131212]'>
         <div className="px-8 py-10">
           <Slider {...settings}>
             <div className="carouselCard">

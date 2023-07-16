@@ -1,7 +1,7 @@
 import React from 'react'
-import UT03Image from '/Users/niti/Desktop/Coding/utfrwebsite/src/assets/HistoricCarPhotos/UT03/UT03.jpeg'
-import UT03Image2 from '/Users/niti/Desktop/Coding/utfrwebsite/src/assets/HistoricCarPhotos/UT03/UT03_2.jpeg'
-import UT03Image3 from '/Users/niti/Desktop/Coding/utfrwebsite/src/assets/HistoricCarPhotos/UT03/UT03_3.jpeg'
+import UT03Image from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03.jpeg'
+import UT03Image2 from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03_2.jpeg'
+import UT03Image3 from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03_3.jpeg'
 import GoToTop from '../GoToTop'
 import Slider from "react-slick"
 

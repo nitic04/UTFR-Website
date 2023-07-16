@@ -11,7 +11,7 @@ import HomeCarousel from "./components/HomeCarousel";
 import NH23Blog from "./components/NH23Blog";
 import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
-import UT03 from "./components/HistoricCarPages.jsx/UT03";
+import UT03 from "./components/HistoricCarPages/UT03";
 import UT23 from "./components/UT23";
 
 function App() {
