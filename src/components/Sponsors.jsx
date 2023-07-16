@@ -1,7 +1,9 @@
 import React from 'react'
 import SponsorHeader from '../assets/HighQualityImage.jpeg'
 import SponsorshipPackage from '../assets/TheUniversityofTorontoFormulaRacingSponsorshipPackage2023.pdf'
-
+import MIE from '../assets/Sponsors/SponsorLogosWhite/UofTMIE.png'
+import Tesla from '../assets/Sponsors/SponsorLogosWhite/Tesla.png'
+import Skule from '../assets/Sponsors/SponsorLogosWhite/SkuleWhite.png'
 
 const Sponsors = () => {
   return (
@@ -25,8 +27,25 @@ const Sponsors = () => {
         <div className='text-white bg-[#131212] py-10'>
             <h1 className='flex justify-center text-6xl font-bold'>Diamond Sponsors</h1>
             <div className='grid grid-cols-3'>
-                <div className=''>
-
+                <div className='p-10'>
+                    <img src={Tesla} className='py-9 px-16'/>
+                    <div className='bg-[#636363] h-[400px]'>
+                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>Tesla</h1>
+                        <p className='px-10'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our HV battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
+                    </div>
+                </div>
+                <div className='p-10'>
+                    <img src={MIE} className='py-5 px-16'/>
+                    <div className='bg-[#636363] h-[400px]'>
+                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Dept. of MIE</h1>
+                        <p className='px-10'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
+                    </div>
+                </div>
+                <div className='p-10'>
+                    <img src={Skule} style={{width: '230px', height: '100px'}} className='mx-24 py-5'/>
+                    <div className='bg-[#636363] h-[400px]'>
+                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Engineering Society (SKULE)</h1>
+                    </div>
                 </div>
 
             </div>
