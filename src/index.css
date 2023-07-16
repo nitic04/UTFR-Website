@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+
+
+@layer base {
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Satoshi';
+    background-color: black;
 }
+.navbar {
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.personName {
+    font-size: 1.7rem;
+    line-height: 2.25rem;
+    font-weight: 700; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.personTitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: rgb(209 213 219);
+}
+
+.countdownTimer span{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Open Sans';
+}
+
+.two-numbers {
+    width: 2ch;
+}
+
+.carouselCard {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerImage{
+    margin: auto;
+    display: block;
+}
+
