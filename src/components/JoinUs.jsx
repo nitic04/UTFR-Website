@@ -14,7 +14,7 @@ const History = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       }}>
-      <h1 className='text-8xl text-white pt-[580px] px-12 font-bold'>Join Us</h1>
+      <h1 className='text-8xl text-white pt-[550px] px-12 font-bold'>Join Us</h1>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>

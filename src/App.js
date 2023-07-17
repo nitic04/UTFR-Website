@@ -14,6 +14,7 @@ import JoinUs from "./components/JoinUs";
 import UT03 from "./components/HistoricCarPages/UT03";
 import UT23 from "./components/UT23";
 import Sponsors from "./components/Sponsors";
+import Shootout from "./components/Shootout";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/joinUs" element={<JoinUs />} />
           <Route path="/UT03" element={<UT03 />} />
           <Route path="/sponsors" element={<Sponsors />} />
+          <Route path="/shootout" element={<Shootout />} />
         </Routes>
         <Footer />
       </Router>
