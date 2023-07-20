@@ -1,4 +1,5 @@
 import React from 'react'
+import GoToTop from './GoToTop'
 import ShootoutHeader from '../assets/ShootoutPhotos/Shootout2022/ShootoutHeader.jpeg'
 import Shootout2022_1 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022.jpg'
 import Shootout2022_2 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_2.JPG'
@@ -14,6 +15,8 @@ import Shootout2022_11 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_
 import Shootout2022_12 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_12.JPG'
 import Shootout2022_13 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_13.JPG'
 import Shootout2022_14 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_14.JPG'
+import ShootoutCard2019Image from '../assets/ShootoutPhotos/UTFRShootout2019GroupPhoto.jpeg'
+import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg'
 
 import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
@@ -106,38 +109,51 @@ const Shootout = () => {
         </div>
         <div className='text-white bg-[#181818] pb-10'>
           <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
-          <div className='flex justify-center pt-5 space-x-5'>
-            <div className='w-[450px] h-[300px]' style={{
-            backgroundImage: `url(${ShootoutHeader})`,
+          <div className='flex justify-center pt-10'>
+          <div className='grid grid-cols-1 lg:grid-cols-3'>
+            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            backgroundImage: `url(${ShootoutCard2019Image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
+              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2019</h1>
+              <div className='flex pt-3 justify-center space-x-5'>
+                <a href="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064" target="_blank"><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
+                <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j"><p className='text-lg hover:font-bold transition duration-200' >Official Photography</p></a>
+              </div>
             </div>
-            <div className='w-[450px] h-[300px]' style={{
-            backgroundImage: `url(${ShootoutHeader})`,
+            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            backgroundImage: `url(${ShootoutCard2021Image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
+              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2021</h1>
+              <div className='flex pt-3 justify-center space-x-5'>
+                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank"><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
+                <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank"><p className='text-lg hover:font-bold transition duration-200'>Official Photography</p></a>
+              </div>
             </div>
-            <div className='w-[450px] h-[300px]' style={{
-            backgroundImage: `url(${ShootoutHeader})`,
+            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            backgroundImage: `url(${Shootout2022_14})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
+              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2022</h1>
+              <div className='flex pt-3 justify-center space-x-5'>
+                <a href=""><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
+                <a href=""><p className='text-lg hover:font-bold transition duration-200'>Official Photography</p></a>
+              </div>
             </div>
           </div>
-          {/* <div className='w-[300px] h-[200px]' style={{
-            backgroundImage: `url(${ShootoutHeader})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
-            }}>
-              <h1 className='text-8xl text-white px-12 font-bold'>Shootout 2023</h1>
-          </div> */}
+          </div>
         </div>
+        <div>
+          
+        </div>
+        <GoToTop />
     </div>
   )
 }
