@@ -150,8 +150,7 @@ const Shootout = () => {
           </div>
           </div>
         </div>
-        <div>
-          
+        <div className='w-full h-[300px] bg-[#131212]'>
         </div>
         <GoToTop />
     </div>
