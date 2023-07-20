@@ -61,7 +61,7 @@ const Shootout = () => {
                 <button className='r4 text-white group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a target="_blank">View Our Sponsorship Package</a></button>
             </div>
         </div>
-        <div>
+        <div className='flex justify-center'>
           <Slider {...settings} className='w-[1200px]'>
               <div className="carouselCard">
                 <img src={Shootout2022_1}/>
