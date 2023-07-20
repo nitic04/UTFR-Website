@@ -62,3 +62,13 @@ body {
     display: block;
 }
 
+.shootoutCard{
+    border-radius: 5px;
+    transition: box-shadow 200ms;
+    
+}
+
+.shootoutCard:hover{
+    box-shadow: 5px 5px 5px rgb(45, 45, 45);
+    cursor: pointer;
+}
