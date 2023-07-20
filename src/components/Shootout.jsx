@@ -61,7 +61,7 @@ const Shootout = () => {
                 <button className='r4 text-white group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a target="_blank">View Our Sponsorship Package</a></button>
             </div>
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center py-10'>
           <Slider {...settings} className='w-[1200px]'>
               <div className="carouselCard">
                 <img src={Shootout2022_1}/>
@@ -103,6 +103,40 @@ const Shootout = () => {
                 <img src={Shootout2022_14}/>
               </div>
           </Slider>
+        </div>
+        <div className='text-white bg-[#181818] pb-10'>
+          <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
+          <div className='flex justify-center pt-5 space-x-5'>
+            <div className='w-[450px] h-[300px]' style={{
+            backgroundImage: `url(${ShootoutHeader})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
+            </div>
+            <div className='w-[450px] h-[300px]' style={{
+            backgroundImage: `url(${ShootoutHeader})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
+            </div>
+            <div className='w-[450px] h-[300px]' style={{
+            backgroundImage: `url(${ShootoutHeader})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
+            </div>
+          </div>
+          {/* <div className='w-[300px] h-[200px]' style={{
+            backgroundImage: `url(${ShootoutHeader})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
+              <h1 className='text-8xl text-white px-12 font-bold'>Shootout 2023</h1>
+          </div> */}
         </div>
     </div>
   )
