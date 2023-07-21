@@ -24,6 +24,12 @@ import SAEOntarioLogo from '../assets/ShootoutPhotos/Shootout2022/SAEOntarioLogo
 import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
 import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
 
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Slider from "react-slick"
 
@@ -37,6 +43,12 @@ function Arrow(props) {
     />
   );
 }
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
 
 const Shootout = () => {
   var settings = {
@@ -152,14 +164,84 @@ const Shootout = () => {
           </div>
           </div>
         </div>
-        <div className='w-full h-[300px] bg-[#131212]'>
-          <div className='flex'>
-            <div><img src={HoosierLogo}/></div>
-            <div><img src={Mobil1Logo}/></div>
-            <div><img src={SAEOntarioLogo}/></div>
-            <div><img src={ShiftedLogo}/></div>
-            <div><img src={BrechinLogo}/></div>
+        <div className='w-full bg-[#131212]'>
+        <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
+        <ThemeProvider theme={darkTheme}>
+          <div className='flex space-x-5 py-5 justify-center'>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image={HoosierLogo}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Hoosier Racing Tire
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Hoosier generously provides valuable discount certificates to the top two teams at UTFR Shootout annually.
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image={Mobil1Logo}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Mobil 1
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Mobil 1 (via David Swain Racing Products) proudly supports UTFR Shootout by supplying cases of engine oil for podium finishers.                
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image={SAEOntarioLogo}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  SAE Central Ontario
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  SAE Central Ontario is the local section of the international Society of Automotive Engineers, which sanctions for Formula SAE competitions in North America. SAE Central Ontario proudly provides financial support to help make UTFR Shootout a reality each year.
+                </Typography>
+              </CardContent>
+            </Card>
           </div>
+          <div className='flex space-x-5 justify-center'>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image={ShiftedLogo}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  SHIFTED Digital Inc.
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Shifted Digital, formerly FlightSquad Media, provides event photography for UTFR Shootout annually.
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardMedia
+                sx={{ height: 140 }}
+                image={BrechinLogo}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Brechin Motorsport Park
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.
+                </Typography>
+              </CardContent>
+            </Card>
+          </div>
+        </ThemeProvider>
         </div>
         <GoToTop />
     </div>
