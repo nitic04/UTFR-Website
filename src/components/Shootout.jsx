@@ -154,9 +154,6 @@ const Shootout = () => {
         </div>
         <div className='w-full h-[300px] bg-[#131212]'>
           <div className='flex'>
-            <div>
-              <img src={HoosierLogo}/>
-            </div>
             <div><img src={HoosierLogo}/></div>
             <div><img src={Mobil1Logo}/></div>
             <div><img src={SAEOntarioLogo}/></div>
