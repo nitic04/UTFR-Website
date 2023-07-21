@@ -22,6 +22,8 @@ import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
 import SAEOntarioLogo from '../assets/ShootoutPhotos/Shootout2022/SAEOntarioLogo.png'
 import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
+import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
+
 
 import Slider from "react-slick"
 
@@ -151,6 +153,16 @@ const Shootout = () => {
           </div>
         </div>
         <div className='w-full h-[300px] bg-[#131212]'>
+          <div className='flex'>
+            <div>
+              <img src={HoosierLogo}/>
+            </div>
+            <div><img src={HoosierLogo}/></div>
+            <div><img src={Mobil1Logo}/></div>
+            <div><img src={SAEOntarioLogo}/></div>
+            <div><img src={ShiftedLogo}/></div>
+            <div><img src={BrechinLogo}/></div>
+          </div>
         </div>
         <GoToTop />
     </div>
