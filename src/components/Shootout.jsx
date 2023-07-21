@@ -169,12 +169,12 @@ const Shootout = () => {
         <ThemeProvider theme={darkTheme}>
           <div className='flex space-x-5 py-5 justify-center'>
             <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea>
+              <CardActionArea href="https://google.com" target="_blank">
               <CardMedia
-                sx={{ height: 140 }}
+                component="img"
+                height="140"
                 image={HoosierLogo}
               />
-              </CardActionArea>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Hoosier Racing Tire
@@ -183,11 +183,13 @@ const Shootout = () => {
                   Hoosier generously provides valuable discount certificates to the top two teams at UTFR Shootout annually.
                 </Typography>
               </CardContent>
+              </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
               <a href="">
               <CardMedia
-                sx={{ height: 140}}
+                component="img"
+                height="140"
                 image={Mobil1Logo}
               />
               </a>
@@ -202,7 +204,8 @@ const Shootout = () => {
             </Card>
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                component="img"
+                height="140"
                 image={SAEOntarioLogo}
               />
               <CardContent>
@@ -218,7 +221,8 @@ const Shootout = () => {
           <div className='flex space-x-5 justify-center'>
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                component="img"
+                height="140"
                 image={ShiftedLogo}
               />
               <CardContent>
@@ -232,7 +236,8 @@ const Shootout = () => {
             </Card>
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                component="img"
+                height="140"
                 image={BrechinLogo}
               />
               <CardContent>
