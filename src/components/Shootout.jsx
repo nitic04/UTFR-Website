@@ -25,7 +25,7 @@ import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
 import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
 
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+import { CardActionArea, CardActions } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
@@ -169,10 +169,12 @@ const Shootout = () => {
         <ThemeProvider theme={darkTheme}>
           <div className='flex space-x-5 py-5 justify-center'>
             <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea>
               <CardMedia
                 sx={{ height: 140 }}
                 image={HoosierLogo}
               />
+              </CardActionArea>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Hoosier Racing Tire
@@ -183,10 +185,12 @@ const Shootout = () => {
               </CardContent>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
+              <a href="">
               <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 140}}
                 image={Mobil1Logo}
               />
+              </a>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Mobil 1
