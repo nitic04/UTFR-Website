@@ -22,7 +22,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1696046400000}/><HomeCarousel /><SponsorshipFooter /></>} />
+          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1696075200000}/><HomeCarousel /><SponsorshipFooter /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
           <Route path="/team" element={<><TeamHeader /><TeamInfo /></>} />
           <Route path="/UT23" element={<UT23 />} />
