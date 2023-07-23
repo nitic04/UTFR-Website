@@ -1,8 +1,10 @@
 import React from 'react'
-import UT03Image from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03.jpeg'
-import UT03Image2 from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03_2.jpeg'
-import UT03Image3 from '/Users/niti/Documents/GitHub/UTFR-Website/src/assets/HistoricCarPhotos/UT03/UT03_3.jpeg'
-import GoToTop from '../GoToTop'
+// import UT03Image from '../assets/HighQualityImage.jpeg'
+
+import UT03Image from '../assets/HistoricCarPhotos/UT03/UT03.jpeg'
+import UT03Image2 from '../assets/HistoricCarPhotos/UT03/UT03_2.jpeg'
+import UT03Image3 from '../assets/HistoricCarPhotos/UT03/UT03_3.jpeg'
+import GoToTop from './GoToTop'
 import Slider from "react-slick"
 
 function Arrow(props) {

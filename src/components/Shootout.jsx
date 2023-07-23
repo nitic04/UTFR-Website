@@ -73,10 +73,7 @@ const Shootout = () => {
         </div>
         <div className='text-white bg-[#181818] pb-10'>
             <h1 className='flex justify-center text-4xl font-bold pt-10'>UTFR SHOOTOUT is an annual formula student competition hosted by UTFR.</h1>
-            <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event took place on Saturday, October 1, 2022, at Brechin Motorsports Park where the team successfully held a design expo of various cars from FSAE teams across North America.</p>
-            <div className='flex justify-center'>
-                <button className='r4 text-white group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a target="_blank">View Our Sponsorship Package</a></button>
-            </div>
+            <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park where the team will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
         <div className='flex justify-center py-10'>
           <Slider {...settings} className='w-[1200px]'>
@@ -167,7 +164,7 @@ const Shootout = () => {
         <div className='w-full bg-[#131212]'>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
         <ThemeProvider theme={darkTheme}>
-          <div className='flex space-x-5 py-5 justify-center'>
+          <div className='flex space-x-5 pt-5 justify-center pb-10'>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea href="https://google.com" target="_blank">
               <CardMedia
