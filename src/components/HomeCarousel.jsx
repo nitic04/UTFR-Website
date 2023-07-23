@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -56,26 +56,26 @@ const HomeCarousel = () => {
       <div className="px-8 py-10">
         <Slider {...settings}>
           <div className="carouselCard">
-            <NavLink to="/nh23blog"><img src={TeamPhoto}/></NavLink>
+            <NavLink to="/nh23blog"><img alt="" src={TeamPhoto}/></NavLink>
             <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
             <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
-            <a href=""><img src={UnveilingPhoto}/></a>
+            <a href="google.com"><img alt="" src={UnveilingPhoto}/></a>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
             <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
-            <img src={CoolCarMan}/>
+            <img alt="" src={CoolCarMan}/>
           </div>
           <div className="carouselCard">
-            <img src={CoolCarMan}/>
+            <img alt="" src={CoolCarMan}/>
           </div>
           <div className="carouselCard">
-            <img src={CoolCarMan}/>
+            <img alt="" src={CoolCarMan}/>
           </div>
           <div className="carouselCard">
-            <img src={CoolCarMan}/>
+            <img alt="" src={CoolCarMan}/>
           </div>
         </Slider>
       </div>

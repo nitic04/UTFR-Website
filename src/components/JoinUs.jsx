@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderImage from '../assets/TeamMembers/ActionPhotos/chassis_pic.jpeg'
-import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
+// import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
 import ErgoPic from '../assets/TeamMembers/ActionPhotos/ergo_pic.jpeg'
 import SuspensionPic from '../assets/TeamMembers/ActionPhotos/suspension_pic.jpeg'
 import GoToTop from './GoToTop'

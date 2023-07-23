@@ -23,7 +23,7 @@ const NH23Blog = () => {
         </div>
       </div>
       <div>
-          <img src={TeamPhoto} className='headerImage w-full py-10'/>
+          <img src={TeamPhoto} alt="" className='headerImage w-full py-10'/>
       </div>
       <div className='px-80 text-white text-lg'>
         <h1 className='text-2xl pb-5 font-medium '>Starting off the season with a win!</h1>

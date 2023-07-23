@@ -34,7 +34,7 @@ const UT23 = () => {
                 <h1 className='text-2xl py-3'>Engineered Perfection</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nesciunt provident, earum consectetur, a expedita iure enim, suscipit doloribus sequi quibusdam optio repudiandae labore ullam quaerat quae quisquam error? Dolorum!</p>
             </div>
-            <img src={UT23Cutout} className='absolute top-[120%]'/>
+            <img src={UT23Cutout} alt="" className='absolute top-[120%]'/>
             <div className='flex justify-center space-x-10 pt-96 pb-20'>
                 <div>
                     <h1 className='flex justify-center text-6xl font-bold'>536 lbs</h1>

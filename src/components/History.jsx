@@ -97,63 +97,63 @@ const History = () => {
         <div className="px-8 py-10">
           <Slider {...settings}>
             <div className="carouselCard">
-              <NavLink to="/UT03"><img src={UT03}/></NavLink>
+              <NavLink to="/UT03"><img alt="" src={UT03}/></NavLink>
               <h1 className="text-white text-xl font-bold py-2">UT03</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT04}/>
+              <img alt="" src={UT04}/>
               <h1 className="text-white text-xl font-bold py-2">UT04</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT05}/>
+              <img alt="" src={UT05}/>
               <h1 className="text-white text-xl font-bold py-2">UT05</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT07}/>
+              <img alt="" src={UT07}/>
               <h1 className="text-white text-xl font-bold py-2">UT07</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT08}/>
+              <img alt="" src={UT08}/>
               <h1 className="text-white text-xl font-bold py-2">UT08</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT09}/>
+              <img alt="" src={UT09}/>
               <h1 className="text-white text-xl font-bold py-2">UT09</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT10}/>
+              <img alt="" src={UT10}/>
               <h1 className="text-white text-xl font-bold py-2">UT10</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT11}/>
+              <img alt="" src={UT11}/>
               <h1 className="text-white text-xl font-bold py-2">UT11</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT15}/>
+              <img alt="" src={UT15}/>
               <h1 className="text-white text-xl font-bold py-2">UT15</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT16}/>
+              <img alt="" src={UT16}/>
               <h1 className="text-white text-xl font-bold py-2">UT16</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT17}/>
+              <img alt="" src={UT17}/>
               <h1 className="text-white text-xl font-bold py-2">UT17</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT18}/>
+              <img alt="" src={UT18}/>
               <h1 className="text-white text-xl font-bold py-2">UT18</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT19}/>
+              <img alt="" src={UT19}/>
               <h1 className="text-white text-xl font-bold py-2">UT19</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT21}/>
+              <img alt="" src={UT21}/>
               <h1 className="text-white text-xl font-bold py-2">UT21</h1>
             </div>
             <div className="carouselCard">
-              <img src={UT22}/>
+              <img alt="" src={UT22}/>
               <h1 className="text-white text-xl font-bold py-2">UT22</h1>
             </div>
           </Slider>
