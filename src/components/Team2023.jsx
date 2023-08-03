@@ -35,7 +35,7 @@ import AmeliaDease from '../assets/TeamMembers/Business/AmeliaDease.jpeg'
 import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpeg'
 import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
 
-const TeamInfo = () => {
+const Team2023 = () => {
 
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'> 
@@ -84,7 +84,6 @@ const TeamInfo = () => {
             <p className='personName'>Kelvin Cui</p>
           </div>
         </div>
-
 
         {/* MECHANICAL LEADS */}
         <p className='text-4xl font-bold flex justify-center pt-5'>Mechanical Leads</p>
@@ -244,4 +243,4 @@ const TeamInfo = () => {
   )
 }
 
-export default TeamInfo
+export default Team2023

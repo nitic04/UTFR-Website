@@ -53,7 +53,7 @@ const History = () => {
       <div name='contact' className='w-full h-screen bg-[#131212] flex justify-center items-center px-10 p-4'>
         <form method='POST' action="https://getform.io/f/1060fb32-1dcc-4e30-8e7b-ba014a877625" className='flex flex-col max-w-[1000px] w-full'>
           <div className='pb-8'>
-              <p className='text-4xl font-bold text-white'>Contact</p>
+              <p className='text-4xl font-bold text-white'>Contact Us</p>
           </div>
           <input className='bg-gray-300 p-2' type="text" placeholder='Name' name='name' required/>
           <input className='my-4 p-2 bg-gray-300' type="email" placeholder='Email' name='email' required/>

@@ -19,6 +19,7 @@ const Navbar = () => {
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
         <NavLink to="/shootout"><li className='transition duration-200 hover:text-gray-300'>Shootout</li></NavLink>
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
+        <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletter</li></NavLink>
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
       </ul>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import TeamPhotoUnveiling from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg'
 import BothCars from '../assets/TeamCarPhotos/BothCars.jpeg'
 import GoToTop from './GoToTop'
+import { FiArrowRight } from 'react-icons/fi'
 
 const Team = () => {
   return (
@@ -12,7 +13,7 @@ const Team = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
       }}>
-      <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Team</h1>
+      <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>2023 Team</h1>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>
@@ -29,6 +30,13 @@ const Team = () => {
               }}>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='bg-[#2d2c2c] text-white py-10 px-10 text-lg'>
+        <div className='flex'>
+          <button className='flex items-center'>View Previous Teams<FiArrowRight className='mx-2 duration-500'/></button>
+          <button className='pr-5'>2022 - 2023</button>
+          <button className='pr-5'>2021 - 2022</button>
         </div>
       </div>
       <GoToTop />

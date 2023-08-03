@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TeamHeader from "./components/TeamHeader";
-import TeamInfo from "./components/TeamInfo";
+import Team2023 from "./components/Team2023";
 import History from "./components/History";
 import Countdown from "./components/Countdown";
 import HomeCarousel from "./components/HomeCarousel";
@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1696075200000}/><HomeCarousel /><SponsorshipFooter /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
-          <Route path="/team" element={<><TeamHeader /><TeamInfo /></>} />
+          <Route path="/team" element={<><TeamHeader /><Team2023 /></>} />
           <Route path="/UT23" element={<UT23 />} />
           <Route path="/history" element={<History />} />
           <Route path="/joinUs" element={<JoinUs />} />
