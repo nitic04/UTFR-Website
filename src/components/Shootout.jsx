@@ -72,8 +72,8 @@ const Shootout = () => {
             <h1 className='text-8xl text-white pt-[550px] px-12 font-bold'>Shootout 2023</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
-            <h1 className='flex justify-center text-4xl font-bold pt-10'>UTFR SHOOTOUT is an annual formula student competition hosted by UTFR.</h1>
-            <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park where the team will be holding a design expo of various cars from FSAE teams across North America.</p>
+            <h1 className='flex justify-center text-4xl font-bold pt-10'>Toronto Shootout is an annual formula student competition.</h1>
+            <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
         <div className='flex justify-center py-10'>
           <Slider {...settings} className='w-[1200px]'>
@@ -161,9 +161,9 @@ const Shootout = () => {
           </div>
           </div>
         </div>
-        <div className='w-full bg-[#131212]'>
-        <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
+        <div className='w-full bg-[#131212] pb-10'>
         <ThemeProvider theme={darkTheme}>
+        <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
           <div className='flex space-x-5 pt-5 justify-center pb-10'>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea href="https://google.com" target="_blank">
@@ -173,70 +173,87 @@ const Shootout = () => {
                 image={HoosierLogo}
               />
               <CardContent>
+                <div className='pb-[50px]'>
                 <Typography gutterBottom variant="h5" component="div">
                   Hoosier Racing Tire
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Hoosier generously provides valuable discount certificates to the top two teams at UTFR Shootout annually.
+                  Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually.
                 </Typography>
+                </div>
               </CardContent>
               </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
-              <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing">
+              <CardActionArea href="https://google.com" target="_blank">
+              <div className='py-[58px] px-[10px]'>
               <CardMedia
                 component="img"
                 height="140"
                 image={Mobil1Logo}
               />
-              </a>
+              </div>
               <CardContent>
+                <div className='pb-[57px]'>
                 <Typography gutterBottom variant="h5" component="div">
                   Mobil 1
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Mobil 1 (via David Swain Racing Products) proudly supports UTFR Shootout by supplying cases of engine oil for podium finishers.                
+                  Mobil 1 (via David Swain Racing Products) proudly supports Toronto Shootout by supplying cases of engine oil for podium finishers.                
                 </Typography>
+                </div>
               </CardContent>
+              </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea href="https://google.com" target="_blank">
+              <div className='py-[40px] px-[10px]'>
               <CardMedia
                 component="img"
                 height="140"
                 image={SAEOntarioLogo}
               />
+              </div>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   SAE Central Ontario
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  SAE Central Ontario is the local section of the international Society of Automotive Engineers, which sanctions for Formula SAE competitions in North America. SAE Central Ontario proudly provides financial support to help make UTFR Shootout a reality each year.
+                  SAE Central Ontario is the local section of the international Society of Automotive Engineers, which sanctions for Formula SAE competitions in North America. SAE Central Ontario proudly provides financial support to help make Toronto Shootout a reality each year.
                 </Typography>
               </CardContent>
+              </CardActionArea>
             </Card>
           </div>
           <div className='flex space-x-5 justify-center'>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 345}}>
+              <CardActionArea href="https://google.com" target="_blank">
+              <div className='px-[10px]'>
               <CardMedia
                 component="img"
                 height="140"
                 image={ShiftedLogo}
               />
+              </div>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   SHIFTED Digital Inc.
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Shifted Digital, formerly FlightSquad Media, provides event photography for UTFR Shootout annually.
+                  Shifted Digital, formerly FlightSquad Media, provides event photography for Toronto Shootout annually.
                 </Typography>
               </CardContent>
+              </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea href="https://google.com" target="_blank">
+              <div className='py-[57px] px-[10px]'>
               <CardMedia
                 component="img"
                 height="140"
                 image={BrechinLogo}
               />
+              </div>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Brechin Motorsport Park
@@ -245,6 +262,7 @@ const Shootout = () => {
                   Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.
                 </Typography>
               </CardContent>
+              </CardActionArea>
             </Card>
           </div>
         </ThemeProvider>

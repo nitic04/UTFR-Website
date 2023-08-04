@@ -28,3 +28,58 @@ DESIGN. BUILD. RACE.
 team@fsaeutoronto.ca
 business@fsaeutoronto.ca
 In the footer 
+
+
+Missing Team Member Photos
+2024
+- Jasmine Wu 
+- Zeina Shaltout
+- Angus Zhang
+- Rebecca Schultz (I THINK ITS BEEN ADDED)
+- Evan Tal (I THINK ITS BEEN ADDED)
+- Nicholas Burley
+
+2023
+- Mackenzie Powell
+- Winston Young
+- Nasoe Talash
+- Zeina Shaltout
+- Jasmine Wu
+- Rowan Honeywell
+- Justin Lim
+
+
+2023 structure
+Team Captain: Daniel Wing
+Mechanical Technical Director: Damian Sisera
+Electrical Technical Director: Saiyam Patel
+Driverless Technical Director: Kelvin Cui
+
+Business Director: Emily Wright
+Aerodynamics Lead: Batu Tibet
+Brakes Lead: Asal Ghorbani
+Chassis Lead: Yixin Zhang
+Drivetrain Lead: Kelvin Cao
+Ergonomics Lead: Crystal Jin
+Steering Lead: Ajay Anand
+Suspension Lead: Christian Stalteri
+Accumulator Mechanical Lead: Eric Emmenegger
+Electric Powertrain Lead: Ayrton Antenucci
+Controllers Lead: Benjamin Liang
+LV Architecture Lead: Andrew Chen
+Firmware Lead: Spencer Ball
+
+
+DV Perception Lead: Alfred Xue
+DV Machine Learning Lead: Mustafa Khan
+DV Navigation Lead: Daniel Asadi
+DV State Estimation Lead: Alyssa Wing
+DV Controls Lead: Youssef Elhadad
+Mechatronics Lead: Mauro De Liberato
+Recruitment Co-Leads: Mohamad Taban and Mauro De Liberato
+Marketing Co-Leads: Amelia Dease and Olivia Tworzyanski
+Shop Manager: Sam Bharami 
+
+Questions
+- are we including members on PEY?
+- do you guys want your names to be linked to your linkedin?
