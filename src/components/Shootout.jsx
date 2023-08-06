@@ -20,7 +20,6 @@ import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Phot
 
 import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
-import SAEOntarioLogo from '../assets/ShootoutPhotos/Shootout2022/SAEOntarioLogo.png'
 import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
 import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
 
@@ -164,7 +163,7 @@ const Shootout = () => {
         <div className='w-full bg-[#131212] pb-10'>
         <ThemeProvider theme={darkTheme}>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
-          <div className='flex space-x-5 pt-5 justify-center pb-10'>
+          <div className='flex space-x-5 pt-5 justify-center pb-10 px-5'>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea href="https://google.com" target="_blank">
               <CardMedia
@@ -205,27 +204,6 @@ const Shootout = () => {
               </CardContent>
               </CardActionArea>
             </Card>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://google.com" target="_blank">
-              <div className='py-[40px] px-[10px]'>
-              <CardMedia
-                component="img"
-                height="140"
-                image={SAEOntarioLogo}
-              />
-              </div>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  SAE Central Ontario
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  SAE Central Ontario is the local section of the international Society of Automotive Engineers, which sanctions for Formula SAE competitions in North America. SAE Central Ontario proudly provides financial support to help make Toronto Shootout a reality each year.
-                </Typography>
-              </CardContent>
-              </CardActionArea>
-            </Card>
-          </div>
-          <div className='flex space-x-5 justify-center'>
             <Card sx={{ maxWidth: 345}}>
               <CardActionArea href="https://google.com" target="_blank">
               <div className='px-[10px]'>

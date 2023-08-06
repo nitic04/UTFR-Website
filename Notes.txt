@@ -80,6 +80,13 @@ Recruitment Co-Leads: Mohamad Taban and Mauro De Liberato
 Marketing Co-Leads: Amelia Dease and Olivia Tworzyanski
 Shop Manager: Sam Bharami 
 
+
 Questions
-- are we including members on PEY?
-- do you guys want your names to be linked to your linkedin?
+- are we including members on PEY? NO
+- do you guys want your names to be linked to your linkedin? YES 
+    - a card when you hover it flips over, theres a linkedin icon and you click it and it redirects
+- will all member photos be taken by september 1st
+    - if not i need a filler image -> later lol
+- members from 2023
+    - faceless members
+- form messages only go to the team email
