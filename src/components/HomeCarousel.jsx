@@ -56,17 +56,19 @@ const HomeCarousel = () => {
       <div className="px-8 py-10">
         <Slider {...settings}>
           <div className="carouselCard">
-            <NavLink to="/nh23blog"><img alt="" src={TeamPhoto}/></NavLink>
-            <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
-            <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
-          </div>
-          <div className="carouselCard">
-            <a href="google.com"><img alt="" src={UnveilingPhoto}/></a>
+            <NavLink to="/nh23blog"><img alt="" src={UnveilingPhoto}/></NavLink>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
             <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
+            <a href="google.com"><img alt="" src={TeamPhoto}/></a>
+            <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
+            <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
+          </div>
+          <div className="carouselCard">
             <img alt="" src={CoolCarMan}/>
+            <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
+            <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
             <img alt="" src={CoolCarMan}/>
