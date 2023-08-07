@@ -7,6 +7,9 @@ To Do List
 - figure out why the 'our team' photo is not showing up on mobile mode
 - events page
 - figure out how to load images beforehand
+- fix certain people's images (incorrect sizing)
+- change the drivers
+- no info on Arthur Xu from driverless
 
 
 Questions

@@ -30,7 +30,6 @@ body {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .personTitle {
@@ -39,6 +38,14 @@ body {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: rgb(209 213 219);
+}
+
+.personProgram {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: rgb(154, 159, 163);
 }
 
 .countdownTimer span{
