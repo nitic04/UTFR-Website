@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
@@ -36,7 +36,7 @@ import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpeg'
 import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
 
 const Team2024 = () => {
-
+  const [flip, setFlip] = useState(false);
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'> 
         {/* DIRECTORS */}

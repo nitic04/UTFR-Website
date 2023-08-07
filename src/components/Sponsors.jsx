@@ -14,7 +14,7 @@ const Sponsors = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-        <h1 className='text-8xl text-white pt-[550px] px-12 font-bold'>Sponsors & Partners</h1>
+        <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Sponsors & Partners</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
             <h1 className='flex justify-center text-4xl font-bold pt-10'>How our team thrives on your support</h1>

@@ -4,9 +4,10 @@
     - plan is to integrate this with the car history section so that its all in one place
 
 To Do List
-- make the navbar transparent and then blurry on scroll
-- fix when you route to a new page it starts from the top instead of where user scrolled till
 - figure out why the 'our team' photo is not showing up on mobile mode
+- events page
+- figure out how to load images beforehand
+
 
 Questions
 - r we including members on the website or just leads? NO
@@ -69,7 +70,6 @@ Controllers Lead: Benjamin Liang
 LV Architecture Lead: Andrew Chen
 Firmware Lead: Spencer Ball
 
-
 DV Perception Lead: Alfred Xue
 DV Machine Learning Lead: Mustafa Khan
 DV Navigation Lead: Daniel Asadi
@@ -80,13 +80,23 @@ Recruitment Co-Leads: Mohamad Taban and Mauro De Liberato
 Marketing Co-Leads: Amelia Dease and Olivia Tworzyanski
 Shop Manager: Sam Bharami 
 
-
 Questions
 - are we including members on PEY? NO
 - do you guys want your names to be linked to your linkedin? YES 
     - a card when you hover it flips over, theres a linkedin icon and you click it and it redirects
 - will all member photos be taken by september 1st
-    - if not i need a filler image -> later lol
-- members from 2023
-    - faceless members
+    - if not i need a filler image -> guess not lol
 - form messages only go to the team email
+- linkedin and resume for team leads or just linkedin?
+
+THINGS I NEED
+- finalized list of Shootout sponsors
+- proper photo for sponsors section
+- finalized list of website sponsors as well as their tiers 
+- Website icon
+- what is the mailing list? how do i add people to that?
+- get a higher quality shootout image
+- get a higher quality UT23 image
+
+
+

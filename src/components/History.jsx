@@ -74,7 +74,7 @@ const History = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       }}>
-      <h1 className='text-8xl text-white pt-[500px] px-12 font-bold'>History</h1>
+      <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>History</h1>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>

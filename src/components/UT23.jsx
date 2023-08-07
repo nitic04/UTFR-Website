@@ -13,9 +13,9 @@ const UT23 = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
-            <h1 className='text-8xl text-white pt-[500px] px-12 font-bold'>UT23</h1>
+            <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>UT23</h1>
         </div>
-        <div className='bg-gradient-to-r from-[#03153c] to-[#000000]'>
+        {/* <div className='bg-gradient-to-r from-[#03153c] to-[#000000]'>
             <div className='flex justify-center space-x-10 py-20'>
                 <div>
                     <h1 className='flex justify-center text-6xl font-bold'>1st Place</h1>
@@ -49,7 +49,7 @@ const UT23 = () => {
                     <p className='flex justify-center'>Motor</p>
                 </div>
             </div>
-        </div>
+        </div> */}
         <GoToTop />
     </div>
   )

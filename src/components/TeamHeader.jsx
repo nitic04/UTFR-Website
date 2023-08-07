@@ -13,7 +13,7 @@ const Team = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
       }}>
-      <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>2023 Team</h1>
+      <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>2024 Team</h1>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>

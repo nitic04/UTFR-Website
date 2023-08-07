@@ -68,7 +68,7 @@ const Shootout = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-            <h1 className='text-8xl text-white pt-[550px] px-12 font-bold'>Shootout 2023</h1>
+            <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Shootout 2023</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
             <h1 className='flex justify-center text-4xl font-bold pt-10'>Toronto Shootout is an annual formula student competition.</h1>
@@ -206,7 +206,7 @@ const Shootout = () => {
             </Card>
             <Card sx={{ maxWidth: 345}}>
               <CardActionArea href="https://google.com" target="_blank">
-              <div className='px-[10px]'>
+              <div className='px-[10px] py-[15px]'>
               <CardMedia
                 component="img"
                 height="140"
@@ -217,9 +217,11 @@ const Shootout = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   SHIFTED Digital Inc.
                 </Typography>
+                <div className='pb-[55px]'>
                 <Typography variant="body2" color="text.secondary">
                   Shifted Digital, formerly FlightSquad Media, provides event photography for Toronto Shootout annually.
                 </Typography>
+                </div>
               </CardContent>
               </CardActionArea>
             </Card>
@@ -236,9 +238,11 @@ const Shootout = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   Brechin Motorsport Park
                 </Typography>
+                <div className='pb-[60px]'>
                 <Typography variant="body2" color="text.secondary">
                   Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.
                 </Typography>
+                </div>
               </CardContent>
               </CardActionArea>
             </Card>
