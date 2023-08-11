@@ -71,7 +71,7 @@ const Shootout = () => {
             <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Shootout 2023</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
-            <h1 className='flex justify-center text-4xl font-bold pt-10'>Toronto Shootout is an annual formula student competition.</h1>
+            <h1 className='flex justify-center text-4xl font-bold pt-10 text-center'>Toronto Shootout is an annual formula student competition.</h1>
             <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
         <div className='flex justify-center py-10'>
@@ -117,7 +117,7 @@ const Shootout = () => {
               </div>
           </Slider>
         </div>
-        <div className='text-white bg-[#181818] pb-10'>
+        <div className='text-[#F3F3F3] bg-[#181818] pb-10'>
           <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
           <div className='flex justify-center pt-10'>
           <div className='grid grid-cols-1 lg:grid-cols-3'>
@@ -165,7 +165,7 @@ const Shootout = () => {
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
           <div className='flex space-x-5 pt-5 justify-center pb-10 px-5'>
             <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://google.com" target="_blank">
+              <CardActionArea href="https://www.hoosiertire.com/" target="_blank">
               <CardMedia
                 component="img"
                 height="140"
@@ -184,7 +184,7 @@ const Shootout = () => {
               </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://google.com" target="_blank">
+              <CardActionArea href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank">
               <div className='py-[58px] px-[10px]'>
               <CardMedia
                 component="img"
@@ -205,7 +205,7 @@ const Shootout = () => {
               </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345}}>
-              <CardActionArea href="https://google.com" target="_blank">
+              <CardActionArea href="https://www.shifted.digital/" target="_blank">
               <div className='px-[10px] py-[15px]'>
               <CardMedia
                 component="img"
@@ -226,7 +226,7 @@ const Shootout = () => {
               </CardActionArea>
             </Card>
             <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://google.com" target="_blank">
+              <CardActionArea href="https://gamebridgegokarts.com/" target="_blank">
               <div className='py-[57px] px-[10px]'>
               <CardMedia
                 component="img"
