@@ -18,6 +18,7 @@ body {
     font-family: 'Satoshi';
     background-color: black;
 }
+
 .navbar {
     backdrop-filter: blur(8px);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
@@ -71,8 +72,7 @@ body {
 
 .shootoutCard{
     border-radius: 5px;
-    transition: box-shadow 200ms;
-    
+    transition: box-shadow 200ms;    
 }
 
 .shootoutCard:hover{

@@ -10,6 +10,7 @@ To Do List
 - fix certain people's images (incorrect sizing)
 - change the drivers
 - no info on Arthur Xu from driverless
+- page titles need to get smaller when screen is small
 
 
 Questions
