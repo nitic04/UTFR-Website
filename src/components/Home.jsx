@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../assets/TeamCarPhotos/Car.jpeg'
+import Background from '../assets/CzechRepublic2023/Czech23_1.jpeg'
 
 const Home = () => {
 
