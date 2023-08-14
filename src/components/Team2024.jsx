@@ -69,7 +69,7 @@ const Team2024 = () => {
         </div>
 
         {/* DRIVERS */}
-        <p className='text-4xl font-bold flex justify-center pt-5'>Drivers</p>
+        {/* <p className='text-4xl font-bold flex justify-center pt-5'>Drivers</p>
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <img src={DamianSiseraDriver} alt="team" className='my-auto mx-auto w-[90%]'/>
@@ -91,7 +91,7 @@ const Team2024 = () => {
             <p className='personName'>Kelvin Cui</p>
             <p className='personProgram'>ECE 2T3 + PEY</p>
           </div>
-        </div>
+        </div> */}
 
         {/* MECHANICAL LEADS */}
         <p className='text-4xl font-bold flex justify-center pt-5'>Mechanical Leads</p>
