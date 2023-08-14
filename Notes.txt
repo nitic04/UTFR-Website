@@ -11,6 +11,7 @@ To Do List
 - change the drivers
 - no info on Arthur Xu from driverless
 - page titles need to get smaller when screen is small
+- figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
 
 
 Questions
@@ -21,6 +22,7 @@ Questions
 - who are the recruitment leads? SENDING LATER
 - is there a specific font that was used for the logo? FOUND CLOSE ONES
 - the favicon where do i get the png for it EASY
+
 
 DESIGN. BUILD. RACE.
 
