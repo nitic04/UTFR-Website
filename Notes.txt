@@ -12,6 +12,7 @@ To Do List
 - no info on Arthur Xu from driverless
 - page titles need to get smaller when screen is small
 - figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
+- TBD on the team page
 
 
 Questions
@@ -103,6 +104,10 @@ THINGS I NEED
 - what is the mailing list? how do i add people to that?
 - get a higher quality shootout image
 - get a higher quality UT23 image
+- a white and png version of the petro canada lubricants logo
 
 
-
+Sponsors
+- Diamond Sponsors: Tesla, SKULE, MIE
+- Platinum: ACT now HPC, Engineering Alumni Network, MC-78 Machine Shop, monday.com, 
+- AIRTECH, Petro, New Era
