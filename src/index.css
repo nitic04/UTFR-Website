@@ -80,3 +80,10 @@ body {
     box-shadow: 5px 5px 5px rgb(45, 45, 45);
     cursor: pointer;
 }
+
+.sponsorImg {
+    float: left;
+    height: 150px;
+    width: 250px;
+    object-fit: contain;
+}
