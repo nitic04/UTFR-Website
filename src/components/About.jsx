@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamPic from '../assets/TeamMembers/Team.png'
+import CarPic from '../assets/CzechRepublic2023/Czech23_2.jpeg'
 import GoToTop from './GoToTop'
 
 const About = () => {
@@ -9,12 +9,13 @@ const About = () => {
         <div className='h-full w-full about grid lg:grid-cols-2'>
           <div className='my-auto p-10'>
             <p className='text-5xl font-bold inline border-b-4 border-[#ED3833]'>Who We Are</p>
-            <p className='text-lg pt-5'>The University of Toronto Formula Racing team is a design team from the University of Toronto that designs and builds a small open wheel race car every year to compete in international Formula SAE/Student competitions.</p>
-            <p className='text-lg pt-5 pb-5'>The University of Toronto Formula Racing team is a design team from the University of Toronto that designs and builds a small open wheel race car every year to compete in international Formula SAE/Student competitions.</p>
-            <button className='text-white border-2 px-6 py-3 my-2 flex items-center transition duration-200 hover:bg-gray-300/50 hover:border-gray-300'>Learn More</button>
+            <p className='text-lg pt-5'>The University of Toronto Formula Racing Team stands as an enterprising and driven student-led design collective hailing from the University of Toronto. Each year, the team undertakes the exhilarating challenge of crafting a compact, open-wheel race car from scratch.</p>
+            <p className='text-lg pt-5 pb-5'>Since its inception in 1997, the University of Toronto Formula Racing Team has consistently exemplified student-led excellence. Over the years, they have embraced innovation, expanding their horizons to include the creation of an electric vehicle. Their international participation in Formula SAE/Student competitions serves as a testament to their fervor for motorsports, as well as their continuous pursuit of achieving the highest standards in their field.
+            </p>
+            <button className='text-white border-2 px-6 py-3 mt-2 flex items-center transition duration-200 hover:bg-gray-300/50 hover:border-gray-300'>Learn More</button>
           </div>
           <div className='w-[100%]'>
-            <img src={TeamPic} alt="team" className='w-[100%]'/>
+            <img src={CarPic} alt="team" className='w-[100%]'/>
           </div>
         </div>
       </div>

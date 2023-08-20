@@ -32,13 +32,13 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className='bg-[#2d2c2c] text-white py-10 px-10 text-lg'>
+      {/* <div className='bg-[#2d2c2c] text-white py-10 px-10 text-lg'>
         <div className='flex'>
           <button className='flex items-center'>View Previous Teams<FiArrowRight className='mx-2 duration-500'/></button>
           <button className='pr-5'>2022 - 2023</button>
           <button className='pr-5'>2021 - 2022</button>
         </div>
-      </div>
+      </div> */}
       <GoToTop />
     </div>
   )

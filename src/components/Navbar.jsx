@@ -13,7 +13,7 @@ const Navbar = () => {
         <NavLink to="/" ><img src={Logo} alt="Logo" style={{width: '160px'}} /></NavLink>
       </div>
 
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex text-lg'>
         <NavLink to="/team"><li className='transition duration-200 hover:text-gray-300'>Team</li></NavLink>
         <NavLink to="/UT23"><li className='transition duration-200 hover:text-gray-300'>UT23</li></NavLink>
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>

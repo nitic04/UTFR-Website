@@ -174,8 +174,8 @@ const Team2024 = () => {
             <p className='personProgram'>ECE 2T6 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={AsserAbdelgawad} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>Asser Abdelgawad</p>
+            <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <p className='personName'>TBD</p>
             <p className='personTitle'>Controller Lead</p>
             <p className='personProgram'>Eng Sci 2T5 + PEY</p>
           </div>
@@ -252,7 +252,7 @@ const Team2024 = () => {
           <div className='w-[100%] my-auto py-10'>
             <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
             <p className='personName'>Evan Tal</p>
-            <p className='personTitle'>Outreach Lead</p>
+            <p className='personTitle'>External Relations Lead</p>
             <p className='personProgram'>Rotman 2T5</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
