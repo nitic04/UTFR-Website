@@ -13,24 +13,37 @@ import ActNow from '../assets/Sponsors/SponsorLogosWhite/ActNowWhite.png'
 const SponsorshipFooter = () => {
   return (
     <div className='w-full bg-[#131212] pb-5'>
-        <div className='flex justify-center pt-5 h-[100px]'>
-            <img alt="" src={Skule} className='p-5'/>
-            <img alt="" src={MIE} className='p-5'/>
-            <img alt="" src={Monday} className='p-5'/>
+        <div className='flex justify-center pt-5 items-center'>
+          <a href="https://skule.ca/" target="_blank" rel="noreferrer">
+            <img alt="" src={Skule} style={{height: "60px"}} className='sponsorImg2'/>
+          </a>
+          <a href="https://www.mie.utoronto.ca/" target="_blank" rel="noreferrer">
+            <img alt="" src={MIE} style={{width: "250px"}} className='sponsorImg2'/>
+          </a>
+          <a href="https://monday.com/" target="_blank" rel="noreferrer">
+            <img alt="" src={Monday} className='sponsorImg2'/>
+          </a>
         </div>
-        <div className='flex justify-center h-[75px]'>
-            <img alt="" src={MC78} className='p-5'/>
-            <img alt="" src={EngAlumni} className='p-5'/>
-            <img alt="" src={ActNow} className='p-5'/>
-            <img alt="" src={Airtech} className='p-5'/>
-            <img alt="" src={NewEra} className='p-5'/>
-            <img alt="" src={Tesla} style={{width: '275px'}} className='p-5'/>
+        <div className='flex justify-center items-center'>
+          <a href="https://www.mie.utoronto.ca/student-life-services/machine-shop/" target="_blank" rel="noreferrer">
+            <img alt="" src={MC78} style={{height: "60px"}} className='sponsorImg2'/>
+          </a>
+          <a href="https://alumni.engineering.utoronto.ca/engineering-alumni-network/" target="_blank" rel="noreferrer">
+            <img alt="" src={EngAlumni} className='sponsorImg2'/>
+          </a>
+          <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
+            <img alt="" src={ActNow} className='sponsorImg2'/>
+          </a>
+          <a href="https://airtech.com/" target="_blank" rel="noreferrer">
+            <img alt="" src={Airtech} className='sponsorImg2'/>
+          </a>
+          <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
+            <img alt="" src={NewEra} className='sponsorImg2'/>
+          </a>
+          <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
+            <img alt="" src={Tesla} className='sponsorImg2'/>
+          </a>
         </div>
-        {/* <div className='flex justify-center h-[75px]'>
-            <img alt="" src={Airtech} className='p-5'/>
-            <img alt="" src={PetroCanada} className='p-5'/>
-            <img alt="" src={NewEra} className='p-5'/>
-        </div> */}
     </div>
   )
 }

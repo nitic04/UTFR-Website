@@ -14,6 +14,14 @@ To Do List
 - figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
 - TBD on the team page
 
+Car Specs
+- 564kg
+- 2971mm length
+- 1497mm width
+- 1191mm height
+https://docs.google.com/spreadsheets/d/1jCRr5Ip53Fcz9q1ajOKCbQYZDfQzwVyCu49Ox5lCrkg/edit#gid=0
+https://docs.google.com/spreadsheets/d/1bqVai6RFZ80vDz6pudt-iJPXPYDGW26w/edit#gid=1015908257
+
 
 Questions
 - r we including members on the website or just leads? NO
@@ -111,3 +119,68 @@ Sponsors
 - Diamond Sponsors: Tesla, SKULE, MIE
 - Platinum: ACT now HPC, Engineering Alumni Network, MC-78 Machine Shop, monday.com, 
 - AIRTECH, Petro, New Era
+
+
+Sponsor Links
+Abco
+AIHull
+Altium
+Ansys
+AST
+Brechin
+Durham
+Wiha
+Emrax
+Gardel
+Haas
+Hakko
+HawkeyeIndustries
+KissSoft
+Kubera
+Lucid
+Monday
+Multimatic
+NTN
+OrionBMS2
+Salae
+SherwinWilliams
+Siemens
+Spartec
+SIF
+TE
+Tektronix
+Texonic
+UofTEngSci
+Villa
+Wemas
+EM
+Altair
+Atlantic
+AtomsLab
+Bender
+BMRSWired
+DigiKey
+EdmundOptics
+FactoryTire
+HKMingda
+igus
+JLCPCB
+LRA
+Maxon
+MechanicalAdvertising
+MG
+NPT
+OakvilleBlueprint
+Oldershaw
+Oshawa
+Ribbit
+Peak
+Phytools
+Susprog
+Texense
+Textreme
+UTEV
+VI
+VR3
+Winsource
+YNCN

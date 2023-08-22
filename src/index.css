@@ -87,3 +87,11 @@ body {
     width: 250px;
     object-fit: contain;
 }
+
+.sponsorImg2 {
+    float: left;
+    height: 80px;
+    width: 200px;
+    padding: 0 15px;
+    object-fit: contain;
+}
