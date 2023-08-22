@@ -1,6 +1,8 @@
 import React from 'react';
 import UT23Header from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg';
 import UT23Cutout from '../assets/HistoricCarPhotos/UT23/UT23_Cutout.png';
+import UT23Slant1 from '../assets/HistoricCarPhotos/UT23/UT23_Slant1.png';
+import UT23Slant2 from '../assets/HistoricCarPhotos/UT23/UT23_Slant2.png';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -23,7 +25,21 @@ const UT23 = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
-            <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>UT23</h1>
+            <h1 className='text-[250px] text-white relative top-[30%] px-12 font-bold'>UT23</h1>
+            <div className='flex absolute bottom-10 space-x-10'>
+                <div>
+                    <h1 className='text-[70px] text-white px-12 flex justify-center font-bold'>500 km/h</h1>
+                    <p className='text-[40px] text-white px-12 flex justify-center'>Top Speed</p>
+                </div>
+                <div>
+                    <h1 className='text-[70px] text-white px-12 flex justify-center font-bold'>1.3 s</h1>
+                    <p className='text-[40px] text-white px-12 flex justify-center'>0 - 100 km/h</p>
+                </div>
+                <div>
+                    <h1 className='text-[70px] text-white px-12 flex justify-center font-bold'>800 kW</h1>
+                    <p className='text-[40px] text-white px-12 flex justify-center'>Power</p>
+                </div>
+            </div>
         </div>
         <div className='flex justify-evenly px-5 py-10 bg-[#181818]'>
             <div>
@@ -44,29 +60,32 @@ const UT23 = () => {
             </div>
         </div>
         <div className='w-full'>
-            <div className='grid grid-cols-2'>
-                <div className='bg-gradient-to-r from-[#03153c] to-[#000000] pt-24'>
+            <div className='grid grid-cols-3'>
+                <div className='bg-[#03153c] col-span-2'>
+                    <img src={UT23Slant2} className='w-full' />
+                </div>
+                <div className='bg-[#03153c] pt-24 col-span-1'>
                     <div>
-                        <h1 className='flex justify-center text-6xl font-bold'>536 lbs</h1>
+                        <h1 className='flex justify-center text-6xl font-bold'>564kg</h1>
                         <p className='flex justify-center'>Overall Weight</p>
                     </div>
-                    <div className='py-16'>
-                        <h1 className='flex justify-center text-6xl font-bold'>546V Peak</h1>
-                        <p className='flex justify-center'>Voltage</p>
+                    <div className='pt-16'>
+                        <h1 className='flex justify-center text-6xl font-bold'>1497mm</h1>
+                        <p className='flex justify-center'>Width</p>
                     </div>
-                    <div className='pb-16'>
+                    <div className='pt-16'>
                         <h1 className='flex justify-center text-6xl font-bold'>EMRAX 228</h1>
                         <p className='flex justify-center'>Motor</p>
                     </div>
                 </div>
-                <div className='w-full h-[600px]' style={{
-                    backgroundImage: `url(${UT23Header})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
-                }}>
-                </div>
             </div>
+        </div>
+        <div>
+            <div className='grid grid-cols-2'>
+                <img src={UT23Slant2} alt="" />
+                <img src={UT23Slant1} alt="" />
+            </div>
+
         </div>
         {/* <div className='flex justify-center py-10'>
           <Slider {...settings} className='w-[1200px]'>
