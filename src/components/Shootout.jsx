@@ -74,8 +74,8 @@ const Shootout = () => {
             <h1 className='flex justify-center text-4xl font-bold pt-10 text-center'>Toronto Shootout is an annual formula student competition.</h1>
             <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
-        <div className='flex justify-center py-10'>
-          <Slider {...settings} className='w-[1200px]'>
+        <div className='py-10 grid place-items-center'>
+          <Slider {...settings} className='lg:w-[1500px] md:w-[800px] w-[500px]'>
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_1}/>
               </div>
@@ -128,9 +128,9 @@ const Shootout = () => {
             backgroundRepeat: 'no-repeat'
             }}>
               <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2019</h1>
-              <div className='flex pt-3 justify-center space-x-5'>
-                <a href="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064" target="_blank" rel="noreferrer"><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
-                <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j" target="_blank" rel="noreferrer"><p className='text-lg hover:font-bold transition duration-200' >Official Photography</p></a>
+              <div className='flex pt-3 justify-center gap-x-5'>
+                <a href="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200' >Official Photography</p></a>
               </div>
             </div>
             <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
@@ -140,9 +140,9 @@ const Shootout = () => {
             backgroundRepeat: 'no-repeat'
             }}>
               <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2021</h1>
-              <div className='flex pt-3 justify-center space-x-5'>
-                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
-                <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:font-bold transition duration-200'>Official Photography</p></a>
+              <div className='flex pt-3 justify-center gap-x-5'>
+                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
               </div>
             </div>
             <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
@@ -152,9 +152,9 @@ const Shootout = () => {
             backgroundRepeat: 'no-repeat'
             }}>
               <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2022</h1>
-              <div className='flex pt-3 justify-center space-x-5'>
-                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing"><p className='text-lg hover:font-bold transition duration-200'>Official Results</p></a>
-                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing"><p className='text-lg hover:font-bold transition duration-200'>Official Photography</p></a>
+              <div className='flex pt-3 justify-center gap-x-5'>
+                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
               </div>
             </div>
           </div>
@@ -163,7 +163,8 @@ const Shootout = () => {
         <div className='w-full bg-[#131212] pb-10'>
         <ThemeProvider theme={darkTheme}>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
-          <div className='flex space-x-5 pt-5 justify-center pb-10 px-5'>
+        <div className='flex justify-center'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 py-10 gap-x-5 gap-y-5'>
             <Card sx={{ maxWidth: 345 }}>
               <CardActionArea href="https://www.hoosiertire.com/" target="_blank">
               <CardMedia
@@ -172,7 +173,7 @@ const Shootout = () => {
                 image={HoosierLogo}
               />
               <CardContent>
-                <div className='pb-[50px]'>
+                <div className='pb-[80px]'>
                 <Typography gutterBottom variant="h5" component="div">
                   Hoosier Racing Tire
                 </Typography>
@@ -193,7 +194,7 @@ const Shootout = () => {
               />
               </div>
               <CardContent>
-                <div className='pb-[57px]'>
+                <div className='pb-[87px]'>
                 <Typography gutterBottom variant="h5" component="div">
                   Mobil 1
                 </Typography>
@@ -246,7 +247,8 @@ const Shootout = () => {
               </CardContent>
               </CardActionArea>
             </Card>
-          </div>
+        </div>
+        </div>
         </ThemeProvider>
         </div>
         <GoToTop />

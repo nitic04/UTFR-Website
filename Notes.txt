@@ -13,6 +13,8 @@ To Do List
 - page titles need to get smaller when screen is small
 - figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
 - TBD on the team page
+- change the links that the past years shootout cards lead to
+- fix the hover spacing on the sponsor cards for shootout
 
 Car Specs
 - 564kg

@@ -19,7 +19,7 @@ const Navbar = () => {
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
         <NavLink to="/shootout"><li className='transition duration-200 hover:text-gray-300'>Shootout</li></NavLink>
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
-        <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletter</li></NavLink>
+        <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletters</li></NavLink>
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
       </ul>
 
@@ -32,6 +32,8 @@ const Navbar = () => {
         <NavLink to="/history" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>History</li></NavLink>
         <NavLink to="/shootout" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Shootout</li></NavLink>
         <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Sponsors</li></NavLink>
+        <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Newsletters</li></NavLink>
+
         <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Join Us</li></NavLink>
       </ul>
     </div>

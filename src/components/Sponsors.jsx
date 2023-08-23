@@ -120,7 +120,7 @@ const Sponsors = () => {
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
             <h1 className='flex justify-center text-5xl font-bold'>Diamond Sponsors</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10 items-center'>
                     <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
                         <img src={Tesla} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
@@ -151,7 +151,7 @@ const Sponsors = () => {
             </div>
             <h1 className='flex justify-center text-5xl font-bold'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
-                <div className='grid md:grid-cols-3 space-x-10'>
+                <div className='grid md:grid-cols-3 gap-x-10'>
                     <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={ActnowHPC} alt="" />
                     </a>
@@ -165,7 +165,7 @@ const Sponsors = () => {
             </div>
             <h1 className='flex justify-center text-5xl font-bold'>Gold Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
-                <div className='grid md:grid-cols-3 space-x-10'>
+                <div className='grid md:grid-cols-3 gap-x-10'>
                     <a href="https://airtech.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Airtech} alt="" />
                     </a>
@@ -179,8 +179,8 @@ const Sponsors = () => {
             </div>
             <h1 className='flex justify-center text-5xl font-bold'>Silver Sponsors</h1>
             <div className=''>
-                <div className='flex justify-center py-10 items-center'>
-                    <div className='grid md:grid-cols-4 space-x-10'>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.autodrive.utoronto.ca/" target="_blank" rel="noreferrer">   
                             <img className="sponsorImg" src={aUToronto} alt="" />
                         </a>
@@ -196,7 +196,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid md:grid-cols-4 space-x-10'>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
@@ -211,8 +211,8 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid md:grid-cols-2 space-x-10'>
+                <div className='flex justify-center pb-16 items-center'>
+                    <div className='grid md:grid-cols-2 gap-x-10'>
                         <a href="https://www.ece.utoronto.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={UofTECE} alt="" />
                         </a>
@@ -225,7 +225,7 @@ const Sponsors = () => {
             <h1 className='flex justify-center text-5xl font-bold'>Bronze Sponsors</h1>
             <div className=''>
                 <div className='flex justify-center py-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Abco} alt="" />
                         </a>
@@ -244,7 +244,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Brechin}  alt="" />
                         </a>
@@ -263,7 +263,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Haas} alt="" />
                         </a>
@@ -282,7 +282,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Lucid} alt="" />
                         </a>
@@ -301,7 +301,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Salae} alt="" />
                         </a>
@@ -320,7 +320,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TE} alt="" />
                         </a>
@@ -338,8 +338,8 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 space-x-10'>
+                <div className='flex justify-center pb-16 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Wemas} alt="" />
                         </a>
@@ -352,7 +352,7 @@ const Sponsors = () => {
             <h1 className='flex justify-center text-5xl font-bold'>Affiliates</h1>
             <div className=''>
                 <div className='flex justify-center py-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Altair} alt="" />
                         </a>
@@ -371,7 +371,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={DigiKey} alt="" />
                         </a>
@@ -390,7 +390,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={JLCPCB} alt="" />
                         </a>
@@ -409,7 +409,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={NPT} alt="" />
                         </a>
@@ -428,7 +428,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Peak} alt="" />
                         </a>
@@ -446,8 +446,8 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pb-10 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-5 space-x-10'>
+                <div className='flex justify-center pb-16 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={UTEV} alt="" />
                         </a>
