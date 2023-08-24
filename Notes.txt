@@ -24,6 +24,14 @@ Car Specs
 https://docs.google.com/spreadsheets/d/1jCRr5Ip53Fcz9q1ajOKCbQYZDfQzwVyCu49Ox5lCrkg/edit#gid=0
 https://docs.google.com/spreadsheets/d/1bqVai6RFZ80vDz6pudt-iJPXPYDGW26w/edit#gid=1015908257
 
+- top speed
+- 0 to 100
+- voltage
+
+- Weight
+- width
+- motor
+
 
 Questions
 - r we including members on the website or just leads? NO
@@ -186,3 +194,9 @@ VI
 VR3
 Winsource
 YNCN
+
+
+
+A New Era of Engineering
+
+Marking the end of the development of combustion vehicles for the University of Toronto Formula Racing Team comes a new era of electric motorsports.  
