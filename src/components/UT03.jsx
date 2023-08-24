@@ -70,10 +70,6 @@ const UT03 = () => {
       <div className='px-8 py-10'>
         <Slider {...settings}>
             <div className="carouselCard">
-              <img alt="" src={UT03Image}/>
-              <h1 className="text-white text-xl font-bold py-2">UT03</h1>
-            </div>
-            <div className="carouselCard">
               <img alt="" src={UT03Image2}/>
               <h1 className="text-white text-xl font-bold py-2">UT03</h1>
             </div>

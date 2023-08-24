@@ -34,7 +34,7 @@ const UT23 = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-evenly px-5 py-10 bg-[#181818]'>
+        <div className='flex justify-evenly px-5 py-10 bg-[#1C488F]'>
             <div>
                 <h1 className='flex justify-center text-6xl font-bold'>1st Place</h1>
                 <p className='flex justify-center'>New Hampshire 2023</p>
@@ -44,26 +44,22 @@ const UT23 = () => {
                 <p className='flex justify-center'>Michigan 2023</p>
             </div>
             <div>
-                <h1 className='flex justify-center text-6xl font-bold'>1st Place</h1>
-                <p className='flex justify-center'>Germany 2023</p>
-            </div>
-            <div>
-                <h1 className='flex justify-center text-6xl font-bold'>1st Place</h1>
-                <p className='flex justify-center'>Czechia 2023</p>
+                <h1 className='flex justify-center text-6xl font-bold'>6th/1st Place in EV Efficiency</h1>
+                <p className='flex justify-center'>Czech Republic 2023</p>
             </div>
         </div>
         <div className='w-full'>
             <div className='grid lg:grid-cols-3'>
-                <div className='bg-[#03153c] col-span-2'>
+                <div className='bg-[#1C488F] col-span-2'>
                     <img src={UT23Slant2} className='w-full' />
                 </div>
-                <div className='bg-[#03153c] pt-16 col-span-1 px-10'>
+                <div className='bg-[#1C488F] pt-16 col-span-1 px-10'>
                     <h1 className='text-3xl pb-5'>A New Era of Engineering</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quo libero quidem perspiciatis, quam quis praesentium cupiditate voluptas repellat laboriosam odio veniam modi eum, eveniet fugiat neque delectus! Consectetur, delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rem itaque dolor! Tenetur dignissimos itaque odio voluptatibus quibusdam laudantium nulla odit blanditiis, ipsa facere deleniti ducimus soluta, optio nisi id! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aut qui pariatur expedita minus earum id consequatur dicta voluptates vitae. Quisquam sed molestiae voluptatem minus nam doloremque nisi dignissimos labore!</p>
                 </div>
             </div>
         </div>
-        <div className='flex justify-evenly px-5 py-10 bg-[#181818]'>
+        <div className='flex justify-evenly px-5 py-10 bg-[#1C488F]'>
             <div>
                 <h1 className='flex justify-center text-6xl font-bold'>564kg</h1>
                 <p className='flex justify-center'>Overall Weight</p>
@@ -79,17 +75,17 @@ const UT23 = () => {
         </div>
         <div>
             <div className='grid lg:grid-cols-3'>
-                <div className='bg-[#03153c] pt-24 col-span-1 px-10'>
+                <div className='bg-[#1C488F] pt-24 col-span-1 px-10'>
                     <h1 className='text-3xl pb-5'>Precision Engineering</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quo libero quidem perspiciatis, quam quis praesentium cupiditate voluptas repellat laboriosam odio veniam modi eum, eveniet fugiat neque delectus! Consectetur, delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rem itaque dolor! Tenetur dignissimos itaque odio voluptatibus quibusdam laudantium nulla odit blanditiis, ipsa facere deleniti ducimus soluta, optio nisi id! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aut qui pariatur expedita minus earum id consequatur dicta voluptates vitae. Quisquam sed molestiae voluptatem minus nam doloremque nisi dignissimos labore!</p>
                 </div>
-                <div className='bg-[#03153c] col-span-2'>
+                <div className='bg-[#1C488F] col-span-2'>
                     <img src={UT23Slant1} className='w-full' />
                 </div>
             </div>
         </div>
         {/* <CarPartsDiagram /> */}
-        <div className='bg-[#181818] text-white flex justify-center py-20'>
+        <div className='bg-[#1C488F] text-white flex justify-center py-20'>
             <div className='w-[700px] pb-3'>
                 <h1 className='text-4xl flex justify-center pb-10'>Technical Specifications</h1>
                 <div className='flex'>

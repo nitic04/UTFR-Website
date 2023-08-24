@@ -71,8 +71,8 @@ const Shootout = () => {
             <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Shootout 2023</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
-            <h1 className='flex justify-center text-4xl font-bold pt-10 text-center'>Toronto Shootout is an annual formula student competition.</h1>
-            <p className='flex justify-center text-center text-lg px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
+            <h1 className='flex justify-center text-4xl font-bold pt-12 text-center'>Toronto Shootout is an annual formula student competition.</h1>
+            <p className='flex justify-center text-center text-xl px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
         <div className='py-10 grid place-items-center'>
           <Slider {...settings} className='lg:w-[1500px] md:w-[800px] w-[500px]'>
@@ -218,7 +218,7 @@ const Shootout = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   SHIFTED Digital Inc.
                 </Typography>
-                <div className='pb-[55px]'>
+                <div className='pb-[60px]'>
                 <Typography variant="body2" color="text.secondary">
                   Shifted Digital, formerly FlightSquad Media, provides event photography for Toronto Shootout annually.
                 </Typography>
@@ -239,7 +239,7 @@ const Shootout = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   Brechin Motorsport Park
                 </Typography>
-                <div className='pb-[60px]'>
+                <div className='pb-[90px]'>
                 <Typography variant="body2" color="text.secondary">
                   Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.
                 </Typography>

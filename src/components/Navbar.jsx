@@ -13,7 +13,7 @@ const Navbar = () => {
         <NavLink to="/" ><img src={Logo} alt="Logo" style={{width: '160px'}} /></NavLink>
       </div>
 
-      <ul className='hidden md:flex text-lg'>
+      <ul className='hidden lg:flex text-lg'>
         <NavLink to="/team"><li className='transition duration-200 hover:text-gray-300'>Team</li></NavLink>
         <NavLink to="/UT23"><li className='transition duration-200 hover:text-gray-300'>UT23</li></NavLink>
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
       </ul>
 
-      <div onClick={handleClick} className='md:hidden z-10 text-gray-300 hover:text-white cursor-pointer'>
+      <div onClick={handleClick} className='lg:hidden z-10 text-gray-300 hover:text-white cursor-pointer'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 

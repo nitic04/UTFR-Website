@@ -44,8 +44,6 @@ const History = () => {
     initialSlide: 1,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
-    autoplay: true,
-    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
