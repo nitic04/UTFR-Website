@@ -17,10 +17,12 @@ const Navbar = () => {
         <NavLink to="/team"><li className='transition duration-200 hover:text-gray-300'>Team</li></NavLink>
         <NavLink to="/UT23"><li className='transition duration-200 hover:text-gray-300'>UT23</li></NavLink>
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
+        <NavLink to="/events"><li className='transition duration-200 hover:text-gray-300'>Events</li></NavLink>
         <NavLink to="/shootout"><li className='transition duration-200 hover:text-gray-300'>Shootout</li></NavLink>
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
         <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletters</li></NavLink>
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
+        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
       </ul>
 
       <div onClick={handleClick} className='md:hidden z-10 text-gray-300 hover:text-white cursor-pointer'>
@@ -29,12 +31,14 @@ const Navbar = () => {
 
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-gray-300 bg-[#181818]'}>
         <NavLink to="/team" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Team</li></NavLink>
+        <NavLink to="/UT23" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>UT23</li></NavLink>
         <NavLink to="/history" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>History</li></NavLink>
+        <NavLink to="/events" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Events</li></NavLink>
         <NavLink to="/shootout" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Shootout</li></NavLink>
         <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Sponsors</li></NavLink>
         <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Newsletters</li></NavLink>
-
         <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Join Us</li></NavLink>
+        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Donate</li></NavLink>
       </ul>
     </div>
   )

@@ -3,22 +3,13 @@ import UT23Header from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg';
 import UT23Cutout from '../assets/HistoricCarPhotos/UT23/UT23_Cutout.png';
 import UT23Slant1 from '../assets/HistoricCarPhotos/UT23/UT23_Slant1.png';
 import UT23Slant2 from '../assets/HistoricCarPhotos/UT23/UT23_Slant2.png';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg';
 
 import GoToTop from './GoToTop'
 import CarPartsDiagram from './CarPartsDiagram';
+import UT23Carousel from './UT23Carousel';
 
 const UT23 = () => {
-    var settings = {
-        speed: 500,
-        slidesToShow: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    };
-
   return (
     <div className='text-white'>
         <div className='w-full h-screen' style={{
@@ -67,7 +58,7 @@ const UT23 = () => {
                     <img src={UT23Slant2} className='w-full' />
                 </div>
                 <div className='bg-[#03153c] pt-16 col-span-1 px-10'>
-                    <h1 className='text-3xl pb-5'>Precision Engineering</h1>
+                    <h1 className='text-3xl pb-5'>A New Era of Engineering</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quo libero quidem perspiciatis, quam quis praesentium cupiditate voluptas repellat laboriosam odio veniam modi eum, eveniet fugiat neque delectus! Consectetur, delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rem itaque dolor! Tenetur dignissimos itaque odio voluptatibus quibusdam laudantium nulla odit blanditiis, ipsa facere deleniti ducimus soluta, optio nisi id! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aut qui pariatur expedita minus earum id consequatur dicta voluptates vitae. Quisquam sed molestiae voluptatem minus nam doloremque nisi dignissimos labore!</p>
                 </div>
             </div>
@@ -97,7 +88,7 @@ const UT23 = () => {
                 </div>
             </div>
         </div>
-        <CarPartsDiagram />
+        {/* <CarPartsDiagram /> */}
         <div className='bg-[#181818] text-white flex justify-center py-20'>
             <div className='w-[700px] pb-3'>
                 <h1 className='text-4xl flex justify-center pb-10'>Technical Specifications</h1>
@@ -123,19 +114,7 @@ const UT23 = () => {
                 </div>
             </div>
         </div>
-        {/* <div className='flex justify-center py-10'>
-          <Slider {...settings} className='w-[1200px]'>
-              <div className="carouselCard">
-                <img alt="" src={UT23Header}/>
-              </div>
-              <div className="carouselCard">
-                <img alt="" src={UT23Header}/>
-              </div>
-              <div className="carouselCard">
-                <img alt="" src={UT23Header}/>
-              </div>
-          </Slider>
-        </div> */}
+        {/* <UT23Carousel /> */}
         <GoToTop />
     </div>
   )

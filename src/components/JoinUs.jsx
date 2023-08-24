@@ -73,10 +73,10 @@ const History = () => {
         </div>
         <p className='text-lg pt-5 text-white text-center'>UTFR welcomes all students at the University of Toronto! New members are not required to have any previous design experience or knowledge of racing, engineering, or anything else – all we ask is that you come eager to learn and ready to work! Recruitment events begin in the first week of the Fall Semester. Detailed information sessions will be delivered by the senior team to all those interested in starting in September. After the orientations in September, a culture of project based learning will continue the student’s development. Recruitment happens all year round, there is no better time to join than now! If you missed us during frosh week, feel free to contact us below!</p>
       </div>
-      <div name='contact' className='w-full h-screen bg-[#131212] flex justify-center items-center px-10 p-4'>
+      <div name='contact' className='w-full bg-[#131212] flex justify-center items-center px-10 p-4'>
         <form className='flex flex-col max-w-[1000px] w-full' ref={form} onSubmit={handleOnSubmit}>
           <div className='pb-8'>
-              <p className='text-4xl font-bold text-white'>Contact Us</p>
+              <p className='text-4xl font-bold text-white pt-5'>Contact Us</p>
           </div>
           <div className='flex space-x-3'>
             <input className='bg-gray-300 p-2 w-full' type="text" placeholder='First Name (Required)' name='firstName' required/>

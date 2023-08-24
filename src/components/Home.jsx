@@ -1,8 +1,6 @@
-import React from 'react'
 import Background from '../assets/CzechRepublic2023/Czech23_1.jpeg'
 
 const Home = () => {
-
   return (
     <div>
       <div className='w-full h-screen' style={{
