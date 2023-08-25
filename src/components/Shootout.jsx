@@ -17,6 +17,7 @@ import Shootout2022_13 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_
 import Shootout2022_14 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_14.JPG'
 import ShootoutCard2019Image from '../assets/ShootoutPhotos/UTFRShootout2019GroupPhoto.jpeg'
 import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg'
+import ShootoutCard2018Image from '../assets/ShootoutPhotos/UTFRShootout2018Photo.png'
 
 import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
@@ -122,6 +123,18 @@ const Shootout = () => {
           <div className='flex justify-center pt-10'>
           <div className='grid grid-cols-1 lg:grid-cols-3'>
             <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            backgroundImage: `url(${ShootoutCard2018Image})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
+              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2018</h1>
+              <div className='flex pt-3 justify-center gap-x-5'>
+                <a href="https://docs.google.com/spreadsheets/u/1/d/1DG3YR5VZxDNAfsyb20JhmGvHxYcLyYVY28OfpoZLQi0/edit?usp=drive_web&ouid=105352858794991473194" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                <a href="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
+              </div>
+            </div>
+            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
             backgroundImage: `url(${ShootoutCard2019Image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
@@ -143,18 +156,6 @@ const Shootout = () => {
               <div className='flex pt-3 justify-center gap-x-5'>
                 <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
                 <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
-              </div>
-            </div>
-            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
-            backgroundImage: `url(${Shootout2022_14})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
-            }}>
-              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2022</h1>
-              <div className='flex pt-3 justify-center gap-x-5'>
-                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
               </div>
             </div>
           </div>

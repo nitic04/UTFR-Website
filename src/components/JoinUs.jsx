@@ -84,12 +84,11 @@ const History = () => {
           </div>
           <div className='flex space-x-3'>
             <input className='mt-4 p-2 bg-gray-300 w-full' type="email" placeholder='Email (Required)' name='email' required/>
-            <input className='mt-4 p-2 bg-gray-300 w-full' type="tel" placeholder='Phone Number' name='phone'/>
+            <input className='mt-4 p-2 bg-gray-300 w-full' type="tel" placeholder='Phone Number (Optional)' name='phone'/>
           </div>
           <input className='mt-4 p-2 bg-gray-300' type="text" placeholder='Subject (Required)' name='subject' required/>
           <textarea className='mt-4 p-2 bg-gray-300' name="message" rows="10" placeholder='Message (Required)' required></textarea>
-          <button type="submit" className='text-white border-2 transition duration-500 hover:bg-[#ffffff58]
-          px-10 py-3 my-8 mx-auto flex items-center'>Submit</button>
+          <button type="submit" className='text-white border-2 rounded-lg transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] px-10 py-3 my-8 mx-auto flex items-center'>Submit</button>
         </form>
       </div>
       <GoToTop />
