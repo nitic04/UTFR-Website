@@ -1,5 +1,5 @@
 import React from 'react'
-import HistoryHeader from '../assets/HighQualityImage.jpeg'
+import HistoryHeader from '../assets/HistoricCarPhotos/UT08/UT08.jpeg'
 import GoToTop from './GoToTop'
 import Slider from "react-slick"
 import HistoryUT05 from '../assets/TeamCarPhotos/HistoryUT05.jpeg'
@@ -9,7 +9,7 @@ import UT03 from '../assets/HistoricCarPhotos/UT03/UT03.jpeg'
 import UT04 from '../assets/HistoricCarPhotos/UT04/UT04.png'
 import UT05 from '../assets/HistoricCarPhotos/UT05/UT05.jpeg'
 import UT07 from '../assets/HistoricCarPhotos/UT07/UT07.jpeg'
-import UT08 from '../assets/HistoricCarPhotos/UT08/UT08.jpeg'
+import UT08 from '../assets/HistoricCarPhotos/UT08/UT08_4.jpeg'
 import UT09 from '../assets/HistoricCarPhotos/UT09/UT09.jpeg'
 import UT10 from '../assets/HistoricCarPhotos/UT10/UT10.jpeg'
 import UT11 from '../assets/HistoricCarPhotos/UT11/UT11.jpeg'
@@ -20,6 +20,7 @@ import UT18 from '../assets/HistoricCarPhotos/UT18/UT18.jpeg'
 import UT19 from '../assets/HistoricCarPhotos/UT19/UT19.jpeg'
 import UT21 from '../assets/HistoricCarPhotos/UT21/UT21.jpeg'
 import UT22 from '../assets/HistoricCarPhotos/UT22/UT22.jpeg'
+import UT23 from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg'
 
 function Arrow(props) {
   const { className, style, onClick } = props;
@@ -153,6 +154,10 @@ const History = () => {
             <div className="carouselCard">
               <img alt="" src={UT22}/>
               <h1 className="text-white text-xl font-bold py-2">UT22</h1>
+            </div>
+            <div className="carouselCard">
+              <img alt="" src={UT23}/>
+              <h1 className="text-white text-xl font-bold py-2">UT23</h1>
             </div>
           </Slider>
         </div>

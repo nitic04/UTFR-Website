@@ -1,5 +1,5 @@
 import React from 'react'
-import CarPic from '../assets/CzechRepublic2023/Czech23_2.jpeg'
+import CarPic from '../assets/CzechRepublic2023/Czech1.jpeg'
 import GoToTop from './GoToTop'
 
 const About = () => {

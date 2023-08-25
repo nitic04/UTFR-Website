@@ -1,4 +1,4 @@
-import Background from '../assets/CzechRepublic2023/Czech23_1.jpeg'
+import Background from '../assets/CzechRepublic2023/Czech3.jpeg'
 
 const Home = () => {
   return (

@@ -18,6 +18,7 @@ import KelvinCao from '../assets/TeamMembers/Mech/KelvinCao.jpeg'
 import HunzalaRajput from '../assets/TeamMembers/Mech/HunzalaRajput.jpeg'
 import EricEmmenegger from '../assets/TeamMembers/Mech/EricEmmenegger.jpeg'
 import ToluIkubaje from '../assets/TeamMembers/Mech/ToluIkubaje.jpeg'
+import ZeinaShaltout from '../assets/TeamMembers/Mech/ZeinaShaltout.jpeg'
 // ELECTRICAL
 import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpeg'
 import AsserAbdelgawad from '../assets/TeamMembers/Electrical/AsserAbdelgawad.jpeg'
@@ -34,6 +35,7 @@ import OliviaTworzyanski from '../assets/TeamMembers/Business/OliviaTworzyanski.
 import AmeliaDease from '../assets/TeamMembers/Business/AmeliaDease.jpeg'
 import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpeg'
 import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
+import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpeg'
 
 const Team2024 = () => {
   const [flip, setFlip] = useState(false);
@@ -109,7 +111,7 @@ const Team2024 = () => {
             <p className='personProgram'>Mech 2T5 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={ZeinaShaltout} alt="team" className='my-auto mx-auto w-[90%]'/>
             <p className='personName'>Zeina Shaltout</p>
             <p className='personTitle'>Ergonomics Lead</p>
             <p className='personProgram'>Indy 2T5 + PEY</p>
@@ -250,7 +252,7 @@ const Team2024 = () => {
             <p className='personProgram'>Architecture 2T6</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={EvanTal} alt="team" className='my-auto mx-auto w-[90%]'/>
             <p className='personName'>Evan Tal</p>
             <p className='personTitle'>External Relations Lead</p>
             <p className='personProgram'>Rotman 2T5</p>

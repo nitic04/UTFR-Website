@@ -67,7 +67,7 @@ const History = () => {
         </div>
       </div>
       <div className='text-white items-center pb-10 px-10'>
-        <div className='flex justify-center'>
+        <div className='flex pt-10 justify-center'>
           <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>How do I get involved?</p>
 
         </div>

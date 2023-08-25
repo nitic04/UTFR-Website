@@ -23,10 +23,10 @@ const Countdown = ({countdownTimestampMS}) => {
     }
 
   return (
-    <div className='w-full h-[250px] bg-[#131212] text-white'>
+    <div className='w-full bg-[#131212] text-white'>
         <div className='p-8'>
             <h1 className='countdownDay text-lg'>2023 TORONTO SHOOTOUT</h1>
-            <div className='countdownTimer py-14 text-3xl lg:text-5xl'>
+            <div className='countdownTimer py-12 text-3xl lg:text-5xl'>
                 <span className='font-semibold text-[#ED3833]'>{remainingTime.days}</span>
                 <span className='font-light'>days</span>
                 <span className='font-semibold two-numbers text-[#ED3833]'>{remainingTime.hours}</span>

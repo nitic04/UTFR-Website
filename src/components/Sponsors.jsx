@@ -1,5 +1,5 @@
 import React from 'react'
-import SponsorHeader from '../assets/HighQualityImage.jpeg'
+import SponsorHeader from '../assets/TeamCarPhotos/2023IndySetup.jpeg'
 import SponsorshipPackage from '../assets/2023SponsorshipPackage.pdf'
 import MIE from '../assets/Sponsors/SponsorLogosColoured/UofTMIE.png'
 import Tesla from '../assets/Sponsors/SponsorLogosColoured/Tesla.png'
