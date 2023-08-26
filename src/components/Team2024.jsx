@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
-import Reveal from './Reveal'
+import React from 'react'
+// import Reveal from './Reveal'
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
 import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpeg'
 import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpeg'
 // DRIVERS
-import DamianSiseraDriver from '../assets/TeamMembers/Drivers/DamianSiseraDriver.jpeg'
-import AyrtonAntenucciDriver from '../assets/TeamMembers/Drivers/AyrtonAntenucciDriver.jpeg'
-import SpencerBallDriver from '../assets/TeamMembers/Drivers/SpencerBallDriver.jpeg'
-import KelvinCuiDriver from '../assets/TeamMembers/Drivers/KelvinCuiDriver.jpeg'
+// import DamianSiseraDriver from '../assets/TeamMembers/Drivers/DamianSiseraDriver.jpeg'
+// import AyrtonAntenucciDriver from '../assets/TeamMembers/Drivers/AyrtonAntenucciDriver.jpeg'
+// import SpencerBallDriver from '../assets/TeamMembers/Drivers/SpencerBallDriver.jpeg'
+// import KelvinCuiDriver from '../assets/TeamMembers/Drivers/KelvinCuiDriver.jpeg'
 // MECHANICAL
 import MauroDeLiberato from '../assets/TeamMembers/Mech/MauroDeLiberato.jpeg'
 import MoTaban from '../assets/TeamMembers/Mech/MoTaban.jpeg'
@@ -22,7 +22,7 @@ import ToluIkubaje from '../assets/TeamMembers/Mech/ToluIkubaje.jpeg'
 import ZeinaShaltout from '../assets/TeamMembers/Mech/ZeinaShaltout.jpeg'
 // ELECTRICAL
 import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpeg'
-import AsserAbdelgawad from '../assets/TeamMembers/Electrical/AsserAbdelgawad.jpeg'
+// import AsserAbdelgawad from '../assets/TeamMembers/Electrical/AsserAbdelgawad.jpeg'
 import NadiaZhou from '../assets/TeamMembers/Electrical/NadiaZhou.jpeg'
 // DRIVERLESS
 import AlfredXue from '../assets/TeamMembers/DV/AlfredXue.jpeg'
@@ -39,7 +39,6 @@ import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
 import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpeg'
 
 const Team2024 = () => {
-  const [flip, setFlip] = useState(false);
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'> 
         {/* DIRECTORS */}

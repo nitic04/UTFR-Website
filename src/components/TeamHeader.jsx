@@ -2,7 +2,7 @@ import React from 'react'
 import TeamPhotoUnveiling from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg'
 import BothCars from '../assets/TeamCarPhotos/BothCars.jpeg'
 import GoToTop from './GoToTop'
-import { FiArrowRight } from 'react-icons/fi'
+// import { FiArrowRight } from 'react-icons/fi'
 
 const Team = () => {
   return (

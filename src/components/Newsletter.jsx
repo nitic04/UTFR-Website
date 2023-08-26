@@ -23,7 +23,7 @@ const Newsletter = () => {
                     <h1 className='flex justify-center text-3xl font-bold pt-10 text-black'>September Issue</h1>
                     <p className='flex justify-center text-lg py-3 text-gray-400'>09/01/23</p>
                     <div className='flex justify-center'>
-                        <a href=""><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
+                        <a href="https://www.google.ca/"><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
                     </div>
                 </div>
                 <div className='h-[550px] w-[450px] bg-gray-100 rounded-md'>
@@ -31,7 +31,7 @@ const Newsletter = () => {
                     <h1 className='flex justify-center text-3xl font-bold pt-10 text-black'>September Issue</h1>
                     <p className='flex justify-center text-lg py-3 text-gray-400'>09/01/23</p>
                     <div className='flex justify-center'>
-                        <a href=""><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
+                        <a href="https://www.google.ca/"><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
                     </div>
                 </div>
                 <div className='h-[550px] w-[450px] bg-gray-100 rounded-md'>
@@ -39,7 +39,7 @@ const Newsletter = () => {
                     <h1 className='flex justify-center text-3xl font-bold pt-10 text-black'>September Issue</h1>
                     <p className='flex justify-center text-lg py-3 text-gray-400'>09/01/23</p>
                     <div className='flex justify-center'>
-                        <a href=""><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
+                        <a href="https://www.google.ca/"><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
                     </div>
                 </div>
             </div>

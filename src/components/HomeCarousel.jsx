@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import CoolCarMan from '../assets/HighQualityImage.jpeg';
+// import CoolCarMan from '../assets/HighQualityImage.jpeg';
 import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
 import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';

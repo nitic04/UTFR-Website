@@ -284,67 +284,67 @@ const Sponsors = () => {
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Lucid} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Monday} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Multimatic} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NTN} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={OrionBMS2} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Salae} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SherwinWilliams} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Siemens} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Spartec} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SIF} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TE} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Tektronix} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Texonic} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={UofTEngSci} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-16 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Wemas} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={EM} alt="" />
                         </a>
                     </div>
@@ -354,114 +354,114 @@ const Sponsors = () => {
             <div className=''>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Altair} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Atlantic} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={AtomsLab} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Bender} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={BMRSWired} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={DigiKey} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={EdmundOptics} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={FactoryTire} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={HKMingda} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={igus} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={JLCPCB} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={LRA} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Maxon} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={MechanicalAdvertising} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={MG} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={NPT} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={OakvilleBlueprint} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Oldershaw} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Oshawa} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Ribbit} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Peak} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Phytools} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Susprog} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Texense} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Textreme} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-16 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={UTEV} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={VI} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={VR3} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Winsource} alt="" />
                         </a>
-                        <a href="" target="_blank" rel="noreferrer">
+                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={YNCN} alt="" />
                         </a>
                     </div>
