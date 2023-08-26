@@ -25,7 +25,7 @@ const UT23 = () => {
                     <p className=' text-xl lg:text-[30px] text-white px-12 flex justify-center'>Top Speed</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold'>1.3 s</h1>
+                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold'>3.6 s</h1>
                     <p className='text-xl lg:text-[30px] text-white px-12 flex justify-center'>0 - 100 km/h</p>
                 </div>
                 <div>

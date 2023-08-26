@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Reveal from './Reveal'
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
