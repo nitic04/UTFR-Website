@@ -201,9 +201,9 @@ const Sponsors = () => {
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
-                        <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
+                        {/* <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Solidworks} alt="" />
-                        </a>
+                        </a> */}
                         <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Enepaq} alt="" />
                         </a>
