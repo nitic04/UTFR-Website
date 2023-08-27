@@ -209,7 +209,7 @@ Notes to fix
 - create and replace temp team image with red and white utfr logo (or the blue one)
 - 1st place overall, get rid of 1st in EV DONE
 - remove shifted from shootout DONE
-- fix the acronyms on the pages (HV on sponsor page)
+- fix the acronyms on the pages (HV on sponsor page) DONE
 - remove newsletter page DONE
 - cool loading animation where the logo fades in and then moves to the corner where the logo already is
 
@@ -219,3 +219,5 @@ Notes to fix
 - maybe make a completely different page for shootout that is not branded for UTFR
 
 - FIX THE SIZING OF IMAGES ON TEAM PAGE
+
+FIX ARTHUR AND JUSTINS IMAGES ITS THROWING OFF MY ANIMATION GRRRRRR

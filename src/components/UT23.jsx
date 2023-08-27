@@ -63,20 +63,6 @@ const UT23 = () => {
                     <p className='flex justify-center text-xl pt-2'>Czech Republic 2023</p>
                 </div>
             </div>
-            {/* <div className='flex justify-evenly px-5 py-10'>
-                <div>
-                    <h1 className='flex justify-center text-6xl font-bold'>573kg</h1>
-                    <p className='flex justify-center text-xl pt-2'>Overall Weight (without driver)</p>
-                </div>
-                <div>
-                    <h1 className='flex justify-center text-6xl font-bold'>1497mm</h1>
-                    <p className='flex justify-center text-xl pt-2'>Width</p>
-                </div>
-                <div>
-                    <h1 className='flex justify-center text-6xl font-bold'>EMRAX 228</h1>
-                    <p className='flex justify-center text-xl pt-2'>Motor</p>
-                </div>
-            </div> */}
             <div>
                 <div className='grid lg:grid-cols-3'>
                     <div className='pt-24 col-span-1 px-14'>
