@@ -1,6 +1,6 @@
 import React from 'react'
 import GoToTop from './GoToTop'
-import ShootoutHeader from '../assets/ShootoutPhotos/Shootout2022/ShootoutHeader.jpeg'
+// import ShootoutHeader from '../assets/ShootoutPhotos/Shootout2022/ShootoutHeader.jpeg'
 import Shootout2022_1 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022.jpg'
 import Shootout2022_2 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_2.JPG'
 import Shootout2022_3 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_3.JPG'
@@ -18,18 +18,12 @@ import Shootout2022_14 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_
 import ShootoutCard2019Image from '../assets/ShootoutPhotos/UTFRShootout2019GroupPhoto.jpeg'
 import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg'
 import ShootoutCard2018Image from '../assets/ShootoutPhotos/UTFRShootout2018Photo.png'
+import ShootoutCard2018Image_2 from '../assets/ShootoutPhotos/UTFRShootout2018Photo_2.jpeg'
 
 import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
-import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
+// import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
 import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
-
-import Card from '@mui/material/Card';
-import { CardActionArea } from '@mui/material';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Slider from "react-slick"
 
@@ -43,12 +37,6 @@ function Arrow(props) {
     />
   );
 }
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark',
-  },
-});
 
 const Shootout = () => {
   var settings = {
@@ -64,15 +52,15 @@ const Shootout = () => {
   return (
     <div>
         <div className='w-full h-screen' style={{
-        backgroundImage: `url(${ShootoutHeader})`,
+        backgroundImage: `url(${ShootoutCard2018Image})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-            <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Shootout 2023</h1>
+            <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Shootout</h1>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
-            <h1 className='flex justify-center text-4xl font-bold pt-12 text-center'>Toronto Shootout is an annual formula student competition.</h1>
+            <h1 className='flex justify-center text-4xl font-bold pt-12 text-center'>Toronto Shootout (previously known as UTFR Shootout) is an annual formula student competition.</h1>
             <p className='flex justify-center text-center text-xl px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
         </div>
         <div className='py-10 grid place-items-center'>
@@ -86,27 +74,18 @@ const Shootout = () => {
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_3}/>
               </div>
-              {/* <div className="carouselCard">
-                <img alt="" src={Shootout2022_4}/>
-              </div> */}
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_5}/>
               </div>
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_6}/>
               </div>
-              {/* <div className="carouselCard">
-                <img alt="" src={Shootout2022_7}/>
-              </div> */}
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_8}/>
               </div>
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_9}/>
               </div>
-              {/* <div className="carouselCard">
-                <img alt="" src={Shootout2022_10}/>
-              </div> */}
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_12}/>
               </div>
@@ -123,7 +102,7 @@ const Shootout = () => {
           <div className='flex justify-center pt-10'>
           <div className='grid grid-cols-1 lg:grid-cols-3'>
             <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
-            backgroundImage: `url(${ShootoutCard2018Image})`,
+            backgroundImage: `url(${ShootoutCard2018Image_2})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
@@ -162,95 +141,48 @@ const Shootout = () => {
           </div>
         </div>
         <div className='w-full bg-[#131212] pb-10'>
-        <ThemeProvider theme={darkTheme}>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
         <div className='flex justify-center'>
-        <div className='grid md:grid-cols-2 lg:grid-cols-4 py-10 gap-x-5 gap-y-5'>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://www.hoosiertire.com/" target="_blank">
-              <CardMedia
-                component="img"
-                height="140"
-                image={HoosierLogo}
-              />
-              <CardContent>
-                <div className='pb-[80px]'>
-                <Typography gutterBottom variant="h5" component="div">
-                  Hoosier Racing Tire
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually.
-                </Typography>
+        <div className='grid lg:grid-cols-3 py-10 gap-x-10 gap-y-5'>
+            <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferer">
+              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+                <div className='h-[200px]' style={{
+                backgroundImage: `url(${HoosierLogo})`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
+                }}>
                 </div>
-              </CardContent>
-              </CardActionArea>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank">
-              <div className='py-[58px] px-[10px]'>
-              <CardMedia
-                component="img"
-                height="140"
-                image={Mobil1Logo}
-              />
+                <div className='p-5'>
+                  <h1 className='text-white text-2xl'>Hoosier Racing Tire</h1>
+                  <p className='text-[#C1C1C1] text-base pt-3'>Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually.</p>
+                </div>
               </div>
-              <CardContent>
-                <div className='pb-[87px]'>
-                <Typography gutterBottom variant="h5" component="div">
-                  Mobil 1
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Mobil 1 (via David Swain Racing Products) proudly supports Toronto Shootout by supplying cases of engine oil for podium finishers.                
-                </Typography>
+            </a>
+            <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank" rel="noreferer">
+              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+                <div className='h-[200px] py-[58px] px-[10px]'>
+                  <img src={Mobil1Logo} alt="" />
                 </div>
-              </CardContent>
-              </CardActionArea>
-            </Card>
-            <Card sx={{ maxWidth: 345}}>
-              <CardActionArea href="https://www.shifted.digital/" target="_blank">
-              <div className='px-[10px] py-[15px]'>
-              <CardMedia
-                component="img"
-                height="140"
-                image={ShiftedLogo}
-              />
+                <div className='p-5'>
+                  <h1 className='text-white text-2xl'>Mobil 1</h1>
+                  <p className='text-[#C1C1C1] text-base pt-3'>Mobil 1 (via David Swain Racing Products) proudly supports Toronto Shootout by supplying cases of engine oil for podium finishers.</p>
+                </div>
               </div>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  SHIFTED Digital Inc.
-                </Typography>
-                <div className='pb-[60px]'>
-                <Typography variant="body2" color="text.secondary">
-                  Shifted Digital, formerly FlightSquad Media, provides event photography for Toronto Shootout annually.
-                </Typography>
+            </a>
+            <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferer">
+              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+                <div className='h-[200px] py-[58px] px-[10px]'>
+                  <img src={BrechinLogo} alt="" />
                 </div>
-              </CardContent>
-              </CardActionArea>
-            </Card>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea href="https://gamebridgegokarts.com/" target="_blank">
-              <div className='py-[57px] px-[10px]'>
-              <CardMedia
-                component="img"
-                height="140"
-                image={BrechinLogo}
-              />
+                <div className='p-5'>
+                  <h1 className='text-white text-2xl'>Brechin Motorsport Park</h1>
+                  <p className='text-[#C1C1C1] text-base pt-3'>Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.</p>
+                </div>
               </div>
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Brechin Motorsport Park
-                </Typography>
-                <div className='pb-[90px]'>
-                <Typography variant="body2" color="text.secondary">
-                  Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.
-                </Typography>
-                </div>
-              </CardContent>
-              </CardActionArea>
-            </Card>
+            </a>
         </div>
         </div>
-        </ThemeProvider>
         </div>
         <GoToTop />
     </div>

@@ -1,59 +1,62 @@
-import React from 'react'
-import UT23Header from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg';
-import UT23Cutout from '../assets/HistoricCarPhotos/UT23/UT23_Cutout.png';
-import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg';
-import { IoIosArrowBack } from 'react-icons/io';
-import { IoIosArrowForward } from 'react-icons/io';
-
-
+import React from 'react';
+import UT23Header from '../assets/CzechRepublic2023/Czech14.jpeg';
 import Slider from "react-slick";
-
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <IoIosArrowForward className={className} style={{ ...style, display: "block", color: "white"}} onClick={onClick}/>
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <IoIosArrowBack className={className} style={{ ...style, display: "block", color: "white"}} onClick={onClick}/>
-  );
-}
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Motor from "../assets/CarParts/Emrax228Motor.jpeg";
+import Aero from "../assets/CarParts/UT23_Unveiling_Aerodynamics.gif";
 
 const UT23Carousel = () => {
-    var settings = {
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 1,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
-    };
+  var settings = {
+    className: "center",
+    centerMode: true,
+    centerPadding: "60px",
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    initialSlide: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  };
 
   return (
     <div>
-      <div className=''>
+      <div className="px-8 py-10">
         <Slider {...settings}>
-            <div className="">
-                <div className='grid grid-cols-2'>
-                    <img className="h-[500px] object-cover" alt="" src={UT23Header}/>
-                    <div className='bg-white h-[500px]'>
-                    </div>
-                </div>
-            </div>
-            <div className="">
-                <img alt="" src={UT23Header}/>
-            </div>
-            <div className="">
-                <img alt="" src={UT23Header}/>
-            </div>
-            <div className="">
-                <img alt="" src={UT23Header}/>
-            </div>
-            </Slider>
-        </div>
+          <div className="carouselCard">
+            <img alt="" src={Aero}/>
+            <h1 className="text-white text-xl py-2">Aerodynamics</h1>
+          </div>
+          <div className="carouselCard">
+            <img alt="" src={Motor}/>
+            <h1 className="text-white text-xl py-2">Motor</h1>
+          </div>
+          <div className="carouselCard">
+            <img alt="" src={UT23Header}/>
+            <h1 className="text-white text-xl py-2">Suspension</h1>
+          </div>
+          <div className="carouselCard">
+            <img alt="" src={UT23Header}/>
+            <h1 className="text-white text-xl py-2">Brakes</h1>
+          </div>
+        </Slider>
+      </div>
     </div>
   )
 }

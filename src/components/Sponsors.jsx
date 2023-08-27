@@ -1,5 +1,5 @@
 import React from 'react'
-import SponsorHeader from '../assets/TeamCarPhotos/2023IndySetup.jpeg'
+import SponsorHeader from '../assets/TeamCarPhotos/CarDisplay.png'
 import SponsorshipPackage from '../assets/2023SponsorshipPackage.pdf'
 import MIE from '../assets/Sponsors/SponsorLogosColoured/UofTMIE.png'
 import Tesla from '../assets/Sponsors/SponsorLogosColoured/Tesla.png'
@@ -21,7 +21,7 @@ import IcebergCyber from '../assets/Sponsors/SponsorLogosColoured/IcebergCyber.p
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Molson from '../assets/Sponsors/SponsorLogosColoured/Molson.png'
-import SolidWorks from '../assets/Sponsors/SponsorLogosColoured/SolidWorks.png'
+// import SolidWorks from '../assets/Sponsors/SponsorLogosColoured/SolidWorks.png'
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import UofTECE from '../assets/Sponsors/SponsorLogosColoured/UofTECE.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
@@ -45,7 +45,6 @@ import HawkeyeIndustries from '../assets/Sponsors/SponsorLogosColoured/HawkeyeIn
 import KissSoft from '../assets/Sponsors/SponsorLogosColoured/KissSoft.png'
 import Kubera from '../assets/Sponsors/SponsorLogosColoured/Kubera.png'
 import Lucid from '../assets/Sponsors/SponsorLogosColoured/Lucid.png'
-import Monday from '../assets/Sponsors/SponsorLogosColoured/Monday.png'
 import Multimatic from '../assets/Sponsors/SponsorLogosColoured/Multimatic.png'
 import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
 import OrionBMS2 from '../assets/Sponsors/SponsorLogosColoured/OrionBMS2.png'
@@ -115,8 +114,8 @@ const Sponsors = () => {
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
-                <button className='r4 text-black group border-2 px-6 py-3 my-2 rounded-lg transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
-                <button className='r4 text-black group border-2 px-6 py-3 my-2 rounded-lg transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferrer">Donate</a></button>
+                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
+                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferrer">Donate</a></button>
             </div>
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
@@ -128,7 +127,7 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
-                        <p className='px-10 pb-32'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our HV battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
+                        <p className='px-10 pb-32'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
                     </div>
                 </div>
                 <div className='p-10'>
@@ -201,9 +200,9 @@ const Sponsors = () => {
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
-                        <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
+                        {/* <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SolidWorks} alt="" />
-                        </a>
+                        </a> */}
                         <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Enepaq} alt="" />
                         </a>
@@ -286,9 +285,6 @@ const Sponsors = () => {
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Lucid} alt="" />
-                        </a>
-                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Monday} alt="" />
                         </a>
                         <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Multimatic} alt="" />

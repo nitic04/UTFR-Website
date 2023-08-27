@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// import CoolCarMan from '../assets/HighQualityImage.jpeg';
+import CoolCarMan from '../assets/HighQualityImage.jpeg';
 import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
 import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
@@ -67,12 +67,12 @@ const HomeCarousel = () => {
             <p className="text-white">The University of Toronto Formula Racing Team finished 5th overall!</p>
           </div>
           <div className="carouselCard">
-            <a href="google.com"><img alt="" src={TeamPhoto}/></a>
+            <NavLink to="/nh23blog"><img alt="" src={TeamPhoto}/></NavLink>
             <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
             <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
-            <NavLink to="/nh23blog"><img alt="" src={UnveilingPhoto}/></NavLink>
+            <img alt="" src={UnveilingPhoto}/>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
             <p className="text-white">The 2023 formula car was unveiled in Toronto</p>
           </div>

@@ -79,6 +79,7 @@ const History = () => {
         <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>
           <div className='h-full w-full about grid lg:grid-cols-2'>
             <div className='my-auto p-10'>
+              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>History of The Team</p>
               <p className='text-lg pt-5'>The University of Toronto began its involvement in FSAE in 1997, and completed a prototype vehicle in 1998. Through testing and research on the vehicle, a second, lighter frame was constructed in 1999. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016.</p>
               <p className='text-lg pt-5 text-white'>Over the course of the early 2000s, several different chassis concepts were explored, eventually moving from steel spaceframes, to hybrid concepts, to a full monocoque. In 2010, the team switched to the light single cylinder engines that still power our cars today. In 2016, our first aerodynamics package was created to improve high speed cornering capability. In 2019, the team continued to develop the hybrid chassis concept, and introduced prototypes for a drag reduction system and electric shifter. The team continues to place respectably in rankings in both static and dynamic competitions.</p>
             </div>

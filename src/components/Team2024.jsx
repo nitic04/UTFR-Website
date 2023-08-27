@@ -1,5 +1,4 @@
 import React from 'react'
-// import Reveal from './Reveal'
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
@@ -45,25 +44,25 @@ const Team2024 = () => {
         <p className='text-4xl font-bold flex justify-center pt-8'>Team Leadership</p>
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
           <div className='w-[100%] my-auto py-10'>
-            <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
             <p className='personName'>Daniel LaRosa</p>
             <p className='personTitle'>Team Principal & Mechanical TD</p>
             <p className='personProgram'>Mech 2T3 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={JakeSprenger} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={JakeSprenger} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
             <p className='personName'>Jake Sprenger</p>
             <p className='personTitle'>Electrical Technical Director</p>
             <p className='personProgram'>ECE 2T3 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={DanielAsadi} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={DanielAsadi} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
             <p className='personName'>Daniel Asadi</p>
             <p className='personTitle'>Driverless Technical Director</p>
             <p className='personProgram'>Eng Sci 2T4 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
-            <img src={EmilyWright} alt="team" className='my-auto mx-auto w-[90%]'/>
+            <img src={EmilyWright} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
             <p className='personName'>Emily Wright</p>
             <p className='personTitle'>Business Director</p>
             <p className='personProgram'>Management 2T5 + Co-op</p>
@@ -177,9 +176,9 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <img src={DanielLaRosa} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>TBD</p>
-            <p className='personTitle'>Controller Lead</p>
-            <p className='personProgram'>Eng Sci 2T5 + PEY</p>
+            <p className='personName'>Nicholas Burley</p>
+            <p className='personTitle'>Controllers Lead</p>
+            <p className='personProgram'>ECE 2T6 + PEY</p>
           </div>
           <div className='w-[100%] my-auto py-10'>
             <img src={NadiaZhou} alt="team" className='my-auto mx-auto w-[90%]'/>
