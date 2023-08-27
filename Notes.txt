@@ -13,8 +13,6 @@ To Do List
 - page titles need to get smaller when screen is small
 - figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
 - TBD on the team page
-- change the links that the past years shootout cards lead to
-- fix the hover spacing on the sponsor cards for shootout
 
 Car Specs
 - 564kg
@@ -121,7 +119,6 @@ THINGS I NEED
 - Website icon
 - what is the mailing list? how do i add people to that?
 - get a higher quality shootout image
-- get a higher quality UT23 image
 - a white and png version of the petro canada lubricants logo
 
 
@@ -201,3 +198,24 @@ You're next career network
 A New Era of Engineering
 
 Marking the end of the development of combustion vehicles for the University of Toronto Formula Racing Team comes a new era of electric motorsports.  
+
+
+
+Notes to fix
+- change the favicon using sketchbook
+- add tiktok and remove twitter and facebook from the footer DONE
+- remove monday.com from sponsors DONE
+- fix controller to controllers DONE
+- create and replace temp team image with red and white utfr logo (or the blue one)
+- 1st place overall, get rid of 1st in EV DONE
+- remove shifted from shootout DONE
+- fix the acronyms on the pages (HV on sponsor page)
+- remove newsletter page DONE
+- cool loading animation where the logo fades in and then moves to the corner where the logo already is
+
+- work on mailchimp mailing list popup on newsletter page (later)
+- create a section in the team page for people and where they are working 
+- customize the footer for shootout -> removing team details
+- maybe make a completely different page for shootout that is not branded for UTFR
+
+- FIX THE SIZING OF IMAGES ON TEAM PAGE
