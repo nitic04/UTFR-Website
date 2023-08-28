@@ -7,9 +7,8 @@ To Do List
 - figure out why the 'our team' photo is not showing up on mobile mode
 - events page
 - figure out how to load images beforehand
-- fix certain people's images (incorrect sizing)
+- fix certain people's images (incorrect sizing) DONE
 - change the drivers
-- no info on Arthur Xu from driverless
 - page titles need to get smaller when screen is small
 - figure out a way to make containers for the team members and just have the images take up the entire container instead of just putting them like that
 - TBD on the team page
@@ -129,70 +128,90 @@ Sponsors
 
 
 Sponsor Links
-Abco
-AI Hull Engineering Material Research
-Altium
-Ansys
-www.ASTG.ca
-Brechin
-Durham Instruments
-Wiha
-Emrax
-Gardel
-Haas
-Hakko
-HawkeyeIndustries
-KissSoft
-Kubera
-Lucid
-Monday
-Multimatic Motorsports
-NTN
-OrionBMS2
-Salae
-SherwinWilliams
-Siemens
-Spartec Composites
-Student Initiative Fund
-TE Connectivity
-Tektronix
-Texonic
-Univeristy of Toronto Engineering Science
-Enepaq
-Villa
-Wemas
-Electro-Meters
-Altair
-Atlantic Heat Treating
-Atoms Laboratory
-Bender
-BMRSWired
-DigiKey
-Edmund Optics
-FactoryTire
-HongKong Mingda Industrial
-igus
-JLCPCB
-LRA 3D
-Maxon
-MechanicalAdvertising
-MG Chemicals
-Noble Precision
-Oakville Blueprinting
-Oldershaw Steel Services
-Oshawa Gear Co
-Ribbit
-Peak System
-Phytools
-Susprog3D
-Texense
-Textreme
-UTEV
-VI-Grade
-VR3
-Winsource Electronics
-You're next career network 
+Abco: https://www.abcofreight.com/
+AI Hull Engineering Material Research (IDK WHAT THIS IS)??????
+Altium: https://www.altium.com/
+Ansys: https://www.ansys.com/academic/students/student-teams
+www.ASTG.ca: https://astg.ca/
+Brechin: https://gamebridgegokarts.com/
+Durham Instruments: https://disensors.com/
+Wiha: http://wihatools.ca/
+Emrax: https://emrax.com/
+Gardel: http://gardel.on.ca/
+Haas: https://ghaasfoundation.org/content/ghf/en/home.html
+Hakko: http://hakkousa.com/
+HawkeyeIndustries: https://hawk-eye.com/
+KissSoft: https://www.kisssoft.com/de
+Kubera (NOT ON OUTREACH RECORDS??) ??????
+Lucid: https://thinklucid.com/
+Multimatic Motorsports: https://www.multimatic.com/
+NTN: https://ntn.ca/
+OrionBMS2: http://orionbms.com/
+Salae: https://www.saleae.com/
+SherwinWilliams: https://www.siemens.com/ca/en.html
+Siemens: http://new.siemens.com/ca/en.html
+Spartec Composites: https://www.sparteccomposites.com/
+Student Initiative Fund: https://studentlife.utoronto.ca/program/student-initiative-fund/
 
+
+TE Connectivity: http://te.com/global-en/home.html
+Tektronix: http://tek.com/en
+Texonic: http://texonic.net/en
+Univeristy of Toronto Engineering Science (NOT ON THE OUTREACH RECORDS???)
+Enepaq: https://enepaq.com/ ?????????????
+Villa: http://www.villacharities.com/
+Wemas: http://www.wemas.de/
+Electro-Meters: https://www.electro-meters.com/
+
+
+Altair: https://altair.com/
+Atlantic Heat Treating: https://atlht.ca/
+Atoms Laboratory: https://atoms.mie.utoronto.ca/
+Bender: https://www.benderinc.com/
+BMRSWired: http://bmrswired.com/
+DigiKey: https://www.digikey.ca/
+Edmund Optics: https://www.edmundoptics.ca/
+FactoryTire: https://www.factorytire.ca/
+HongKong Mingda Industrial: http://hkmingda.com/
+igus: http://igus.ca/
+JLCPCB: https://jlcpcb.com/
+LRA 3D: https://lra3d.com/
+Maxon: https://www.maxongroup.com/maxon/view/content/index
+MechanicalAdvertising: http://mechanicaladvertising.com/
+MG Chemicals: https://mgchemicals.com/
+
+
+Noble Precision: http://nobleprecision.com/
+Oakville Blueprinting: http://www.oakvilleblueprinting.ca/
+Oldershaw Steel Services: https://oldershawsteel.com/
+Oshawa Gear Co: http://oshawagear.ca/
+Ribbit: https://www.flyribbit.com/
+Peak System: https://www.peak-system.com/Home.59.0.html?&L=1
+Phytools: https://phytools.com/
+Susprog3D: http://susprog.com/index.html
+Texense: http://texense.com/en
+Textreme: https://www.textreme.com/
+
+UTEV: https://utev.utoronto.ca/
+VI-Grade: https://www.vi-grade.com/
+VR3: http://vr3.ca/
+Winsource Electronics: https://www.win-source.net/
+You're next career network: https://www.yourenext.ca/
+
+
+Sponsors not on website?
+- brafasco: https://brafasco.com/
+- batemo (they're new tho): http://www.batemo.de/
+- composites canada: https://compositescanada.com/
+- Deutsche Hydrapro: https://hydrapro.com.au/
+- Festo
+- Ford?: https://www.ford.ca/
+- Gigavac
+- Harwin (trying to renew): https://www.harwin.com/ 
+- Holley: https://www.holley.com/
+- Juniper Network + Aston Martin: https://www.juniper.net/us/en/company/aston-martin-f1-partnership.html
+- Lantor: http://www.lantor.com/
+- Metex: http://www.metexht.com/
 
 
 A New Era of Engineering
@@ -206,7 +225,7 @@ Notes to fix
 - add tiktok and remove twitter and facebook from the footer DONE
 - remove monday.com from sponsors DONE
 - fix controller to controllers DONE
-- create and replace temp team image with red and white utfr logo (or the blue one)
+- create and replace temp team image with red and white utfr logo (or the blue one) DONE
 - 1st place overall, get rid of 1st in EV DONE
 - remove shifted from shootout DONE
 - fix the acronyms on the pages (HV on sponsor page) DONE
@@ -218,6 +237,11 @@ Notes to fix
 - customize the footer for shootout -> removing team details
 - maybe make a completely different page for shootout that is not branded for UTFR
 
-- FIX THE SIZING OF IMAGES ON TEAM PAGE
 
-FIX ARTHUR AND JUSTINS IMAGES ITS THROWING OFF MY ANIMATION GRRRRRR
+- FIX ARTHUR AND JUSTINS IMAGES ITS THROWING OFF MY ANIMATION GRRRRRR DONE
+
+
+Notes for team when sending link
+- For those of you who have given me ideas of things to add to the website and they haven't been added, I have written them down and they are being worked on for future deployment
+- Please double check your profile on the team page, spelling of name, program, title
+    - if you have a more recent headshot that you would like me to put instead, please let me know
