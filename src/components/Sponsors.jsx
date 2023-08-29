@@ -22,7 +22,7 @@ import IcebergCyber from '../assets/Sponsors/SponsorLogosColoured/IcebergCyber.p
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Molson from '../assets/Sponsors/SponsorLogosColoured/Molson.png'
-import Solidworks from '../assets/Sponsors/SponsorLogosColoured/Solidworks.png'
+import Solidworks from '../assets/Sponsors/Solidworks.png'
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import UofTECE from '../assets/Sponsors/SponsorLogosColoured/UofTECE.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
@@ -221,7 +221,7 @@ const Sponsors = () => {
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
                         <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src='../assets/Sponsors/Solidworks.png' alt="" />
+                            <img className="sponsorImg" src={Solidworks} alt="" />
                         </a>
                         <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Enepaq} alt="" />
