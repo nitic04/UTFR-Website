@@ -110,12 +110,12 @@ const Sponsors = () => {
         backgroundRepeat: 'no-repeat'
         }}>
         <Fade triggerOnce>
-        <h1 className='text-8xl text-white pt-[600px] px-12 font-bold'>Sponsors & Partners</h1>
+        <h1 className='text-7xl md:text-8xl text-white pt-[600px] px-12 font-bold'>Sponsors & Partners</h1>
         </Fade>
         </div>
         <div className='text-black bg-[#cecece] pb-10'>
             <Fade cascade triggerOnce>
-            <h1 className='flex justify-center text-4xl font-bold pt-10'>How our team thrives on your support</h1>
+            <h1 className='flex justify-center text-4xl font-bold pt-10 px-5 text-center'>How our team thrives on your support</h1>
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
@@ -126,7 +126,7 @@ const Sponsors = () => {
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
             <Fade delay={300} cascade triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Diamond Sponsors</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10 items-center'>
                     <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
@@ -158,7 +158,7 @@ const Sponsors = () => {
             </div>
             </Fade>
             <Fade delay={300} cascade triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Platinum Sponsors</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <div className='grid md:grid-cols-3 gap-x-10'>
                     <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
@@ -174,7 +174,7 @@ const Sponsors = () => {
             </div>
             </Fade>
             <Fade delay={300} triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Gold Sponsors</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             </Fade>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <Fade cascade triggerOnce>
@@ -195,7 +195,7 @@ const Sponsors = () => {
                 </Fade>
             </div>
             <Fade delay={300} triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Silver Sponsors</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Silver Sponsors</h1>
             </Fade>
             <div className=''>
                 <Fade cascade triggerOnce>
@@ -244,7 +244,7 @@ const Sponsors = () => {
                 </Fade>
             </div>
             <Fade delay={300} triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Bronze Sponsors</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Bronze Sponsors</h1>
             </Fade>
             <div className='px-10'>
                 <Fade cascade triggerOnce>
@@ -372,7 +372,7 @@ const Sponsors = () => {
                 </Fade>
             </div>
             <Fade delay={300} triggerOnce>
-            <h1 className='flex justify-center text-5xl font-bold'>Affiliates</h1>
+            <h1 className='flex justify-center text-5xl font-bold text-center'>Affiliates</h1>
             </Fade>
             <div className='px-10'>
                 <Fade cascade triggerOnce>

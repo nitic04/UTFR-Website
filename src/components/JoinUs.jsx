@@ -38,7 +38,7 @@ const History = () => {
         backgroundRepeat: 'no-repeat'
       }}>
       <Fade triggerOnce>
-      <h1 className='text-8xl text-white pt-[600px] px-12 font-bold'>Join Us</h1>
+      <h1 className='text-7xl md:text-8xl text-white pt-[600px] px-12 font-bold'>Join Us</h1>
       </Fade>
       </div>
       <div>
@@ -46,7 +46,7 @@ const History = () => {
           <div className='h-full w-full about grid lg:grid-cols-2'>
             <div className='my-auto p-10'>
               <Fade cascade damping={0.2} triggerOnce>
-              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>Our History</p>
+              <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>Our History</p>
               <p className='pt-5'>The University of Toronto began its involvement in FSAE in 1997, and completed a prototype vehicle in 1998. Through testing and research on the vehicle, a second, lighter frame was constructed in 1999. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016.</p>
               <p className='pt-5 text-white'>Over the course of the early 2000s, several different chassis concepts were explored, eventually moving from steel spaceframes, to hybrid concepts, to a full monocoque. In 2010, the team switched to the light single cylinder engines that still power our cars today. In 2016, our first aerodynamics package was created to improve high speed cornering capability. In 2019, the team continued to develop the hybrid chassis concept, and introduced prototypes for a drag reduction system and electric shifter. The team continues to place respectably in rankings in both static and dynamic competitions.</p>
               </Fade>
@@ -64,7 +64,7 @@ const History = () => {
           <div className='h-full w-full about grid lg:grid-cols-2'>
             <div className='my-auto p-10'>
               <Fade cascade damping={0.2} triggerOnce>
-              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>What's in it for me?</p>
+              <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>What's in it for me?</p>
               <p className='pt-5'>Formula Student allows students to apply the theory that they have learned in the classroom within a real and exciting engineering environment. This type of integrated learning experience provides students with a competitive advantage as potential employers, later on, often look to hire graduates who have had strong practical, as well as academic experience. In fact, most team members completing their fourth year of study choose to focus their thesis research on an aspect of the car. In the past, thesis projects have contained research on the car suspension, chassis, air intake, fuel injection, and manufacturing.</p>
               <p className='pt-5 text-white'>In addition to gaining valuable engineering experience, students also acquire the chance to develop managerial, leadership as well as important team communication skills. However, aside from the educational benefits that this project brings, it also allows University of Toronto students to gain recognition at public events. Events such as Formula SAE/Formula Student all provide students with the chance to exhibit their hard work to the public and to recognize the sponsors that make this project possible.</p>
               </Fade>
@@ -78,7 +78,7 @@ const History = () => {
       <div className='text-white items-center pb-10 px-10'>
         <Fade cascade damping={0.2} triggerOnce>
         <div className='flex pt-10 justify-center'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>How do I get involved?</p>
+          <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>How do I get involved?</p>
         </div>
         <p className='pt-5 text-white text-center'>UTFR welcomes all students at the University of Toronto! New members are not required to have any previous design experience or knowledge of racing, engineering, or anything else – all we ask is that you come eager to learn and ready to work! Recruitment events begin in the first week of the Fall Semester. Detailed information sessions will be delivered by the senior team to all those interested in starting in September. After the orientations in September, a culture of project based learning will continue the student’s development. Recruitment happens all year round, there is no better time to join than now! If you missed us during frosh week, feel free to contact us below!</p>
         </Fade>

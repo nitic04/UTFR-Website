@@ -49,6 +49,16 @@ const Shootout = () => {
     prevArrow: <Arrow />,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          centerPadding: '40px',
+          slidesToShow: 1,
+          arrows: false,
+        }
+      }
+    ]
   };
 
   return (
@@ -60,17 +70,17 @@ const Shootout = () => {
         backgroundRepeat: 'no-repeat'
         }}>
           <Fade triggerOnce>
-          <h1 className='text-8xl text-white pt-[600px] px-12 font-bold'>Shootout</h1>
+          <h1 className='text-7xl md:text-8xl text-white pt-[600px] px-12 font-bold'>Shootout</h1>
           </Fade>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
-            <h1 className='flex justify-center text-3xl font-bold pt-12 text-center'>Toronto Shootout (previously known as UTFR Shootout) is an annual formula student competition.</h1>
+            <h1 className='flex px-5 justify-center text-3xl font-bold pt-12 text-center'>Toronto Shootout (previously known as UTFR Shootout) is an annual formula student competition.</h1>
             <p className='flex justify-center text-lg text-center px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
           </Fade>
         </div>
         <div className='py-10 grid place-items-center'>
-          <Slider {...settings} className='lg:w-[1300px] md:w-[800px] w-[500px]'>
+          <Slider {...settings} className='lg:w-[1300px] md:w-[800px] w-[400px]'>
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_1}/>
               </div>
@@ -107,38 +117,38 @@ const Shootout = () => {
           <Fade cascade damping={0.2} triggerOnce>
           <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
           <div className='flex justify-center pt-10'>
-          <div className='grid grid-cols-1 lg:grid-cols-3'>
-            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+          <div className='grid grid-cols-1 lg:grid-cols-3 px-auto'>
+            <div className='shootoutCard w-[350px] h-[200px] md:w-[450px] md:h-[300px] mx-5 mb-5' style={{
             backgroundImage: `url(${ShootoutCard2018Image_2})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
-              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2018</h1>
+              <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2018</h1>
               <div className='flex pt-3 justify-center gap-x-5'>
                 <a href="https://docs.google.com/spreadsheets/u/1/d/1DG3YR5VZxDNAfsyb20JhmGvHxYcLyYVY28OfpoZLQi0/edit?usp=drive_web&ouid=105352858794991473194" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
                 <a href="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
               </div>
             </div>
-            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            <div className='shootoutCard w-[350px] h-[200px] md:w-[450px] md:h-[300px] mx-5 mb-5' style={{
             backgroundImage: `url(${ShootoutCard2019Image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
-              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2019</h1>
+              <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2019</h1>
               <div className='flex pt-3 justify-center gap-x-5'>
                 <a href="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
                 <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200' >Official Photography</p></a>
               </div>
             </div>
-            <div className='shootoutCard w-[450px] h-[300px] mx-5 mb-5' style={{
+            <div className='shootoutCard w-[350px] h-[200px] md:w-[450px] md:h-[300px] mx-5 mb-5' style={{
             backgroundImage: `url(${ShootoutCard2021Image})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
             }}>
-              <h1 className='flex justify-center text-5xl font-bold pt-32'>Shootout 2021</h1>
+              <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2021</h1>
               <div className='flex pt-3 justify-center gap-x-5'>
                 <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
                 <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>

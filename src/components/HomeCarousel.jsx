@@ -66,7 +66,8 @@ const HomeCarousel = () => {
             <p className="text-white">The University of Toronto Formula Racing Team finished 5th overall!</p>
           </div>
           <div className="carouselCard">
-            <NavLink to="/nh23blog"><img alt="" src={TeamPhoto}/></NavLink>
+            {/* <NavLink to="/nh23blog"></NavLink> */}
+            <img alt="" src={TeamPhoto}/>
             <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
             <p className="text-white">The team secured 1st place overall in the 2023 Formula SAE competition in New Hampshire</p>
           </div>

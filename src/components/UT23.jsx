@@ -23,7 +23,7 @@ const UT23 = () => {
             backgroundRepeat: 'no-repeat'
         }}>
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='text-[200px] text-white pt-[450px] px-12 font-bold'>UT23</h1>
+            <h1 className='text-[100px] md:text-[200px] text-white pt-[450px] px-12 font-bold'>UT23</h1>
             <div className='flex absolute bottom-10 gap-x-10'>
                 <div>
                     <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold '>116 km/h</h1>
