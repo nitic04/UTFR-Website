@@ -4,7 +4,6 @@ import Tesla from '../assets/Sponsors/SponsorLogosWhite/Tesla.png'
 import Skule from '../assets/Sponsors/SponsorLogosWhite/SkuleWhite.png'
 import NewEra from '../assets/Sponsors/SponsorLogosWhite/NewEraWhite.png'
 
-import Monday from '../assets/Sponsors/SponsorLogosWhite/mondaycomWhite.png'
 import MC78 from '../assets/Sponsors/SponsorLogosWhite/MC78FilledWhite.png'
 import EngAlumni from '../assets/Sponsors/SponsorLogosWhite/EngAlumniNetwork.png'
 import Airtech from '../assets/Sponsors/SponsorLogosWhite/AirtechWhite.png'
@@ -20,8 +19,8 @@ const SponsorshipFooter = () => {
           <a href="https://www.mie.utoronto.ca/" target="_blank" rel="noreferrer">
             <img alt="" src={MIE} style={{width: "250px"}} className='sponsorImg2'/>
           </a>
-          <a href="https://monday.com/" target="_blank" rel="noreferrer">
-            <img alt="" src={Monday} className='sponsorImg2'/>
+          <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
+            <img alt="" src={ActNow} className='sponsorImg2'/>
           </a>
         </div>
         <div className='flex justify-center items-center'>
@@ -30,9 +29,6 @@ const SponsorshipFooter = () => {
           </a>
           <a href="https://alumni.engineering.utoronto.ca/engineering-alumni-network/" target="_blank" rel="noreferrer">
             <img alt="" src={EngAlumni} className='sponsorImg2'/>
-          </a>
-          <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
-            <img alt="" src={ActNow} className='sponsorImg2'/>
           </a>
           <a href="https://airtech.com/" target="_blank" rel="noreferrer">
             <img alt="" src={Airtech} className='sponsorImg2'/>

@@ -1,5 +1,5 @@
 import React from 'react';
-import UT23Header from '../assets/CzechRepublic2023/Czech14.jpeg';
+import UT23Header from '../assets/CzechRepublic2023/Czech14.webp';
 // import UT23Cutout from '../assets/HistoricCarPhotos/UT23/UT23_Cutout.png';
 import UT23Slant1 from '../assets/HistoricCarPhotos/UT23/UT23_Slant1.png';
 import UT23Slant2 from '../assets/HistoricCarPhotos/UT23/UT23_Slant2.png';

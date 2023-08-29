@@ -19,7 +19,7 @@ import Shootout2022_13 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_
 import Shootout2022_14 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_14.JPG'
 import ShootoutCard2019Image from '../assets/ShootoutPhotos/UTFRShootout2019GroupPhoto.jpeg'
 import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg'
-import ShootoutCard2018Image from '../assets/ShootoutPhotos/UTFRShootout2018Photo.jpeg'
+import ShootoutCard2018Image from '../assets/ShootoutPhotos/UTFRShootout2018Photo.webp'
 import ShootoutCard2018Image_2 from '../assets/ShootoutPhotos/UTFRShootout2018Photo_2.jpeg'
 
 import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'

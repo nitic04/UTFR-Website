@@ -1,4 +1,4 @@
-import Background from '../assets/CzechRepublic2023/Czech3.jpeg'
+import Background from '../assets/CzechRepublic2023/Czech3.webp'
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {

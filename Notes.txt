@@ -247,6 +247,11 @@ Notes for team when sending link
     - if you have a more recent headshot that you would like me to put instead, please let me know
 
 
+REMOVE MONDAY.COM
+FIX UT08 SIZING
+Remove fading animation on sponsor page
+
+
 
 
 

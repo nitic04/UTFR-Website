@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamPhotoUnveiling from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg'
+import TeamPhotoUnveiling from '../assets/TeamMembers/TeamPhotoUnveiling.webp'
 import BothCars from '../assets/TeamCarPhotos/BothCars.jpeg'
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";

@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import CoolCarMan from '../assets/HighQualityImage.jpeg';
 import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
-import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg';
+import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 // import { NavLink } from 'react-router-dom';
