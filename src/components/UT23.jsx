@@ -24,18 +24,18 @@ const UT23 = () => {
         }}>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-[100px] md:text-[200px] text-white pt-[450px] px-12 font-bold'>UT23</h1>
-            <div className='flex absolute bottom-10 gap-x-10'>
+            <div className='md:flex absolute space-y-2 bottom-10 gap-x-10'>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold '>116 km/h</h1>
-                    <p className=' text-xl lg:text-[30px] text-white px-12 flex justify-center'>Top Speed</p>
+                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold '>116 km/h</h1>
+                    <p className=' text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Top Speed</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold'>3.76 s</h1>
-                    <p className='text-xl lg:text-[30px] text-white px-12 flex justify-center'>0 - 100 km/h</p>
+                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>3.76 s</h1>
+                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>0 - 100 km/h</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex justify-center font-bold'>109 kW at 5500 RPM</h1>
-                    <p className='text-xl lg:text-[30px] text-white px-12 flex justify-center'>Peak Power</p>
+                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>109 kW at 5500 RPM</h1>
+                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Peak Power</p>
                 </div>
             </div>
             </Fade>
@@ -46,15 +46,15 @@ const UT23 = () => {
                     <div className='col-span-2'>
                         <img src={UT23Slant2} className='w-full' alt=""/>
                     </div>
-                    <div className='pt-24 col-span-1 pr-14'>
+                    <div className='pt-16 col-span-1 px-10'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-2xl pb-5 font-medium'>A New Era of Precision Engineering</h1>
-                        <p className='text-lg'>2023 marks the first year the team has developed and competed a fully electric vehicle. </p>
+                        <p className='text-lg'>With a history rooted in pushing the boundaries of engineering, UTFR has undertaken a monumental challenge this year that marks a paradigm shift in their journey. For the first time UTFR has designed, developed, and competed with a fully electric and driverless capable vehicle. The transition from traditional combustion engines to fully electric powertrains demanded a thorough rethinking of every aspect of vehicle design. Team members had to grapple with new considerations, such as battery management, electric propulsion systems, and efficiency; a true testament to the team's adaptability and engineering prowess.</p>
                         </Fade>
                     </div>
                 </div>
             </div>
-            <div className='flex justify-evenly px-5 pt-14 lg:py-10'>
+            <div className='md:flex space-y-2 justify-evenly px-5 pt-14 lg:py-10'>
                 <Fade triggerOnce>
                 <div>
                     <h1 className='flex justify-center text-3xl lg:text-5xl font-bold'>1st Place Overall</h1>
@@ -72,10 +72,10 @@ const UT23 = () => {
             </div>
             <div>
                 <div className='grid lg:grid-cols-3'>
-                    <div className='pt-24 col-span-1 pl-14'>
+                    <div className='pt-16 col-span-1 px-10'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-2xl pb-5 font-medium'>Driving Forward... Autonomously</h1>
-                        <p className='text-lg'>This year, the team began the development of a driverless team to compete in autonomous events during competition. The perception system employs state-of-the-art real-time machine learning algorithms to decode track intricacies, while the integration of stereo cameras provides a remarkable depth perception capability. Navigation orchestrates optimal trajectories, effortlessly translated into action through our advanced drive-by-wire control system.</p>
+                        <p className='text-lg pb-5'>This year, the team began the development of a driverless team to compete in autonomous events during competition. Our state-of-the-art perception system utilizes real-time machine learning to decode track intricacies, complemented by stereo cameras that grant exceptional depth perception. Navigational precision is achieved through optimal trajectory planning, seamlessly translated into action by our advanced drive-by-wire control system. This amalgamation empowers our vehicle to navigate dynamically, anticipate obstacles, and execute maneuvers with unmatched accuracy, signifying a leap forward in technological innovation within the competitive landscape.</p>
                         </Fade>
                     </div>
                     <div className='col-span-2'>
@@ -85,7 +85,7 @@ const UT23 = () => {
             </div>
             <div>
                 <div className='flex text-white justify-center py-20'>
-                    <div className='w-[700px] pb-3'>
+                    <div className='w-[700px] pb-3 px-5'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-4xl flex justify-center pb-10'>Technical Specifications</h1>
                         <div className='flex border-b-2'>
