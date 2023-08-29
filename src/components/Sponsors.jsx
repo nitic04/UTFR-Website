@@ -1,5 +1,5 @@
 import React from 'react'
-import SponsorHeader from '../assets/TeamCarPhotos/CarDisplay.png'
+import SponsorHeader from '../assets/TeamCarPhotos/CarDisplay.jpeg'
 import SponsorshipPackage from '../assets/2023SponsorshipPackage.pdf'
 import MIE from '../assets/Sponsors/SponsorLogosColoured/UofTMIE.png'
 import Tesla from '../assets/Sponsors/SponsorLogosColoured/Tesla.png'
@@ -14,6 +14,7 @@ import MC78 from '../assets/Sponsors/SponsorLogosColoured/MC-78.png'
 import Airtech from '../assets/Sponsors/SponsorLogosColoured/Airtech.png'
 import PetroCanada from '../assets/Sponsors/SponsorLogosColoured/PetroColour.png'
 import NewEra from '../assets/Sponsors/SponsorLogosColoured/NewEra.png'
+import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
 
 // Silver Sponsors
 import aUToronto from '../assets/Sponsors/SponsorLogosColoured/aUToronto.png'
@@ -21,7 +22,7 @@ import IcebergCyber from '../assets/Sponsors/SponsorLogosColoured/IcebergCyber.p
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Molson from '../assets/Sponsors/SponsorLogosColoured/Molson.png'
-// import SolidWorks from '../assets/Sponsors/SponsorLogosColoured/SolidWorks.png'
+import Solidworks from '../assets/Sponsors/SponsorLogosColoured/Solidworks.png'
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import UofTECE from '../assets/Sponsors/SponsorLogosColoured/UofTECE.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
@@ -97,6 +98,7 @@ import VR3 from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 import Winsource from '../assets/Sponsors/SponsorLogosColoured/Winsource.png'
 import YNCN from '../assets/Sponsors/SponsorLogosColoured/YNCN.png'
 import GoToTop from './GoToTop'
+import { Fade } from "react-awesome-reveal";
 
 const Sponsors = () => {
   return (
@@ -107,18 +109,23 @@ const Sponsors = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-        <h1 className='text-8xl text-white pt-[650px] px-12 font-bold'>Sponsors & Partners</h1>
+        <Fade triggerOnce>
+        <h1 className='text-8xl text-white pt-[600px] px-12 font-bold'>Sponsors & Partners</h1>
+        </Fade>
         </div>
         <div className='text-black bg-[#cecece] pb-10'>
+            <Fade cascade triggerOnce>
             <h1 className='flex justify-center text-4xl font-bold pt-10'>How our team thrives on your support</h1>
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
-                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
-                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd]'><a href="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferrer">Donate</a></button>
+                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
+                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'><a href="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferrer">Donate</a></button>
             </div>
+            </Fade>
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
+            <Fade delay={300} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10 items-center'>
@@ -127,7 +134,7 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
-                        <p className='px-10 pb-32'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
+                        <p className='px-10 pb-24'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
                     </div>
                 </div>
                 <div className='p-10'>
@@ -136,7 +143,7 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Dept. of MIE</h1>
-                        <p className='px-10 pb-20'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
+                        <p className='px-10 pb-20'>The University of Toronto's Department of Mechanical and Industrial (MIE) Engineering has been sponsoring UTFR since our inception 25 years ago. They have provided financial support through the centralized process for student initiative funding and provides us with the facilities and supervision that allow to bring our ideas to life.</p>
                     </div>
                 </div>
                 <div className='p-10'>
@@ -145,10 +152,12 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Engineering Society (SKULE)</h1>
-                        <p className='px-10 pb-10'>The University of Toronto's Department of Mechanical and Industrial (MIE) Engineering has been sponsoring UTFR since our inception 25 years ago. They have provided financial support through the centralized process for student initiative funding and provides us with the facilities and supervision that allow to bring our ideas to life.</p>
+                        <p className='px-10 pb-10'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
                     </div>
                 </div>
             </div>
+            </Fade>
+            <Fade delay={300} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <div className='grid md:grid-cols-3 gap-x-10'>
@@ -163,9 +172,13 @@ const Sponsors = () => {
                     </a>
                 </div>
             </div>
+            </Fade>
+            <Fade delay={300} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Gold Sponsors</h1>
+            </Fade>
             <div className='flex justify-center pt-10 pb-16 items-center'>
-                <div className='grid md:grid-cols-3 gap-x-10'>
+                <Fade cascade triggerOnce>
+                <div className='grid md:grid-cols-4 gap-x-10'>
                     <a href="https://airtech.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Airtech} alt="" />
                     </a>
@@ -175,10 +188,17 @@ const Sponsors = () => {
                     <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={NewEra} alt="" />
                     </a>
+                    <a href="https://www.julepower.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={Jule} alt="" />
+                    </a>
                 </div>
+                </Fade>
             </div>
+            <Fade delay={300} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Silver Sponsors</h1>
+            </Fade>
             <div className=''>
+                <Fade cascade triggerOnce>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.autodrive.utoronto.ca/" target="_blank" rel="noreferrer">   
@@ -200,9 +220,9 @@ const Sponsors = () => {
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
-                        {/* <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={SolidWorks} alt="" />
-                        </a> */}
+                        <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Solidworks} alt="" />
+                        </a>
                         <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Enepaq} alt="" />
                         </a>
@@ -221,9 +241,13 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
+                </Fade>
             </div>
+            <Fade delay={300} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Bronze Sponsors</h1>
-            <div className=''>
+            </Fade>
+            <div className='px-10'>
+                <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://www.abcofreight.com/" target="_blank" rel="noreferrer">
@@ -276,7 +300,7 @@ const Sponsors = () => {
                         <a href="https://www.kisssoft.com/de" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={KissSoft} alt="" />
                         </a>
-                        <a href="https://skule.ca/" target="_blank" rel="noreferrer">
+                        <a href="https://www.kuberapayments.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Kubera} alt="" />
                         </a>
                     </div>
@@ -295,13 +319,13 @@ const Sponsors = () => {
                         <a href="http://orionbms.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={OrionBMS2} alt="" />
                         </a>
+                        <a href="https://www.saleae.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Salae} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="https://www.saleae.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Salae} alt="" />
-                        </a>
                         <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SherwinWilliams} alt="" />
                         </a>
@@ -314,13 +338,13 @@ const Sponsors = () => {
                         <a href="https://studentlife.utoronto.ca/program/student-initiative-fund/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SIF} alt="" />
                         </a>
+                        <a href="http://te.com/global-en/home.html" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={TE} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
-                        <a href="http://te.com/global-en/home.html" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={TE} alt="" />
-                        </a>
                         <a href="http://tek.com/en" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Tektronix} alt="" />
                         </a>
@@ -333,21 +357,25 @@ const Sponsors = () => {
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
                         </a>
-                    </div>
-                </div>
-                <div className='flex justify-center pb-16 items-center'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10'>
                         <a href="http://www.wemas.de/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Wemas} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pb-16 items-center'>
+                    <div className='grid grid-cols-1'>
                         <a href="https://www.electro-meters.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={EM} alt="" />
                         </a>
                     </div>
                 </div>
+                </Fade>
             </div>
+            <Fade delay={300} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold'>Affiliates</h1>
-            <div className=''>
+            </Fade>
+            <div className='px-10'>
+                <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://altair.com/" target="_blank" rel="noreferrer">
@@ -462,6 +490,7 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
+                </Fade>
             </div>
         </div>
         <GoToTop />

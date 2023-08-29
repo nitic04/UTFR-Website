@@ -17,7 +17,8 @@
 body {
     font-family: 'Satoshi';
     background-color: black;
-    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .navbar {
@@ -26,16 +27,16 @@ body {
 }
 
 .personName {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 2.25rem;
     font-weight: 700; 
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 .personTitle {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -43,7 +44,7 @@ body {
 }
 
 .personProgram {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 1.75rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -110,4 +111,28 @@ body {
 transform: scale(1.5);
 }
 
-/* 1E1E1E to 303030 */
+/* LOADING SCREEN STYLING */
+
+.loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.loadingScreen.fade-in {
+    opacity: 1;
+}
+
+.loadingLogo {
+    width: 300px; /* Adjust as needed */
+}
+  
+  

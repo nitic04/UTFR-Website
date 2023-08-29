@@ -8,7 +8,7 @@ const NH23Blog = () => {
     <div className='w-full h-[100%] bg-[#181818]'>
       <div className='md:px-80'>
         <div className='text-white pt-20 font-sans'>
-          <h1 className='text-7xl font-medium'>A Win In New Hampshire</h1>
+          <h1 className='text-6xl font-medium text-center'>A Win In New Hampshire</h1>
           <div className='pt-5 flex'>
             <div className='flex'>
               <p className='pr-2 flex font-bold'>DATE</p>

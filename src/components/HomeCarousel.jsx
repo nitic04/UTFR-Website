@@ -2,13 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import CoolCarMan from '../assets/HighQualityImage.jpeg';
+// import CoolCarMan from '../assets/HighQualityImage.jpeg';
 import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
 import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.jpeg';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 import { NavLink } from 'react-router-dom';
-
 
 function Arrow(props) {
   const { className, style, onClick } = props;
@@ -69,12 +68,12 @@ const HomeCarousel = () => {
           <div className="carouselCard">
             <NavLink to="/nh23blog"><img alt="" src={TeamPhoto}/></NavLink>
             <h1 className="text-white text-xl font-bold py-2">A Win in New Hampshire!</h1>
-            <p className="text-white">The team secured a 1st place victory in the 2023 Formula SAE competition in New Hampshire</p>
+            <p className="text-white">The team secured 1st place overall in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
             <img alt="" src={UnveilingPhoto}/>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
-            <p className="text-white">The 2023 formula car was unveiled in Toronto</p>
+            <p className="text-white">UTFR's first electric and driverless capable car was unveiled!</p>
           </div>
         </Slider>
       </div>

@@ -26,9 +26,9 @@ const Countdown = ({countdownTimestampMS}) => {
   return (
     <div className='w-full bg-[#131212] text-white'>
         <div className='p-8'>
-            <Fade triggerOnce delay={500}><h1 className='countdownDay text-lg'>2023 TORONTO SHOOTOUT</h1></Fade>
-            <div className='countdownTimer py-12 text-3xl lg:text-5xl flex'>
-                <Fade delay={500} triggerOnce>
+            <Fade delay={500} cascade  damping={0.1} triggerOnce>
+                <h1 className='countdownDay text-lg'>2023 TORONTO SHOOTOUT</h1>
+                <div className='countdownTimer py-12 text-3xl lg:text-[2.75rem] flex'>
                 <span className='font-semibold text-[#ED3833]'>{remainingTime.days}</span>
                 <span className='font-light'>days</span>
                 <span className='font-semibold two-numbers text-[#ED3833]'>{remainingTime.hours}</span>
@@ -37,8 +37,8 @@ const Countdown = ({countdownTimestampMS}) => {
                 <span className='font-light'>minutes</span>
                 <span className='font-semibold two-numbers text-[#ED3833]'>{remainingTime.seconds}</span>
                 <span className='font-light'>seconds</span>
-                </Fade>
-            </div>
+                </div>
+            </Fade>
         </div>
     </div>
   )

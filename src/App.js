@@ -1,3 +1,4 @@
+// import React, { useState, useEffect } from 'react';
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -17,10 +18,23 @@ import UT23 from "./components/UT23";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
 import Newsletter from "./components/Newsletter";
+// import LoadingScreen from './components/LoadingScreen';
 
 function App() {
+  // const [loading, setLoading] = useState(true);
+
+  // Simulate loading delay
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000); // Adjust the delay time as needed
+  // }, []);
+
   return (
     <div>
+      {/* {loading ? ( // Conditional rendering based on loading state
+        <LoadingScreen />
+      ) : ( */}
       <Router>
         <Navbar />
         <Routes>
@@ -38,6 +52,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      {/* )} */}
     </div>
   );
 }

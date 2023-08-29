@@ -11,8 +11,8 @@ const Home = () => {
         backgroundRepeat: 'no-repeat'
       }}>
         <Fade cascade damping={0.2} triggerOnce>
-          <h1 className='text-9xl text-white pt-[550px] px-12 font-bold'>UTFR</h1>
-          <h1 className='lg:text-7xl text-white px-12 font-bold text-6xl py-2'>Design. Build. Race.</h1>
+          <h1 className='text-9xl text-white pt-[500px] px-12 font-bold'>UTFR</h1>
+          <h1 className='md:text-7xl text-white px-12 font-bold text-4xl py-2'>Design. Build. Race.</h1>
         </Fade>
       </div>
     </div>
