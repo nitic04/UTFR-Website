@@ -22,7 +22,7 @@ import IcebergCyber from '../assets/Sponsors/SponsorLogosColoured/IcebergCyber.p
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Molson from '../assets/Sponsors/SponsorLogosColoured/Molson.png'
-import Solidworks from '../assets/Sponsors/Solidworks.png'
+import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import UofTECE from '../assets/Sponsors/SponsorLogosColoured/UofTECE.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
@@ -143,7 +143,7 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Dept. of MIE</h1>
-                        <p className='px-10 pb-20'>The University of Toronto's Department of Mechanical and Industrial (MIE) Engineering has been sponsoring UTFR since our inception 25 years ago. They have provided financial support through the centralized process for student initiative funding and provides us with the facilities and supervision that allow to bring our ideas to life.</p>
+                        <p className='px-10 pb-12'>The University of Toronto's Department of Mechanical and Industrial (MIE) Engineering has been sponsoring UTFR since our inception 25 years ago. They have provided financial support through the centralized process for student initiative funding and provides us with the facilities and supervision that allow to bring our ideas to life.</p>
                     </div>
                 </div>
                 <div className='p-10'>
@@ -152,7 +152,7 @@ const Sponsors = () => {
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Engineering Society (SKULE)</h1>
-                        <p className='px-10 pb-10'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
+                        <p className='px-10 pb-8'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
                     </div>
                 </div>
             </div>
@@ -471,7 +471,7 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pb-16 items-center'>
+                <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://utev.utoronto.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={UTEV} alt="" />

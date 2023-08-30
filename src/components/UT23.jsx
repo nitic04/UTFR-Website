@@ -30,8 +30,8 @@ const UT23 = () => {
                     <p className=' text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Top Speed</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>3.76 s</h1>
-                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>0 - 100 km/h</p>
+                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>4.26 s</h1>
+                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>75m Acceleration</p>
                 </div>
                 <div>
                     <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>109 kW at 5500 RPM</h1>
@@ -72,7 +72,7 @@ const UT23 = () => {
             </div>
             <div>
                 <div className='grid lg:grid-cols-3'>
-                    <div className='pt-16 col-span-1 px-10'>
+                    <div className='pt-12 col-span-1 px-10'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-2xl pb-5 font-medium'>Driving Forward... Autonomously</h1>
                         <p className='text-lg pb-5'>This year, the team began the development of a driverless team to compete in autonomous events during competition. Our state-of-the-art perception system utilizes real-time machine learning to decode track intricacies, complemented by stereo cameras that grant exceptional depth perception. Navigational precision is achieved through optimal trajectory planning, seamlessly translated into action by our advanced drive-by-wire control system. This amalgamation empowers our vehicle to navigate dynamically, anticipate obstacles, and execute maneuvers with unmatched accuracy, signifying a leap forward in technological innovation within the competitive landscape.</p>

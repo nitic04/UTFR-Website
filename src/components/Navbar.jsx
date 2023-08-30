@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <div className='navbar fixed w-full h-[70px] flex justify-between items-center px-10 text-white bg-[#18181849] z-10'>
       <div>
-        <NavLink to="/" ><img src={Logo} alt="Logo" style={{width: '160px'}} /></NavLink>
+        <NavLink to="/" ><img src={Logo} alt="Logo" style={{width: '170px'}} /></NavLink>
       </div>
 
-      <ul className='hidden lg:flex text-rg'>
+      <ul className='hidden lg:flex text-lg'>
         <NavLink to="/team"><li className='transition duration-200 hover:text-gray-300'>Team</li></NavLink>
         <NavLink to="/UT23"><li className='transition duration-200 hover:text-gray-300'>UT23</li></NavLink>
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
@@ -29,16 +29,16 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center text-gray-300 bg-[#181818]'}>
-        <NavLink to="/team" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Team</li></NavLink>
-        <NavLink to="/UT23" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>UT23</li></NavLink>
-        <NavLink to="/history" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>History</li></NavLink>
-        {/* <NavLink to="/events" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Events</li></NavLink> */}
-        <NavLink to="/shootout" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Shootout</li></NavLink>
-        <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Sponsors</li></NavLink>
-        {/* <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Newsletters</li></NavLink> */}
-        <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Join Us</li></NavLink>
-        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 text-4xl transition duration-200 hover:text-white'>Donate</li></NavLink>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full text-3xl h-screen flex flex-col justify-center items-center text-gray-300 bg-[#181818]'}>
+        <NavLink to="/team" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Team</li></NavLink>
+        <NavLink to="/UT23" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>UT23</li></NavLink>
+        <NavLink to="/history" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>History</li></NavLink>
+        {/* <NavLink to="/events" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Events</li></NavLink> */}
+        <NavLink to="/shootout" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Shootout</li></NavLink>
+        <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Sponsors</li></NavLink>
+        {/* <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Newsletters</li></NavLink> */}
+        <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Join Us</li></NavLink>
+        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Donate</li></NavLink>
       </ul>
     </div>
   )
