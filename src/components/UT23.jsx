@@ -54,17 +54,17 @@ const UT23 = () => {
                     </div>
                 </div>
             </div>
-            <div className='md:flex space-y-2 justify-evenly px-5 pt-14 lg:py-10'>
+            <div className='md:flex justify-evenly px-5 pt-14 lg:py-10'>
                 <Fade triggerOnce>
-                <div>
+                <div className='py-2'>
                     <h1 className='flex justify-center text-3xl lg:text-5xl font-bold'>1st Place Overall</h1>
                     <p className='flex justify-center text-xl pt-2'>New Hampshire 2023</p>
                 </div>
-                <div>
+                <div className='py-2'>
                     <h1 className='flex justify-center text-3xl lg:text-5xl font-bold'>5th Place Overall</h1>
                     <p className='flex justify-center text-xl pt-2'>Michigan 2023</p>
                 </div>
-                <div>
+                <div className='py-2'>
                     <h1 className='flex justify-center text-3xl lg:text-5xl font-bold'>6th Place Overall</h1>
                     <p className='flex justify-center text-xl pt-2'>Czech Republic 2023</p>
                 </div>
