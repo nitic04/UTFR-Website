@@ -110,7 +110,7 @@ const Sponsors = () => {
         backgroundRepeat: 'no-repeat'
         }}>
         <Fade triggerOnce>
-        <h1 className='text-7xl md:text-8xl text-white pt-[600px] px-12 font-bold'>Sponsors & Partners</h1>
+        <h1 className='text-7xl md:text-8xl text-white absolute bottom-24 px-12 font-bold'>Sponsors & Partners</h1>
         </Fade>
         </div>
         <div className='text-black bg-[#cecece] pb-10'>
