@@ -90,7 +90,7 @@ const UT23 = () => {
                         <h1 className='text-4xl flex justify-center pb-10'>Technical Specifications</h1>
                         <div className='flex border-b-2'>
                             <p className='text-2xl py-5'>Overall Weight (Without Driver)</p>
-                            <p className='text-2xl py-5 ml-auto'>573 lbs</p>
+                            <p className='text-2xl py-5 ml-auto'>260 kg</p>
                         </div>
                         <div className='flex border-b-2'>
                             <p className='text-2xl py-5'>Length</p>

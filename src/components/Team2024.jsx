@@ -7,6 +7,7 @@ import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
 import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpeg'
 import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpeg'
+import SamBahrami from '../assets/TeamMembers/SamBahrami.jpeg'
 // DRIVERS
 // import DamianSiseraDriver from '../assets/TeamMembers/Drivers/DamianSiseraDriver.jpeg'
 // import AyrtonAntenucciDriver from '../assets/TeamMembers/Drivers/AyrtonAntenucciDriver.jpeg'
@@ -47,12 +48,12 @@ const Team2024 = () => {
         <Fade triggerOnce delay={300}>
         <p className='text-4xl font-bold flex justify-center pt-8'>Team Leadership</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
               <p className='personName'>Daniel LaRosa</p>
-              <p className='personTitle'>Team Principal & Mechanical TD</p>
+              <p className='personTitle'>Team Principal & Mechanical Technical Director</p>
               <p className='personProgram'>Mech 2T3 + PEY</p>
             </Fade>
           </div>
@@ -69,7 +70,7 @@ const Team2024 = () => {
               <img src={DanielAsadi} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
               <p className='personName'>Daniel Asadi</p>
               <p className='personTitle'>Driverless Technical Director</p>
-              <p className='personProgram'>Eng Sci 2T4 + PEY</p>
+              <p className='personProgram'>Eng Sci 2T3 + PEY</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>
@@ -78,6 +79,14 @@ const Team2024 = () => {
               <p className='personName'>Emily Wright</p>
               <p className='personTitle'>Business Director</p>
               <p className='personProgram'>Management 2T5 + Co-op</p>
+            </Fade>
+          </div>
+          <div className='w-[100%] my-auto py-10'>
+            <Fade cascade delay={300} damping={0.1} triggerOnce>
+              <img src={SamBahrami} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <p className='personName'>Sam Bahrami</p>
+              <p className='personTitle'>Shop Manager</p>
+              <p className='personProgram'>Mech 2T5 + PEY</p>
             </Fade>
           </div>
         </div>
@@ -180,7 +189,7 @@ const Team2024 = () => {
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={EricEmmenegger} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Eric Emmenegger</p>
-              <p className='personTitle'>Powertrain Mech Lead</p>
+              <p className='personTitle'>Powertrain Mechanical Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
             </Fade>
           </div>
@@ -188,7 +197,7 @@ const Team2024 = () => {
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={ToluIkubaje} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Tolu Ikubaje</p>
-              <p className='personTitle'>DV Mechatronics Lead</p>
+              <p className='personTitle'>Driverless Mechatronics Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
             </Fade>
           </div>
@@ -204,7 +213,7 @@ const Team2024 = () => {
               <img src={TeamPhotoPlaceholder} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Angus Zhang</p>
               <p className='personTitle'>Powertrain Lead</p>
-              <p className='personProgram'>ECE 2T6 + PEY</p>
+              <p className='personProgram'>ECE 2T5 + PEY</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>
@@ -258,8 +267,8 @@ const Team2024 = () => {
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={ArthurXu} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Arthur Xu</p>
-              <p className='personTitle'>Estimation Lead</p>
-              <p className='personProgram'>ECE 2T3 + PEY</p>
+              <p className='personTitle'>Mapping Lead</p>
+              <p className='personProgram'>ECE 2T5 + PEY</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>
@@ -330,7 +339,7 @@ const Team2024 = () => {
               <img src={HalleTeh} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Halle Teh</p>
               <p className='personTitle'>Recruitment Co-Lead</p>
-              <p className='personProgram'>ECE 2T6 + PEY</p>
+              <p className='personProgram'>Indy 2T6 + PEY</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>

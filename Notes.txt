@@ -200,8 +200,8 @@ You're next career network: https://www.yourenext.ca/
 
 
 Sponsors not on website?
-- brafasco: https://brafasco.com/
-- batemo (they're new tho): http://www.batemo.de/
+- Brafasco: https://brafasco.com/
+- Batemo (they're new tho -> haven't signed yet): http://www.batemo.de/
 - composites canada: https://compositescanada.com/
 - Deutsche Hydrapro: https://hydrapro.com.au/
 - Festo
@@ -212,13 +212,51 @@ Sponsors not on website?
 - Juniper Network + Aston Martin: https://www.juniper.net/us/en/company/aston-martin-f1-partnership.html
 - Lantor: http://www.lantor.com/
 - Metex: http://www.metexht.com/
+- Pillar (Applying in Sep): https://alumni.utoronto.ca/2023-pillar-program
+- Pulsenics: 
+- Rapid Harness
+- Rexco
+- Bosch
+- Sensata
+- Sobek
+- Sparta3D
+- Flamboro
+- Victoria Village Arena
+- IEEE
+- Rotman Commerce Student Life?
+- The Varsity?
+
+Sponsors Not Included In Website
+- Brafasco
+- Batemo (haven't signed yet)
+- Composites canada
+- Deutsche Hydrapro
+- Festo
+- Ford
+- Gigavac
+- Harwin
+- Holley
+- Juniper Network + Aston Martin
+- Lantor
+- Metex
+- Pillar (Applying in Sep)
+- Pulsenics
+- Rapid Harness
+- Rexco
+- Bosch
+- Sensata
+- Sobek
+- Sparta3D
+- Flamboro
+- Victoria Village Arena
+- IEEE
+- Rotman Commerce Student Life
+- The Varsity
 
 
 A New Era of Engineering
 
 Marking the end of the development of combustion vehicles for the University of Toronto Formula Racing Team comes a new era of electric motorsports.  
-
-
 
 Notes to fix
 - change the favicon using sketchbook
@@ -250,6 +288,19 @@ Notes for team when sending link
 REMOVE MONDAY.COM
 FIX UT08 SIZING
 Remove fading animation on sponsor page
+
+
+FIXES: 
+- change CRA tagline DONE
+- using same fonts as those in the style guide? -> TALK TO Amelia
+- Change Halle's photo DONE
+- Change Mo's photo to his old one https://drive.google.com/drive/u/1/folders/1RRzfmFtjisxhoFx3zEeZyUwRZCYVzE2W DONE
+- change pounds to lbs on UT23 page DONE
+- add sam to leadership -> Mech 2T5 + PEY DONE
+
+
+
+
 
 
 
