@@ -291,7 +291,7 @@ Remove fading animation on sponsor page
 
 
 FIXES: 
-- change CRA tagline DONE
+- change CRA tagline
 - using same fonts as those in the style guide? -> TALK TO Amelia
 - Change Halle's photo DONE
 - Change Mo's photo to his old one https://drive.google.com/drive/u/1/folders/1RRzfmFtjisxhoFx3zEeZyUwRZCYVzE2W DONE
@@ -299,8 +299,42 @@ FIXES:
 - add sam to leadership -> Mech 2T5 + PEY DONE
 
 
+- remove kubera and ribbit DONE
+- add TRAIL lab in bronze: https://www.trailab.utias.utoronto.ca/ DONE
+- move stars from silver to bronze DONE
+- add TISL lab in bronze https://tisl.cs.toronto.edu/ strange logo? DONE
+- remove autoronto DONE
+- add foxglove to silver: https://foxglove.dev/ DONE
+- add deutsche hydrapro to gold: https://hydrapro.com.au/ DONE
+
+- fix molson logo DONE
+- fix enepaq logo dont care lol
+ 
 
 
+Diamond
+Batemo (haven’t signed yet): http://www.batemo.de/
+
+Gold
+Sobek: http://www.sobek-motorsporttechnik.de/ DONE
+
+Silver
+Ford: https://www.ford.ca/
+
+Bronze
+Brafasco: https://brafasco.com/
+Harwin (no logo atm): https://www.harwin.com/
+Festo: https://www.festo.com/ca/en/
+Holley: https://www.holley.com/
+Rapid Harness: https://rapidharness.com/
+TISL: https://tisl.cs.toronto.edu/
+IEEE: https://ieee.utoronto.ca/
+
+Affiliate
+Composites Canada: https://compositescanada.com/
+Metex: http://www.metexht.com/
+Rexco: https://rexco-usa.com/
+Sensata: http://www.sensata.com/
 
 
 

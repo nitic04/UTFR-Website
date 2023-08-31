@@ -307,7 +307,7 @@ const Team2024 = () => {
               <img src={TeamPhotoPlaceholder} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Rebecca Schultz</p>
               <p className='personTitle'>Events Co-Lead</p>
-              <p className='personProgram'>Rotman 2T4</p>
+              <p className='personProgram'>Rotman Commerce 2T4</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>
