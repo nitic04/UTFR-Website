@@ -145,15 +145,6 @@ const Sponsors = () => {
             <Fade delay={300} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
-                <div className='p-10 items-center'>
-                    <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
-                        <img src={Tesla} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
-                    </a>
-                    <div className='bg-[#dddddd] rounded-b-md'>
-                        <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
-                        <p className='px-10 pb-24'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
-                    </div>
-                </div>
                 <div className='p-10'>
                     <a href="https://www.mie.utoronto.ca/" target="_blank" rel="noreferrer">
                         <img src={MIE} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
@@ -170,6 +161,15 @@ const Sponsors = () => {
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>UofT Engineering Society (SKULE)</h1>
                         <p className='px-10 pb-8'>The University of Toronto Engineering Society (Skule™) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto’s Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
+                    </div>
+                </div>
+                <div className='p-10 items-center'>
+                    <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
+                        <img src={Tesla} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
+                    </a>
+                    <div className='bg-[#dddddd] rounded-b-md'>
+                        <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
+                        <p className='px-10 pb-24'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-10 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />
                         </a>
@@ -259,9 +259,6 @@ const Sponsors = () => {
                         </a>
                         <a href="https://www.ece.utoronto.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={UofTECE} alt="" />
-                        </a>
-                        <a href="https://foxglove.dev/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Foxglove} alt="" />
                         </a>
                         <a href="https://www.ford.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Ford} alt="" />
@@ -409,7 +406,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pb-16 items-center'>
-                    <div className='grid md:grid-cols-4 gap-x-10'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://rapidharness.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RapidHarness} alt="" />
                         </a>
@@ -421,6 +418,9 @@ const Sponsors = () => {
                         </a>
                         <a href="https://www.harwin.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Harwin} alt="" />
+                        </a>
+                        <a href="https://foxglove.dev/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Foxglove} alt="" />
                         </a>
                     </div>
                 </div>

@@ -49,7 +49,7 @@ const Team2024 = () => {
         <p className='text-4xl font-bold flex justify-center pt-8'>Team Leadership</p>
         </Fade>
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
-          <div className='w-[100%] my-auto py-10'>
+          <div className='w-[100%] my-auto pt-6'>
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
               <p className='personName'>Daniel LaRosa</p>
@@ -193,7 +193,7 @@ const Team2024 = () => {
               <p className='personProgram'>Mech 2T5 + PEY</p>
             </Fade>
           </div>
-          <div className='w-[100%] pt-12.5 my-auto py-10'>
+          <div className='w-[100%] pt-12.5 my-auto pt-6'>
             <Fade cascade delay={300} damping={0.1} triggerOnce>
               <img src={ToluIkubaje} alt="team" className='my-auto mx-auto w-[90%]'/>
               <p className='personName'>Tolu Ikubaje</p>

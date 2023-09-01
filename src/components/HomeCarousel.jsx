@@ -2,21 +2,32 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// import CoolCarMan from '../assets/HighQualityImage.jpeg';
 import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
 import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 // import { NavLink } from 'react-router-dom';
+import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
 
-function Arrow(props) {
+function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block"}}
-      onClick={onClick}
-    />
+    <div className="carouselArrow nextArrow">
+      <BiRightArrow className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div className="carouselArrow prevArrow">
+      <BiLeftArrow size={14} className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
   );
 }
 
@@ -29,8 +40,8 @@ const HomeCarousel = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 1,
-    nextArrow: <Arrow />,
-    prevArrow: <Arrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

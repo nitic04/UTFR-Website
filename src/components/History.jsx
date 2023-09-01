@@ -23,14 +23,27 @@ import UT21 from '../assets/HistoricCarPhotos/UT21/UT21.jpeg'
 import UT22 from '../assets/HistoricCarPhotos/UT22/UT22.jpeg'
 import UT23 from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg'
 
-function Arrow(props) {
+import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
+
+function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block"}}
-      onClick={onClick}
-    />
+    <div className="carouselArrow nextArrow">
+      <BiRightArrow className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div className="carouselArrow prevArrow">
+      <BiLeftArrow size={14} className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
   );
 }
 
@@ -44,8 +57,8 @@ const History = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     initialSlide: 1,
-    nextArrow: <Arrow />,
-    prevArrow: <Arrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

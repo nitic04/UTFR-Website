@@ -29,14 +29,27 @@ import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
 
 import Slider from "react-slick"
 
-function Arrow(props) {
+import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
+
+function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-      className={className}
-      style={{ ...style, display: "block"}}
-      onClick={onClick}
-    />
+    <div className="">
+      <BiRightArrow className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div className="">
+      <BiLeftArrow size={14} className={className}
+      style={{ ...style, color: "white"}}
+      onClick={onClick}/>
+    </div>
   );
 }
 
@@ -45,8 +58,8 @@ const Shootout = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <Arrow />,
-    prevArrow: <Arrow />,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
