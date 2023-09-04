@@ -139,9 +139,7 @@ transform: scale(1.5);
     font-family: 'Mont-HeavyDEMO'
 }
 
-.carouselArrow {
-    position: absolute;
-    top: 45%;
+/* .carouselArrow {
     width: 40px;
     height: 40px;
     display: flex;
@@ -149,13 +147,18 @@ transform: scale(1.5);
     justify-content: center;
     cursor: pointer;
     z-index: 1;
-    font-size: 50px;
 }
 
 .prevArrow {
-    left: 40px;
+    left: 0;
+    right: auto;
 }
 
 .nextArrow {
-    right: 40px;
+    right: 0;
+    left: auto;
+} */
+
+.react-icons {
+    width: "50px";
 }

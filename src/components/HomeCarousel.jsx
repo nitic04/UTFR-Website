@@ -7,14 +7,14 @@ import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 // import { NavLink } from 'react-router-dom';
-import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className="carouselArrow nextArrow">
-      <BiRightArrow className={className}
-      style={{ ...style, color: "white"}}
+      <FaChevronRight className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );
@@ -23,9 +23,9 @@ function NextArrow(props) {
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div className="carouselArrow prevArrow">
-      <BiLeftArrow size={14} className={className}
-      style={{ ...style, color: "white"}}
+    <div className="carouselArrow nextArrow">
+      <FaChevronLeft className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );
@@ -33,9 +33,9 @@ function PrevArrow(props) {
 
 const HomeCarousel = () => {
   var settings = {
-    className: "center",
-    centerMode: true,
-    centerPadding: "60px",
+    // className: "center",
+    // centerMode: true,
+    // centerPadding: "100px",
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -46,7 +46,7 @@ const HomeCarousel = () => {
       {
         breakpoint: 1024,
         settings: {
-          centerMode: true,
+          // centerMode: true,
           centerPadding: '40px',
           slidesToShow: 2
         }
@@ -54,7 +54,7 @@ const HomeCarousel = () => {
       {
         breakpoint: 768,
         settings: {
-          centerMode: true,
+          // centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1
         }
@@ -64,7 +64,7 @@ const HomeCarousel = () => {
 
   return (
     <div className="w-full h-[100%] bg-[#181818]">
-      <div className="px-8 py-10">
+      <div className="px-16 py-10">
         <Slider {...settings}>
           <div className="carouselCard">
             <img alt="" src={CzechPhoto}/>

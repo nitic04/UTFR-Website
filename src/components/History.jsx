@@ -23,14 +23,14 @@ import UT21 from '../assets/HistoricCarPhotos/UT21/UT21.jpeg'
 import UT22 from '../assets/HistoricCarPhotos/UT22/UT22.jpeg'
 import UT23 from '../assets/HistoricCarPhotos/UT23/UT23_Molson.jpeg'
 
-import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className="carouselArrow nextArrow">
-      <BiRightArrow className={className}
-      style={{ ...style, color: "white"}}
+      <FaChevronRight className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );
@@ -39,9 +39,9 @@ function NextArrow(props) {
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div className="carouselArrow prevArrow">
-      <BiLeftArrow size={14} className={className}
-      style={{ ...style, color: "white"}}
+    <div className="carouselArrow nextArrow">
+      <FaChevronLeft className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );

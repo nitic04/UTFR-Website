@@ -142,7 +142,7 @@ const Sponsors = () => {
             </Fade>
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
-            <Fade delay={300} cascade triggerOnce>
+            <Fade delay={100} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10'>
@@ -174,7 +174,7 @@ const Sponsors = () => {
                 </div>
             </div>
             </Fade>
-            <Fade delay={300} cascade triggerOnce>
+            <Fade delay={100} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <div className='grid md:grid-cols-3 gap-x-10'>
@@ -190,24 +190,33 @@ const Sponsors = () => {
                 </div>
             </div>
             </Fade>
-            <Fade delay={300} triggerOnce>
+            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             </Fade>
             <div>
             <div className='flex justify-center pt-10 items-center px-10'>
                 <Fade cascade triggerOnce>
-                <div className='grid md:grid-cols-5 gap-x-10'>
+                <div className='grid md:grid-cols-4 gap-x-10'>
                     <a href="https://airtech.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Airtech} alt="" />
                     </a>
                     <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Sobek} alt="" />
                     </a>
+                    <a href="https://www.julepower.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={Jule} alt="" />
+                    </a>
                     <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={NewEra} alt="" />
                     </a>
-                    <a href="https://www.julepower.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={Jule} alt="" />
+                </div>
+                </Fade>
+            </div>
+            <div className='flex justify-center pt-10 pb-16 items-center px-10'>
+                <Fade cascade triggerOnce>
+                <div className='grid md:grid-cols-2 gap-x-10'>
+                    <a href="https://lubricants.petro-canada.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={PetroCanada} alt="" />
                     </a>
                     <a href="https://hydrapro.com.au/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Hydrapro} alt="" />
@@ -215,17 +224,8 @@ const Sponsors = () => {
                 </div>
                 </Fade>
             </div>
-            <div className='flex justify-center pt-10 pb-16 items-center px-10'>
-                <Fade cascade triggerOnce>
-                <div className='grid md:grid-cols-1 gap-x-10'>
-                    <a href="https://lubricants.petro-canada.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={PetroCanada} alt="" />
-                    </a>
-                </div>
-                </Fade>
             </div>
-            </div>
-            <Fade delay={300} triggerOnce>
+            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Silver Sponsors</h1>
             </Fade>
             <div className='px-10'>
@@ -267,7 +267,7 @@ const Sponsors = () => {
                 </div>
                 </Fade>
             </div>
-            <Fade delay={300} triggerOnce>
+            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Bronze Sponsors</h1>
             </Fade>
             <div className='px-10'>
@@ -426,7 +426,7 @@ const Sponsors = () => {
                 </div>
                 </Fade>
             </div>
-            <Fade delay={300} triggerOnce>
+            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Affiliates</h1>
             </Fade>
             <div className='px-10'>

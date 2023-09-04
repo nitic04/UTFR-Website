@@ -29,14 +29,14 @@ import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
 
 import Slider from "react-slick"
 
-import { BiRightArrow, BiLeftArrow } from 'react-icons/bi'
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div className="">
-      <BiRightArrow className={className}
-      style={{ ...style, color: "white"}}
+    <div className="carouselArrow nextArrow">
+      <FaChevronRight className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );
@@ -45,9 +45,9 @@ function NextArrow(props) {
 function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div className="">
-      <BiLeftArrow size={14} className={className}
-      style={{ ...style, color: "white"}}
+    <div className="carouselArrow nextArrow">
+      <FaChevronLeft className={className}
+      style={{ ...style, fill: 'white'}}
       onClick={onClick}/>
     </div>
   );
