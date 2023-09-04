@@ -228,7 +228,7 @@ const Sponsors = () => {
             <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Silver Sponsors</h1>
             </Fade>
-            <div className='px-10'>
+            <div className='px-16'>
                 <Fade cascade triggerOnce>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
@@ -270,7 +270,7 @@ const Sponsors = () => {
             <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Bronze Sponsors</h1>
             </Fade>
-            <div className='px-10'>
+            <div className='px-16'>
                 <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
@@ -429,7 +429,7 @@ const Sponsors = () => {
             <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Affiliates</h1>
             </Fade>
-            <div className='px-10'>
+            <div className='px-16'>
                 <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>

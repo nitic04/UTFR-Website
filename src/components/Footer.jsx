@@ -14,7 +14,7 @@ const Footer = () => {
         <h2 className='text-center pb-2 pr-3 text-gray-300'>business@fsaeutoronto.ca</h2>
         <h2 className='text-center pb-2 text-gray-300'>team@fsaeutoronto.ca</h2>
       </div>
-      <h2 className='text-center text-gray-300'> © 2023 University of Toronto Formula Racing</h2>
+      <h2 className='text-center text-gray-300 pb-3'> © 2023 University of Toronto Formula Racing</h2>
       {/* <h2 className='text-center pb-5 text-gray-300'> Built By: <a href="https://www.linkedin.com/in/niti-chaudhary-81913426b/">Niti Chaudhary</a></h2> */}
     </div>
   )

@@ -20,7 +20,7 @@ const Team = () => {
           <div className='w-full about grid md:grid-cols-2'>
             <div className='my-auto px-10 py-14'>
               <Fade cascade delay={0.3} damping={0.3} triggerOnce>
-              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833]'>Our Team</p>
+              <p className='text-4xl font-bold inline border-b-4 border-[#ED3833] pr-1'>Our Team</p>
               <p className='pt-5'>The University of Toronto Formula Racing team is structured into 4 operating departments: Electrical, Mechanical, Driverless (DV) development, and Business. Within each of these departments, there are several Section Leads, each in charge of leading a team of Junior & Senior members focused on a specific aspect of the car / team. Our 4 racing drivers also all take active roles in the team’s operation. There are over 70 members actively involved with the team, working hard to deliver a faster and more reliable car for the season ahead!</p>
               </Fade>
             </div>
