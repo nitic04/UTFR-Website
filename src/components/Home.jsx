@@ -10,10 +10,12 @@ const Home = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       }}>
-        <Fade cascade damping={0.2} triggerOnce>
-          <h1 className='font-bold text-9xl text-white absolute bottom-32 px-12'>UTFR</h1>
-          <h1 className='font-bold md:text-7xl text-white px-12 absolute bottom-10 text-3xl py-2'>Design. Build. Race.</h1>
-        </Fade>
+      <div className='h-full flex flex-col justify-end'>
+          <Fade cascade damping={0.2} triggerOnce>
+            <h1 className='font-bold text-9xl text-white text-center md:text-left md:pl-10'>UTFR</h1>
+            <h1 className='font-bold md:text-7xl text-white text-center md:text-left text-3xl py-2 md:pl-10 mb-16'>Design. Build. Race.</h1>
+          </Fade>
+        </div>
       </div>
     </div>
   )

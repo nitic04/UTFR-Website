@@ -13,7 +13,9 @@ const Team = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
       }}>
-      <Fade delay={0.2} triggerOnce><h1 className='text-8xl text-white absolute bottom-24 px-12 font-bold'>2024 Team</h1></Fade>
+      <div className='h-full flex flex-col justify-end'>
+        <Fade delay={0.2} triggerOnce><h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-16'>2024 Team</h1></Fade>
+      </div>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full'>

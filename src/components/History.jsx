@@ -87,9 +87,11 @@ const History = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       }}>
-      <Fade triggerOnce>
-      <h1 className='text-8xl text-white absolute bottom-24 px-12 font-bold'>History</h1>
-      </Fade>
+      <div className='h-full flex flex-col justify-end'>
+        <Fade triggerOnce>
+        <h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-16'>History</h1>
+        </Fade>
+      </div>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>

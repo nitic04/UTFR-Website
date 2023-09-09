@@ -82,9 +82,11 @@ const Shootout = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
+        <div className='h-full flex flex-col justify-end'>
           <Fade triggerOnce>
-          <h1 className='text-7xl md:text-8xl text-white absolute bottom-24 px-12 font-bold'>Shootout</h1>
+            <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 md:mb-24'>Shootout</h1>
           </Fade>
+        </div>
         </div>
         <div className='text-white bg-[#181818] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
@@ -202,7 +204,7 @@ const Shootout = () => {
                 </div>
               </div>
             </a>
-            <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferrer">
+            <a href="https://gamebridgegokarts.com/" target="_blank" rel="noreferrer">
               <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
                 <div className='h-[200px] py-[58px] px-[10px]'>
                   <img src={BrechinLogo} alt="" />

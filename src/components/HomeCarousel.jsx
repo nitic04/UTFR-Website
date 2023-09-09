@@ -54,8 +54,6 @@ const HomeCarousel = () => {
       {
         breakpoint: 768,
         settings: {
-          // centerMode: true,
-          centerPadding: '40px',
           slidesToShow: 1
         }
       }
@@ -64,7 +62,7 @@ const HomeCarousel = () => {
 
   return (
     <div className="w-full h-[100%] bg-[#181818]">
-      <div className="px-16 py-10">
+      <div className="px-8 md:px-16 py-10">
         <Slider {...settings}>
           <div className="carouselCard">
             <img alt="" src={CzechPhoto}/>

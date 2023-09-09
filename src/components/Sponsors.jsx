@@ -126,9 +126,11 @@ const Sponsors = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-        <Fade triggerOnce>
-        <h1 className='text-7xl md:text-8xl text-white absolute bottom-24 px-12 font-bold'>Sponsors & Partners</h1>
-        </Fade>
+        <div className='h-full flex flex-col justify-end'>
+          <Fade triggerOnce>
+            <h1 className='font-bold text-7xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-16'>Sponsors & Partners</h1>
+          </Fade>
+        </div>  
         </div>
         <div className='text-black bg-[#cecece] pb-10'>
             <Fade cascade triggerOnce>
@@ -249,7 +251,7 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pt-10 pb-10 items-center'>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.molson.ca/en-CA/av?url=https://www.molson.ca/en-CA" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Molson} alt="" />

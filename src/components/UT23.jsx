@@ -22,8 +22,9 @@ const UT23 = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
+            <div className='h-full flex flex-col justify-end'>
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='text-[100px] md:text-[200px] text-white pt-[450px] px-12 font-bold'>UT23</h1>
+            <h1 className='font-bold text-[9rem] text-white text-center md:text-left md:pl-10 mb-80 md:mb-52'>UT23</h1>
             <div className='md:flex absolute space-y-2 bottom-10 gap-x-10'>
                 <div>
                     <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold '>116 km/h</h1>
@@ -39,6 +40,7 @@ const UT23 = () => {
                 </div>
             </div>
             </Fade>
+            </div>
         </div>
         <div className='bg-[#2657A3]'>
             <div className='w-full'>
@@ -87,9 +89,10 @@ const UT23 = () => {
                 <div className='flex text-white justify-center py-20'>
                     <div className='w-[700px] pb-3 px-5'>
                         <Fade cascade damping={0.2} triggerOnce>
-                        <h1 className='text-4xl flex justify-center pb-10'>Technical Specifications</h1>
+                        <h1 className='text-3xl pb-5 md:text-4xl flex justify-center md:pb-10'>Technical Specifications</h1>
                         <div className='flex border-b-2'>
-                            <p className='text-2xl py-5'>Overall Weight (Without Driver)</p>
+                            <span className='hidden md:inline text-2xl py-5'>Overall Weight (Without Driver)</span>
+                            <span className='inline md:hidden text-2xl py-5'>Overall Weight (w/o Driver)</span>
                             <p className='text-2xl py-5 ml-auto'>260 kg</p>
                         </div>
                         <div className='flex border-b-2'>
