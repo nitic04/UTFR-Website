@@ -95,14 +95,14 @@ const Shootout = () => {
             <h1 className='flex px-5 justify-center text-2xl font-bold pt-3 text-center'>September 30th, 2023 - Brechin Motorsports Park</h1>
             <p className='flex justify-center text-xl text-center px-10 py-5'>An annual shootout style event which hosts university level formula racing teams from across North America to compete against each other and showcase the hard work they have put in throughout the year. All the teams participate in a design competition series called FSAE and compete in multiple competitions during the year.</p>
             <div className='text-white pb-10 flex justify-center'>
-              <button className='text-white border-2 px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl'><a href="https://torontoshootout.speedwaiver.com/aqljz">All attendees including spectators will need to fill in this waiver</a></button>
+              <button className='text-white border-2 px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://torontoshootout.speedwaiver.com/aqljz">All attendees including spectators will need to fill in this waiver</a></button>
             </div>
           </Fade>
         </div>
         <div className='text-white bg-[#242424] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
             <h1 className='flex px-5 justify-center text-3xl font-bold py-10 text-center'>Participating Teams</h1>
-            <div className='flex justify-center gap-x-10 text-2xl pb-5'>
+            <div className='flex justify-center gap-x-10 text-2xl pb-5 flex-col md:flex-row text-center'>
               <a href="https://www.formulaknightsracing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Clarkson Formula Knights</p>
               </a>
@@ -122,7 +122,7 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>Formule ETS</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
               <a href="https://fsae.polymtl.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Formule Polytechnique Montréal</p>
               </a>
@@ -139,7 +139,7 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>McGill Formula Electric</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
               <a href="https://www.mracing.engin.umich.edu/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>MRacing</p>
               </a>
@@ -153,7 +153,7 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>University of Toronto Formula Racing</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
               <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>UW Formula Electric</p>
               </a>
@@ -245,11 +245,11 @@ const Shootout = () => {
           </div>
           </Fade>
         </div>
-        <div className='w-full bg-[#131212] pb-10'>
+        <div className='w-full bg-[#131212]'>
         <Fade cascade damping={0.2} triggerOnce>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
         <div className='flex justify-center'>
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-5'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
             <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferrer">
               <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
                 <div className='h-[200px]' style={{
