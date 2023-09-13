@@ -89,10 +89,81 @@ const Shootout = () => {
           </Fade>
         </div>
         </div>
-        <div className='text-white bg-[#181818] pb-10'>
+        <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
-            <h1 className='flex px-5 justify-center text-3xl font-bold pt-12 text-center'>Toronto Shootout (previously known as UTFR Shootout) is an annual formula student competition.</h1>
-            <p className='flex justify-center text-lg text-center px-10 py-5'>This year’s event is taking place on Saturday, September 30, 2023, at Brechin Motorsports Park which will be holding a design expo of various cars from FSAE teams across North America.</p>
+            <h1 className='flex px-5 justify-center text-4xl font-bold pt-12 text-center'>Toronto Shootout</h1>
+            <h1 className='flex px-5 justify-center text-2xl font-bold pt-3 text-center'>September 30th, 2023 - Brechin Motorsports Park</h1>
+            <p className='flex justify-center text-xl text-center px-10 py-5'>An annual shootout style event which hosts university level formula racing teams from across North America to compete against each other and showcase the hard work they have put in throughout the year. All the teams participate in a design competition series called FSAE and compete in multiple competitions during the year.</p>
+            <div className='text-white pb-10 flex justify-center'>
+              <button className='text-white border-2 px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl'><a href="https://torontoshootout.speedwaiver.com/aqljz">All attendees including spectators will need to fill in this waiver</a></button>
+            </div>
+          </Fade>
+        </div>
+        <div className='text-white bg-[#242424] pb-10'>
+          <Fade cascade delay={300} damping={0.2} triggerOnce>
+            <h1 className='flex px-5 justify-center text-3xl font-bold py-10 text-center'>Participating Teams</h1>
+            <div className='flex justify-center gap-x-10 text-2xl pb-5'>
+              <a href="https://www.formulaknightsracing.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Clarkson Formula Knights</p>
+              </a>
+              <a href="https://www.concordiasae.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Concordia Formula Racing</p>
+              </a>
+              <a href="https://www.formulesae.ulaval.ca/team.php?lang=en" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Form UL</p>
+              </a>
+              <a href="https://www.formulabuckeyes.org/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Formula Buckeyes</p>
+              </a>
+              <a href="https://www.formulauottawa.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Formula uOttawa</p>
+              </a>
+              <a href="https://formule-ets.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Formule ETS</p>
+              </a>
+            </div>
+            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+              <a href="https://fsae.polymtl.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Formule Polytechnique Montréal</p>
+              </a>
+              <a href="https://www.instagram.com/grizzliesracing/?hl=en" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Grizzlies Racing</p>
+              </a>
+              <a href="https://www.uoguelph.ca/engineering/gryphon-racing" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Gryphon Racing</p>
+              </a>
+              <a href="https://macformularacing.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>MAC Formula Electric</p>
+              </a>
+              <a href="https://www.mcgillformulaelectric.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>McGill Formula Electric</p>
+              </a>
+            </div>
+            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+              <a href="https://www.mracing.engin.umich.edu/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>MRacing</p>
+              </a>
+              <a href="https://ravensracing.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Ravens Racing</p>
+              </a>
+              <a href="https://www.tmformularacing.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Toronto Metropolitan Formula Racing</p>
+              </a>
+              <a href="https://fsaeutoronto.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>University of Toronto Formula Racing</p>
+              </a>
+            </div>
+            <div className='flex justify-center gap-x-10 text-2xl py-5'>
+              <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>UW Formula Electric</p>
+              </a>
+              <a href="https://westernformularacing.org/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Western Formula Racing</p>
+              </a>
+              <a href="https://zipsracing.org/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Zips Racing Electric</p>
+              </a>
+            </div>
           </Fade>
         </div>
         <div className='py-10 grid place-items-center'>
