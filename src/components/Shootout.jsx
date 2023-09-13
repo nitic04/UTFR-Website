@@ -95,14 +95,14 @@ const Shootout = () => {
             <h1 className='flex px-5 justify-center text-2xl font-bold pt-3 text-center'>September 30th, 2023 - Brechin Motorsports Park</h1>
             <p className='flex justify-center text-xl text-center px-10 py-5'>An annual shootout style event which hosts university level formula racing teams from across North America to compete against each other and showcase the hard work they have put in throughout the year. All the teams participate in a design competition series called FSAE and compete in multiple competitions during the year.</p>
             <div className='text-white pb-10 flex justify-center'>
-              <button className='text-white border-2 px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://torontoshootout.speedwaiver.com/aqljz">All attendees including spectators will need to fill in this waiver</a></button>
+              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://torontoshootout.speedwaiver.com/aqljz">All attendees including spectators will need to fill in this waiver</a></button>
             </div>
           </Fade>
         </div>
         <div className='text-white bg-[#242424] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
-            <h1 className='flex px-5 justify-center text-3xl font-bold py-10 text-center'>Participating Teams</h1>
-            <div className='flex justify-center gap-x-10 text-2xl pb-5 flex-col md:flex-row text-center'>
+            <h1 className='flex px-5 justify-center text-3xl font-bold pt-10 md:pb-10 pb-5 text-center'>Participating Teams</h1>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:pb-5 flex-col md:flex-row text-center'>
               <a href="https://www.formulaknightsracing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Clarkson Formula Knights</p>
               </a>
@@ -119,10 +119,10 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>Formula uOttawa</p>
               </a>
               <a href="https://formule-ets.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Formule ETS</p>
+                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>Formule ETS</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://fsae.polymtl.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Formule Polytechnique Montréal</p>
               </a>
@@ -136,10 +136,10 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>MAC Formula Electric</p>
               </a>
               <a href="https://www.mcgillformulaelectric.com/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>McGill Formula Electric</p>
+                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>McGill Formula Electric</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://www.mracing.engin.umich.edu/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>MRacing</p>
               </a>
@@ -150,10 +150,10 @@ const Shootout = () => {
                 <p className='hover:text-gray-300 transition duration-300'>Toronto Metropolitan Formula Racing</p>
               </a>
               <a href="https://fsaeutoronto.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>University of Toronto Formula Racing</p>
+                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>University of Toronto Formula Racing</p>
               </a>
             </div>
-            <div className='flex justify-center gap-x-10 text-2xl py-5 flex-col md:flex-row text-center'>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>UW Formula Electric</p>
               </a>
