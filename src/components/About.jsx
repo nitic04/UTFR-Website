@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='h-full w-full about grid lg:grid-cols-2'>
-          <div className='my-auto p-10'>
+        <div className='h-full w-full about flex flex-col md:flex-row'>
+          <div className='p-10 m:w-[130%]'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-4xl font-bold inline border-b-4 border-[#ED3833] pr-2'>Who We Are</p>
               <p className='pt-5'>The University of Toronto Formula Racing Team stands as an enterprising and driven student-led design collective hailing from the University of Toronto. Each year, the team undertakes the exhilarating challenge of crafting a compact, open-wheel race car from scratch.</p>
@@ -18,7 +18,7 @@ const About = () => {
               </Fade>
           </div>
           <div className='w-[100%]'>
-            <img src={CarPic} alt="team" className='w-[100%] h-[100%]'/>
+            <img src={CarPic} alt="team" className='h-full w-full'/>
           </div>
         </div>
       </div>

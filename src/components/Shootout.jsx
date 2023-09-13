@@ -26,6 +26,7 @@ import HoosierLogo from '../assets/ShootoutPhotos/Shootout2022/HoosierLogo.png'
 import Mobil1Logo from '../assets/ShootoutPhotos/Shootout2022/Mobil1Logo.png'
 // import ShiftedLogo from '../assets/ShootoutPhotos/Shootout2022/ShiftedLogo.png'
 import BrechinLogo from '../assets/ShootoutPhotos/Shootout2022/BrechinLogo.png'
+import SAEOntarioLogo from '../assets/ShootoutPhotos/Shootout2022/SAEOntarioLogo.png'
 
 import Slider from "react-slick"
 
@@ -84,7 +85,7 @@ const Shootout = () => {
         }}>
         <div className='h-full flex flex-col justify-end'>
           <Fade triggerOnce>
-            <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 md:mb-24'>Shootout</h1>
+            <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Shootout</h1>
           </Fade>
         </div>
         </div>
@@ -177,9 +178,9 @@ const Shootout = () => {
         <Fade cascade damping={0.2} triggerOnce>
         <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
         <div className='flex justify-center'>
-        <div className='grid lg:grid-cols-3 py-10 gap-x-10 gap-y-5'>
+        <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-5'>
             <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferrer">
-              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
                 <div className='h-[200px]' style={{
                 backgroundImage: `url(${HoosierLogo})`,
                 backgroundPosition: 'center',
@@ -194,7 +195,7 @@ const Shootout = () => {
               </div>
             </a>
             <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank" rel="noreferrer">
-              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
                 <div className='h-[200px] py-[58px] px-[10px]'>
                   <img src={Mobil1Logo} alt="" />
                 </div>
@@ -205,13 +206,24 @@ const Shootout = () => {
               </div>
             </a>
             <a href="https://gamebridgegokarts.com/" target="_blank" rel="noreferrer">
-              <div className='w-[345px] h-[400px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
                 <div className='h-[200px] py-[58px] px-[10px]'>
                   <img src={BrechinLogo} alt="" />
                 </div>
                 <div className='p-5'>
                   <h1 className='text-white text-2xl'>Brechin Motorsport Park</h1>
                   <p className='text-[#C1C1C1] pt-3'>Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.sae.org" target="_blank" rel="noreferrer">
+              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+                <div className='h-[200px] py-[58px] px-[10px]'>
+                  <img src={SAEOntarioLogo} alt="" />
+                </div>
+                <div className='p-5'>
+                  <h1 className='text-white text-2xl'>SAE Central Ontario</h1>
+                  <p className='text-[#C1C1C1] pt-3'>SAE Central Ontario is the local section of the International Society of Automotive Engineers. SAE Central Ontario proudly provides financial support to help make Toronto shootout a reality each year.</p>
                 </div>
               </div>
             </a>

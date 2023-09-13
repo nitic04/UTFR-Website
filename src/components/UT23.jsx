@@ -24,8 +24,8 @@ const UT23 = () => {
         }}>
             <div className='h-full flex flex-col justify-end'>
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='font-bold text-[9rem] text-white text-center md:text-left md:pl-10 mb-80 md:mb-52'>UT23</h1>
-            <div className='md:flex absolute space-y-2 bottom-10 gap-x-10'>
+            <h1 className='font-bold text-[9rem] text-white text-center md:text-left md:pl-10 mb-96 pb-10 md:pb-0 md:mb-52'>UT23</h1>
+            <div className='md:flex absolute space-y-2 bottom-10 gap-x-10 mt-24 md:mt-0'>
                 <div>
                     <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold '>116 km/h</h1>
                     <p className=' text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Top Speed</p>

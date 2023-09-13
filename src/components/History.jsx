@@ -89,14 +89,14 @@ const History = () => {
       }}>
       <div className='h-full flex flex-col justify-end'>
         <Fade triggerOnce>
-        <h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-16'>History</h1>
+        <h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-40 md:mb-16'>History</h1>
         </Fade>
       </div>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>
-          <div className='h-full w-full about grid lg:grid-cols-2'>
-            <div className='my-auto p-10'>
+          <div className='h-full w-full about flex flex-col md:flex-row'>
+            <div className='w-[130%] p-10'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>History of The Team</p>
               <p className='pt-5'>The University of Toronto began its involvement in FSAE in 1997, and completed a prototype vehicle in 1998. Through testing and research on the vehicle, a second, lighter frame was constructed in 1999. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016.</p>
