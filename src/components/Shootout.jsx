@@ -267,7 +267,7 @@ const Shootout = () => {
             </a>
             <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank" rel="noreferrer">
               <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
-                <div className='h-[200px] py-[58px] px-[10px]'>
+                <div className='h-[200px] py-[58px] px-[15px]'>
                   <img src={Mobil1Logo} alt="" />
                 </div>
                 <div className='p-5'>

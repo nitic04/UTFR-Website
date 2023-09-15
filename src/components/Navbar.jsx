@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
         {/* <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletters</li></NavLink> */}
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
-        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
+        <NavLink to="http://gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
       </ul>
 
       <div onClick={handleClick} className='lg:hidden z-10 text-gray-300 hover:text-white cursor-pointer'>
@@ -38,7 +38,7 @@ const Navbar = () => {
         <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Sponsors</li></NavLink>
         {/* <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Newsletters</li></NavLink> */}
         <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Join Us</li></NavLink>
-        <NavLink to="https://www.gofundme.com/f/UTFR-UT23?member=25399635&utm_campaign=p_cp+share-sheet&utm_content=undefined&utm_medium=copy_link_all&utm_source=customer&utm_term=undefined" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Donate</li></NavLink>
+        <NavLink to="http://gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Donate</li></NavLink>
       </ul>
     </div>
   )
