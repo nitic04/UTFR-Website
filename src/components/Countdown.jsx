@@ -27,7 +27,7 @@ const Countdown = ({countdownTimestampMS}) => {
     <div className='w-full bg-[#131212] text-white'>
         <div className='p-8'>
             <Fade delay={500} cascade damping={0.1} triggerOnce>
-                <h1 className='countdownDay text-lg'>2023 UTFR WOMEN IN MOTORSPORT PANEL</h1>
+                <h1 className='countdownDay text-lg'>2023 TORONTO SHOOTOUT</h1>
                 <div className='md:w-full countdownTimer py-12 text-[1.33rem] lg:text-[2.75rem] flex'>
                     <span className='font-semibold text-[#ED3833]'>{remainingTime.days}</span>
                     <span className='font-light'>{window.innerWidth <= 768 ? 'days' : 'days'}</span>
