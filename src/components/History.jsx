@@ -6,6 +6,9 @@ import HistoryUT05 from '../assets/TeamCarPhotos/HistoryUT05.jpeg'
 // import { NavLink } from 'react-router-dom'
 import { Fade } from "react-awesome-reveal";
 
+import UT99 from '../assets/HistoricCarPhotos/UT99/UT99.jpeg'
+import UT00 from '../assets/HistoricCarPhotos/UT00/UT00.jpeg'
+import UT01 from '../assets/HistoricCarPhotos/UT01/UT01.jpeg'
 import UT03 from '../assets/HistoricCarPhotos/UT03/UT03.jpeg'
 import UT04 from '../assets/HistoricCarPhotos/UT04/UT04.png'
 import UT05 from '../assets/HistoricCarPhotos/UT05/UT05.jpeg'
@@ -117,17 +120,29 @@ const History = () => {
         <div className="px-8 py-10">
           <Slider {...settings}>
             <div className="carouselCard">
+              <img alt="" src={UT99}/>
+              <h1 className="text-white text-xl font-bold py-2">UT99</h1>
+            </div>
+            <div className="carouselCard">
+              <img alt="" src={UT00}/>
+              <h1 className="text-white text-xl font-bold py-2">UT00</h1>
+            </div>
+            <div className="carouselCard">
+              <img alt="" src={UT01}/>
+              <h1 className="text-white text-xl font-bold py-2">UT01</h1>
+            </div>
+            <div className="carouselCard">
               {/* <NavLink to="/UT03"></NavLink> */}
               <img alt="" src={UT03}/>
               <h1 className="text-white text-xl font-bold py-2">UT03</h1>
             </div>
             <div className="carouselCard">
-              <img alt="" src={UT04}/>
-              <h1 className="text-white text-xl font-bold py-2">UT04</h1>
-            </div>
-            <div className="carouselCard">
               <img alt="" src={UT05}/>
               <h1 className="text-white text-xl font-bold py-2">UT05</h1>
+            </div>
+            <div className="carouselCard">
+              <img alt="" src={UT04}/>
+              <h1 className="text-white text-xl font-bold py-2">UT06</h1>
             </div>
             <div className="carouselCard">
               <img alt="" src={UT07}/>
