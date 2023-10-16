@@ -30,7 +30,8 @@ const Countdown = ({countdownTimestampMS}) => {
                 <h1 className='countdownDay text-xl pl-2'>UT24 Unveiling</h1>
                 <div className='md:w-full countdownTimer py-12 text-[1.33rem] lg:text-[2.75rem] flex'>
                     <span className='loading'>Coming Soon</span>
-                    <div className='dot-flashing ml-5 mt-5'></div>
+                    <div className='dot-flashing ml-5 mt-3 lg:mt-5'></div>
+                    <span className='hidden'>remainingTime.days</span>
                     {/* <span className='font-semibold text-[#ED3833]'>{remainingTime.days}</span>
                     <span className='font-light'>{window.innerWidth <= 768 ? 'days' : 'days'}</span>
                     <span className='font-semibold two-numbers text-[#ED3833]'>{remainingTime.hours}</span>
