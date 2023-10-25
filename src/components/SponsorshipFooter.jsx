@@ -6,7 +6,6 @@ import NewEra from '../assets/Sponsors/SponsorLogosWhite/NewEraWhite.png'
 
 import MC78 from '../assets/Sponsors/SponsorLogosWhite/MC78FilledWhite.png'
 import EngAlumni from '../assets/Sponsors/SponsorLogosWhite/EngAlumniNetwork.png'
-import Airtech from '../assets/Sponsors/SponsorLogosWhite/AirtechWhite.png'
 import ActNow from '../assets/Sponsors/SponsorLogosWhite/ActNowWhite.png'
 
 const SponsorshipFooter = () => {
@@ -29,9 +28,6 @@ const SponsorshipFooter = () => {
           </a>
           <a href="https://alumni.engineering.utoronto.ca/engineering-alumni-network/" target="_blank" rel="noreferrer">
             <img alt="" src={EngAlumni} className='sponsorImg2'/>
-          </a>
-          <a href="https://airtech.com/" target="_blank" rel="noreferrer">
-            <img alt="" src={Airtech} className='sponsorImg2'/>
           </a>
           <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
             <img alt="" src={NewEra} className='sponsorImg2'/>

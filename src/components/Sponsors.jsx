@@ -12,7 +12,6 @@ import MC78 from '../assets/Sponsors/SponsorLogosColoured/MC-78.png'
 // import Batemo from '../assets/Sponsors/SponsorLogosColoured/Batemo.png'
 
 // Gold Sponsors
-import Airtech from '../assets/Sponsors/SponsorLogosColoured/Airtech.png'
 import PetroCanada from '../assets/Sponsors/SponsorLogosColoured/PetroColour.png'
 import NewEra from '../assets/Sponsors/SponsorLogosColoured/NewEra.png'
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
@@ -198,10 +197,7 @@ const Sponsors = () => {
             <div>
             <div className='flex justify-center pt-10 items-center px-10'>
                 <Fade cascade triggerOnce>
-                <div className='grid md:grid-cols-4 gap-x-10'>
-                    <a href="https://airtech.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={Airtech} alt="" />
-                    </a>
+                <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                     <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Sobek} alt="" />
                     </a>
@@ -211,12 +207,6 @@ const Sponsors = () => {
                     <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={NewEra} alt="" />
                     </a>
-                </div>
-                </Fade>
-            </div>
-            <div className='flex justify-center pt-10 pb-16 items-center px-10'>
-                <Fade cascade triggerOnce>
-                <div className='grid md:grid-cols-2 gap-x-10'>
                     <a href="https://lubricants.petro-canada.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={PetroCanada} alt="" />
                     </a>
