@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import HeaderImage from '../assets/TeamMembers/ActionPhotos/chassis_pic.webp'
 // import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
 import ErgoPic from '../assets/TeamMembers/ActionPhotos/ergo_pic.jpeg'
