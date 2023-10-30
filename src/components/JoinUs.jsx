@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import HeaderImage from '../assets/TeamMembers/ActionPhotos/chassis_pic.webp'
 // import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
 import ErgoPic from '../assets/TeamMembers/ActionPhotos/ergo_pic.jpeg'
@@ -103,6 +103,7 @@ const History = () => {
             <input className='mt-4 p-2 bg-gray-300 w-full' type="email" placeholder='Email (Required)' name='email' required/>
             <input className='mt-4 p-2 bg-gray-300 w-full' type="tel" placeholder='Phone Number (Optional)' name='phone'/>
           </div>
+          <input className='mt-4 p-2 bg-gray-300' type="text" placeholder='How did you hear about us? (Optional)' name='aboutUs'/>
           <input className='mt-4 p-2 bg-gray-300' type="text" placeholder='Subject (Required)' name='subject' required/>
           <textarea className='mt-4 p-2 bg-gray-300' name="message" rows="10" placeholder='Message (Required)' required></textarea>
           <button type="submit" className='text-white border-2 transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] px-10 py-3 my-8 mx-auto flex items-center'>Submit</button>
