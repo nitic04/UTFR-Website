@@ -19,7 +19,6 @@ import Hydrapro from '../assets/Sponsors/SponsorLogosColoured/HydraPro.png'
 import Sobek from '../assets/Sponsors/SponsorLogosColoured/Sobek.png'
 
 // Silver Sponsors
-import IcebergCyber from '../assets/Sponsors/SponsorLogosColoured/IcebergCyber.png'
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Molson from '../assets/Sponsors/SponsorLogosColoured/Molson.png'
@@ -80,11 +79,11 @@ import Altair  from '../assets/Sponsors/SponsorLogosColoured/Altair.png'
 import Atlantic from '../assets/Sponsors/SponsorLogosColoured/Atlantic.png'
 import AtomsLab from '../assets/Sponsors/SponsorLogosColoured/AtomsLab.png'
 import Bender from '../assets/Sponsors/SponsorLogosColoured/Bender.png'
+import Bittle from '../assets/Sponsors/SponsorLogosColoured/Bittle.png'
 import BMRSWired from '../assets/Sponsors/SponsorLogosColoured/BMRSWired.png'
 import DigiKey from '../assets/Sponsors/SponsorLogosColoured/DigiKey.png'
 import EdmundOptics from '../assets/Sponsors/SponsorLogosColoured/EdmundOptics.png'
 import FactoryTire from '../assets/Sponsors/SponsorLogosColoured/FactoryTire.png'
-import HKMingda from '../assets/Sponsors/SponsorLogosColoured/HKMingda.png'
 import igus from '../assets/Sponsors/SponsorLogosColoured/igus.png'
 
 import JLCPCB from '../assets/Sponsors/SponsorLogosColoured/JLCPCB.png'
@@ -143,7 +142,6 @@ const Sponsors = () => {
             </Fade>
         </div>
         <div className='text-black bg-[#e3e3e3] py-10'>
-            <Fade delay={100} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10'>
@@ -174,8 +172,6 @@ const Sponsors = () => {
                     </div>
                 </div>
             </div>
-            </Fade>
-            <Fade delay={100} cascade triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <div className='grid md:grid-cols-3 gap-x-10'>
@@ -190,13 +186,9 @@ const Sponsors = () => {
                     </a>
                 </div>
             </div>
-            </Fade>
-            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
-            </Fade>
             <div>
             <div className='flex justify-center pt-10 items-center px-10'>
-                <Fade cascade triggerOnce>
                 <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                     <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Sobek} alt="" />
@@ -214,19 +206,12 @@ const Sponsors = () => {
                         <img className="sponsorImg" src={Hydrapro} alt="" />
                     </a>
                 </div>
-                </Fade>
             </div>
             </div>
-            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Silver Sponsors</h1>
-            </Fade>
             <div className='px-16'>
-                <Fade cascade triggerOnce>
                 <div className='flex justify-center pt-10 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
-                        <a href="https://www.icebergcyber.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={IcebergCyber} alt="" />
-                        </a>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
                         <a href="https://www.magna.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Magna} alt="" />
                         </a>
@@ -257,13 +242,9 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                </Fade>
             </div>
-            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Bronze Sponsors</h1>
-            </Fade>
             <div className='px-16'>
-                <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://www.abcofreight.com/" target="_blank" rel="noreferrer">
@@ -416,13 +397,9 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                </Fade>
             </div>
-            <Fade delay={100} triggerOnce>
             <h1 className='flex justify-center text-5xl font-bold text-center'>Affiliates</h1>
-            </Fade>
             <div className='px-16'>
-                <Fade cascade triggerOnce>
                 <div className='flex justify-center py-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
                         <a href="https://altair.com/" target="_blank" rel="noreferrer">
@@ -437,13 +414,16 @@ const Sponsors = () => {
                         <a href="https://www.benderinc.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Bender} alt="" />
                         </a>
-                        <a href="http://bmrswired.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={BMRSWired} alt="" />
+                        <a href="https://www.7pcb.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={Bittle} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-5 gap-x-10'>
+                        <a href="http://bmrswired.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={BMRSWired} alt="" />
+                        </a>
                         <a href="https://www.digikey.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={DigiKey} alt="" />
                         </a>
@@ -453,11 +433,8 @@ const Sponsors = () => {
                         <a href="https://www.factorytire.ca/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={FactoryTire} alt="" />
                         </a>
-                        <a href="http://hkmingda.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={HKMingda} alt="" />
-                        </a>
-                        <a href="http://igus.ca/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={igus} alt="" />
+                        <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg" src={Metex} alt="" />
                         </a>
                     </div>
                 </div>
@@ -539,8 +516,8 @@ const Sponsors = () => {
                 </div>
                 <div className='flex justify-center pb-10 items-center'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-x-10'>
-                        <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={Metex} alt="" />
+                        <a href="http://igus.ca/" target="_blank" rel="noreferrer">
+                        <img className="sponsorImg py-5" src={igus} alt="" />
                         </a>
                         <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
                         <img className="sponsorImg" src={Rexco} alt="" />
@@ -550,7 +527,6 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                </Fade>
             </div>
         </div>
         <GoToTop />

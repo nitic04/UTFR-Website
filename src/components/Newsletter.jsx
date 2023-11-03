@@ -1,6 +1,7 @@
 import React from 'react'
 import NewsletterHeader from '../assets/HighQualityImage.jpeg'
 import GoToTop from './GoToTop'
+import NewsletterSignUp from './NewsletterSignUp'
 
 const Newsletter = () => {
   return (
@@ -15,6 +16,9 @@ const Newsletter = () => {
         </div>
         <GoToTop />
         <div className='bg-[#181818]'>
+            <div className='flex justify-center py-10'>
+                <NewsletterSignUp/>
+            </div>
             <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>View Our Newsletters</h1>
             <div className='flex justify-center'>
             <div className='grid grid-cols-3 p-10 gap-x-16'>

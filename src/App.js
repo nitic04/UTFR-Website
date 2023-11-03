@@ -48,7 +48,7 @@ function App() {
           <Route path="/UT03" element={<UT03 />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/shootout" element={<Shootout />} />
-          <Route path="/newsletter" element={<Newsletter />} />
+          {/* <Route path="/newsletter" element={<Newsletter />} /> */}
         </Routes>
         <Footer />
       </Router>
