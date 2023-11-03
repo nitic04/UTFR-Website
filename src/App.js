@@ -17,7 +17,7 @@ import UT03 from "./components/UT03";
 import UT23 from "./components/UT23";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
-import Newsletter from "./components/Newsletter";
+// import Newsletter from "./components/Newsletter";
 // import LoadingScreen from './components/LoadingScreen';
 
 function App() {
