@@ -6,6 +6,7 @@ import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
 import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
+import ArticlePhoto from '../assets/VarsityArticleImage.jpg';
 // import { NavLink } from 'react-router-dom';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
@@ -39,7 +40,7 @@ const HomeCarousel = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    initialSlide: 1,
+    initialSlide: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
@@ -64,6 +65,11 @@ const HomeCarousel = () => {
     <div className="w-full h-[100%] bg-[#181818]">
       <div className="px-8 md:px-16 py-10">
         <Slider {...settings}>
+          <div className="carouselCard">
+            <a href="https://thevarsity.ca/2023/10/29/faster-and-faster-u-of-ts-formula-racing-team-innovates-and-dominates/" target="_blank"><img alt="" src={ArticlePhoto}/></a>
+            <h1 className="text-white text-xl font-bold py-2">Faster and Faster: U of T’s Formula Racing Team innovates and dominates</h1>
+            <p className="text-white">Checkout the article that The Varsity wrote about the team!</p>
+          </div>
           <div className="carouselCard">
             <img alt="" src={CzechPhoto}/>
             <h1 className="text-white text-xl font-bold py-2">A Win in Czech Republic</h1>
