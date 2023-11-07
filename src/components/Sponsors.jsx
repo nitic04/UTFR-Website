@@ -21,7 +21,7 @@ import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 // Silver Sponsors
 import Altium from '../assets/Sponsors/SponsorLogosColoured/Altium.png'
 import Ansys from '../assets/Sponsors/SponsorLogosColoured/Ansys.png'
-import Bosch from '../assets/Sponsors/SponsorLogosColoured/Bosch.png' // NEED TO ADD THIS
+import Bosch from '../assets/Sponsors/SponsorLogosColoured/Bosch.png'
 import Ford from '../assets/Sponsors/SponsorLogosColoured/Ford.png'
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
 

@@ -66,7 +66,7 @@ const HomeCarousel = () => {
       <div className="px-8 md:px-16 py-10">
         <Slider {...settings}>
           <div className="carouselCard">
-            <a href="https://thevarsity.ca/2023/10/29/faster-and-faster-u-of-ts-formula-racing-team-innovates-and-dominates/" target="_blank"><img alt="" src={ArticlePhoto}/></a>
+            <a href="https://thevarsity.ca/2023/10/29/faster-and-faster-u-of-ts-formula-racing-team-innovates-and-dominates/" target="_blank" rel="noreferrer"><img alt="" src={ArticlePhoto}/></a>
             <h1 className="text-white text-xl font-bold py-2">Faster and Faster: U of T’s Formula Racing Team innovates and dominates</h1>
             <p className="text-white">Checkout the article that The Varsity wrote about the team!</p>
           </div>
