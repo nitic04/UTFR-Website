@@ -73,11 +73,12 @@ import Edmund from '../assets/Sponsors/SponsorLogosColoured/EdmundOptics.png'
 import Enepaq from '../assets/Sponsors/SponsorLogosColoured/Enepaq.png'
 
 import Hakko from '../assets/Sponsors/SponsorLogosColoured/Hakko.png'
+import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
 import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
 import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
-import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png'
-import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
+import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
 
+import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
 import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 
@@ -115,15 +116,6 @@ const Sponsors = () => {
             <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
                 <div className='p-10 items-center'>
-                    <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
-                        <img src={Batemo} alt="" className='w-full py-16 px-5 bg-[#f1f1f1] rounded-t-md'/>
-                    </a>
-                    <div className='bg-[#dddddd] rounded-b-md'>
-                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>Batemo</h1>
-                        <p className='px-10 pb-28'>Batemo is the global industry leader for the creation of lithium-ion battery simulation software. They kindly provide our team with battery simulators. For more information about the incredible work they do, please see their website.</p>
-                    </div>
-                </div>
-                    <div className='p-10 items-center'>
                     <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                         <img src={Skule} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
                     </a>
@@ -139,6 +131,15 @@ const Sponsors = () => {
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
                         <p className='px-10 pb-24'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
+                    </div>
+                </div>
+                <div className='p-10 items-center'>
+                    <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
+                        <img src={Batemo} alt="" className='w-full py-[75px] px-5 bg-[#f1f1f1] rounded-t-md'/>
+                    </a>
+                    <div className='bg-[#dddddd] rounded-b-md'>
+                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>Batemo</h1>
+                        <p className='px-10 pb-28'>Batemo is the global industry leader for the creation of lithium-ion battery simulation software. They kindly provide our team with battery simulators. For more information about the incredible work they do, please see their website.</p>
                     </div>
                 </div>
             </div>
@@ -232,7 +233,7 @@ const Sponsors = () => {
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.abcofreight.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={ABCO} alt="" />
+                            <img className="sponsorImg px-5" src={ABCO} alt="" />
                         </a>
                         <a href="https://brafasco.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Brafasco} alt="" />
@@ -241,7 +242,7 @@ const Sponsors = () => {
                             <img className="sponsorImg" src={Brechin} alt="" />
                         </a>
                         <a href="https://disensors.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Durham} alt="" />
+                            <img className="sponsorImg px-5" src={Durham} alt="" />
                         </a>
                         <a href="https://www.electro-meters.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={EM} alt="" />
@@ -273,7 +274,7 @@ const Sponsors = () => {
                             <img className="sponsorImg" src={Hawkeye} alt="" />
                         </a>
                         <a href="https://www.holley.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Holley} alt="" />
+                            <img className="sponsorImg px-5" src={Holley} alt="" />
                         </a>
                         <a href="https://tisl.cs.toronto.edu/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg py-2" src={ISL} alt="" />
@@ -359,22 +360,25 @@ const Sponsors = () => {
                         <a href="http://hakkousa.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Hakko} alt="" />
                         </a>
+                        <a href="https://www.lantorcomposites.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Lantor} alt="" />
+                        </a>
                         <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Metex} alt="" />
                         </a>
                         <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
                         </a>
-                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Rexco} alt="" />
-                        </a>
-                        <a href="https://www.lantorcomposites.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Lantor} alt="" />
+                        <a href="https://odriverobotics.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Odrive} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={Rexco} alt="" />
+                        </a>
                         <a href="https://www.vi-grade.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VIGrade} alt="" />
                         </a>
