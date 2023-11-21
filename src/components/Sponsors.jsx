@@ -296,13 +296,13 @@ const Sponsors = () => {
                             <img className="sponsorImg" src={LucidVision} alt="" />
                         </a>
                         <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NTN} alt="" />
+                            <img className="sponsorImg px-5" src={NTN} alt="" />
                         </a>
                         <a href="https://rapidharness.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RapidHarness} alt="" />
                         </a>
                         <a href="https://rivian.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Rivian} alt="" />
+                            <img className="sponsorImg py-2" src={Rivian} alt="" />
                         </a>
                     </div>
                 </div>
