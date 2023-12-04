@@ -29,8 +29,9 @@ import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import MG from '../assets/Sponsors/SponsorLogosColoured/MG.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
-import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
+import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 
+import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
 // Bronze Sponsors
@@ -135,7 +136,7 @@ const Sponsors = () => {
                 </div>
                 <div className='p-10 items-center'>
                     <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
-                        <img src={Batemo} alt="" className='w-full py-[75px] px-5 bg-[#f1f1f1] rounded-t-md'/>
+                        <img src={Batemo} alt="" className='w-full py-[65px] px-5 bg-[#f1f1f1] rounded-t-md'/>
                     </a>
                     <div className='bg-[#dddddd] rounded-b-md'>
                         <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>Batemo</h1>
@@ -214,13 +215,16 @@ const Sponsors = () => {
                         <a href="http://www.movella.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Movella} alt="" />
                         </a>
-                        <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Solidworks} alt="" />
+                        <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={RLX} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Solidworks} alt="" />
+                        </a>
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
                         </a>
