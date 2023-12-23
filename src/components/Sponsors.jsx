@@ -312,7 +312,7 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
+                <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
