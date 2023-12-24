@@ -6,6 +6,7 @@ import SponsorshipPackage from '../assets/UT24SponsorshipPackage.pdf'
 import Batemo from '../assets/Sponsors/SponsorLogosColoured/Batemo.png'
 import Tesla from '../assets/Sponsors/SponsorLogosColoured/Tesla.png'
 import Skule from '../assets/Sponsors/SponsorLogosColoured/SKULE.png'
+import Pulsenics from '../assets/Sponsors/SponsorLogosColoured/Pulsenics.png'
 
 // Platinum Sponsors
 import ActnowHPC from '../assets/Sponsors/SponsorLogosColoured/ACTnowHPC.png'
@@ -114,38 +115,76 @@ const Sponsors = () => {
             </div>
             </Fade>
         </div>
+        <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
+        <div className='flex justify-center bg-[#e3e3e3]'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
+                <a href="https://skule.ca/" target="_blank" rel="noreferrer">
+                <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
+                    <div className='h-[200px] bg-[#f1f1f1]' style={{
+                    backgroundImage: `url(${Skule})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                    }}>
+                    </div>
+                    <div className='p-5'>
+                    <h1 className='font-bold text-4xl'>Skule</h1>
+                    <p className='text-base pt-3'>The University of Toronto Engineering Society (SKULE) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto's Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
+                    </div>
+                </div>
+                </a>
+
+                <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
+                <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
+                    <div className='h-[200px] bg-[#f1f1f1]' style={{
+                    backgroundImage: `url(${Tesla})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                    }}>
+                    </div>
+                    <div className='p-5'>
+                    <h1 className='font-bold text-4xl'>Tesla</h1>
+                    <p className='text-base pt-3'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
+                    </div>
+                </div>
+                </a>
+
+                <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
+                <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
+                    <div className='h-[200px] bg-[#f1f1f1]' style={{
+                    backgroundImage: `url(${Batemo})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: '90%',
+                    backgroundRepeat: 'no-repeat'
+                    }}>
+                    </div>
+                    <div className='p-5'>
+                    <h1 className='font-bold text-4xl'>Batemo</h1>
+                    <p className='text-base pt-3'>Batemo is the global industry leader for the creation of lithium-ion battery simulation software. They kindly provide our team with battery simulators. For more information about the incredible work they do, please see their website.</p>
+                    </div>
+                </div>
+                </a>
+
+                <a href="http://pulsenics.com/" target="_blank" rel="noreferrer">
+                <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
+                    <div className='h-[200px] bg-[#f1f1f1]' style={{
+                    backgroundImage: `url(${Pulsenics})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: '90%',
+                    backgroundRepeat: 'no-repeat'
+                    }}>
+                    </div>
+                    <div className='p-5'>
+                    <h1 className='font-bold text-4xl'>Pulsenics</h1>
+                    <p className='text-base pt-3'>Pulsenics is a Toronto based company which develops proprietary analytical tools for the advancement of industrial electrochemical systems. Thanks to their generous support we are working to better understand how our cells degrade over time, and other critical characteristics of our battery cells.</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
 
         <div className='text-black bg-[#e3e3e3] py-10'>
-            <h1 className='flex justify-center text-5xl font-bold text-center'>Diamond Sponsors</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 pb-16'>
-                <div className='p-10 items-center'>
-                    <a href="https://skule.ca/" target="_blank" rel="noreferrer">
-                        <img src={Skule} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
-                    </a>
-                    <div className='bg-[#dddddd] rounded-b-md'>
-                        <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Skule</h1>
-                        <p className='px-10 pb-20'>The University of Toronto Engineering Society (SKULE) has graciously funded UTFR since our inception in 1997. Skule is a powerful student body of the University of Toronto's Faculty of Applied Science and Engineering who are committed to supporting current students with services, funding, and extracurricular opportunities.</p>
-                    </div>
-                </div>
-                <div className='p-10 items-center'>
-                    <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
-                        <img src={Tesla} alt="" className='px-5 bg-[#f1f1f1] rounded-t-md'/>
-                    </a>
-                    <div className='bg-[#dddddd] rounded-b-md'>
-                        <h1 className='px-10 py-10 pb-5 font-bold text-4xl'>Tesla</h1>
-                        <p className='px-10 pb-24'>Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.</p>
-                    </div>
-                </div>
-                <div className='p-10 items-center'>
-                    <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
-                        <img src={Batemo} alt="" className='w-full py-[65px] px-5 bg-[#f1f1f1] rounded-t-md'/>
-                    </a>
-                    <div className='bg-[#dddddd] rounded-b-md'>
-                        <h1 className='px-10 pt-10 pb-5 font-bold text-4xl'>Batemo</h1>
-                        <p className='px-10 pb-28'>Batemo is the global industry leader for the creation of lithium-ion battery simulation software. They kindly provide our team with battery simulators. For more information about the incredible work they do, please see their website.</p>
-                    </div>
-                </div>
-            </div>
 
             <h1 className='flex justify-center text-5xl font-bold text-center'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
