@@ -77,10 +77,11 @@ import Enepaq from '../assets/Sponsors/SponsorLogosColoured/Enepaq.png'
 
 import Hakko from '../assets/Sponsors/SponsorLogosColoured/Hakko.png'
 import Hawkeye from '../assets/Sponsors/SponsorLogosColoured/HawkeyeIndustries.png'
+import HMS from '../assets/Sponsors/SponsorLogosColoured/HMS.png'
 import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
 import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
-import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
 
+import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
 import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
 import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
@@ -408,19 +409,23 @@ const Sponsors = () => {
                         <a href="https://hawk-eye.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Hawkeye} alt="" />
                         </a>
+                        <a href="http://www.hms-networks.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={HMS} alt="" />
+                        </a>
                         <a href="https://www.lantorcomposites.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Lantor} alt="" />
                         </a>
                         <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Metex} alt="" />
                         </a>
-                        <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
-                        </a>
+
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
+                        </a>
                         <a href="https://odriverobotics.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Odrive} alt="" />
                         </a>
