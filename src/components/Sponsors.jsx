@@ -23,15 +23,16 @@ import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 import Altium from '../assets/Sponsors/SponsorLogosColoured/Altium.png'
 import Ansys from '../assets/Sponsors/SponsorLogosColoured/Ansys.png'
 import Bosch from '../assets/Sponsors/SponsorLogosColoured/Bosch.png'
+import Facfox from '../assets/Sponsors/SponsorLogosColoured/FacFox.png'
 import Ford from '../assets/Sponsors/SponsorLogosColoured/Ford.png'
-import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
 
+import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
 import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
 import MG from '../assets/Sponsors/SponsorLogosColoured/MG.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
-import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 
+import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
@@ -227,24 +228,27 @@ const Sponsors = () => {
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.altium.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Altium} alt="" />
+                            <img className="sponsorImg px-2" src={Altium} alt="" />
                         </a>
                         <a href="https://www.ansys.com/academic/students/student-teams" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Ansys} alt="" />
+                            <img className="sponsorImg px-2" src={Ansys} alt="" />
                         </a>
                         <a href="http://bosch.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Bosch} alt="" />
                         </a>
                         <a href="https://www.ford.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Ford} alt="" />
+                            <img className="sponsorImg px-4" src={Ford} alt="" />
                         </a>
-                        <a href="http://www.julepower.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Jule} alt="" />
+                        <a href="https://facfox.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Facfox} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://www.julepower.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Jule} alt="" />
+                        </a>
                         <a href="https://www.magna.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Magna} alt="" />
                         </a>
@@ -257,13 +261,13 @@ const Sponsors = () => {
                         <a href="http://www.movella.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Movella} alt="" />
                         </a>
-                        <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={RLX} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={RLX} alt="" />
+                        </a>
                         <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Solidworks} alt="" />
                         </a>
