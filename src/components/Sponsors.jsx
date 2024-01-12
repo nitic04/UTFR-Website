@@ -23,7 +23,7 @@ import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 import Altium from '../assets/Sponsors/SponsorLogosColoured/Altium.png'
 import Ansys from '../assets/Sponsors/SponsorLogosColoured/Ansys.png'
 import Bosch from '../assets/Sponsors/SponsorLogosColoured/Bosch.png'
-import Facfox from '../assets/Sponsors/SponsorLogosColoured/FacFox.png'
+import FacFox from '../assets/Sponsors/SponsorLogosColoured/FacFox.png'
 import Ford from '../assets/Sponsors/SponsorLogosColoured/Ford.png'
 
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
@@ -240,7 +240,7 @@ const Sponsors = () => {
                             <img className="sponsorImg px-4" src={Ford} alt="" />
                         </a>
                         <a href="https://facfox.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Facfox} alt="" />
+                            <img className="sponsorImg" src={FacFox} alt="" />
                         </a>
                     </div>
                 </div>
