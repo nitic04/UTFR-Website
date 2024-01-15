@@ -68,24 +68,27 @@ import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
 
 import TRAIL from '../assets/Sponsors/SponsorLogosColoured/TrailLabs.webp'
+import Zebra from '../assets/Sponsors/SponsorLogosColoured/Zebra.png'
 
 // Afilliates
 import SevenPCB from '../assets/Sponsors/SponsorLogosColoured/Bittle.png' 
 import Altair from '../assets/Sponsors/SponsorLogosColoured/Altair.png'
 import Digikey from '../assets/Sponsors/SponsorLogosColoured/DigiKey.png'
+import DiSoric from '../assets/Sponsors/SponsorLogosColoured/DiSoric.png'
 import Edmund from '../assets/Sponsors/SponsorLogosColoured/EdmundOptics.png'
-import Enepaq from '../assets/Sponsors/SponsorLogosColoured/Enepaq.png'
 
+import Enepaq from '../assets/Sponsors/SponsorLogosColoured/Enepaq.png'
 import Hakko from '../assets/Sponsors/SponsorLogosColoured/Hakko.png'
 import Hawkeye from '../assets/Sponsors/SponsorLogosColoured/HawkeyeIndustries.png'
 import HMS from '../assets/Sponsors/SponsorLogosColoured/HMS.png'
 import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
-import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
 
+import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
 import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
 import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
 import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
+
 import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 
 import GoToTop from './GoToTop'
@@ -378,7 +381,10 @@ const Sponsors = () => {
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.trailab.utias.utoronto.ca/s" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={TRAIL} alt="" />
+                            <img className="sponsorImg px-2" src={TRAIL} alt="" />
+                        </a>
+                        <a href="https://www.zebra.com/us/en.html" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Zebra} alt="" />
                         </a>
                     </div>
                 </div>
@@ -397,16 +403,19 @@ const Sponsors = () => {
                         <a href="https://www.digikey.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Digikey} alt="" />
                         </a>
+                        <a href="https://www.di-soric.com/int-en" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={DiSoric} alt="" />
+                        </a>
                         <a href="https://www.edmundoptics.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Edmund} alt="" />
-                        </a>
-                        <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg py-8" src={Enepaq} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://enepaq.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg py-8" src={Enepaq} alt="" />
+                        </a>
                         <a href="http://hakkousa.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Hakko} alt="" />
                         </a>
@@ -419,14 +428,13 @@ const Sponsors = () => {
                         <a href="https://www.lantorcomposites.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Lantor} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Metex} alt="" />
                         </a>
-
-                    </div>
-                </div>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
                         </a>
@@ -439,6 +447,10 @@ const Sponsors = () => {
                         <a href="https://www.vi-grade.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VIGrade} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VR3Engineering} alt="" />
                         </a>
