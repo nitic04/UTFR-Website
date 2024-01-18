@@ -48,7 +48,7 @@ const UT23 = () => {
                     <div className='col-span-2'>
                         <img src={UT23Slant2} className='w-full' alt=""/>
                     </div>
-                    <div className='pt-16 col-span-1 px-10'>
+                    <div className='col-span-1 px-10 my-auto'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-2xl pb-5 font-medium'>A New Era of Precision Engineering</h1>
                         <p className='text-lg'>With a history rooted in pushing the boundaries of engineering, UTFR has undertaken a monumental challenge this year that marks a paradigm shift in their journey. For the first time UTFR has designed, developed, and competed with a fully electric and driverless capable vehicle. The transition from traditional combustion engines to fully electric powertrains demanded a thorough rethinking of every aspect of vehicle design. Team members had to grapple with new considerations, such as battery management, electric propulsion systems, and efficiency; a true testament to the team's adaptability and engineering prowess.</p>
@@ -74,7 +74,7 @@ const UT23 = () => {
             </div>
             <div>
                 <div className='grid lg:grid-cols-3'>
-                    <div className='pt-12 col-span-1 px-10'>
+                    <div className='my-auto col-span-1 px-10'>
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-2xl pb-5 font-medium'>Driving Forward... Autonomously</h1>
                         <p className='text-lg pb-5'>This year, the team began the development of a driverless team to compete in autonomous events during competition. Our state-of-the-art perception system utilizes real-time machine learning to decode track intricacies, complemented by stereo cameras that grant exceptional depth perception. Navigational precision is achieved through optimal trajectory planning, seamlessly translated into action by our advanced drive-by-wire control system. This amalgamation empowers our vehicle to navigate dynamically, anticipate obstacles, and execute maneuvers with unmatched accuracy, signifying a leap forward in technological innovation within the competitive landscape.</p>

@@ -214,7 +214,7 @@ const Team2024 = () => {
         <Fade triggerOnce delay={100}>
           <p className='text-4xl font-bold flex justify-center pt-5'>Electrical Leads</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
               <img src={AngusZhang} alt="team" className='my-auto mx-auto w-[90%]'/>
@@ -300,7 +300,7 @@ const Team2024 = () => {
         <Fade triggerOnce delay={100}>
           <p className='text-4xl font-bold flex justify-center pt-5'>Business Leads</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-4 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
               <img src={CaleyMcNeill} alt="team" className='my-auto mx-auto w-[90%]'/>
