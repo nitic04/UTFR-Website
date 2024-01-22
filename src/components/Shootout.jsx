@@ -2,6 +2,8 @@ import React from 'react'
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
+import Shootout2023 from '../assets/ShootoutPhotos/Shootout2023.png'
+
 // import ShootoutHeader from '../assets/ShootoutPhotos/Shootout2022/ShootoutHeader.jpeg'
 import Shootout2022_1 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022.jpg'
 import Shootout2022_2 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_2.JPG'
@@ -205,20 +207,36 @@ const Shootout = () => {
           <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
           <div className='justify-center pt-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 px-auto'>
-              <div className='pl-20'>
-                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
-                  backgroundImage: `url(${ShootoutCard2018Image_2})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat'
-                  }}>
-                  <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2018</h1>
-                  <div className='flex pt-3 justify-center gap-x-5'>
-                    <a href="https://docs.google.com/spreadsheets/u/1/d/1DG3YR5VZxDNAfsyb20JhmGvHxYcLyYVY28OfpoZLQi0/edit?usp=drive_web&ouid=105352858794991473194" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                    <a href="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
+              <div className='pl-0 mx-auto lg:pl-20'>
+                <div className='shootoutCard w-[500px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
+                    backgroundImage: `url(${Shootout2023})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPositionY: "80%"
+                    }}>
+                    <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2023</h1>
+                    <div className='flex pt-3 justify-center gap-x-5'>
+                      <a href="https://drive.google.com/drive/folders/1-0KWrDWQlu8jaCu4Bat6KrAITDT5xIvo?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                      <a href="https://drive.google.com/drive/folders/1--OE2K79EN1onx6phieEd4jFBua8pgRU?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
+                    </div>
+                  </div>
+
+                  <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
+                        backgroundImage: `url(${ShootoutCard2021Image})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat'
+                        }}>
+                      <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2021</h1>
+                      <div className='flex pt-3 justify-center gap-x-5'>
+                        <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
+                        <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
+                      </div>
                   </div>
                 </div>
-                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
+              <div className='mx-auto'>
+              <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
                   backgroundImage: `url(${ShootoutCard2019Image})`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
@@ -230,9 +248,8 @@ const Shootout = () => {
                     <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200' >Official Photography</p></a>
                   </div>
                 </div>
-              </div>
-              <div className='pl-5'>
-                <div className='shootoutCard w-[500px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
+                
+                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
                   backgroundImage: `url(${ShootoutCard2018Image_2})`,
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
@@ -244,18 +261,7 @@ const Shootout = () => {
                     <a href="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
                   </div>
                 </div>
-                  <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
-                    backgroundImage: `url(${ShootoutCard2021Image})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
-                    }}>
-                  <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2021</h1>
-                  <div className='flex pt-3 justify-center gap-x-5'>
-                    <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                    <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
