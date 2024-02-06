@@ -45,7 +45,7 @@ import OliviaTworzyanski from '../assets/TeamMembers/Business/OliviaTworzyanski.
 import AmeliaDease from '../assets/TeamMembers/Business/AmeliaDease.jpeg'
 import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpeg'
 import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
-import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpeg'
+import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpg'
 import RebeccaSchultz from '../assets/TeamMembers/Business/RebeccaSchultz.jpeg'
 
 const Team2024 = () => {
