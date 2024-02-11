@@ -16,7 +16,9 @@ import PetroCanada from '../assets/Sponsors/SponsorLogosColoured/PetroColour.png
 import DeutscheHydrapro from '../assets/Sponsors/SponsorLogosColoured/HydraPro.png'
 import MC78 from '../assets/Sponsors/SponsorLogosColoured/MC-78.png'
 import NewEra from '../assets/Sponsors/SponsorLogosColoured/NewEra.png'
+import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 import Sobek from '../assets/Sponsors/SponsorLogosColoured/Sobek.png'
+
 import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 
 // Silver Sponsors
@@ -33,7 +35,8 @@ import MG from '../assets/Sponsors/SponsorLogosColoured/MG.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
-import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
+import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
+import Rudolphs from '../assets/Sponsors/SponsorLogosColoured/Rudolphs.png'
 import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
@@ -59,14 +62,14 @@ import KISSsoft from '../assets/Sponsors/SponsorLogosColoured/KissSoft.png'
 import LRA3d from '../assets/Sponsors/SponsorLogosColoured/LRA.png'
 import LucidVision from '../assets/Sponsors/SponsorLogosColoured/Lucid.png'
 import Multimatic from '../assets/Sponsors/SponsorLogosColoured/Multimatic.png'
-import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
 import RapidHarness from '../assets/Sponsors/SponsorLogosColoured/RapidHarness.png'
-
 import Rivian from '../assets/Sponsors/SponsorLogosColoured/Rivian.png' 
+
 import Sensata from '../assets/Sponsors/SponsorLogosColoured/Sensata.webp'
 import SherwinWilliams from '../assets/Sponsors/SponsorLogosColoured/SherwinWilliams.png'
 import Siemens from '../assets/Sponsors/SponsorLogosColoured/Siemens.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
+import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
 
 // Afilliates
 import SevenPCB from '../assets/Sponsors/SponsorLogosColoured/Bittle.png' 
@@ -218,9 +221,16 @@ const Sponsors = () => {
                         <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NewEra} alt="" />
                         </a>
+                        <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg w-full" src={RLX} alt="" />
+                        </a>
                         <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg px-5" src={Sobek} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.topdon.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg w-full" src={Topdon} alt="" />
                         </a>
@@ -244,15 +254,15 @@ const Sponsors = () => {
                         <a href="http://www.embotech.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Embotech} alt="" />
                         </a>
-                        <a href="https://www.ford.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-4" src={Ford} alt="" />
+                        <a href="https://facfox.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={FacFox} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
-                        <a href="https://facfox.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={FacFox} alt="" />
+                        <a href="https://www.ford.ca/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-4" src={Ford} alt="" />
                         </a>
                         <a href="http://www.julepower.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Jule} alt="" />
@@ -273,8 +283,11 @@ const Sponsors = () => {
                         <a href="http://www.movella.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Movella} alt="" />
                         </a>
-                        <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={RLX} alt="" />
+                        <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={NTN} alt="" />
+                        </a>
+                        <a href="https://www.rudolphsbakeries.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Rudolphs} alt="" />
                         </a>
                         <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Solidworks} alt="" />
@@ -356,19 +369,16 @@ const Sponsors = () => {
                         <a href="https://www.multimatic.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Multimatic} alt="" />
                         </a>
-                        <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={NTN} alt="" />
-                        </a>
                         <a href="https://rapidharness.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RapidHarness} alt="" />
+                        </a>
+                        <a href="https://rivian.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg py-2" src={Rivian} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
-                        <a href="https://rivian.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg py-2" src={Rivian} alt="" />
-                        </a>
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
                         </a>
@@ -378,9 +388,11 @@ const Sponsors = () => {
                         <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Siemens} alt="" />
                         </a>
- 
                         <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Textreme} alt="" />
+                        </a>
+                        <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={TibetTechSols} alt="" />
                         </a>
                     </div>
                 </div>
