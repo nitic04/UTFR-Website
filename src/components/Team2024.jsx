@@ -6,31 +6,31 @@ import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
 import EmilyWright from '../assets/TeamMembers/EmilyWright.jpg'
 import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpg'
 import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpg'
-import SamBahrami from '../assets/TeamMembers/SamBahrami.jpg'
+import SamBahrami from '../assets/TeamMembers/SamBahrami.jpeg'
 
 // MECHANICAL
 import JasmineWu from '../assets/TeamMembers/Mech/JasmineWu.jpg'
-import MauroDeLiberato from '../assets/TeamMembers/Mech/MauroDeLiberato.jpeg'
+import MauroDeLiberato from '../assets/TeamMembers/Mech/MauroDeLiberato.jpg'
 import MoTaban from '../assets/TeamMembers/Mech/MoTaban.jpg'
-import BatuTibet from '../assets/TeamMembers/Mech/BatuTibet.jpeg'
+import BatuTibet from '../assets/TeamMembers/Mech/BatuTibet.jpg'
 import PatrykAniolowski from '../assets/TeamMembers/Mech/PatrykAniolowski.jpg'
-import KelvinCao from '../assets/TeamMembers/Mech/KelvinCao.jpeg'
-import HunzalaRajput from '../assets/TeamMembers/Mech/HunzalaRajput.jpeg'
+import KelvinCao from '../assets/TeamMembers/Mech/KelvinCao.jpg'
+import HunzalaRajput from '../assets/TeamMembers/Mech/HunzalaRajput.jpg'
 import EricEmmenegger from '../assets/TeamMembers/Mech/EricEmmenegger.jpg'
 import ToluIkubaje from '../assets/TeamMembers/Mech/ToluIkubaje.jpg'
 import VanshikaBhatia from '../assets/TeamMembers/Mech/VanshikaBhatia.jpg'
 
 // ELECTRICAL
-import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpeg'
-import NadiaZhou from '../assets/TeamMembers/Electrical/NadiaZhou.jpeg'
-import AngusZhang from '../assets/TeamMembers/Electrical/AngusZhang.jpeg'
-import NicholasBurley from '../assets/TeamMembers/Electrical/NicholasBurley.jpeg'
+import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpg'
+import NadiaZhou from '../assets/TeamMembers/Electrical/NadiaZhou.jpg'
+import AngusZhang from '../assets/TeamMembers/Electrical/AngusZhang.jpg'
+import NicholasBurley from '../assets/TeamMembers/Electrical/NicholasBurley.jpg'
 
 // DRIVERLESS
-import AlfredXue from '../assets/TeamMembers/DV/AlfredXue.jpeg'
+import AlfredXue from '../assets/TeamMembers/DV/AlfredXue.jpg'
 import ThomasZeger from '../assets/TeamMembers/DV/ThomasZeger.jpeg'
-import ArthurXu from '../assets/TeamMembers/DV/ArthurXu.jpeg'
-import JustinLim from '../assets/TeamMembers/DV/JustinLim.jpeg'
+import ArthurXu from '../assets/TeamMembers/DV/ArthurXu.jpg'
+import JustinLim from '../assets/TeamMembers/DV/JustinLim.jpg'
 import YoussefElhadad from '../assets/TeamMembers/DV/YoussefElhadad.jpeg'
 
 // BUSINESS
