@@ -3,6 +3,12 @@
 - keep the previous years' team members shown on the website -> click previous year and see what the team was
     - plan is to integrate this with the car history section so that its all in one place
 
+Sponsor To Do List:
+- add Skule to profile DONE
+- add sponsorship package
+- move bittle to alphabetical order DONE
+- remove the white backgrounds
+
 To Do List
 - figure out why the 'our team' photo is not showing up on mobile mode
 - events page

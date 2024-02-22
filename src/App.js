@@ -17,7 +17,7 @@ import UT03 from "./components/UT03";
 import UT23 from "./components/UT23";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
-import Newsletter from "./components/Newsletter";
+// import Newsletter from "./components/Newsletter";
 // import LoadingScreen from './components/LoadingScreen';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1696075200000}/><HomeCarousel /><SponsorshipFooter /></>} />
+          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1711144800000}/><HomeCarousel /><SponsorshipFooter /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
           <Route path="/team" element={<><TeamHeader /><Team2024 /></>} />
           <Route path="/team2023" element={<><TeamHeader /><Team2023 /></>} />
@@ -48,7 +48,7 @@ function App() {
           <Route path="/UT03" element={<UT03 />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/shootout" element={<Shootout />} />
-          <Route path="/newsletter" element={<Newsletter />} />
+          {/* <Route path="/newsletter" element={<Newsletter />} /> */}
         </Routes>
         <Footer />
       </Router>
