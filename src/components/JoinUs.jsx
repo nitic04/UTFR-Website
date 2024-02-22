@@ -11,26 +11,26 @@ import { Fade } from "react-awesome-reveal";
 const History = () => {
   const form = useRef();
   const handleOnSubmit = (e) => {
-    const formEle = document.querySelector("form")
+    // const formEle = document.querySelector("form")
     e.preventDefault();
-    const formData = new FormData(formEle);
-    fetch("https://script.google.com/macros/s/AKfycbxVtsziMThAFbbphUdA9pTm3RvIMM-0HGkAB6S-THE1590ycVRsLfiqaIKkbU5Jv1EYmw/exec", {method: "POST", body: formData});
+    // const formData = new FormData(formEle);
+    // fetch("https://script.google.com/macros/s/AKfycbxVtsziMThAFbbphUdA9pTm3RvIMM-0HGkAB6S-THE1590ycVRsLfiqaIKkbU5Jv1EYmw/exec", {method: "POST", body: formData});
 
-    // emailjs.sendForm("service_e2337wc", "template_ubh8yv3", form.current, "qTIbrqC-6NrnqvIk0")
-    // .then(function(response) {
-    //    console.log('SUCCESS!', response.status, response.text);
-    //    Swal.fire({
-    //     icon: "success",
-    //     title: "Message Sent Successfully"
-    //   })
-    // }, function(error) {
-    //    console.log('FAILED...', error);
-    //    Swal.fire({
-    //     icon: "error",
-    //     title: "Ooops, something went wrong",
-    //     text: error.text,
-    //   })
-    // });
+    emailjs.sendForm("service_e2337wc", "template_ubh8yv3", form.current, "qTIbrqC-6NrnqvIk0")
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+       Swal.fire({
+        icon: "success",
+        title: "Message Sent Successfully"
+      })
+    }, function(error) {
+       console.log('FAILED...', error);
+       Swal.fire({
+        icon: "error",
+        title: "Ooops, something went wrong",
+        text: error.text,
+      })
+    });
   };
 
   return (
