@@ -1,52 +1,46 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
-// import TeamPhotoPlaceholder from '../assets/TeamMembers/TeamPhotoPlaceholder.png'
 
 // TEAM DIRECTORS
-import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpeg'
-import EmilyWright from '../assets/TeamMembers/EmilyWright.jpeg'
-import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpeg'
-import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpeg'
+import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
+import EmilyWright from '../assets/TeamMembers/EmilyWright.jpg'
+import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpg'
+import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpg'
 import SamBahrami from '../assets/TeamMembers/SamBahrami.jpeg'
-// DRIVERS
-// import DamianSiseraDriver from '../assets/TeamMembers/Drivers/DamianSiseraDriver.jpeg'
-// import AyrtonAntenucciDriver from '../assets/TeamMembers/Drivers/AyrtonAntenucciDriver.jpeg'
-// import SpencerBallDriver from '../assets/TeamMembers/Drivers/SpencerBallDriver.jpeg'
-// import KelvinCuiDriver from '../assets/TeamMembers/Drivers/KelvinCuiDriver.jpeg'
+
 // MECHANICAL
-import JasmineWu from '../assets/TeamMembers/Mech/JasmineWu.jpeg'
-import MauroDeLiberato from '../assets/TeamMembers/Mech/MauroDeLiberato.jpeg'
-import MoTaban from '../assets/TeamMembers/Mech/MoTaban.jpeg'
-import BatuTibet from '../assets/TeamMembers/Mech/BatuTibet.jpeg'
-import PatrykAniolowski from '../assets/TeamMembers/Mech/PatrykAniolowski.jpeg'
-import KelvinCao from '../assets/TeamMembers/Mech/KelvinCao.jpeg'
-import HunzalaRajput from '../assets/TeamMembers/Mech/HunzalaRajput.jpeg'
-import EricEmmenegger from '../assets/TeamMembers/Mech/EricEmmenegger.jpeg'
-import ToluIkubaje from '../assets/TeamMembers/Mech/ToluIkubaje.jpeg'
-// import ZeinaShaltout from '../assets/TeamMembers/Mech/ZeinaShaltout.jpeg'
-import VanshikaBhatia from '../assets/TeamMembers/Mech/VanshikaBhatia.jpeg'
+import JasmineWu from '../assets/TeamMembers/Mech/JasmineWu.jpg'
+import MauroDeLiberato from '../assets/TeamMembers/Mech/MauroDeLiberato.jpg'
+import MoTaban from '../assets/TeamMembers/Mech/MoTaban.jpg'
+import BatuTibet from '../assets/TeamMembers/Mech/BatuTibet.jpg'
+import PatrykAniolowski from '../assets/TeamMembers/Mech/PatrykAniolowski.jpg'
+import KelvinCao from '../assets/TeamMembers/Mech/KelvinCao.jpg'
+import HunzalaRajput from '../assets/TeamMembers/Mech/HunzalaRajput.jpg'
+import EricEmmenegger from '../assets/TeamMembers/Mech/EricEmmenegger.jpg'
+import ToluIkubaje from '../assets/TeamMembers/Mech/ToluIkubaje.jpg'
+import VanshikaBhatia from '../assets/TeamMembers/Mech/VanshikaBhatia.jpg'
 
 // ELECTRICAL
-import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpeg'
-// import AsserAbdelgawad from '../assets/TeamMembers/Electrical/AsserAbdelgawad.jpeg'
-import NadiaZhou from '../assets/TeamMembers/Electrical/NadiaZhou.jpeg'
-import AngusZhang from '../assets/TeamMembers/Electrical/AngusZhang.jpeg'
-import NicholasBurley from '../assets/TeamMembers/Electrical/NicholasBurley.jpeg'
+import KateKer from '../assets/TeamMembers/Electrical/KateKer.jpg'
+import NadiaZhou from '../assets/TeamMembers/Electrical/NadiaZhou.jpg'
+import AngusZhang from '../assets/TeamMembers/Electrical/AngusZhang.jpg'
+import NicholasBurley from '../assets/TeamMembers/Electrical/NicholasBurley.jpg'
 
 // DRIVERLESS
-import AlfredXue from '../assets/TeamMembers/DV/AlfredXue.jpeg'
+import AlfredXue from '../assets/TeamMembers/DV/AlfredXue.jpg'
 import ThomasZeger from '../assets/TeamMembers/DV/ThomasZeger.jpeg'
-import ArthurXu from '../assets/TeamMembers/DV/ArthurXu.jpeg'
-import JustinLim from '../assets/TeamMembers/DV/JustinLim.jpeg'
+import ArthurXu from '../assets/TeamMembers/DV/ArthurXu.jpg'
+import JustinLim from '../assets/TeamMembers/DV/JustinLim.jpg'
 import YoussefElhadad from '../assets/TeamMembers/DV/YoussefElhadad.jpeg'
+
 // BUSINESS
-import CaleyMcNeill from '../assets/TeamMembers/Business/CaleyMcNeill.jpeg'
-import OliviaTworzyanski from '../assets/TeamMembers/Business/OliviaTworzyanski.jpeg'
-import AmeliaDease from '../assets/TeamMembers/Business/AmeliaDease.jpeg'
-import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpeg'
-import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpeg'
-import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpeg'
-import RebeccaSchultz from '../assets/TeamMembers/Business/RebeccaSchultz.jpeg'
+import CaleyMcNeill from '../assets/TeamMembers/Business/CaleyMcNeill.jpg'
+import OliviaTworzyanski from '../assets/TeamMembers/Business/OliviaTworzyanski.jpg'
+import AmeliaDease from '../assets/TeamMembers/Business/AmeliaDease.jpg'
+import HalleTeh from '../assets/TeamMembers/Business/HalleTeh.jpg'
+import RobertFirsov from '../assets/TeamMembers/Business/RobertFirsov.jpg'
+import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpg'
+import RebeccaSchultz from '../assets/TeamMembers/Business/RebeccaSchultz.jpg'
 
 const Team2024 = () => {
   return (
@@ -214,7 +208,7 @@ const Team2024 = () => {
         <Fade triggerOnce delay={100}>
           <p className='text-4xl font-bold flex justify-center pt-5'>Electrical Leads</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
               <img src={AngusZhang} alt="team" className='my-auto mx-auto w-[90%]'/>
@@ -300,7 +294,7 @@ const Team2024 = () => {
         <Fade triggerOnce delay={100}>
           <p className='text-4xl font-bold flex justify-center pt-5'>Business Leads</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-4 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
               <img src={CaleyMcNeill} alt="team" className='my-auto mx-auto w-[90%]'/>
