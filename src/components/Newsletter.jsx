@@ -53,20 +53,7 @@ const Newsletter = () => {
                             }}>
                                 <div className=''></div>
                         </div>
-        <GoToTop />
-        <div className='bg-[#181818]'>
-            <div className='flex justify-center py-10'>
-                <NewsletterSignUp/>
-            </div>
-            <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>View Our Newsletters</h1>
-            <div className='flex justify-center'>
-            <div className='grid grid-cols-3 p-10 gap-x-16'>
-                <div className='h-[550px] w-[450px] bg-gray-100 rounded-md'>
-                    <img src={NewsletterHeader} className='rounded-t-md' alt="" />
-                    <h1 className='flex justify-center text-3xl font-bold pt-10 text-black'>September Issue</h1>
-                    <p className='flex justify-center text-lg py-3 text-gray-400'>09/01/23</p>
-                    <div className='flex justify-center'>
-                        <a href="https://www.google.ca/"><button className='mt-8 py-3 px-12 bg-gray-300 font-bold rounded-md'>Read</button></a>
+                    
                     </div>
                 </div>
             </a>

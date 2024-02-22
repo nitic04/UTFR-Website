@@ -9,7 +9,7 @@ import Swal from "sweetalert2";
 import { Fade } from "react-awesome-reveal";
 
 const History = () => {
-  // const form = useRef();
+  const form = useRef();
   const handleOnSubmit = (e) => {
     // const formEle = document.querySelector("form")
     e.preventDefault();
