@@ -68,7 +68,9 @@ import Rivian from '../assets/Sponsors/SponsorLogosColoured/Rivian.png'
 import Sensata from '../assets/Sponsors/SponsorLogosColoured/Sensata.webp'
 import SherwinWilliams from '../assets/Sponsors/SponsorLogosColoured/SherwinWilliams.png'
 import Siemens from '../assets/Sponsors/SponsorLogosColoured/Siemens.png'
+import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
+
 import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
 
 // Afilliates
@@ -380,7 +382,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
                         </a>
@@ -390,9 +392,16 @@ const Sponsors = () => {
                         <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Siemens} alt="" />
                         </a>
+                        <a href="http://texonic.net/en" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Texonic} alt="" />
+                        </a>
                         <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Textreme} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                         <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TibetTechSols} alt="" />
                         </a>
