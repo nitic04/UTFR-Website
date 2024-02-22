@@ -85,10 +85,12 @@ const Shootout = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
+          <div className='headerOverlay'>
         <div className='h-full flex flex-col justify-end'>
           <Fade triggerOnce>
             <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Shootout</h1>
           </Fade>
+        </div>
         </div>
         </div>
         <div className='text-white bg-[#181818] pb-5'>
