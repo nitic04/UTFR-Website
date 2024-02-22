@@ -11,7 +11,11 @@ import { Fade } from "react-awesome-reveal";
 const History = () => {
   const form = useRef();
   const handleOnSubmit = (e) => {
+    // const formEle = document.querySelector("form")
     e.preventDefault();
+    // const formData = new FormData(formEle);
+    // fetch("https://script.google.com/macros/s/AKfycbxVtsziMThAFbbphUdA9pTm3RvIMM-0HGkAB6S-THE1590ycVRsLfiqaIKkbU5Jv1EYmw/exec", {method: "POST", body: formData});
+
     emailjs.sendForm("service_e2337wc", "template_ubh8yv3", form.current, "qTIbrqC-6NrnqvIk0")
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
@@ -37,11 +41,13 @@ const History = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
       }}>
-        <div className='h-full flex flex-col justify-end'>
+      <div className='headerOverlay'>
+        <div className='headerOverlay h-full flex flex-col justify-end'>
           <Fade triggerOnce>
             <h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-40 md:mb-16'>Join Us</h1>
           </Fade>
         </div>  
+      </div>
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>
@@ -91,7 +97,7 @@ const History = () => {
       </div>
       <Fade delay={300} triggerOnce>
       <div name='contact' className='w-full bg-[#131212] flex justify-center items-center px-10 p-4'>
-        <form className='flex flex-col max-w-[1000px] w-full' ref={form} onSubmit={handleOnSubmit}>
+        <form className='form flex flex-col max-w-[1000px] w-full' ref={form} onSubmit={handleOnSubmit}>
           <div className='pb-8'>
               <p className='text-4xl font-bold text-white pt-5'>Contact Us</p>
           </div>
