@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='navbar fixed w-full h-[70px] flex justify-between items-center px-10 text-white bg-[#18181849] z-10'>
+    <div className='navbar fixed w-full h-[70px] flex justify-between items-center px-10 text-white bg-[#18181849] z-20'>
       <div>
         <NavLink to="/" ><img src={Logo} alt="Logo" style={{width: '170px'}} /></NavLink>
       </div>
@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* <NavLink to="/events"><li className='transition duration-200 hover:text-gray-300'>Events</li></NavLink> */}
         <NavLink to="/shootout"><li className='transition duration-200 hover:text-gray-300'>Shootout</li></NavLink>
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
-        {/* <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletters</li></NavLink> */}
+        <NavLink to="/newsletter"><li className='transition duration-200 hover:text-gray-300'>Newsletters</li></NavLink>
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
         <NavLink to="http://gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
       </ul>
@@ -36,7 +36,7 @@ const Navbar = () => {
         {/* <NavLink to="/events" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Events</li></NavLink> */}
         <NavLink to="/shootout" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Shootout</li></NavLink>
         <NavLink to="/sponsors" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Sponsors</li></NavLink>
-        {/* <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Newsletters</li></NavLink> */}
+        <NavLink to="/newsletter" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Newsletters</li></NavLink>
         <NavLink to="/joinUs" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Join Us</li></NavLink>
         <NavLink to="http://gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferer" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Donate</li></NavLink>
       </ul>

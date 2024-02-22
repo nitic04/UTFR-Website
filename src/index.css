@@ -101,7 +101,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-color: red; /* Change this to your desired dot color */
+    background-color: #ff0000; /* Change this to your desired dot color */
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.2s;
@@ -207,4 +207,44 @@ animation-delay: 1s;
 50%, 100% {
     background-color: rgba(255, 255, 255, 0.2);
 }
+}
+
+.headerOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, #181818 0%, rgba(0, 0, 0, 0.2) 10%);
+}
+
+.headerOverlay2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, #181818 0%, rgba(0, 0, 0, 0.2) 0%);
+}
+  
+.line {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 100%;
+}
+
+.line2 {
+    border-left: 5px solid #DC2626;
+    height: 35px;
+}
+
+.newsletterCard{
+    margin-top: 10px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    cursor: pointer;
+    transition: box-shadow 200ms;   
+}
+
+.newsletterCard:hover{
+    box-shadow: 5px 5px 5px rgb(45, 45, 45);
 }

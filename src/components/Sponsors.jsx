@@ -125,11 +125,13 @@ const Sponsors = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
         }}>
-        <div className='h-full flex flex-col justify-end'>
+        <div className='headerOverlay2'>
+        <div className=' h-full flex flex-col justify-end'>
           <Fade triggerOnce>
             <h1 className='font-bold text-7xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-40 md:mb-16'>Sponsors & Partners</h1>
           </Fade>
         </div>  
+        </div>
         </div>
         <div className='text-black bg-[#cecece] pb-10'>
             <Fade cascade triggerOnce>

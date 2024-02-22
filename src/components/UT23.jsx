@@ -22,24 +22,26 @@ const UT23 = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
+            <div className='headerOverlay'>
             <div className='h-full flex flex-col justify-end'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='font-bold text-[9rem] text-white text-center md:text-left md:pl-10 mb-96 pb-10 md:pb-0 md:mb-52'>UT23</h1>
-            <div className='md:flex absolute space-y-2 bottom-10 gap-x-10 mt-24 md:mt-0'>
+            <div className='pl-14 md:flex absolute space-y-2 bottom-10 gap-x-10 mt-24 md:mt-0'>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold '>116 km/h</h1>
-                    <p className=' text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Top Speed</p>
+                    <h1 className='text-2xl lg:text-5xl text-white lg:px-12 flex md:justify-center font-bold'>116 km/h</h1>
+                    <p className=' text-xl lg:text-[30px] text-white lg:px-12 flex md:justify-center'>Top Speed</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>4.26 s</h1>
-                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>75m Acceleration</p>
+                    <h1 className='text-2xl lg:text-5xl text-white lg:px-12 flex md:justify-center font-bold'>4.26 s</h1>
+                    <p className='text-xl lg:text-[30px] text-white lg:px-12 flex md:justify-center'>75m Acceleration</p>
                 </div>
                 <div>
-                    <h1 className='text-2xl lg:text-5xl text-white px-12 flex md:justify-center font-bold'>109 kW at 5500 RPM</h1>
-                    <p className='text-xl lg:text-[30px] text-white px-12 flex md:justify-center'>Peak Power</p>
+                    <h1 className='text-2xl lg:text-5xl text-white lg:px-12 flex md:justify-center font-bold'>109 kW at 5500 RPM</h1>
+                    <p className='text-xl lg:text-[30px] text-white lg:px-12 flex md:justify-center'>Peak Power</p>
                 </div>
             </div>
             </Fade>
+            </div>
             </div>
         </div>
         <div className='bg-[#2657A3]'>
@@ -91,25 +93,25 @@ const UT23 = () => {
                         <Fade cascade damping={0.2} triggerOnce>
                         <h1 className='text-3xl pb-5 md:text-4xl flex justify-center md:pb-10'>Technical Specifications</h1>
                         <div className='flex border-b-2'>
-                            <span className='hidden md:inline text-2xl py-5'>Overall Weight (Without Driver)</span>
-                            <span className='inline md:hidden text-2xl py-5'>Overall Weight (w/o Driver)</span>
-                            <p className='text-2xl py-5 ml-auto'>260 kg</p>
+                            <span className='hidden md:inline md:text-2xl py-5'>Overall Weight (Without Driver)</span>
+                            <span className='inline md:hidden md:text-2xl py-5'>Overall Weight (w/o Driver)</span>
+                            <p className='md:text-2xl py-5 ml-auto'>260 kg</p>
                         </div>
                         <div className='flex border-b-2'>
-                            <p className='text-2xl py-5'>Length</p>
-                            <p className='text-2xl py-5 ml-auto'>2971 mm</p>
+                            <p className='md:text-2xl py-5'>Length</p>
+                            <p className='md:text-2xl py-5 ml-auto'>2971 mm</p>
                         </div>
                         <div className='flex border-b-2'>
-                            <p className='text-2xl py-5'>Width</p>
-                            <p className='text-2xl py-5 ml-auto'>1497 mm</p>
+                            <p className='md:text-2xl py-5'>Width</p>
+                            <p className='md:text-2xl py-5 ml-auto'>1497 mm</p>
                         </div>
                         <div className='flex border-b-2'>
-                            <p className='text-2xl py-5'>Height</p>
-                            <p className='text-2xl py-5 ml-auto'>1191 mm</p>
+                            <p className='md:text-2xl py-5'>Height</p>
+                            <p className='md:text-2xl py-5 ml-auto'>1191 mm</p>
                         </div>
                         <div className='flex border-b-2'>
-                            <p className='text-2xl py-5'>Motor</p>
-                            <p className='text-2xl py-5 ml-auto'>EMRAX 228 High Voltage</p>
+                            <p className='md:text-2xl py-5'>Motor</p>
+                            <p className='md:text-2xl py-5 ml-auto'>EMRAX 228 High Voltage</p>
                         </div>
                         </Fade>
                     </div>
