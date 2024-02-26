@@ -96,6 +96,8 @@ import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import TRAIL from '../assets/Sponsors/SponsorLogosColoured/TrailLabs.webp'
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
 import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
+import Winsource from '../assets/Sponsors/SponsorLogosColoured/Winsource.png'
+
 import Zebra from '../assets/Sponsors/SponsorLogosColoured/Zebra.png'
 
 import GoToTop from './GoToTop'
@@ -482,6 +484,13 @@ const Sponsors = () => {
                         <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VR3Engineering} alt="" />
                         </a>
+                        <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Winsource} alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.zebra.com/us/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Zebra} alt="" />
                         </a>
