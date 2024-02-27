@@ -4,7 +4,7 @@ import {FaLinkedinIn, FaTiktok} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='w-full h-[60px] bg-black'>
+    <div className='w-full bg-black'>
       <div className='flex justify-center py-5 align-center'>
         <a className='text-4xl my-auto mx-3 text-gray-300 transition duration-200 hover:text-white' href="https://www.instagram.com/uoftfsae/" target="_blank" rel="noreferrer"><AiOutlineInstagram/></a>
         <a className='text-4xl my-auto mx-3 text-gray-300 transition duration-200 hover:text-white' href="https://www.linkedin.com/company/university-of-toronto-formula-sae-racing/mycompany/" target="_blank" rel="noreferrer"><FaLinkedinIn/></a>

@@ -3,22 +3,27 @@ import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
 import Shootout2023 from '../assets/ShootoutPhotos/Shootout2023.png'
+import ShootoutVideo from '../assets/ShootoutVideo.mov'
 
-// import ShootoutHeader from '../assets/ShootoutPhotos/Shootout2022/ShootoutHeader.jpeg'
+// Shootout 2023
+import Shootout2023_1 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_1.JPG'
+import Shootout2023_2 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_2.JPG'
+import Shootout2023_3 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_3.jpg'
+import Shootout2023_4 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_4.jpg'
+
+// Shootout 2022
 import Shootout2022_1 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022.jpg'
 import Shootout2022_2 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_2.JPG'
 import Shootout2022_3 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_3.JPG'
-// import Shootout2022_4 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_4.JPG'
 import Shootout2022_5 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_5.jpg'
 import Shootout2022_6 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_6.jpg'
-// import Shootout2022_7 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_7.jpg'
 import Shootout2022_8 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_8.JPG'
 import Shootout2022_9 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_9.JPG'
-// import Shootout2022_10 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_10.JPG'
-// import Shootout2022_11 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_11.JPG'
 import Shootout2022_12 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_12.JPG'
 import Shootout2022_13 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_13.JPG'
 import Shootout2022_14 from '../assets/ShootoutPhotos/Shootout2022/Shootout2022_14.JPG'
+
+// Header images
 import ShootoutCard2019Image from '../assets/ShootoutPhotos/UTFRShootout2019GroupPhoto.jpeg'
 import ShootoutCard2021Image from '../assets/ShootoutPhotos/UTFRShootout2021Photo.jpeg'
 import ShootoutCard2018Image from '../assets/ShootoutPhotos/UTFRShootout2018Photo.webp'
@@ -76,23 +81,26 @@ const Shootout = () => {
       }
     ]
   };
+  
 
   return (
     <div>
-        <div className='w-full h-screen' style={{
-        backgroundImage: `url(${ShootoutCard2018Image})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
-        }}>
+        <div className='w-full h-screen'>
           <div className='headerOverlay'>
-        <div className='h-full flex flex-col justify-end'>
-          <Fade triggerOnce>
-            <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Shootout</h1>
-          </Fade>
-        </div>
-        </div>
-        </div>
+            <div className='h-full flex flex-col justify-end'>
+              <Fade triggerOnce>
+                <h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Shootout</h1>
+              </Fade>
+            </div>
+          </div>
+          <div className='flex justify-center'>
+              <div>
+                  <video loop autoPlay playsinline muted className='bg-video'>
+                      <source src={ShootoutVideo} type="video/mp4"/>
+                  </video>
+              </div>
+          </div>
+      </div>
         <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
             <h1 className='flex px-5 justify-center text-4xl font-bold pt-12 text-center'>Toronto Shootout</h1>
@@ -170,8 +178,20 @@ const Shootout = () => {
             </div>
           </Fade>
         </div>
-        <div className='py-10 grid place-items-center'>
+        <div className='py-10 grid place-items-center bg-black'>
           <Slider {...settings} className='lg:w-[1300px] md:w-[800px] w-[400px]'>
+              <div className="carouselCard">
+                <img alt="" src={Shootout2023_1}/>
+              </div>
+              <div className="carouselCard">
+                <img alt="" src={Shootout2023_2}/>
+              </div>
+              <div className="carouselCard">
+                <img alt="" src={Shootout2023_3}/>
+              </div>
+              <div className="carouselCard">
+                <img alt="" src={Shootout2023_4}/>
+              </div>
               <div className="carouselCard">
                 <img alt="" src={Shootout2022_1}/>
               </div>
