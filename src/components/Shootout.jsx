@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
@@ -81,6 +81,24 @@ const Shootout = () => {
       }
     ]
   };
+
+  const [shouldAutoplay, setShouldAutoplay] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      // Adjust the threshold as needed based on your design
+      const thresholdWidth = 768; // Example threshold for small screens
+      setShouldAutoplay(window.innerWidth >= thresholdWidth);
+    };
+
+    handleResize(); // Set initial autoplay value
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   
 
   return (
@@ -95,7 +113,7 @@ const Shootout = () => {
           </div>
           <div className='flex justify-center'>
               <div>
-                  <video loop autoPlay playsinline muted className='bg-video'>
+                  <video loop autoPlay={shouldAutoplay} playsInline muted className='bg-video'>
                       <source src={ShootoutVideo} type="video/mp4"/>
                   </video>
               </div>
@@ -230,7 +248,7 @@ const Shootout = () => {
           <div className='justify-center pt-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 px-auto'>
               <div className='pl-0 mx-auto lg:pl-20'>
-                <div className='shootoutCard w-[500px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
+                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
                     backgroundImage: `url(${Shootout2023})`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
