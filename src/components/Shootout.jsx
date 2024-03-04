@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
@@ -82,28 +83,18 @@ const Shootout = () => {
     ]
   };
 
-  const [shouldAutoplay, setShouldAutoplay] = useState(false);
+  const videoRef = useRef(null);
 
   useEffect(() => {
-    const handleResize = () => {
-      // Adjust the threshold as needed based on your design
-      const thresholdWidth = 768; // Example threshold for small screens
-      setShouldAutoplay(window.innerWidth >= thresholdWidth);
-    };
-
-    handleResize(); // Set initial autoplay value
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    // Play the video when component mounts
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
   }, []);
   
-
   return (
     <div>
-        <div className='w-full h-screen relative'>
+        <div className='w-full h-screen relative video-container'>
           <div className='headerOverlay'>
             <div className='h-full flex flex-col justify-end'>
               <Fade triggerOnce>
@@ -112,8 +103,8 @@ const Shootout = () => {
             </div>
           </div>
           <div className='flex justify-center'>
-              <div>
-                  <video loop autoPlay={shouldAutoplay} playsInline muted className='bg-video'>
+              <div className=''>
+                  <video ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
                       <source src={ShootoutVideo} type="video/mp4"/>
                   </video>
               </div>

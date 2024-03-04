@@ -335,3 +335,14 @@ section {
 
 }
 
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media (max-width: 768px) {
+    .video-container::-webkit-media-controls {
+      display: none !important;
+    }
+  }
