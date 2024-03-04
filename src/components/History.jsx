@@ -84,7 +84,7 @@ const History = () => {
 
   return (
     <div className='h-[100%]'>
-      <div className='w-full h-screen' style={{
+      <div className='w-full h-screen relative' style={{
         backgroundImage: `url(${HistoryHeader})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -101,7 +101,7 @@ const History = () => {
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full bg-[#181818]'>
           <div className='h-full w-full about flex flex-col md:flex-row'>
-            <div className='w-[130%] p-10'>
+            <div className='md:w-[130%] p-10'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>History of The Team</p>
               <p className='pt-5'>The University of Toronto Formula SAE Racing Team was founded during the 1996-97 academic year. Leading up to our first competition season in 1999 the team was busy finding sponsors, conducting R&D and developing a prototype vehicle.</p>

@@ -103,7 +103,7 @@ const Shootout = () => {
 
   return (
     <div>
-        <div className='w-full h-screen'>
+        <div className='w-full h-screen relative'>
           <div className='headerOverlay'>
             <div className='h-full flex flex-col justify-end'>
               <Fade triggerOnce>
@@ -196,8 +196,8 @@ const Shootout = () => {
             </div>
           </Fade>
         </div>
-        <div className='py-10 grid place-items-center bg-black'>
-          <Slider {...settings} className='lg:w-[1300px] md:w-[800px] w-[400px]'>
+        <div className='py-10 grid place-items-center bg-[#1D1D1D]'>
+          <Slider {...settings} className='lg:w-[1200px] md:w-[800px] w-[400px]'>
               <div className="carouselCard">
                 <img alt="" src={Shootout2023_1}/>
               </div>

@@ -106,7 +106,7 @@ import { Fade } from "react-awesome-reveal";
 const Sponsors = () => {
   return (
     <div>
-        <div className='w-full h-screen' style={{
+        <div className='w-full h-screen relative' style={{
         backgroundImage: `url(${SponsorHeader})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',

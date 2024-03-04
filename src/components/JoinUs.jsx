@@ -35,7 +35,7 @@ const History = () => {
 
   return (
     <div className='bg-[#181818]'>
-      <div className='w-full h-screen' style={{
+      <div className='w-full h-screen relative' style={{
         backgroundImage: `url(${HeaderImage})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
