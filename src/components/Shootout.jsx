@@ -94,7 +94,12 @@ const Shootout = () => {
   
   return (
     <div>
-        <div className='w-full h-screen relative video-container'>
+      <div className='w-full h-screen relative z-10' style={{
+        backgroundImage: `url(${Shootout2023})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+        }}>
           <div className='headerOverlay'>
             <div className='h-full flex flex-col justify-end'>
               <Fade triggerOnce>
