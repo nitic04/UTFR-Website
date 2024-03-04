@@ -7,8 +7,6 @@ module.exports = {
       'open': ['Open Sans']
     }
   },
-  plugins: {
-    'tailwindcss/nesting': {},
-  },
+  plugins: [],
 }
 
