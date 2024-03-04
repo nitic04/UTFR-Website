@@ -104,7 +104,7 @@ const Shootout = () => {
           </div>
           <div className='flex justify-center'>
               <div className=''>
-                  <video ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
+                  <video preload="auto" ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
                       <source src={ShootoutVideo} type="video/mp4"/>
                   </video>
               </div>
