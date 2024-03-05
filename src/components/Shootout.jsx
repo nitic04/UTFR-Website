@@ -94,7 +94,7 @@ const Shootout = () => {
   
   return (
     <div>
-      <div className='w-full h-screen relative z-10' style={{
+      <div className='w-full h-screen relative' style={{
         backgroundImage: `url(${Shootout2023})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
