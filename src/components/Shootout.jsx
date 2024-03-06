@@ -4,7 +4,7 @@ import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
 import Shootout2023 from '../assets/ShootoutPhotos/Shootout2023.png'
-import ShootoutVideo from '../assets/ShootoutVideo.mov'
+// import ShootoutVideo from '../assets/ShootoutVideo.mov'
 
 // Shootout 2023
 import Shootout2023_1 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_1.JPG'
@@ -83,14 +83,14 @@ const Shootout = () => {
     ]
   };
 
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    // Play the video when component mounts
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Play the video when component mounts
+  //   if (videoRef.current) {
+  //     videoRef.current.play();
+  //   }
+  // }, []);
   
   return (
     <div>
@@ -107,13 +107,13 @@ const Shootout = () => {
               </Fade>
             </div>
           </div>
-          <div className='flex justify-center'>
+          {/* <div className='flex justify-center'>
               <div className=''>
                   <video preload="auto" ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
                       <source src={ShootoutVideo} type="video/mp4"/>
                   </video>
               </div>
-          </div>
+          </div> */}
       </div>
         <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
