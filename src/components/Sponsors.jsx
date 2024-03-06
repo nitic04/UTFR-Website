@@ -72,6 +72,7 @@ import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
 
 import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
+import ERP from '../assets/Sponsors/SponsorLogosColoured/3ERP.png'
 
 // Afilliates
 import SevenPCB from '../assets/Sponsors/SponsorLogosColoured/Bittle.png' 
@@ -406,6 +407,9 @@ const Sponsors = () => {
                     <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                         <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TibetTechSols} alt="" />
+                        </a>
+                        <a href="http://www.3erp.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={ERP} alt="" />
                         </a>
                     </div>
                 </div>
