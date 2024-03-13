@@ -14,10 +14,11 @@ import NH23Blog from "./components/NH23Blog";
 import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
 import UT03 from "./components/UT03";
-import UT23 from "./components/UT23";
+import UT23 from "./components/CarPages/UT23";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
 import Newsletter from "./components/Newsletter";
+import Team1997 from "./components/CarPages/Team1997";
 // import LoadingScreen from './components/LoadingScreen';
 
 function App() {
@@ -38,19 +39,19 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1711144800000}/><HomeCarousel /><SponsorshipFooter /></>} />
+          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1711144800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
-          <Route path="/team" element={<><TeamHeader /><Team2024 /></>} />
-          <Route path="/team2023" element={<><TeamHeader /><Team2023 /></>} />
-          <Route path="/UT23" element={<UT23 />} />
+          <Route path="/team" element={<><TeamHeader /><Team2024 /><Footer /><Footer /></>} />
+          <Route path="/team2023" element={<><TeamHeader /><Team2023 /><Footer /></>} />
+          <Route path="/UT23" element={<><UT23 /><Footer /></>} />
           <Route path="/history" element={<History />} />
-          <Route path="/joinUs" element={<JoinUs />} />
-          <Route path="/UT03" element={<UT03 />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/shootout" element={<Shootout />} />
-          <Route path="/newsletter" element={<Newsletter />} />
+          <Route path="/joinUs" element={<><JoinUs /><Footer /></>} />
+          <Route path="/UT03" element={<><UT03 /><Footer /></>} />
+          <Route path="/sponsors" element={<><Sponsors /><Footer /></>} />
+          <Route path="/shootout" element={<><Shootout /><Footer /></>} />
+          <Route path="/newsletter" element={<><Newsletter /><Footer /></>} />
+          <Route path="/1997" element={<><Team1997 /><Footer /></>} />
         </Routes>
-        <Footer />
       </Router>
       {/* )} */}
     </div>
