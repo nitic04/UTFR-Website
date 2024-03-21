@@ -8,7 +8,21 @@ const TeamMembersComponentSectioned = () => {
         <div className='bg-[#303949] pb-10 px-10 text-[#222220]'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT23 TEAM MEMBERS</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            {/* Directors */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">DIRECTORS</h2>
+                <ul className=''>
+                <li>Daniel LaRosa - Team Principal & Mechanical Technical Director</li>
+                <li>Jake Sprenger - Electrical Technical Director</li>
+                <li>Daniel Asadi - Driverless Technical Director</li>
+                <li>Emily Wright - Business Director</li>
+                <li>Sam Bahrami - Shop Manager</li>
+                </ul>
+                </Fade>
+            </div>
             {/* Mechanical */}
             <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
                 <Fade cascade damping={0.1} triggerOnce>
@@ -75,7 +89,6 @@ const TeamMembersComponentSectioned = () => {
             </div>
             </Fade>
         </div>
-
     </div>
   );
 };

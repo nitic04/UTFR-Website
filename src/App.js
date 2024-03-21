@@ -20,6 +20,7 @@ import Newsletter from "./components/Newsletter";
 
 import TeamPage1997 from "./components/CarPages/TeamPage1997";
 import TeamPage1998 from "./components/CarPages/TeamPage1998";
+import UT99 from "./components/CarPages/UT99";
 import UT00 from "./components/CarPages/UT00";
 import UT01 from "./components/CarPages/UT01";
 import UT02 from "./components/CarPages/UT02";
@@ -75,6 +76,7 @@ function App() {
           <Route path="/newsletter" element={<><Newsletter /><Footer /></>} />
           <Route path="/1997" element={<><TeamPage1997 /><Footer /></>} />
           <Route path="/1998" element={<><TeamPage1998 /><Footer /></>} />
+          <Route path="/UT99" element={<><UT99 /><Footer /></>} />
           <Route path="/UT00" element={<><UT00 /><Footer /></>} />
           <Route path="/UT01" element={<><UT01 /><Footer /></>} />
           <Route path="/UT02" element={<><UT02 /><Footer /></>} />

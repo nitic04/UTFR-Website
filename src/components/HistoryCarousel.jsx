@@ -29,6 +29,7 @@ const HistoryCarousel = ({ slides = [] }) => {
     initialSlide: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,

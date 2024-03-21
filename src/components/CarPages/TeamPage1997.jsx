@@ -36,11 +36,14 @@ const TeamPage1997 = () => {
 
   return (
     <div>
+        {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[450px]">1997</h1>
             </Fade>
         </div>
+
+        {/* Overview Section */}
         <div className='bg-[#062644] grid lg:grid-cols-2 text-white'>
             <div className='px-10 py-10 lg:px-24 lg:py-32'>
                 <Fade cascade damping={0.2} triggerOnce>
@@ -49,15 +52,17 @@ const TeamPage1997 = () => {
                 <p className="pt-5">From January 1997 to June 1997, the team focused on developing a conceptual design for the car, which from July 1997 to October 1997, they used to create a preliminary design. From November 1997 to January 1998, the team members worked on making the design more detailed and began acquiring sponsors from November 1997 to March 1998.</p>
                 </Fade>
             </div>
-            <div className='mx-auto my-auto px-10 pb-10 lg:pt-24 lg:pr-24'>
+            <div className='mx-auto my-auto px-10 pb-10 lg:py-10 lg:pr-24'>
                 <Fade cascade damping={0.2} triggerOnce>
                 <img src={OverviewImg} alt="" />
                 </Fade>
             </div>
         </div>
 
-        <TeamMembersSimpleComponents teamMembers={teamMembers} />
+        {/* Team Members Section */}
+        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"1997"}/>
         
+        {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>
             <div className=''>
             <Fade cascade damping={0.2} triggerOnce>

@@ -36,11 +36,14 @@ const TeamPage1998 = () => {
 
   return (
     <div>
+        {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[450px]">1998</h1>
             </Fade>
         </div>
+
+        {/* Overview Section */}
         <div className='bg-[#062644] grid lg:grid-cols-2 text-white'>
             <div className='px-10 py-10 lg:px-24 lg:py-32'>
                 <Fade cascade damping={0.2} triggerOnce>
@@ -49,15 +52,17 @@ const TeamPage1998 = () => {
                 <p className="pt-5">This year, the team secured HA103 in the Haultain Building from the faculty which is what we now know as the "shop", where the team works on the car. Team members worked very hard securing sponsors and getting funding, sending out hundreds of sponsorship packagers with letters and phone calls. To raise initial seed money, we even attended Varsity hockey games and sold chocolate covered almonds. Every night brought in between $150-$200. Same as last year, a few members of the team attended the 1998 FSAE Michigan competition to observe and speak to teams.</p>
                 </Fade>
             </div>
-            <div className='mx-auto my-auto px-10 pb-10 lg:pt-24 lg:pr-24'>
+            <div className='mx-auto my-auto px-10 pb-10 lg:py-10 lg:pr-24'>
                 <Fade cascade damping={0.2} triggerOnce>
                 <img src={OverviewImg} alt="" />
                 </Fade>
             </div>
         </div>
 
-        <TeamMembersSimpleComponents teamMembers={teamMembers} />
+        {/* Team Members Section */}
+        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"1998"}/>
         
+        {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>
             <div className=''>
             <Fade cascade damping={0.2} triggerOnce>

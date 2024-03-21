@@ -117,9 +117,9 @@ const History = () => {
           <ScrollSectionNoImg navlink="/1998" year="1998" title="First prototype completed"/>
           <ScrollSection navlink="/UT99" year="UT99" title="First competition" paddingFromTop="400px" image={UT99Cutout}/>
 
-          <ScrollSection navlink="/UT00" year="UT00" title="First European competition" paddingFromTop="250px" image={UT00Cutout}/>
+          <ScrollSection navlink="/UT00" year="UT00" title="So Close" paddingFromTop="250px" image={UT00Cutout}/>
           <ScrollSection navlink="/UT01" year="UT01" title="Shootout starts" paddingFromTop="400px" image={UT01Cutout}/>
-          <ScrollSection navlink="/UT02" year="UT02" title="So close" paddingFromTop="150px" image={UT02Cutout}/>
+          <ScrollSection navlink="/UT02" year="UT02" title="First European Competition" paddingFromTop="150px" image={UT02Cutout}/>
           <ScrollSection navlink="/UT03" year="UT03" title="World champions" paddingFromTop="250px" image={UT03Cutout}/>
           <ScrollSection navlink="/UT04" year="UT04" title="A small dip" paddingFromTop="400px" image={UT04Cutout}/>
 

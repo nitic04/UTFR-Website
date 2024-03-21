@@ -31,6 +31,7 @@ const UT23 = () => {
 
   return (
     <div>
+        {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT23</h1>
@@ -51,6 +52,8 @@ const UT23 = () => {
             </div>
             </Fade>
         </div>
+
+        {/* Overview Section */}
         <div className='bg-[#303949] grid lg:grid-cols-2 text-white'>
             <div className='px-10 py-10 lg:px-24 lg:py-32'>
                 <Fade cascade damping={0.2} triggerOnce>
@@ -58,12 +61,14 @@ const UT23 = () => {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime laboriosam ex corporis pariatur aperiam, natus, quidem, eaque nemo adipisci dolorem blanditiis optio. Adipisci fuga perferendis earum non delectus accusamus a!</p>
                 </Fade>
             </div>
-            <div className='mx-auto my-auto px-10 pb-10 lg:pt-24 lg:pr-24'>
+            <div className='mx-auto my-auto px-10 pb-10 lg:pt-10 lg:pr-24'>
                 <Fade cascade damping={0.2} triggerOnce>
                 <img src={OverviewImg} alt="" />
                 </Fade>
             </div>
         </div>
+
+        {/* Competitions Section */}
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
@@ -116,6 +121,8 @@ const UT23 = () => {
             </div>
             </Fade>
         </div>
+
+        {/* Car Video Section */}
         <div className='bg-[#13191F]'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold pt-10 pb-10 text-center text-white'>SEE THE UT23 IN ACTION</h1>
@@ -123,8 +130,10 @@ const UT23 = () => {
             </Fade>
         </div>
 
+        {/* Team Members Section */}
         <TeamMembersComponentSectioned />
         
+        {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>
             <div className=''>
             <Fade cascade damping={0.2} triggerOnce>
@@ -135,6 +144,8 @@ const UT23 = () => {
             </Fade>
             </div>
         </div>
+
+        {/* Technical Specifications Section */}
         <div className=' bg-[#062644]'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl text-white pt-10 text-center md:text-6xl pb-5 flex justify-center font-bold'>TECHNICAL SPECIFICATIONS</h1>
