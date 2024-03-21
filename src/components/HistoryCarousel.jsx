@@ -47,16 +47,16 @@ const HistoryCarousel = ({ slides = [] }) => {
 
   return (
     <div className="w-full mx-auto py-5">
-      <div className="px-8">
+      <div className="md:px-8">
         <Slider {...settings}>
           {slides.map((slide, index) => (
             <div key={index} className="carouselCard flex flex-col items-center justify-center">
               {slide.link ? (
                 <a href={slide.link} target="_blank" rel="noreferrer" className="flex justify-center items-center">
-                  <img alt="" src={slide.image} className="max-w-full max-h-32" />
+                  <img alt="" src={slide.image} className="md:max-w-full md:max-h-32" />
                 </a>
               ) : (
-                <img alt="" src={slide.image} className="mx-auto max-w-full max-h-[700px]" />
+                <img alt="" src={slide.image} className="mx-auto md:max-w-full md:max-h-[700px]" />
               )}
               <p className="text-white text-center py-2">{slide.description}</p>
             </div>
