@@ -356,6 +356,20 @@ ul {
     font-family: 'OutlineFont';
 }
 
-.CarTitle:hover .CarYear {
-    color: blue;
+.competitionCard {
+    border-radius: 5px;
+    transition: box-shadow 200ms;   
+}
+
+.competitionCard:hover {
+    box-shadow: 5px 5px 5px rgb(10, 0, 43);
+}
+
+.teamCard {
+    transition: box-shadow 200ms;
+}
+
+.teamCard:hover {
+    box-shadow: 5px 5px 5px #6b6b6b;
+    cursor: default;
 }

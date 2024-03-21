@@ -1,85 +1,75 @@
-import React from 'react';
-import HeaderImage from '../../assets/TeamMembers/ActionPhotos/chassis_pic.webp'
-import Team1997_1 from '../../assets/HistoricCarPhotos/UT00/2000-Competition-9.jpg'
-import Team1997_2 from '../../assets/HistoricCarPhotos/UT00/2000-Competition-8.jpg'
-
 import { Fade } from "react-awesome-reveal";
+import GoToTop from '../GoToTop'
+import HistoryCarousel from '../HistoryCarousel'
+
+import OverviewImg from '../../assets/HistoricCarPhotos/1997/1997-Autoshow-4.jpg'
+import CarouselImg1 from '../../assets/HistoricCarPhotos/1997/1997-Autoshow-1.jpg'
+import CarouselImg2 from '../../assets/HistoricCarPhotos/1997/1997-Autoshow-3.jpg'
+
+import TeamMembersSimpleComponents from "./TeamMembersSimpleComponent";
 
 const TeamPage1997 = () => {
-    return (
-        <div className='text-white'>
-            <div className='w-full h-screen' style={{
-                backgroundImage: `url(${HeaderImage})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-            }}>
-                <div className='headerOverlay'>
-                    <div className=' h-full flex flex-col justify-end'>
-                    <Fade triggerOnce>
-                        <h1 className='font-bold text-8xl md:text-9xl text-white text-center md:text-left md:pl-10 mb-40 md:mb-16'>1997</h1>
-                    </Fade>
-                    </div>  
-                </div>
+    const slides = [
+            {
+                image: CarouselImg1,
+                description: 'A photo from an autoshow where the team\'s work is displayed'
+            },
+            {
+                image: CarouselImg2,
+                description: 'A photo from an autoshow where the team\'s work is displayed'
+            },
+        ];
+    
+    const teamMembers = [
+        { name: 'Aaron Tsang', specialization: '- Founder' },
+        { name: 'Kyle D. Jackson', specialization: '- Technical Director' },
+        { name: 'Maurizio Darini', specialization: '' },
+        { name: 'Sandro Vono', specialization: '' },
+        { name: 'Akos Toth', specialization: '' },
+        { name: 'Yan Weizblit', specialization: '' },
+        { name: 'Manzar Akber', specialization: '' },
+        { name: 'Paul Marttila', specialization: '' },
+        { name: 'Jason Maristanez', specialization: '' },
+        { name: 'Liung Liao', specialization: '' }
+    ];
+        
+
+  return (
+    <div>
+        <div className="h-screen bg-[#B6C1D0]">
+            <Fade cascade damping={0.2} triggerOnce>
+            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[450px]">1997</h1>
+            </Fade>
+        </div>
+        <div className='bg-[#062644] grid lg:grid-cols-2 text-white'>
+            <div className='px-10 py-10 lg:px-24 lg:py-32'>
+                <Fade cascade damping={0.2} triggerOnce>
+                <h1 className='text-4xl md:text-6xl font-bold pb-10'>OVERVIEW</h1>
+                <p>The University of Toronto Formula Racing Team was founded during the 1996 - 1997 school year by Aaron Tsang while he was on his PEY at Bombardier. The team officially began January 1997 and was created by a group of 50 engineering students with the intent to enter Formula SAE Michigan in May 1999, which would be the team's first ever competition. The team went to the autoshow with just a foam model of their racecar in 1998 to try and get sponsors. A small group of people attended the 1997 FSAE Michigan competition to observer and learn about the competition. The team's goal was to be the best rookie team in FSAE Michigan 1999.</p>
+                <p className="pt-5">From January 1997 to June 1997, the team focused on developing a conceptual design for the car, which from July 1997 to October 1997, they used to create a preliminary design. From November 1997 to January 1998, the team members worked on making the design more detailed and began acquiring sponsors from November 1997 to March 1998.</p>
+                </Fade>
             </div>
-            <div className='h-[500px] grid grid-cols-2'>
-                <div className='bg-[#295FAC]'>
-                    <h1 className='text-5xl font-bold pt-24 pl-5 lg:pl-10'>The Team Was Founded</h1>
-
-                </div>
-                <div className='w-full' style={{
-                backgroundImage: `url(${Team1997_1})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-                }}></div>
-
-            </div>
-            <div className='bg-[#3A4254] h-[550px]'>
-                <h1 className='text-5xl font-bold text-center pt-10'>Competitions</h1>
-                <div className='grid grid-cols-3 text-center space-x-10'>
-                    <div className='w-[25vw] h-[25vh] pt-24 pl-10'>
-                        <div className='w-[25vw] h-[25vh]' style={{
-                            backgroundImage: `url(${HeaderImage})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                        }}></div>
-                        <div className='text-xl'>
-                            <h1 className=''>New Hampshire Formula Hybrid + Electric</h1> 
-                            <h1 className='font-bold'>1st Place Overall</h1>
-                        </div>
-                    </div>
-                    <div className='w-[25vw] h-[25vh] pt-12'>
-                        <div className='w-[25vw] h-[25vh]' style={{
-                            backgroundImage: `url(${HeaderImage})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                        }}></div>
-                        <div className='text-xl'>
-                            <h1 className=''>Formula SAE Electric Michigan</h1> 
-                            <h1 className='font-bold'>5th Place Overall</h1>
-                        </div>
-                    </div>
-                    <div className='w-[25vw] h-[25vh] pt-24'>
-                        <div className='w-[25vw] h-[25vh]' style={{
-                            backgroundImage: `url(${HeaderImage})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                        }}></div>
-                        <div className='text-xl'>
-                            <h1 className=''>Formula Student Czechia</h1> 
-                            <h1 className='font-bold'>6th Place Overall</h1>
-                            <h1 className='font-bold'>1st Place in EV Efficiency</h1>
-                        </div>
-                    </div>
-
-                </div>
+            <div className='mx-auto my-auto px-10 pb-10 lg:pt-24 lg:pr-24'>
+                <Fade cascade damping={0.2} triggerOnce>
+                <img src={OverviewImg} alt="" />
+                </Fade>
             </div>
         </div>
-    );
-};
 
-export default TeamPage1997;
+        <TeamMembersSimpleComponents teamMembers={teamMembers} />
+        
+        <div className='bg-[#13191F] px-10 md:px-0'>
+            <div className=''>
+            <Fade cascade damping={0.2} triggerOnce>
+                <h1 className='text-4xl text-white pt-10 text-center md:text-6xl pb-5 flex justify-center font-bold'>PHOTO GALLERY</h1>
+                <div className='lg:px-52 pb-5'>
+                    <HistoryCarousel slides={slides}/>
+                </div>
+            </Fade>
+            </div>
+        </div>
+        <GoToTop />
+    </div>
+  )
+}
+export default TeamPage1997

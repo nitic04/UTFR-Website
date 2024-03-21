@@ -10,7 +10,7 @@ const TeamMembersComponentSectioned = () => {
             <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT23 TEAM MEMBERS</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Mechanical */}
-            <div className="bg-gray-100 p-4 rounded-lg py-7">
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">MECHANICAL</h2>
                 <ul className=''>
@@ -29,7 +29,7 @@ const TeamMembersComponentSectioned = () => {
             </div>
 
             {/* Business */}
-            <div className="bg-gray-100 p-4 rounded-lg py-7">
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">BUSINESS</h2>
                 <ul>
@@ -47,7 +47,7 @@ const TeamMembersComponentSectioned = () => {
             </div>
 
             {/* Electrical */}
-            <div className="bg-gray-100 p-4 rounded-lg py-7">
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">ELECTRICAL</h2>
                 <ul>
@@ -60,7 +60,7 @@ const TeamMembersComponentSectioned = () => {
             </div>
 
             {/* Driverless */}
-            <div className="bg-gray-100 p-4 rounded-lg py-7">
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">DRIVERLESS</h2>
                 <ul>        

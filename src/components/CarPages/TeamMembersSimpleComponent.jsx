@@ -8,11 +8,11 @@ const TeamMembersSimpleComponents = ({ teamMembers }) => {
         <div className='bg-[#303949] pb-10 px-10 text-[#222220]'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT23 TEAM MEMBERS</h1>
-            <div className="bg-gray-100 py-10 w-[500px] h-[500px] rounded-lg mx-auto">
+            <div className="bg-gray-100 py-10 w-[500px] rounded-lg mx-auto">
                 <Fade cascade damping={0.2} triggerOnce>
-                <ul className='text-center'>
+                <ul className='text-center text-xl'>
                 {teamMembers.map((member, index) => (
-                    <li key={index}>{member.name} - {member.specialization}</li>
+                    <li key={index}>{member.name} {member.specialization}</li>
                 ))}
                 </ul>
                 </Fade>
