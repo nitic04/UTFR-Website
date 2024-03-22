@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
-
 
 @layer base {
     li {
@@ -14,12 +10,34 @@
     }
 }
 
+/* src/index.css */
+@font-face {
+    font-family: 'OutlineFont';
+    src: url('./assets/Fonts/HussarEkologiczne1.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OutlineFontFilled';
+    src: url('./assets/Fonts/HussarEkologiczne2.otf') format('truetype');
+}
+  
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/Fonts/OpenSans.ttf') format('truetype');
+  }
+
 body {
-    font-family: 'Satoshi', 'Arial';
+    font-family: 'Montserrat', 'Arial';
     background-color: black;
     font-size: 1.05rem;
     line-height: 1.5rem;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 .bg-video {
     width: 100vw;
@@ -264,30 +282,94 @@ animation-delay: 1s;
     box-shadow: 5px 5px 5px rgb(45, 45, 45);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&display=swap');
-
-.wrapper {
+/* .historyWrapper{
     overflow-x: hidden;
     position: relative;
 }
-* {
-    box-sizing: border-box;
+
+.historyContainer{
+    display: flex;
+    width: 300vw;
+} */
+
+.scroll-section-outer {
+    overflow: hidden;
+    height: auto;
 }
 
-
-section {
+.scroll-section-inner {
     height: 100vh;
-
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
 }
 
-
-video {
-    min-width: 100%;
-    min-height: 100%;
+.scroll-section{
+    height: 100vh;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (max-width: 768px) {
-    .video-container::-webkit-media-controls {
-      display: none !important;
-    }
+.scroll-section h3 {
+    color: white;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+  
+
+@media (min-width: 768px) {
+  iframe {
+    width: 85%;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  iframe {
+    width: 59%;
+    height: 60vh;
+  }
+}
+
+ul {
+    cursor: default;
+}
+
+.CarYear {
+    font-family: 'OutlineFont';
+}
+
+.carImage:hover {
+    /* box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5); */
+    cursor: pointer;
+  }
+  
+  
+
+/* CAR PAGES */
+.carTitle {
+    font-family: 'OutlineFont';
+}
+
+.competitionCard {
+    border-radius: 5px;
+    transition: box-shadow 200ms;   
+}
+
+.competitionCard:hover {
+    box-shadow: 5px 5px 5px rgb(10, 0, 43);
+}
+
+.teamCard {
+    transition: box-shadow 200ms;
+}
+
+.teamCard:hover {
+    box-shadow: 5px 5px 5px #6b6b6b;
+    cursor: default;
 }
