@@ -93,14 +93,14 @@ const UT10 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-3 items-center pb-10'>
+            <div className='grid items-center pb-10'>
                 <div className='px-10'>
-                    <div className='competitionCard h-[400px]' style={{
+                    <div className='competitionCard h-[700px]' style={{
                         backgroundImage: `url(${CompImg1})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "10%"
+                        backgroundPositionY: "30%"
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>

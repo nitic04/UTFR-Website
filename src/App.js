@@ -45,7 +45,7 @@ import UT20 from "./components/CarPages/UT20";
 import UT21 from "./components/CarPages/UT21";
 import UT22 from "./components/CarPages/UT22";
 import UT23 from "./components/CarPages/UT23";
-import UT24 from "./components/CarPages/UT24";
+// import UT24 from "./components/CarPages/UT24";
 
 function App() {
   // const [loading, setLoading] = useState(true);
@@ -101,7 +101,7 @@ function App() {
           <Route path="/UT21" element={<><UT21 /><Footer /></>} />
           <Route path="/UT22" element={<><UT22 /><Footer /></>} />
           <Route path="/UT23" element={<><UT23 /><Footer /></>} />
-          <Route path="/UT24" element={<><UT24 /><Footer /></>} />
+          {/* <Route path="/UT24" element={<><UT24 /><Footer /></>} /> */}
         </Routes>
       </Router>
       {/* )} */}

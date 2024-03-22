@@ -156,7 +156,7 @@ const UT00 = () => {
         </div>
 
         {/* Overview Section */}
-        <div className='bg-[#303949] grid lg:grid-cols-2 text-white'>
+        <div className='bg-[#303949] grid grid-cols-2 text-white'>
             <div className='px-10 py-10 lg:px-24 lg:py-32'>
                 <Fade cascade damping={0.2} triggerOnce>
                 <h1 className='text-4xl md:text-6xl font-bold pb-10'>OVERVIEW</h1>
@@ -174,7 +174,7 @@ const UT00 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-3 items-center pb-10'>
+            <div className='grid lg:grid-cols-2 items-center pb-10'>
                 <div className='px-10'>
                     <div className='competitionCard h-[400px]' style={{
                         backgroundImage: `url(${CompImg1})`,

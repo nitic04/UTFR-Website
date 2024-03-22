@@ -40,8 +40,8 @@ const UT22 = () => {
         {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT21</h1>
-            <img className="mx-auto pt-10 w-[1000px]" src={CarCutout} alt="" />
+            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT22</h1>
+            <img className="mx-auto w-[1000px]" src={CarCutout} alt="" />
             <div className='grid space-y-8 md:space-y-0 md:grid-cols-3 pt-10 md:pt-5'>
                 <div>
                     <h2 className="text-[#3A4254] text-center text-xl md:text-2xl font-bold">Motor</h2>
@@ -78,14 +78,14 @@ const UT22 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-3 items-center pb-10'>
+            <div className='grid items-center pb-10'>
                 <div className='px-10'>
-                    <div className='competitionCard h-[400px]' style={{
+                    <div className='competitionCard h-[600px]' style={{
                         backgroundImage: `url(${CompImg1})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "10%"
+                        backgroundPositionY: "80%"
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>

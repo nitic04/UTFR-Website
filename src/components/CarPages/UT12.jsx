@@ -64,8 +64,8 @@ const UT12 = () => {
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT12</h1>
-            <img className="mx-auto pt-10 w-[1000px]" src={CarCutout} alt="" />
-            <div className='grid space-y-8 md:space-y-0 md:grid-cols-3 pt-10 md:pt-5'>
+            <img className="mx-auto w-[1000px]" src={CarCutout} alt="" />
+            <div className='grid space-y-8 md:space-y-0 md:grid-cols-3'>
                 <div>
                     <h2 className="text-[#3A4254] text-center text-xl md:text-2xl font-bold">0 - 100 km/h</h2>
                     <h2 className="text-center text-white text-3xl md:text-4xl font-bold">3.5 s</h2>

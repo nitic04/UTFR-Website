@@ -75,6 +75,25 @@ const ScrollSectionNoImg = ({ navlink, year, title}) => {
   );
 };
 
+const ScrollSectionUT24 = ({ year, title, image }) => {
+  return (
+    <div className={`scroll-section px-16`} style={{ paddingTop: "250px" }}>
+      <h2 className='CarYear text-8xl text-center pb-3'>{year}</h2>
+      <div className='w-[300px] h-[200px] md:w-[550px] md:h-[310px] carImage' style={{
+        backgroundImage: `url(${image})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'contain',
+        backgroundRepeat: 'no-repeat'
+      }}>
+      </div>
+        <div className=' transition duration-200 hover:text-[#d3d3d3] flex items-center'>
+          <h2 className="text-2xl pt-2 flex-grow">{title}</h2>
+          <FaRegArrowAltCircleRight className="text-2xl"/>
+        </div>
+    </div>
+  );
+};
+
 const History = () => {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
@@ -145,7 +164,7 @@ const History = () => {
           <ScrollSection navlink="/UT21" year="UT21" title="Last dance for ICE" paddingFromTop="300px" image={UT21Cutout}/>
           <ScrollSection navlink="/UT22" year="UT22" title="Switch to electric" paddingFromTop="400px" image={UT22Cutout}/>
           <ScrollSection navlink="/UT23" year="UT23" title="Return to winning" paddingFromTop="150px" image={UT23Cutout}/>
-          <ScrollSection navlink="/UT24" year="UT24" title="Driverless debut" paddingFromTop="250px" image={UT24Cutout}/>
+          <ScrollSectionUT24 year="UT24" title="Driverless debut" paddingFromTop="250px" image={UT24Cutout}/>
 
         </div>
       </div>

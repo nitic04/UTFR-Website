@@ -89,7 +89,7 @@ const UT05 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-3 items-center pb-10'>
+            <div className='grid lg:grid-cols-2 pb-10'>
                 <div className='px-10'>
                     <div className='competitionCard h-[400px]' style={{
                         backgroundImage: `url(${CompImg1})`,
@@ -103,6 +103,8 @@ const UT05 = () => {
                     <h3 className='text-center text-2xl pt-5'>Formula SAE Michigan</h3>
                     <h3 className='text-center pb-10 lg:pb-0 text-2xl font-bold pb-10 lg:pb-0'>51st Place Overall</h3>
                     <h3 className='hidden text-center text-2xl font-bold lg:pb-0'>RESULT</h3>
+                    <h3 className='hidden text-center text-2xl font-bold lg:pb-10'>RESULT</h3>
+                    <h3 className='hidden text-center text-2xl font-bold lg:pb-10'>RESULT</h3>
                     </Fade>
                 </div>
                 <div className='px-10'>
@@ -116,20 +118,12 @@ const UT05 = () => {
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
                     <h3 className='text-center text-2xl pt-5'>Formula Student UK</h3>
-                    <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>1st Place Overall</h3>
+                    <h3 className='text-center md:pb-0 text-2xl font-bold'>1st Place Overall</h3>
                     <h3 className='text-center text-2xl font-bold lg:pb-0'>Autocross - 1st Place</h3>
                     <h3 className='text-center text-2xl font-bold lg:pb-0'>Endurance - 1st Place</h3>
                     </Fade>
                 </div>
             </div>
-            </Fade>
-        </div>
-
-        {/* Car Video Section */}
-        <div className='bg-[#13191F]'>
-            <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='text-4xl md:text-6xl font-bold pt-10 pb-10 text-center text-white'>SEE THE UT05 IN ACTION</h1>
-            <iframe className="w-[100vw] h-[30vh] md:w-[80vw] md:h-[50vh] lg:w-[70vw] lg:h-[80vh] mx-auto pb-10" src="https://www.youtube.com/embed/ilPiE-aTMGQ?si=iaf0mMtAU3mIGKkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </Fade>
         </div>
 

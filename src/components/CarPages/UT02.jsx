@@ -98,7 +98,7 @@ const UT02 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid '>
+            <div className='grid grid-cols-2'>
                 <div className='px-10'>
                     <div className='competitionCard h-[400px]' style={{
                         backgroundImage: `url(${CompImg1})`,
@@ -129,7 +129,7 @@ const UT02 = () => {
                     <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>Autocross (Class 1) - 1st Place</h3>
                     <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>Endurance (Class 1) - 1st Place</h3>
                     <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>Overall Performance (Class 1) - 1st Place</h3>
-                    <h3 className='text-center pb-10 lg:pb-0 text-2xl font-bold'>Most Innovative Powertrain Award</h3>
+                    <h3 className='text-center pb-10 text-2xl font-bold mg:pb-10'>Most Innovative Powertrain Award</h3>
                     </Fade>
                 </div>
             </div>

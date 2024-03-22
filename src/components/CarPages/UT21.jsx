@@ -141,7 +141,7 @@ const UT21 = () => {
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5 pb-10'>Pittsburgh Shootout</h3>
+                    <h3 className='text-center text-2xl pt-5'>Pittsburgh Shootout</h3>
                     <h3 className='hidden text-center lg:pb-0 text-2xl font-bold'>5th Place Overall</h3>
                     <h3 className='text-center lg:pb-0 text-2xl font-bold'>Efficiency - 1st Place</h3>
                     </Fade>
