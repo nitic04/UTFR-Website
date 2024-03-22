@@ -16,7 +16,7 @@ import { Fade } from "react-awesome-reveal";
 const UT23 = () => {
   return (
     <div className='text-white'>
-        <div className='w-full h-screen' style={{
+        <div className='w-full h-screen relative' style={{
             backgroundImage: `url(${UT23Header})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover',

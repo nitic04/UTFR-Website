@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
 import Shootout2023 from '../assets/ShootoutPhotos/Shootout2023.png'
-import ShootoutVideo from '../assets/ShootoutVideo.mov'
+// import ShootoutVideo from '../assets/ShootoutVideo.mov'
 
 // Shootout 2023
 import Shootout2023_1 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_1.JPG'
@@ -82,28 +83,23 @@ const Shootout = () => {
     ]
   };
 
-  const [shouldAutoplay, setShouldAutoplay] = useState(false);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    const handleResize = () => {
-      // Adjust the threshold as needed based on your design
-      const thresholdWidth = 768; // Example threshold for small screens
-      setShouldAutoplay(window.innerWidth >= thresholdWidth);
-    };
-
-    handleResize(); // Set initial autoplay value
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  // useEffect(() => {
+  //   // Play the video when component mounts
+  //   if (videoRef.current) {
+  //     videoRef.current.play();
+  //   }
+  // }, []);
   
-
   return (
     <div>
-        <div className='w-full h-screen'>
+      <div className='w-full h-screen relative' style={{
+        backgroundImage: `url(${Shootout2023})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+        }}>
           <div className='headerOverlay'>
             <div className='h-full flex flex-col justify-end'>
               <Fade triggerOnce>
@@ -111,13 +107,13 @@ const Shootout = () => {
               </Fade>
             </div>
           </div>
-          <div className='flex justify-center'>
-              <div>
-                  <video loop autoPlay={shouldAutoplay} playsInline muted className='bg-video'>
+          {/* <div className='flex justify-center'>
+              <div className=''>
+                  <video preload="auto" ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
                       <source src={ShootoutVideo} type="video/mp4"/>
                   </video>
               </div>
-          </div>
+          </div> */}
       </div>
         <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
@@ -196,8 +192,8 @@ const Shootout = () => {
             </div>
           </Fade>
         </div>
-        <div className='py-10 grid place-items-center bg-black'>
-          <Slider {...settings} className='lg:w-[1300px] md:w-[800px] w-[400px]'>
+        <div className='py-10 grid place-items-center bg-[#1D1D1D]'>
+          <Slider {...settings} className='lg:w-[1200px] md:w-[800px] w-[400px]'>
               <div className="carouselCard">
                 <img alt="" src={Shootout2023_1}/>
               </div>

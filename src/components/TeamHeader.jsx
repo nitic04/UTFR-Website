@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 const Team = () => {
   return (
     <div className='w-full h-[100%]'>
-      <div className='w-full h-screen' style={{
+      <div className='w-full h-screen relative' style={{
       backgroundImage: `url(${TeamPhotoUnveiling})`,
       backgroundPosition: 'bottom',
       backgroundSize: 'cover',
