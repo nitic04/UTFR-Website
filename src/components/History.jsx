@@ -139,9 +139,6 @@ const History = () => {
       };
     }, []);  
 
-    
-  
-
   return (
     <section className='scroll-section-outer bg-[#1A1B1C] text-white'>
       <div ref={triggerRef}>
