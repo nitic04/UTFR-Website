@@ -52,7 +52,7 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto pt-6'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Daniel LaRosa</p>
               <p className='personTitle'>Team Principal & Mechanical Technical Director</p>
               <p className='personProgram'>Mech 2T3 + PEY</p>
@@ -60,7 +60,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={JakeSprenger} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <img src={JakeSprenger} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Jake Sprenger</p>
               <p className='personTitle'>Electrical Technical Director</p>
               <p className='personProgram'>ECE 2T3 + PEY</p>
@@ -68,7 +68,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={DanielAsadi} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <img src={DanielAsadi} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Daniel Asadi</p>
               <p className='personTitle'>Driverless Technical Director</p>
               <p className='personProgram'>Eng Sci 2T3 + PEY</p>
@@ -76,7 +76,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={EmilyWright} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <img src={EmilyWright} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Emily Wright</p>
               <p className='personTitle'>Business Director</p>
               <p className='personProgram'>Management 2T5 + Co-op</p>
@@ -84,38 +84,13 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={SamBahrami} alt="team" className='teamImg my-auto mx-auto w-[90%]'/>
+              <img src={SamBahrami} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Sam Bahrami</p>
               <p className='personTitle'>Shop Manager</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
             </Fade>
           </div>
         </div>
-
-        {/* DRIVERS */}
-        {/* <p className='text-4xl font-bold flex justify-center pt-5'>Drivers</p>
-        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-4 px-3'>
-          <div className='w-[100%] my-auto py-10'>
-            <img src={DamianSiseraDriver} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>Damian Sisera</p>
-            <p className='personProgram'>Mech 2T2 + PEY</p>
-          </div>
-          <div className='w-[100%] my-auto py-10'>
-            <img src={AyrtonAntenucciDriver} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>Ayrton Antenucci</p>
-            <p className='personProgram'>ECE 2T4 + PEY</p>
-          </div>
-          <div className='w-[100%] my-auto py-10'>
-            <img src={SpencerBallDriver} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>Spencer Ball</p>
-            <p className='personProgram'>ECE 2T3 + PEY</p>
-          </div>
-          <div className='w-[100%] my-auto py-10'>
-            <img src={KelvinCuiDriver} alt="team" className='my-auto mx-auto w-[90%]'/>
-            <p className='personName'>Kelvin Cui</p>
-            <p className='personProgram'>ECE 2T3 + PEY</p>
-          </div>
-        </div> */}
 
         {/* MECHANICAL LEADS */}
         <Fade triggerOnce delay={100}>
@@ -124,7 +99,7 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={JasmineWu} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={JasmineWu} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Jasmine Wu</p>
               <p className='personTitle'>Aerodynamics Lead</p>
               <p className='personProgram'>Eng Sci 2T5 + PEY</p>
@@ -132,7 +107,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={MauroDeLiberato} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={MauroDeLiberato} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Mauro De Liberato</p>
               <p className='personTitle'>Chassis Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -140,7 +115,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={VanshikaBhatia} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={VanshikaBhatia} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Vanshika Bhatia</p>
               <p className='personTitle'>Ergonomics Lead</p>
               <p className='personProgram'>Mech 2T6 + PEY</p>
@@ -148,7 +123,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={MoTaban} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={MoTaban} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Mo Taban</p>
               <p className='personTitle'>Brakes Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -156,7 +131,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={BatuTibet} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={BatuTibet} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Batu Tibet</p>
               <p className='personTitle'>Composites Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -164,7 +139,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={PatrykAniolowski} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={PatrykAniolowski} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Patryk Aniolowski</p>
               <p className='personTitle'>Suspension Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -172,7 +147,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={KelvinCao} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={KelvinCao} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Kelvin Cao</p>
               <p className='personTitle'>Drivetrain Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -180,7 +155,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={HunzalaRajput} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={HunzalaRajput} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Hunzala Rajput</p>
               <p className='personTitle'>Steering Lead</p>
               <p className='personProgram'>Mech 2T4 + PEY</p>
@@ -188,7 +163,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={EricEmmenegger} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={EricEmmenegger} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Eric Emmenegger</p>
               <p className='personTitle'>Powertrain Mechanical Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -196,7 +171,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] pt-12.5 my-auto pt-6'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={ToluIkubaje} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={ToluIkubaje} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Tolu Ikubaje</p>
               <p className='personTitle'>Driverless Mechatronics Lead</p>
               <p className='personProgram'>Mech 2T5 + PEY</p>
@@ -211,7 +186,7 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={AngusZhang} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={AngusZhang} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Angus Zhang</p>
               <p className='personTitle'>Powertrain Lead</p>
               <p className='personProgram'>ECE 2T5 + PEY</p>
@@ -219,7 +194,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={KateKer} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={KateKer} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Kate Ker</p>
               <p className='personTitle'>Harness Lead</p>
               <p className='personProgram'>ECE 2T6 + PEY</p>
@@ -227,7 +202,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={NicholasBurley} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={NicholasBurley} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Nicholas Burley</p>
               <p className='personTitle'>Controllers Lead</p>
               <p className='personProgram'>ECE 2T6 + PEY</p>
@@ -235,7 +210,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={NadiaZhou} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={NadiaZhou} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Nadia Zhou</p>
               <p className='personTitle'>Firmware Lead</p>
               <p className='personProgram'>ECE 2T6 + PEY</p>
@@ -250,7 +225,7 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={AlfredXue} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={AlfredXue} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Alfred Xue</p>
               <p className='personTitle'>Perception Co-Lead</p>
               <p className='personProgram'>Eng Sci 2T5 + PEY</p>
@@ -258,7 +233,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={ThomasZeger} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={ThomasZeger} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Thomas Zeger</p>
               <p className='personTitle'>Perception Co-Lead</p>
               <p className='personProgram'>CE 2T4 + PEY</p>
@@ -266,7 +241,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={ArthurXu} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={ArthurXu} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Arthur Xu</p>
               <p className='personTitle'>Mapping Lead</p>
               <p className='personProgram'>ECE 2T5 + PEY</p>
@@ -274,7 +249,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={JustinLim} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={JustinLim} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Justin Lim</p>
               <p className='personTitle'>Navigation Lead</p>
               <p className='personProgram'>Eng Sci 2T6 + PEY</p>
@@ -282,7 +257,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={YoussefElhadad} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={YoussefElhadad} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Youssef Elhadad</p>
               <p className='personTitle'>Controls Lead</p>
               <p className='personProgram'>CE 2T5 + PEY</p>
@@ -297,7 +272,7 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={CaleyMcNeill} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={CaleyMcNeill} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Caley McNeill</p>
               <p className='personTitle'>Events Co-Lead</p>
               <p className='personProgram'>Indy 2T5 + PEY</p>
@@ -305,7 +280,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={RebeccaSchultz} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={RebeccaSchultz} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Rebecca Schultz</p>
               <p className='personTitle'>Events Co-Lead</p>
               <p className='personProgram'>Rotman Commerce 2T4</p>
@@ -313,7 +288,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={OliviaTworzyanski} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={OliviaTworzyanski} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Olivia Tworzyanski</p>
               <p className='personTitle'>Marketing Co-Lead</p>
               <p className='personProgram'>Kinesiology 2T3</p>
@@ -321,7 +296,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={300} damping={0.1} triggerOnce>
-              <img src={AmeliaDease} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={AmeliaDease} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Amelia Dease</p>
               <p className='personTitle'>Marketing Co-Lead</p>
               <p className='personProgram'>Political Science 2T6</p>
@@ -329,7 +304,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={EvanTal} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={EvanTal} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Evan Tal</p>
               <p className='personTitle'>External Relations Lead</p>
               <p className='personProgram'>Rotman 2T5</p>
@@ -337,7 +312,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={HalleTeh} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={HalleTeh} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Halle Teh</p>
               <p className='personTitle'>Recruitment Co-Lead</p>
               <p className='personProgram'>Indy 2T6 + PEY</p>
@@ -345,7 +320,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={NicholasBurley} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={NicholasBurley} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Nicholas Burley</p>
               <p className='personTitle'>Recruitment Co-Lead</p>
               <p className='personProgram'>ECE 2T6 + PEY</p>
@@ -353,7 +328,7 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={RobertFirsov} alt="team" className='my-auto mx-auto w-[90%]'/>
+              <img src={RobertFirsov} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
               <p className='personName'>Robert Firsov</p>
               <p className='personTitle'>Recruitment Co-Lead</p>
               <p className='personProgram'>ECE 2T6 + PEY</p>
