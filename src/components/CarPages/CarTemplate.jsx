@@ -15,8 +15,6 @@ import CarouselImg5 from '../../assets/HistoricCarPhotos/UT'
 import CarouselImg6 from '../../assets/HistoricCarPhotos/UT'
 import CarouselImg7 from '../../assets/HistoricCarPhotos/UT'
 
-import TeamMembersSimpleComponents from "./TeamMembersSimpleComponent";
-
 const UT23 = () => {
     const slides = [
         {
@@ -47,11 +45,6 @@ const UT23 = () => {
             image: CarouselImg7,
             description: ''
         },
-    ];
-    
-    const teamMembers = [
-        { name: "", specialization: "" },
-        
     ];
 
   return (
@@ -104,13 +97,13 @@ const UT23 = () => {
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "80%"
+                        backgroundPositionY: "10%"
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5'>COMP1</h3>
-                    <h3 className='text-center text-2xl'>RESULT</h3>
-                    <h3 className='text-center text-2xl font-bold pb-10 lg:pb-0'>RESULT</h3>
+                    <h3 className='text-center text-2xl pt-5'>Formula SAE Michigan</h3>
+                    <h3 className='text-center pb-10 lg:pb-0 text-2xl font-bold'>5th Place Overall</h3>
+                    <h3 className='hidden text-center text-2xl font-bold pb-10 lg:pb-0'>RESULT</h3>
                     </Fade>
                 </div>
                 <div className='px-10'>
@@ -123,9 +116,9 @@ const UT23 = () => {
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5'>COMP2</h3>
-                    <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>RESULT</h3>
-                    <h3 className='text-center text-2xl text-[#062644] lg:pb-0'>RESULT</h3>
+                    <h3 className='text-center text-2xl pt-5'>Formula Student UK</h3>
+                    <h3 className='text-center pb-10 lg:pb-0 text-2xl font-bold'>5th Place Overall</h3>
+                    <h3 className='hidden text-center lg:pb-0 text-2xl font-bold'>RESULT</h3>
                     </Fade>
                 </div>
                 <div className='px-10'>
@@ -138,9 +131,9 @@ const UT23 = () => {
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5'>COMP3</h3>
-                    <h3 className='text-center text-2xl font-bold'>RESULT</h3>
-                    <h3 className='text-center text-2xl font-bold lg:pb-0'>RESULT</h3>
+                    <h3 className='text-center text-2xl pt-5'>Formula SAE East</h3>
+                    <h3 className='text-center lg:pb-0 text-2xl font-bold'>5th Place Overall</h3>
+                    <h3 className='text-center lg:pb-0 text-2xl font-bold'>Efficiency - 1st Place</h3>
                     </Fade>
                 </div>
             </div>
@@ -156,7 +149,88 @@ const UT23 = () => {
         </div>
 
         {/* Team Members Section */}
-        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT00"} />
+        <div className='bg-[#303949] pb-10 px-10 text-[#222220]'>
+            <Fade cascade damping={0.2} triggerOnce>
+            <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT06 TEAM MEMBERS</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            {/* Directors */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">DIRECTORS</h2>
+                <ul className=''>
+                <li>Nadia Boin - Team Principal</li>
+                <li>Maggie Lafreniere - Technical Director</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Powertrain */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">POWERTRAIN</h2>
+                <ul>
+                    <li>Nilufar Damji</li>
+                    <li>Antonio Gomes</li>
+                    <li>Leo Simonis</li>
+                    <li>Neal Persaud</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Drivetrain */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">DRIVETRAIN</h2>
+                <ul className=''>
+                <li>Stefan Kloppenborg</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Suspension */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">SUSPENSION</h2>
+                <ul>
+                    <li>Vince Libertucci</li>
+                    <li>Andrew Wong</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Chassis */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">CHASSIS</h2>
+                <ul>        
+                    <li>Maggie Lafreniere</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Brakes */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">BRAKES</h2>
+                <ul>        
+                    <li>Jason Kao</li>
+                </ul>
+                </Fade>
+            </div>
+
+            {/* Management */}
+            <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                <Fade cascade damping={0.1} triggerOnce>
+                <h2 className="text-2xl font-semibold mb-2 pl-4">MANAGEMENT</h2>
+                <ul>        
+                    <li>Daniel Zanini</li>
+                </ul>
+                </Fade>
+            </div>
+            </div>
+            </Fade>
+        </div>    
         
         {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>

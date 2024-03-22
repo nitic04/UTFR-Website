@@ -65,7 +65,7 @@ const UT04 = () => {
         {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">TITLE</h1>
+            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT04</h1>
             <img className="mx-auto pt-10 w-[1000px]" src={CarCutout} alt="" />
             <div className='grid space-y-8 md:space-y-0 md:grid-cols-3 pt-10 md:pt-5'>
                 <div>
@@ -89,7 +89,7 @@ const UT04 = () => {
             <div className='px-10 py-10 lg:px-24 lg:py-32'>
                 <Fade cascade damping={0.2} triggerOnce>
                 <h1 className='text-4xl md:text-6xl font-bold pb-10'>OVERVIEW</h1>
-                <p>PARAGRAPH</p>
+                <p>UT04 marked another chapter in the team's Formula SAE journey. The team embarked on a competitive season armed with determination and innovation. Powered by a Honda CBR600 engine delivering 78 bhp, the UT04 showcased remarkable performance capabilities. Despite encountering challenges, including a failed endurance run in Michigan resulting in a drop in results, UT04 demonstrated resillence and secured notable achievements, including a commendable 21st place overall at Formula SAE Michigan and 2nd place overall at Formula Student UK. The team made some technological advancements, developing a quick disconnect rear sub-frame allowing for quick engine removal.</p>
                 </Fade>
             </div>
             <div className='mx-auto my-auto px-10 pb-10 lg:pt-10 lg:pr-24'>
@@ -139,7 +139,7 @@ const UT04 = () => {
         </div>
 
         {/* Team Members Section */}
-        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT00"} />
+        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT04"} />
         
         {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>
