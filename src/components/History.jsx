@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import { Fade } from "react-awesome-reveal";
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import car from '../assets/HistoricCarPhotos/UT01/UT01.jpeg';
@@ -145,9 +147,11 @@ const History = () => {
         <div ref={sectionRef} className='scroll-section-inner'>
           <div className='scroll-section pt-[105px] px-5'>
             <div className='my-auto bg-[#424242] w-[400px] h-[750px]'>
+              <Fade cascade damping={0.2} triggerOnce>
               <h2 className="text-5xl pl-8 pt-10 font-bold">Team History</h2>
               <p className="px-8 py-5">The University of Toronto Formula SAE Racing Team was founded during the 1996-97 academic year. Leading up to our first competition season in 1999 the team was busy finding sponsors, conducting R&D and developing a prototype vehicle. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016! We also placed in the top 5 in 2002, 2004 and 2007.</p>
               <p className="px-8 pb-10">Over the course of the 2000s, several different chassis concepts were explored, moving from steel space frames to hybrid concepts, and finally to a full carbon fibre monocoque by the end of the decade. Now our team has transitioned from combustion vehicles to fully electric marking yet another era in UTFR's legacy.</p>
+              </Fade>
             </div>
           </div>
 
@@ -184,7 +188,6 @@ const History = () => {
           <ScrollSection navlink="/UT22" year="UT22" title="Switch to electric" paddingFromTop="400px" image={UT22Cutout}/>
           <ScrollSection navlink="/UT23" year="UT23" title="Return to winning" paddingFromTop="150px" image={UT23Cutout}/>
           <ScrollSectionUT24 year="UT24" title="Driverless debut" paddingFromTop="250px" image={UT24Cutout}/>
-
         </div>
       </div>
     </section>
