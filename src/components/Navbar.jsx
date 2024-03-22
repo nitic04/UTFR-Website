@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import Logo from '../assets/UTFRLogoRed.png'
 import ChromeLogo from '../assets/UTFRChromeLogo.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
