@@ -42,7 +42,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const ScrollSection = ({ navlink, year, title, image }) => {
   return (
-    <div className={`scroll-section px-16`} style={{ paddingTop: "250px" }}>
+    <div className={`scroll-section px-[200px] md:px-10`} style={{ paddingTop: "250px" }}>
       <h2 className='CarYear text-8xl text-center pb-3'>{year}</h2>
       <div className='w-[300px] h-[200px] md:w-[550px] md:h-[310px] carImage' style={{
         backgroundImage: `url(${image})`,
@@ -63,7 +63,7 @@ const ScrollSection = ({ navlink, year, title, image }) => {
 
 const ScrollSectionNoImg = ({ navlink, year, title}) => {
   return (
-    <div className={`scroll-section px-16`} style={{ paddingTop: "400px" }}>
+    <div className={`scroll-section px-[200px] md:px-10`} style={{ paddingTop: "400px" }}>
       <h2 className='md:w-[400px] CarYear text-8xl text-center pb-3'>{year}</h2>
       <NavLink to={navlink}>
         <div className='CarTitle cursor-pointer transition duration-200 hover:text-[#d3d3d3] flex items-center'>
@@ -86,7 +86,7 @@ const ScrollSectionUT24 = ({ year, title, image }) => {
         backgroundRepeat: 'no-repeat'
       }}>
       </div>
-        <div className=' transition duration-200 hover:text-[#d3d3d3] flex items-center'>
+        <div className='transition duration-200 hover:text-[#d3d3d3] flex items-center'>
           <h2 className="text-2xl pt-2 flex-grow">{title}</h2>
           <FaRegArrowAltCircleRight className="text-2xl"/>
         </div>
