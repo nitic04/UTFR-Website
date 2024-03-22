@@ -1,8 +1,5 @@
 import { Fade } from "react-awesome-reveal";
 import GoToTop from '../GoToTop'
-import HistoryCarousel from '../HistoryCarousel'
-
-import OverviewImg from '../../assets/HistoricCarPhotos/1998/1998-1.jpg'
 
 import TeamMembersSimpleComponents from "./TeamMembersSimpleComponent";
 

@@ -77,7 +77,7 @@ const ScrollSectionNoImg = ({ navlink, year, title}) => {
 
 const ScrollSectionUT24 = ({ year, title, image }) => {
   return (
-    <div className={`scroll-section px-16`} style={{ paddingTop: "250px" }}>
+    <div className={`scroll-section ml-24 px-16`} style={{ paddingTop: "250px" }}>
       <h2 className='CarYear text-8xl text-center pb-3'>{year}</h2>
       <div className='w-[300px] h-[200px] md:w-[550px] md:h-[310px] carImage' style={{
         backgroundImage: `url(${image})`,
@@ -99,25 +99,47 @@ const History = () => {
   const triggerRef = useRef(null);
   
   useEffect(() => {
-    const pin = gsap.fromTo(sectionRef.current, {
-      translateX: 0
-    }, {
-      translateX: "-1010vw",
-      ease: "none",
-      duration: 1,
-      scrollTrigger: {
-        trigger: triggerRef.current,
-        start: "top top",
-        end: "2000 top",
-        scrub: 0.7,
-        pin: true
-      }
-    });
-  
-    return () => {
-      pin.kill();
-    };
-  }, []);
+    let pin;
+
+    if (window.innerWidth <= 768) { // Adjust 768 according to your mobile breakpoint
+      pin = gsap.fromTo(sectionRef.current, {
+        translateX: 0
+      }, {
+        translateX: "-2700vw",
+        ease: "none",
+        duration: 1,
+        scrollTrigger: {
+          trigger: triggerRef.current,
+          start: "top top",
+          end: "2000 top",
+          scrub: 0.7,
+          pin: true
+        }
+      });
+    } else {
+      pin = gsap.fromTo(sectionRef.current, {
+        translateX: 0
+      }, {
+        translateX: "-950vw",
+        ease: "none",
+        duration: 1,
+        scrollTrigger: {
+          trigger: triggerRef.current,
+          start: "top top",
+          end: "2000 top",
+          scrub: 0.7,
+          pin: true
+        }
+      });
+
+    }
+
+      return () => {
+        pin.kill();
+      };
+    }, []);  
+
+    
   
 
   return (
@@ -127,8 +149,8 @@ const History = () => {
           <div className='scroll-section pt-[105px] px-5'>
             <div className='my-auto bg-[#424242] w-[400px] h-[750px]'>
               <h2 className="text-5xl pl-8 pt-10 font-bold">Team History</h2>
-              <p className="px-8 py-5">The University of Toronto Formula SAE Racing Team was founded during the 1996-97 academic year. Leading up to our first competition season in 1999 the team was busy finding sponsors, conducting R&D and developing a prototype vehicle In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016! We also placed in the top 5 in 2002, 2004 and 2007.</p>
-              <p className="px-8 pb-10">Over the course of the 2000s, several different chassis concepts were explored, moving from steel space frames to hybrid concepts, and finally to a full carbon fibre monocoque by the end of the decade. Continuing our technical developments in 2016 we manufactured our first aerodynamics package, which included multi-element front and rear wings.</p>
+              <p className="px-8 py-5">The University of Toronto Formula SAE Racing Team was founded during the 1996-97 academic year. Leading up to our first competition season in 1999 the team was busy finding sponsors, conducting R&D and developing a prototype vehicle. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016! We also placed in the top 5 in 2002, 2004 and 2007.</p>
+              <p className="px-8 pb-10">Over the course of the 2000s, several different chassis concepts were explored, moving from steel space frames to hybrid concepts, and finally to a full carbon fibre monocoque by the end of the decade. Now our team has transitioned from combustion vehicles to fully electric marking yet another era in UTFR's legacy.</p>
             </div>
           </div>
 
@@ -139,11 +161,11 @@ const History = () => {
           <ScrollSection navlink="/UT00" year="UT00" title="So Close" paddingFromTop="250px" image={UT00Cutout}/>
           <ScrollSection navlink="/UT01" year="UT01" title="Shootout starts" paddingFromTop="400px" image={UT01Cutout}/>
           <ScrollSection navlink="/UT02" year="UT02" title="First European Competition" paddingFromTop="150px" image={UT02Cutout}/>
-          <ScrollSection navlink="/UT03" year="UT03" title="World champions" paddingFromTop="250px" image={UT03Cutout}/>
+          <ScrollSection navlink="/UT03" year="UT03" title="World champions!" paddingFromTop="250px" image={UT03Cutout}/>
           <ScrollSection navlink="/UT04" year="UT04" title="A small dip" paddingFromTop="400px" image={UT04Cutout}/>
 
-          <ScrollSection navlink="/UT05" year="UT05" title="World champions!" paddingFromTop="200px" image={UT05Cutout}/>
-          <ScrollSection navlink="/UT06" year="UT06" title="World champions!" paddingFromTop="300px" image={UT06Cutout}/>
+          <ScrollSection navlink="/UT05" year="UT05" title="World champions pt.2!" paddingFromTop="200px" image={UT05Cutout}/>
+          <ScrollSection navlink="/UT06" year="UT06" title="World champions pt.3!" paddingFromTop="300px" image={UT06Cutout}/>
           <ScrollSection navlink="/UT07" year="UT07" title="Peak ICE power" paddingFromTop="400px" image={UT07Cutout}/>
           <ScrollSection navlink="/UT08" year="UT08" title="Monocoque" paddingFromTop="250px" image={UT08Cutout}/>
           <ScrollSection navlink="/UT09" year="UT09" title="Single cylinder era" paddingFromTop="400px" image={UT09Cutout}/>
