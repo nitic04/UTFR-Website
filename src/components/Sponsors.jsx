@@ -72,6 +72,7 @@ import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
 
 import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
+import ERP from '../assets/Sponsors/SponsorLogosColoured/3ERP.png'
 
 // Afilliates
 import SevenPCB from '../assets/Sponsors/SponsorLogosColoured/Bittle.png' 
@@ -107,7 +108,7 @@ import { Fade } from "react-awesome-reveal";
 const Sponsors = () => {
   return (
     <div>
-        <div className='w-full h-screen' style={{
+        <div className='w-full h-screen relative' style={{
         backgroundImage: `url(${SponsorHeader})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -310,6 +311,9 @@ const Sponsors = () => {
             <div className='px-16'>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://www.3erp.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={ERP} alt="" />
+                        </a>
                         <a href="https://www.abcofreight.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg px-5" src={ABCO} alt="" />
                         </a>
@@ -322,13 +326,13 @@ const Sponsors = () => {
                         <a href="http://bosch.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Brechin} alt="" />
                         </a>
-                        <a href="https://www.cubemars.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={CubeMars} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.cubemars.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={CubeMars} alt="" />
+                        </a>
                         <a href="https://disensors.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg px-5" src={Durham} alt="" />
                         </a>
@@ -341,13 +345,13 @@ const Sponsors = () => {
                         <a href="https://foxglove.dev/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Foxglove} alt="" />
                         </a>
-                        <a href="http://gardel.on.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Gardel} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://gardel.on.ca/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Gardel} alt="" />
+                        </a>
                         <a href="https://ghaasfoundation.org/content/ghf/en/home.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Haas} alt="" />
                         </a>
@@ -360,13 +364,13 @@ const Sponsors = () => {
                         <a href="https://www.kenesto.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Kenesto} alt="" />
                         </a>
-                        <a href="https://www.kisssoft.com/de" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={KISSsoft} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.kisssoft.com/de" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={KISSsoft} alt="" />
+                        </a>
                         <a href="https://lra3d.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={LRA3d} alt="" />
                         </a>
@@ -379,13 +383,13 @@ const Sponsors = () => {
                         <a href="https://rapidharness.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RapidHarness} alt="" />
                         </a>
-                        <a href="https://rivian.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg py-2" src={Rivian} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://rivian.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg py-2" src={Rivian} alt="" />
+                        </a>
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
                         </a>
@@ -398,13 +402,13 @@ const Sponsors = () => {
                         <a href="http://texonic.net/en" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Texonic} alt="" />
                         </a>
-                        <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Textreme} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
+                        <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Textreme} alt="" />
+                        </a>
                         <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TibetTechSols} alt="" />
                         </a>
