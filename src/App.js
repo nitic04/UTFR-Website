@@ -67,7 +67,7 @@ function App() {
         <Routes>
           <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1711152000000}/><HomeCarousel /><SponsorshipFooter /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
-          <Route path="/team" element={<><TeamHeader /><Team2024 /><Footer /><Footer /></>} />
+          <Route path="/team" element={<><TeamHeader /><Team2024 /><Footer /></>} />
           <Route path="/team2023" element={<><TeamHeader /><Team2023 /><Footer /></>} />
           <Route path="/history" element={<History />} />
           <Route path="/joinUs" element={<><JoinUs /><Footer /></>} />
