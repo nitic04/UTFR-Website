@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
-import EmilyWright from '../assets/TeamMembers/EmilyWright.jpg'
+// import EmilyWright from '../assets/TeamMembers/EmilyWright.jpg'
 import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpg'
 import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpg'
 import SamBahrami from '../assets/TeamMembers/SamBahrami.jpeg'
@@ -76,10 +76,10 @@ const Team2024 = () => {
           </div>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={EmilyWright} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
-              <p className='personName'>Emily Wright</p>
+              <img src={EvanTal} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
+              <p className='personName'>Evan Tal</p>
               <p className='personTitle'>Business Director</p>
-              <p className='personProgram'>Management 2T5 + Co-op</p>
+              <p className='personProgram'>Rotman 2T5</p>
             </Fade>
           </div>
           <div className='w-[100%] my-auto py-10'>
