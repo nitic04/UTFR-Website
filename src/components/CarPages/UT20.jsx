@@ -3,7 +3,7 @@ import GoToTop from '../GoToTop'
 
 import TeamMembersSimpleComponents from "./TeamMembersSimpleComponent";
 
-const TeamPage1998 = () => {
+const UT20 = () => {
     
     const teamMembers = [
         { name: 'Team Principal: ', specialization: 'Tyler Turnbull' },
@@ -42,10 +42,10 @@ const TeamPage1998 = () => {
         </div>
 
         {/* Team Members Section */}
-        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT2020"}/>
+        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"2020"}/>
                 
         <GoToTop />
     </div>
   )
 }
-export default TeamPage1998
+export default UT20

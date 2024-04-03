@@ -151,7 +151,7 @@ const UT21 = () => {
         </div>
 
         {/* Team Members Section */}
-        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"1997"}/>
+        <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT21"}/>
         
         {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>

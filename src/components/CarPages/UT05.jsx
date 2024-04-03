@@ -171,7 +171,7 @@ const UT05 = () => {
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">CHASSIS</h2>
                 <ul>        
-                    <li>Maggie</li>
+                    <li>Maggie Lafreniere</li>
                     <li>Jeremy</li>
                     <li>Matthew</li>
                 </ul>
@@ -183,7 +183,7 @@ const UT05 = () => {
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">POWERTRAIN</h2>
                 <ul>
-                    <li>Neal</li>
+                    <li>Neal Persaud</li>
                     <li>Nilufar</li>
                     <li>Squib</li>
                     <li>Antonio</li>
@@ -208,9 +208,9 @@ const UT05 = () => {
                 <Fade cascade damping={0.1} triggerOnce>
                 <h2 className="text-2xl font-semibold mb-2 pl-4">MANAGEMENT</h2>
                 <ul>        
-                    <li>Daniel</li>
-                    <li>Nadia</li>
-                    <li>Huang</li>
+                    <li>Daniel Zanini</li>
+                    <li>Nadia Boin</li>
+                    <li>Huang Iu</li>
                 </ul>
                 </Fade>
             </div>

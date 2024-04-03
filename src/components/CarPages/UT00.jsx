@@ -186,8 +186,8 @@ const UT00 = () => {
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
                     <h3 className='text-center text-2xl pt-5'>Formula SAE Detroit</h3>
-                    <h3 className='text-center text-2xl font-bold pb-10 lg:pb-0'>8th Place Overall</h3>
-                    <h3 className='text-center text-2xl font-bold pb-10 lg:pb-0'>Highest Horespower Award</h3>
+                    <h3 className='text-center text-2xl font-bold lg:pb-0'>8th Place Overall</h3>
+                    <h3 className='text-center pb-10 lg:pb-0 text-2xl font-bold'>Highest Horsepower Award</h3>
                     </Fade>
                 </div>
                 <div className='px-10'>

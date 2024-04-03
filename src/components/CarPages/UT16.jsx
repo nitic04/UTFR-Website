@@ -161,8 +161,9 @@ const UT16 = () => {
         {/* Car Video Section */}
         <div className='bg-[#13191F]'>
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='text-4xl md:text-6xl font-bold pt-10 pb-10 text-center text-white'>SEE THE UT16 DRIFTING</h1>
-            <iframe className="w-[100vw] h-[30vh] md:w-[80vw] md:h-[50vh] lg:w-[70vw] lg:h-[80vh] mx-auto pb-10" src="https://www.youtube.com/embed/aeMyHlZpaTQ?si=wN01BnCfjN1couNU&amp;start=5777" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h1 className='text-4xl md:text-6xl font-bold pt-10 pb-10 text-center text-white'>WATCH THE UT16 DRIFT THROUGH FORMULA STUDENT GERMANY</h1>
+            <iframe className="w-[100vw] h-[30vh] md:w-[80vw] md:h-[50vh] lg:w-[70vw] lg:h-[80vh] mx-auto pb-5" src="https://www.youtube.com/embed/aeMyHlZpaTQ?si=wN01BnCfjN1couNU&amp;start=5777" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p className="text-white text-center pb-5">Note: UTFR's run starts at 1:36:19</p>
             </Fade>
         </div>
 

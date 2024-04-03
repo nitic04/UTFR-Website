@@ -138,7 +138,7 @@ const UT17 = () => {
         {/* Team Members Section */}
         <div className='bg-[#303949] pb-10 px-10 text-[#222220]'>
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT05 TEAM MEMBERS</h1>
+            <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT17 TEAM MEMBERS</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             
             {/* Directors */}
