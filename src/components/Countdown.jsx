@@ -27,7 +27,7 @@ const Countdown = ({countdownTimestampMS}) => {
     <div className='w-full bg-[#131212] text-white'>
         <div className='p-8'>
             <Fade delay={500} cascade damping={0.1} triggerOnce>
-                <h1 className='countdownDay text-xl pl-2'>UT24 Unveiling</h1>
+                <h1 className='countdownDay text-xl pl-2'>Formula Hybrid + Electric - New Hampshire</h1>
                 <div className='md:w-full countdownTimer py-12 text-[1.33rem] lg:text-[2.75rem] flex'>
                     {/* <span className='loading'>Coming Soon</span>
                     <div className='dot-flashing ml-5 mt-3 lg:mt-5'></div>

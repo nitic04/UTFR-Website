@@ -151,12 +151,12 @@ const UT03 = () => {
         </div>
 
         {/* Car Video Section */}
-        <div className='bg-[#13191F]'>
+        {/* <div className='bg-[#13191F]'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold pt-10 pb-10 text-center text-white'>SEE THE UT03 IN ACTION</h1>
             <iframe className="w-[100vw] h-[30vh] md:w-[80vw] md:h-[50vh] lg:w-[70vw] lg:h-[80vh] mx-auto pb-10" src="https://www.youtube.com/embed/ilPiE-aTMGQ?si=iaf0mMtAU3mIGKkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </Fade>
-        </div>
+        </div> */}
 
         {/* Team Members Section */}
         <TeamMembersSimpleComponents teamMembers={teamMembers} year={"UT03"} />
