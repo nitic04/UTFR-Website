@@ -35,9 +35,11 @@ import MG from '../assets/Sponsors/SponsorLogosColoured/MG.png'
 import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
+import Martinrea from '../assets/Sponsors/SponsorLogosColoured/Martinrea.png'
 import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
 import Rudolphs from '../assets/Sponsors/SponsorLogosColoured/Rudolphs.png'
 import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
+
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
 // Bronze Sponsors
@@ -286,10 +288,13 @@ const Sponsors = () => {
                         </a>
                     </div>
                 </div>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
+                <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.movella.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Movella} alt="" />
+                        </a>
+                        <a href="https://www.martinrea.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Martinrea} alt="" />
                         </a>
                         <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NTN} alt="" />
@@ -300,6 +305,10 @@ const Sponsors = () => {
                         <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Solidworks} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
                         </a>
