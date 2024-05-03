@@ -45,7 +45,6 @@ import UT20 from "./components/CarPages/UT20";
 import UT21 from "./components/CarPages/UT21";
 import UT22 from "./components/CarPages/UT22";
 import UT23 from "./components/CarPages/UT23";
-// import UT24 from "./components/CarPages/UT24";
 
 function App() {
   // const [loading, setLoading] = useState(true);
@@ -65,7 +64,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1714363200000}/><HomeCarousel /><SponsorshipFooter /></>} />
+          <Route path="/" element={<><Home /><About /><Countdown countdownTimestampMS={1714363200000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
           <Route path="/nh23blog" element={<NH23Blog />}/>
           <Route path="/team" element={<><TeamHeader /><Team2024 /><Footer /></>} />
           <Route path="/team2023" element={<><TeamHeader /><Team2023 /><Footer /></>} />
@@ -101,7 +100,6 @@ function App() {
           <Route path="/UT21" element={<><UT21 /><Footer /></>} />
           <Route path="/UT22" element={<><UT22 /><Footer /></>} />
           <Route path="/UT23" element={<><UT23 /><Footer /></>} />
-          {/* <Route path="/UT24" element={<><UT24 /><Footer /></>} /> */}
         </Routes>
       </Router>
       {/* )} */}
