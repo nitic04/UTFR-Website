@@ -11,8 +11,6 @@ import CarouselImg1 from '../../assets/HistoricCarPhotos/UT23/2023-Czech-3.jpeg'
 import CarouselImg2 from '../../assets/HistoricCarPhotos/UT23/2023-Michigan-3.jpg'
 import CarouselImg3 from '../../assets/HistoricCarPhotos/UT23/2023-WIM.jpg'
 
-import TeamMembersComponentSectioned from './TeamMembersComponent';
-
 const UT23 = () => {
     const slides = [
         {
