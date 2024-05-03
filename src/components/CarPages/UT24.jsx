@@ -11,9 +11,7 @@ import CarouselImg1 from '../../assets/HistoricCarPhotos/UT23/2023-Czech-3.jpeg'
 import CarouselImg2 from '../../assets/HistoricCarPhotos/UT23/2023-Michigan-3.jpg'
 import CarouselImg3 from '../../assets/HistoricCarPhotos/UT23/2023-WIM.jpg'
 
-import TeamMembersComponentSectioned from './TeamMembersComponent';
-
-const UT23 = () => {
+const UT24 = () => {
     const slides = [
         {
           image: CarouselImg1,
@@ -34,7 +32,7 @@ const UT23 = () => {
         {/* Header */}
         <div className="h-screen bg-[#B6C1D0]">
             <Fade cascade damping={0.2} triggerOnce>
-            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT23</h1>
+            <h1 className="carTitle text-center text-[130px] md:text-[280px] font-bold text-white pt-[250px]">UT24</h1>
             <img className="mx-auto pt-10 w-[1000px]" src={CarCutout} alt="" />
             <div className='grid space-y-8 md:space-y-0 md:grid-cols-3 pt-10 md:pt-5'>
                 <div>
@@ -272,4 +270,4 @@ const UT23 = () => {
     </div>
   )
 }
-export default UT23
+export default UT24

@@ -98,6 +98,53 @@ const UT22 = () => {
             </Fade>
         </div>
 
+        {/* Team Members Section */}
+        <div className='bg-[#303949] pb-10 px-10 text-[#222220]'>
+            <Fade cascade damping={0.2} triggerOnce>
+            <h1 className='text-5xl md:text-6xl font-bold pt-7 pb-10 text-center text-white'>UT22 TEAM MEMBERS</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                {/* Mechanical */}
+                <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                    <Fade cascade damping={0.1} triggerOnce>
+                    <h2 className="text-2xl font-semibold mb-2 pl-4">MECHANICAL</h2>
+                    <ul className=''>
+                    <li>Daniel LaRosa - Chassis Lead</li>
+                    <li>Kevin Zhang - Steering Lead</li>
+                    <li>Damiano Sisera - Suspension Lead</li>
+                    <li>Kelvin Cui - Aerodynamics Lead</li>
+                    <li>Megan Li - Ergonomics Lead</li>
+                    <li>Tejvir Binepal - Drivetrain Lead</li>
+                    <li>Victoria Vastis - Brakes Lead</li>
+                    </ul>
+                    </Fade>
+                </div>
+
+                {/* Electrical */}
+                <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                    <Fade cascade damping={0.1} triggerOnce>
+                    <h2 className="text-2xl font-semibold mb-2 pl-4">ELECTRICAL</h2>
+                    <ul className=''>
+                    <li>Jake Sprenger - Team Principal & Powertrain Electrical Lead</li>
+                    <li>Daniel Wing - LV Electrical Lead</li>
+                    </ul>
+                    </Fade>
+                </div>
+
+                {/* Business */}
+                <div className="teamCard bg-gray-100 p-4 rounded-lg py-7">
+                    <Fade cascade damping={0.1} triggerOnce>
+                    <h2 className="text-2xl font-semibold mb-2 pl-4">BUSINESS</h2>
+                    <ul className=''>
+                    <li>Jonathan Libby - Business Lead</li>
+                    </ul>
+                    </Fade>
+                </div>
+                
+            </div>
+            </Fade>
+        </div>
+
         {/* Photo Gallery Section */}
         <div className='bg-[#13191F] px-10 md:px-0'>
             <div className=''>

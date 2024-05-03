@@ -1,5 +1,5 @@
 import React from 'react'
-import SponsorHeader from '../assets/TeamCarPhotos/CarDisplay.webp'
+import SponsorHeader from '../assets/Sponsors_Wing.jpg'
 import SponsorshipPackage from '../assets/UT24SponsorshipPackage.pdf'
 
 // Diamond Sponsors

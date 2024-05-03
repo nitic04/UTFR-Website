@@ -69,14 +69,14 @@ const UT19 = () => {
     ];
 
     const teamMembers = [
-        { name: 'Ben Sprenger', specialization: 'Team Principal, Brakes, Team Lead'},
-        { name: 'Kyle McCarroll', specialization: 'Engine, Drivetrain, Electrical'},
-        { name: 'Areg Nazarians-Armavil', specialization: 'Engine, Drivetrain'},
-        { name: 'Johnathan Lee', specialization: 'Chassis'},
-        { name: 'Roberts Strenga', specialization: 'Driver'},
-        { name: 'Jonathan Libby', specialization: 'Business, Driver'},
+        { name: 'Ben Sprenger', specialization: ' - Team Principal, Brakes, Team Lead'},
+        { name: 'Kyle McCarroll', specialization: ' - Engine, Drivetrain, Electrical'},
+        { name: 'Areg Nazarians-Armavil', specialization: ' - Engine, Drivetrain'},
+        { name: 'Johnathan Lee', specialization: ' - Chassis'},
+        { name: 'Roberts Strenga', specialization: ' - Driver'},
+        { name: 'Jonathan Libby', specialization: ' - Business, Driver'},
         { name: 'Daniel Wing', specialization: ''},
-        { name: 'Julian Sisera', specialization: ''},
+        { name: 'Juliano Sisera', specialization: ''},
         { name: 'Damian Sisera', specialization: ''},
         { name: 'Saiyam Patel', specialization: ''},
     ];

@@ -209,7 +209,7 @@ const UT17 = () => {
                     <li>Jason Lee</li>
                     <li>Kat Shepperd</li>
                     <li>Ken Quain</li>
-                    <label htmlFor="Jonathon Lee"></label>
+                    <li>Jonathon Lee</li>
                 </ul>
                 </Fade>
             </div>
