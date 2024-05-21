@@ -36,10 +36,11 @@ import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
 
 import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
 import Martinrea from '../assets/Sponsors/SponsorLogosColoured/Martinrea.png'
+import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
 import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
 import Rudolphs from '../assets/Sponsors/SponsorLogosColoured/Rudolphs.png'
-import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 
+import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
 // Bronze Sponsors
@@ -92,15 +93,13 @@ import ISL from '../assets/Sponsors/SponsorLogosColoured/TISL.png'
 import HMS from '../assets/Sponsors/SponsorLogosColoured/HMS.png'
 import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
 import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
-import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
 import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
-
 import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import TRAIL from '../assets/Sponsors/SponsorLogosColoured/TrailLabs.webp'
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
-import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 
+import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 import Winsource from '../assets/Sponsors/SponsorLogosColoured/Winsource.png'
 import Zebra from '../assets/Sponsors/SponsorLogosColoured/Zebra.png'
 
@@ -296,19 +295,22 @@ const Sponsors = () => {
                         <a href="https://www.martinrea.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Martinrea} alt="" />
                         </a>
+                        <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
+                        </a>
                         <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={NTN} alt="" />
                         </a>
                         <a href="https://www.rudolphsbakeries.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Rudolphs} alt="" />
                         </a>
-                        <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Solidworks} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Solidworks} alt="" />
+                        </a>
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
                         </a>
@@ -476,19 +478,17 @@ const Sponsors = () => {
                         <a href="http://www.metexht.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Metex} alt="" />
                         </a>
-                        <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
-                        </a>
                         <a href="https://odriverobotics.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Odrive} alt="" />
+                        </a>
+                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={Rexco} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
-                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Rexco} alt="" />
-                        </a>
+
                         <a href="https://starslab.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Stars} alt="" />
                         </a>
@@ -501,13 +501,14 @@ const Sponsors = () => {
                         <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VR3Engineering} alt="" />
                         </a>
+                        <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Winsource} alt="" />
+                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
-                        <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Winsource} alt="" />
-                        </a>
+
                         <a href="https://www.zebra.com/us/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Zebra} alt="" />
                         </a>

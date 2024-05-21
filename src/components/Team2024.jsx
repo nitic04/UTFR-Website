@@ -1,5 +1,6 @@
 import React from 'react'
 import { Fade } from "react-awesome-reveal";
+import GoToTop from './GoToTop'
 
 // TEAM DIRECTORS
 import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
@@ -335,6 +336,7 @@ const Team2024 = () => {
             </Fade>
           </div>
         </div>
+        <GoToTop />
     </div>
   )
 }

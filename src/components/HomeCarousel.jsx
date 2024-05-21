@@ -7,6 +7,8 @@ import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
 import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 import ArticlePhoto from '../assets/VarsityArticleImage.jpg';
+import NH24Win from '../assets/2024/2024NHWin.jpg';
+
 // import { NavLink } from 'react-router-dom';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 
@@ -65,6 +67,11 @@ const HomeCarousel = () => {
     <div className="w-full h-[100%] bg-[#181818]">
       <div className="px-8 md:px-16 py-10">
         <Slider {...settings}>
+          <div className="carouselCard">
+            <img alt="" src={NH24Win}/>
+            <h1 className="text-white text-xl font-bold py-2">2-time New Hampshire Champions!</h1>
+            <p className="text-white">UTFR secured its second win in a row at Formula Hybrid + Electric</p>
+          </div>
           <div className="carouselCard">
             <a href="https://thevarsity.ca/2023/10/29/faster-and-faster-u-of-ts-formula-racing-team-innovates-and-dominates/" target="_blank" rel="noreferrer"><img alt="" src={ArticlePhoto}/></a>
             <h1 className="text-white text-xl font-bold py-2">Faster and Faster: U of T’s Formula Racing Team innovates and dominates</h1>

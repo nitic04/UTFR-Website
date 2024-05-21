@@ -187,7 +187,7 @@ const History = () => {
           <ScrollSection navlink="/UT21" year="UT21" title="Last dance for ICE" paddingFromTop="300px" image={UT21Cutout}/>
           <ScrollSection navlink="/UT22" year="UT22" title="Switch to electric" paddingFromTop="400px" image={UT22Cutout}/>
           <ScrollSection navlink="/UT23" year="UT23" title="Return to winning" paddingFromTop="150px" image={UT23Cutout}/>
-          <ScrollSectionUT24 year="UT24" title="Driverless debut" paddingFromTop="250px" image={UT24Cutout}/>
+          <ScrollSectionUT24 navlink="/UT24" year="UT24" title="Driverless debut" paddingFromTop="250px" image={UT24Cutout}/>
         </div>
       </div>
     </section>

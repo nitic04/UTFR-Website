@@ -8,7 +8,8 @@ const Home = () => {
         backgroundImage: `url(${Background})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        backgroundPositionY: "50%"
       }}>
       <div className='h-full flex flex-col justify-end'>
           <Fade cascade damping={0.2} triggerOnce>
