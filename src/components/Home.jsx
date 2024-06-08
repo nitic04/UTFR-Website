@@ -1,4 +1,4 @@
-import Background from '../assets/CzechRepublic2023/Czech3.webp'
+import Background from '../assets/LandingPageImage.png'
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
@@ -9,7 +9,8 @@ const Home = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPositionY: "50%"
+        backgroundPositionX: "30%",
+        backgroundPositionY: "10%"
       }}>
       <div className='h-full flex flex-col justify-end'>
           <Fade cascade damping={0.2} triggerOnce>

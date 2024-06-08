@@ -45,23 +45,12 @@ import UT20 from "./components/CarPages/UT20";
 import UT21 from "./components/CarPages/UT21";
 import UT22 from "./components/CarPages/UT22";
 import UT23 from "./components/CarPages/UT23";
+import UT24 from "./components/CarPages/UT24";
 import ShootoutNavbar from "./components/ShootoutNavbar";
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-
-  // Simulate loading delay
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 3000); // Adjust the delay time as needed
-  // }, []);
-
   return (
     <div>
-      {/* {loading ? ( // Conditional rendering based on loading state
-        <LoadingScreen />
-      ) : ( */}
       <Router>
         <Routes>
           <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1718236800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
@@ -100,9 +89,9 @@ function App() {
           <Route path="/UT21" element={<><Navbar /><UT21 /><Footer /></>} />
           <Route path="/UT22" element={<><Navbar /><UT22 /><Footer /></>} />
           <Route path="/UT23" element={<><Navbar /><UT23 /><Footer /></>} />
+          <Route path="/UT24" element={<><Navbar /><UT24 /><Footer /></>} />
         </Routes>
       </Router>
-      {/* )} */}
     </div>
   );
 }

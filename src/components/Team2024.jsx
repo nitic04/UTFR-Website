@@ -1,9 +1,10 @@
 import React from 'react'
+import { IKImage } from 'imagekitio-react'
 import { Fade } from "react-awesome-reveal";
 import GoToTop from './GoToTop'
 
 // TEAM DIRECTORS
-import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
+// import DanielLaRosa from '../assets/TeamMembers/DanielLaRosa.jpg'
 // import EmilyWright from '../assets/TeamMembers/EmilyWright.jpg'
 import DanielAsadi from '../assets/TeamMembers/DanielAsadi.jpg'
 import JakeSprenger from '../assets/TeamMembers/JakeSprenger.jpg'
@@ -44,6 +45,8 @@ import EvanTal from '../assets/TeamMembers/Business/EvanTal.jpg'
 import RebeccaSchultz from '../assets/TeamMembers/Business/RebeccaSchultz.jpg'
 
 const Team2024 = () => {
+  const urlEndpoint = 'https://ik.imagekit.io/18gwys9x0/UTFR/TeamMembers/'
+
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'> 
         {/* DIRECTORS */}
@@ -53,7 +56,8 @@ const Team2024 = () => {
         <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto pt-6'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
-              <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/>
+              {/* <img src={DanielLaRosa} alt="team" className='teamImg my-auto mx-auto w-[90%]' loading="lazy"/> */}
+              <IKImage urlEndpoint={urlEndpoint} path="DanielLaRosa.jpg" className='teamImg'/>
               <p className='personName'>Daniel LaRosa</p>
               <p className='personTitle'>Team Principal & Mechanical Technical Director</p>
               <p className='personProgram'>Mech 2T3 + PEY</p>
@@ -270,7 +274,7 @@ const Team2024 = () => {
         <Fade triggerOnce delay={100}>
           <p className='text-4xl font-bold flex justify-center pt-5'>Business Leads</p>
         </Fade>
-        <div className='h-full w-full about grid md:grid-cols-3 lg:grid-cols-5 px-3'>
+        <div className='h-full w-full about grid md:grid-cols-2 lg:grid-cols-5 px-3'>
           <div className='w-[100%] my-auto py-10'>
             <Fade cascade delay={100} damping={0.1} triggerOnce>
               <img src={CaleyMcNeill} alt="team" className='my-auto mx-auto w-[90%]' loading="lazy"/>
