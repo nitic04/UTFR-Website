@@ -9,8 +9,8 @@ const Home = () => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundPositionX: "30%",
-        backgroundPositionY: "10%"
+        backgroundPositionX: "50%",
+        backgroundPositionY: "60%"
       }}>
       <div className='h-full flex flex-col justify-end'>
           <Fade cascade damping={0.2} triggerOnce>
