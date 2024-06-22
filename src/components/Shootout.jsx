@@ -3,8 +3,6 @@ import React from 'react';
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
-import Shootout2023 from '../assets/ShootoutPhotos/Shootout2023.png'
-
 // Shootout 2023
 import Shootout2023_1 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_1.JPG'
 import Shootout2023_2 from '../assets/ShootoutPhotos/Shootout2023/Shootout2023_2.JPG'
@@ -95,7 +93,7 @@ const Shootout = () => {
   return (
     <div>
       <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(${Shootout2023})`,
+        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Shootout2023.png)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -264,7 +262,7 @@ const Shootout = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 px-auto'>
               <div className='pl-0 mx-auto lg:pl-20'>
                 <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-16' style={{
-                    backgroundImage: `url(${Shootout2023})`,
+                    backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Shootout2023.png)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
