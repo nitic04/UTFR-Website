@@ -8,6 +8,7 @@ import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
 import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
 import ArticlePhoto from '../assets/VarsityArticleImage.jpg';
 import NH24Win from '../assets/2024/2024NHWin.jpg';
+import Michigan24 from '../assets/2024/Michigan_2024.JPG'
 
 // import { NavLink } from 'react-router-dom';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
@@ -67,6 +68,16 @@ const HomeCarousel = () => {
     <div className="w-full h-[100%] bg-[#181818]">
       <div className="px-8 md:px-16 py-10">
         <Slider {...settings}>
+          <div className="carouselCard">
+            <img className="w-full" alt="" src="https://ik.imagekit.io/18gwys9x0/UT24/DVWorks.gif"/>
+            <h1 className="text-white text-xl font-bold py-2">UT24 becomes Canada's first driverless FSAE car!</h1>
+            <p className="text-white">After two years of hard work, the driverless team has successfully tested their autonomous system with UT24!</p>
+          </div>
+          <div className="carouselCard">
+            <img alt="" src={Michigan24}/>
+            <h1 className="text-white text-xl font-bold py-2">Top ten finish in Michigan!</h1>
+            <p className="text-white">UTFR reached design finals and placed 9th overall in Formula SAE Electric Michigan this year!</p>
+          </div>
           <div className="carouselCard">
             <img alt="" src={NH24Win}/>
             <h1 className="text-white text-xl font-bold py-2">2-time New Hampshire Champions!</h1>

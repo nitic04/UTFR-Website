@@ -1,6 +1,7 @@
 import { Fade } from "react-awesome-reveal";
 import GoToTop from '../GoToTop'
 import HistoryCarousel from '../HistoryCarousel'
+import Michigan from '../../assets/2024/Michigan_2024.JPG'
 // import UT24Sections from './UT24Sections'
 import { IKImage } from "imagekitio-react";
 
@@ -87,7 +88,7 @@ const UT24 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-3 items-center pb-10'>
+            <div className='grid lg:grid-cols-2 items-center pb-10'>
                 <div className='px-10'>
                     <div className='competitionCard h-[400px]' style={{
                         backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/UTFR/UT24/UT24_NH1.jpg)`,
@@ -98,39 +99,22 @@ const UT24 = () => {
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5'>New Hampshire Formula</h3>
-                    <h3 className='text-center text-2xl'>Hybrid + Electric</h3>
+                    <h3 className='text-center text-2xl pt-5'>New Hampshire Formula Hybrid + Electric</h3>
                     <h3 className='text-center text-2xl font-bold pb-10 lg:pb-0'>1st Place Overall</h3>
                     </Fade>
                 </div>
                 <div className='px-10'>
                     <div className='competitionCard h-[400px]' style={{
-                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/UTFR/UT24/UT24_NH3.JPG)`,
+                        backgroundImage: `url(${Michigan})`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "60%"
+                        backgroundPositionY: "100%"
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
                     <h3 className='text-center text-2xl pt-5'>Formula SAE Electric Michigan</h3>
-                    <h3 className='text-center pb-10 md:pb-0 text-2xl font-bold'>June 12 - 15</h3>
-                    <h3 className='hidden md:block text-center text-2xl text-[#062644] lg:pb-0'>Formula SAE Electric Michigan</h3>
-                    </Fade>
-                </div>
-                <div className='px-10'>
-                    <div className='competitionCard h-[400px]' style={{
-                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/UTFR/UT24/UT24_NH4.JPG)`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "80%"
-                        }}>
-                    </div>
-                    <Fade cascade damping={0.2} triggerOnce>
-                    <h3 className='text-center text-2xl pt-5'>Formula Student Czech Republic</h3>
-                    <h3 className='text-center text-2xl font-bold'>August 5 - 10</h3>
-                    <h3 className='hidden md:block text-center text-2xl text-[#062644] lg:pb-0'>Formula SAE Electric Michigan</h3>
+                    <h3 className='text-center text-2xl font-bold'>9th Place Overall</h3>
                     </Fade>
                 </div>
             </div>

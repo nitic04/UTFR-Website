@@ -2,183 +2,100 @@ import React from 'react'
 import NewsletterHeader from '../assets/CzechRepublic2023/Czech8.jpeg'
 import GoToTop from './GoToTop'
 import NewsletterSignUp from './NewsletterSignUp'
-import {AiOutlineInstagram} from 'react-icons/ai'
-import {FaLinkedinIn, FaTiktok} from 'react-icons/fa'
+import { IoMailOpenOutline } from "react-icons/io5";
+import NewsletterCard from '../components/NewsletterCard'
+import { Fade } from "react-awesome-reveal";
 
-import Feb2024Cover from '../assets/Newsletters/2023/Feb2024NewsletterCover.png'
-import Jan2024Cover from '../assets/Newsletters/2023/Jan2024NewsletterCover.jpg'
-import Dec2023Cover from '../assets/Newsletters/2023/Dec2023NewsletterCover.jpg'
-import Nov2023Cover from '../assets/Newsletters/2023/Nov2023NewsletterCover.png'
-import Oct2023Cover from '../assets/Newsletters/2023/Oct2023NewsletterCover.png'
-import Sep2023Cover from '../assets/Newsletters/2023/Sep2023NewsletterCover.jpg'
-
-import Feb2024Issue from '../assets/Newsletters/2023/Feb2024Newsletter.pdf'
-import Jan2024Issue from '../assets/Newsletters/2023/Jan2024Newsletter.pdf'
-import Dec2023Issue from '../assets/Newsletters/2023/Dec2023Newsletter.pdf'
-import Nov2023Issue from '../assets/Newsletters/2023/Nov2023Newsletter.pdf'
-import Oct2023Issue from '../assets/Newsletters/2023/Oct2023Newsletter.pdf'
-import Sep2023Issue from '../assets/Newsletters/2023/Sep2023Newsletter.pdf'
 
 const Newsletter = () => {
+    const newsletterEndpoint = 'https://ik.imagekit.io/18gwys9x0/Newsletters/PDFs/'
+    const newsletterCoverEndpoint = 'https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/'
+
   return (
     <div className='bg-[#181818]'>
         <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(${NewsletterHeader})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
-        }}>
+            backgroundImage: `url(${NewsletterHeader})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+            }}>
         <div className='headerOverlay'></div>
-        <div className='absolute top-[150px] md:top-[400px] left-0 w-full lg:pl-24 z-10'>
-            <h1 className='text-4xl md:text-7xl text-white font-bold text-center lg:text-left'>UTFR</h1>
-            <h1 className='text-6xl md:text-9xl text-white font-bold text-center lg:text-left'>Newsletters</h1>
+            <div className='h-full flex flex-col justify-end'>
+            <Fade delay={0.2} triggerOnce><h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Newsletters</h1></Fade>
+            </div>
         </div>
+
+        <div className='bg-[#1e1e1e] text-white grid grid-cols-1 md:grid-cols-5 rounded-lg mb-5'>
+            <div className='p-5 md:p-10 flex col-span-1 md:col-span-3'>
+                <div className='pr-5 md:pr-10 flex justify-center items-center'>
+                    <IoMailOpenOutline className='text-4xl md:text-6xl'/>
+                </div>
+                <div className=''>
+                    <p className='py-2 w-full text-base md:text-xl font-bold'>Join us on our journey!</p>
+                    <p className='text-md md:text-md'>Subscribe to our newsletter to receive the latest team updates in your inbox each month!</p>
+                </div>
+            </div>
+            <div className='pt-5 md:pt-10 md:pr-5 col-span-1 md:col-span-2 pl-5 pb-5 md:pb-0 md:pl-0 flex justify-center items-center'>
+                <div className='flex-grow' style={{ minWidth: '200px', width: '100%' }}>
+                    <NewsletterSignUp />
+                </div>
+            </div>
         </div>
-        <div className='mx-5 md:mx-24 pt-5'>
+
+
+        <div className='mx-5 md:mx-10 pt-5'>
+            <Fade cascade delay={150} damping={0.2} triggerOnce>
             <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>The Latest From Us</p>
-            <a href={Feb2024Issue} target="_blank" rel="noreferrer">
+            <a href={newsletterEndpoint + "June_2024_Newsletter.pdf"} target="_blank" rel="noreferrer">
                 <div className='newsletterCard text-white px-12 py-12'>
-                    
-                    <div className='grid md:grid-cols-3'>
+                    <div className='grid grid-cols-2 md:grid-cols-3'>
                         <div className='col-span-2 pr-5 pb-12'>
-                            <h1 className='text-4xl font-bold'>February Issue</h1>
-                            <p className='pt-1'>The UTFR team has been working tirelessly (no pun intended) to bring UT24 to life. Join us on March 22nd as we unveil the car that marks our 25th anniversary of racing. This month the driverless perception team has made large advancements using a brand new LIDAR upgrade taking our cone-spotting precision to the next level. Take a look at our Low Voltage In-Segment PCB used for gathering data from our battery cells. Check out our newsletter to learn more and stay tuned for more updates! 🏁</p>
-                            <p className='text-gray-400'>02/05/24</p>
+                            <h1 className='text-4xl font-bold'>June Issue</h1>
+                            <div className="flex justify-between">
+                                <p className='text-gray-400 pt-2'>04/06/24</p>
+                            </div>
+                            <p className='pt-1 pr-14'>Fresh off their New Hampshire win, the team tested their complete aerodynamic package at Ford’s Allen Park facility, gaining vital data for FSAE Michigan. Explore the latest mechanical and electrical developments the team has made this month, including a new cooling system and launch control system, preparing UT24 for peak performance on the track! The driverless team has also made significant advancements in their pursuit to develop a fully driverless system within the car! Finally, this month’s “Deep Dives” series features an insightful interview with Electrical Technical Director Jake Sprenger, whose dedication and competitive spirit has been pivotal in UTFR’s innovation and success! ✈️</p>
                         </div>
-                        <div className='w-full rounded-lg' style={{
-                            backgroundImage: `url(${Feb2024Cover})`,
+                        <div className='col-span-1 w-full rounded-lg' style={{
+                            backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/June_2024_NewsCover.jpg)`,
                             backgroundPosition: 'center',
                             backgroundSize: 'cover',
                             backgroundRepeat: 'no-repeat'
                             }}>
                                 <div className=''></div>
                         </div>
-                    
                     </div>
                 </div>
             </a>
+            </Fade>
         </div>
-        <div className='w-full text-white px-5 md:px-24 py-5 pt-10'>
+        <div className='w-full text-white px-5 md:px-10 py-5 pt-10'>
+            <Fade cascade delay={150} damping={0.2} triggerOnce>
             <div className='flex'>
             <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Other Stories From The 2024 Season</p>
             </div>
-            <div className='grid md:grid-cols-4'>
-                <div className='col-span-3 md:pr-5'>
+                <div className='col-span-3'>
+                    <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                        <NewsletterCard title={"May Issue"} summary={"Celebrate UTFR’s first-place finish at New Hampshire and get an insider look at fine-tuning UT24 at Multimatic, plus read an interview with team principal Daniel LaRosa! 🏆"} date={"06/05/24"} link={newsletterEndpoint + "May_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "May_2024_NewsCover.png"}/>
 
-                    <a href={Jan2024Issue} target="_blank" rel="noreferrer">
-                    <div className='newsletterCard grid md:grid-cols-4 py-7 px-7 mb-5'>
-                        <div className='col-span-3 pr-5'>
-                            <h1 className='text-3xl font-bold'>January Issue</h1>
-                            <p className='text-md pt-1'>Happy New Year from the UTFR team! Get ready to embark on an exciting journey as we step into the new year with thrilling announcements and groundbreaking developments. Despite the holiday buzz, our dedicated team has been hard at work and have achieved remarkable progress on the UT24. We also are excited to introduce our first-ever distributed battery pack temperature sensing solution, a game-changer in our pursuit of innovation. Curious for more details? Read the full newsletter to embark on this exciting journey with us and discover our latest developments! 🚀</p>
-                            <p className='text-sm text-gray-400'>01/08/24</p>
-                        </div>
-                        <div className='w-full rounded-lg' style={{
-                        backgroundImage: `url(${Jan2024Cover})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                        }}>
-                            <div className=''></div>
-                        </div>
-                    </div>
-                    </a>
-                    
-                    <a href={Dec2023Issue} target="_blank" rel="noreferrer">
-                    <div className='newsletterCard grid md:grid-cols-4 py-7 px-7 mb-5'>
-                        <div className='col-span-3 pr-5'>
-                            <h1 className='text-3xl font-bold'>December Issue</h1>
-                            <p className='text-md pt-1'>As we bid farewell to 2023, the UTFR team is excited to share our December newsletter, packed with highlights from a month filled with manufacturing and groundbreaking developments on UT24. Read about the secrets behind our lightweight and durable harness design, the commencement of our printed circuit boards’ assembly and the engineering marvels of our composite internal wing. Dive into the full newsletter for an immersive experience and join us as we pave the way for a thrilling 2024! 🏎️💨</p>
-                            <p className='text-sm text-gray-400'>04/12/23</p>
-                        </div>
-                        <div className='w-full rounded-lg' style={{
-                        backgroundImage: `url(${Dec2023Cover})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                        }}>
-                            <div className=''></div>
-                        </div>
-                    </div>
-                    </a>
+                        <NewsletterCard title={"April Issue"} summary={"Experience UT24’s unveiling and explore advancements in acceleration, skidpad times, mechanical fine-tuning, and thermal testing! 🧰"} date={"01/04/24"} link={newsletterEndpoint + "April_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "April_2024_NewsCover.png"}/>
 
-                    <a href={Nov2023Issue} target="_blank" rel="noreferrer">
-                    <div className='newsletterCard grid md:grid-cols-4 pb-5 py-7 px-7 mb-5'>
-                        <div className='col-span-1 md:col-span-3 md:pr-5'>
-                            <h1 className='text-3xl font-bold'>November Issue</h1>
-                            <p className='text-md pt-1'>Welcome back to the pulse-pounding world of speed, innovation, and motorsport with UTFR’s November newsletter! Get an exclusive peek into the redesign of UT24’s throttle pedal, focusing on driver comfort and precision. Explore the fast-paced developments in our Simultaneous Localization and Mapping (SLAM) algorithm as we gear up for thorough performance validation in our simulation environment, a crucial step before the upcoming hardware testing. Stay tuned for more updates as we shift into high gear and work on cutting-edge developments that drive us forward. 💫</p>
-                            <p className='text-sm text-gray-400'>06/11/23</p>
-                        </div>
-                        <div className='w-full rounded-lg' style={{
-                        backgroundImage: `url(${Nov2023Cover})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                        }}>
-                            <div className=''></div>
-                        </div>
-                    </div>
-                    </a>
-                    <a href={Oct2023Issue} target="_blank" rel="noreferrer">
-                    <div className='newsletterCard grid md:grid-cols-4 pb-5 py-7 px-7 mb-5'>
-                        <div className='col-span-3 md:pr-5'>
-                            <h1 className='text-3xl font-bold'>October Issue</h1>
-                            <p className='text-md pt-1'>This past month was a whirlwind of excitement as we delved into a series of thrilling events. We proudly hosted our second annual Women in Motorsport Panel, showcasing inspiring Canadian women and celebrating diversity in the motorsport industry. Explore our latest developments, including a state-of-the-art traction control system and our inaugural undertray, pushing us towards FSAE competition excellence. As we unravel the highlights, experience the dynamic atmosphere that fuels our passion for motorsports. 🌟</p>
-                            <p className='text-sm text-gray-400'>02/10/23</p>
-                        </div>
-                        <div className='w-full rounded-lg' style={{
-                        backgroundImage: `url(${Oct2023Cover})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                        }}>
-                            <div className=''></div>
-                        </div>
-                    </div>
-                    </a>
+                        <NewsletterCard title={"March Issue"} summary={"In March, UTFR achieved many things with the mechanical team hitting the rolling car milestone to the electrical team’s lightning-fast battery pack assembly. ⚙️"} date={"04/03/24"} link={newsletterEndpoint + "March_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "March_2024_NewsCover.jpg"}/>
 
-                    <a href={Sep2023Issue} target="_blank" rel="noreferrer">
-                    <div className='newsletterCard grid md:grid-cols-4 pb-5 py-7 px-7'>
-                        <div className='col-span-3 md:pr-5'>
-                            <h1 className='text-3xl font-bold'>September Issue</h1>
-                            <p className='text-md pt-1'>UTFR’s summer was filled with achievements, securing 1st place in New Hampshire and completing our European venture where we finished 6th overall. Read the newsletter to see how we placed in Efficiency 👀. Looking ahead, the team has some big events in store including our annual Women in Motorsport Panel, and Toronto Shootout, the thrilling season finisher featuring 20 teams from across Canada and the United States. Read our newsletter and follow along for the exciting ride! 🔧</p>
-                            <p className='text-sm text-gray-400'>05/08/23</p>
-                        </div>
-                        <div className='w-full rounded-lg md:w-auto' style={{
-                        backgroundImage: `url(${Sep2023Cover})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        }}>
-                            <div className=''></div>
-                        </div>
-                    </div>
-                    </a>
-                </div>
-                <div className='pt-5 md:pt-0 col-span-3 md:col-span-1 text-white flex'>
-                    <div className='line md:ml-2'></div>
-                    <div className='pl-6 pt-5 w-full'>
-                        <h1 className='text-3xl font-bold'>Sign Up</h1>
-                        <p className='py-2 w-full'>Subscribe to our newsletter to join us in our journey!</p>
-                        <NewsletterSignUp  />
-                        <h1 className='pt-10 text-2xl font-bold'>Check Out Our Socials</h1>
-                        <div className='flex py-5 items-center text-gray-300 transition duration-200 hover:text-white'>
-                            <a className='flex items-center' href="https://www.instagram.com/uoftfsae/" target="_blank" rel="noreferrer"><AiOutlineInstagram className='pr-2 text-4xl'/>
-                            <p>@uoftfsae</p>
-                            </a>
-                        </div>
-                        <div className='flex py-5 items-center text-gray-300 transition duration-200 hover:text-white'>
-                            <a className='flex items-center' href="https://www.tiktok.com/@uoftfsae" target="_blank" rel="noreferrer"><FaTiktok className='pr-3 text-4xl'/>
-                            <p>@uoftfsae</p>
-                            </a>
-                        </div>
-                        <div className='flex py-5 items-center text-gray-300 transition duration-200 hover:text-white'>
-                            <a className='flex items-center' href="https://www.linkedin.com/company/university-of-toronto-formula-sae-racing/mycompany/" target="_blank" rel="noreferrer"><FaLinkedinIn className='pr-2 text-4xl'/>
-                            <p>@utfr</p>
-                            </a>
-                        </div>
+                        <NewsletterCard title={"February Issue"} summary={"Discover the team’s revolutionary LIDAR advancements and read about UTFR’s 25th anniversary with the grand unveiling of UT24! 🏁"} date={"05/02/24"} link={newsletterEndpoint + "February_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "February_2024_NewsCover.png"}/>
+
+                        <NewsletterCard title={"January Issue"} summary={"Starting the year off strong, UTFR made progress on their groundbreaking battery pack temperature sensing innovation for UT24! 🚀"} date={"08/01/24"} link={newsletterEndpoint + "January_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "January_2024_NewsCover.jpg"}/>
+
+                        <NewsletterCard title={"December Issue"} summary={"The team ended the year on a high reaching new engineering feats with UT24’s lightweight harness, composite internal wing, and printed circuit boards’ assembly. 🏎️"} date={"04/12/23"} link={newsletterEndpoint + "December_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "December_2023_NewsCover.jpg"}/>
+
+                        <NewsletterCard title={"November Issue"} summary={"Get the inside scoop on UT24’s throttle pedal redesign and cutting-edge SLAM developments. Also read about the team’s experience at Toronto Shootout! 💫"} date={"06/11/23"} link={newsletterEndpoint + "November_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "November_2023_NewsCover.png"}/>
+
+                        <NewsletterCard title={"October Issue"} summary={"Relive the excitement of UTFR’s Women in Motorsports Panel and explore the team’s latest traction control and undertray innovations! 🌟"} date={"02/10/23"} link={newsletterEndpoint + "October_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "October_2023_NewsCover.png"}/>
+
+                        <NewsletterCard title={"September Issue"} summary={"Checkout UTFR’s UT23 victories and read about the team’s thrilling upcoming events including the Toronto Shootout! 🔧"} date={"05/09/23"} link={newsletterEndpoint + "September_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "September_2023_NewsCover.jpg"}/>
                     </div>
                 </div>
-            </div>
+            </Fade>
         </div>
         <GoToTop />
         

@@ -12,7 +12,7 @@ const NewsletterSignUp = () => {
         {`
           #mc_embed_signup {
             clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
+            font: 16px Helvetica, Arial, sans-serif;
           }
 
           /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -39,7 +39,7 @@ const NewsletterSignUp = () => {
                 placeholder="example@gmail.com"
                 required
                 defaultValue=""
-                style={{ padding: '0.5rem' }} // Add this style to adjust input padding
+                style={{ padding: '0.75rem' }} // Add this style to adjust input padding
               />
             </div>
             <div id="mce-responses" className="clear foot">

@@ -444,4 +444,9 @@ ul {
     margin: 0;
     font-size: 0.9em;
 }
-  
+
+.home-carousel-gif {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

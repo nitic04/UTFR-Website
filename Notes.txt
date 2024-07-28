@@ -349,3 +349,23 @@ Sensata: http://www.sensata.com/
 OLD 
 <p className='pt-5'>The University of Toronto began its involvement in FSAE in 1997, and completed a prototype vehicle in 1998. Through testing and research on the vehicle, a second, lighter frame was constructed in 1999. In 2003, 2005, and 2006, the team took three overall championships at Formula Student UK - a record that would stand until 2016.</p>
               <p className='pt-5 text-white'>Over the course of the early 2000s, several different chassis concepts were explored, eventually moving from steel spaceframes, to hybrid concepts, to a full monocoque. In 2010, the team switched to the light single cylinder engines which were used until 2021. In 2016, our first aerodynamics package was created to improve high speed cornering capability. In 2019, the team continued to develop the hybrid chassis concept, and introduced prototypes for a drag reduction system and electric shifter. In 2022, the team entered a new era, developing a fully electric race car. The team continues to place respectably in rankings in both static and dynamic competitions.</p>
+
+
+
+Newsletter
+- February Issue - The UTFR team has been working tirelessly (no pun intended) to bring UT24 to life. Join us on March 22nd as we unveil the car that marks our 25th anniversary of racing. This month the driverless perception team has made large advancements using a brand new LIDAR upgrade taking our cone-spotting precision to the next level. Take a look at our Low Voltage In-Segment PCB used for gathering data from our battery cells. Check out our newsletter to learn more and stay tuned for more updates! 🏁 - 02/05/24 - {Feb2024Cover} - {Feb2024Issue}
+- January Issue - 
+
+
+
+Newsletter Dates & readtime
+- sep 23: 05/09/23, 8 mins
+- oct 23: 02/10/23, 9 mins
+- nov 23: 06/11/23, 7 mins
+- dec 23: 04/12/23, 5 mins
+- jan 24: 08/01/24, 5 mins
+- feb 24: 05/02/24, 4 mins
+- mar 24: 04/03/24, 3 mins
+- apr 24: 01/04/24, 4 mins
+- may 24: 06/05/24, 8 mins
+- jun 24: 04/06/24, 6 mins
