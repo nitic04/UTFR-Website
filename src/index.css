@@ -123,9 +123,8 @@ html {
 
 .sponsorImg2 {
     float: left;
-    height: 80px;
-    width: 200px;
-    padding: 0 15px;
+    height: 75px;
+    width: 250px;
     object-fit: contain;
 }
 

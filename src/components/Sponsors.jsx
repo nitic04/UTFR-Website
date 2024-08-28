@@ -43,6 +43,7 @@ import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.pn
 import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
 import Rudolphs from '../assets/Sponsors/SponsorLogosColoured/Rudolphs.png'
 import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
+import Tektronix from '../assets/Sponsors/SponsorLogosColoured/Tektronix.png'
 import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
 // Bronze Sponsors
@@ -319,6 +320,9 @@ const Sponsors = () => {
                         </a>
                         <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Solidworks} alt="" />
+                        </a>
+                        <a href="https://www.tek.com/en" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Tektronix} alt="" />
                         </a>
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Villa} alt="" />
