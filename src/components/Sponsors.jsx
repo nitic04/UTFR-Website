@@ -66,6 +66,7 @@ import Holley from '../assets/Sponsors/SponsorLogosColoured/Holley.png'
 import Kenesto from '../assets/Sponsors/SponsorLogosColoured/Kenesto.png'
 
 import KISSsoft from '../assets/Sponsors/SponsorLogosColoured/KissSoft.png'
+import Kunsemi from '../assets/Sponsors/SponsorLogosColoured/Kunsemi.png'
 import LRA3d from '../assets/Sponsors/SponsorLogosColoured/LRA.png'
 import LucidVision from '../assets/Sponsors/SponsorLogosColoured/Lucid.png'
 import Multimatic from '../assets/Sponsors/SponsorLogosColoured/Multimatic.png'
@@ -398,19 +399,22 @@ const Sponsors = () => {
                         <a href="https://www.kisssoft.com/de" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={KISSsoft} alt="" />
                         </a>
+                        <a href="https://kunsemi.com/sy" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Kunsemi} alt="" />
+                        </a>
                         <a href="https://lra3d.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={LRA3d} alt="" />
                         </a>
                         <a href="https://thinklucid.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={LucidVision} alt="" />
                         </a>
-                        <a href="https://www.multimatic.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Multimatic} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.multimatic.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Multimatic} alt="" />
+                        </a>
                         <a href="https://rapidharness.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RapidHarness} alt="" />
                         </a>
@@ -423,13 +427,13 @@ const Sponsors = () => {
                         <a href="https://industrial.sherwin-williams.com/na/us/en/automotive.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={SherwinWilliams} alt="" />
                         </a>
-                        <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Siemens} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
+                        <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Siemens} alt="" />
+                        </a>
                         <a href="http://texonic.net/en" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Texonic} alt="" />
                         </a>
