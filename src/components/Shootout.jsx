@@ -127,67 +127,94 @@ const Shootout = () => {
         </div>
         <div className='text-white bg-[#242424] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
-            <h1 className='flex px-5 justify-center text-3xl font-bold pt-10 md:pb-10 pb-5 text-center'>Past Participating Teams</h1>
+            <h1 className='flex px-5 justify-center text-3xl font-bold pt-10 md:pb-10 pb-5 text-center'>2024 Participating Teams</h1>
             <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:pb-5 flex-col md:flex-row text-center'>
-              <a href="https://www.formulaknightsracing.com/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Clarkson Formula Knights</p>
+              <a href="https://www.bearcatmotorsports.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Bearcat Motorsports</p>
               </a>
-              <a href="https://www.concordiasae.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Concordia Formula Racing</p>
+              <a href="https://binghamtonmotorsports.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Binghamton Motorsports
+                </p>
               </a>
-              <a href="https://www.formulesae.ulaval.ca/team.php?lang=en" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Form UL</p>
+              <a href="https://sites.google.com/brown.edu/fsae/home" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Brown Formula Racing</p>
               </a>
-              <a href="https://www.formulabuckeyes.org/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Formula Buckeyes</p>
-              </a>
-              <a href="https://www.formulauottawa.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Formula uOttawa</p>
-              </a>
-              <a href="https://formule-ets.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>Formule ETS</p>
+              <a href="https://sites.clarkson.edu/cfek/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Clarkson University Electric Knights</p>
               </a>
             </div>
             <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
-              <a href="https://fsae.polymtl.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Formule Polytechnique Montréal</p>
+              <a href="https://concordiaformularacing.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Concordia Formula Racing EV</p>
               </a>
-              <a href="https://www.instagram.com/grizzliesracing/?hl=en" target="_blank" rel="noreferrer">
+              <a href="https://www.formulauottawa.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>Formula uOttawa</p>
+              </a>
+              <a href="https://formule-ets.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Formule ETS</p>
+              </a>
+              <a href="https://www.grizzlies-racing.org/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Grizzlies Racing</p>
               </a>
-              <a href="https://www.uoguelph.ca/engineering/gryphon-racing" target="_blank" rel="noreferrer">
+              <a href="https://gryphonracing.org/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Gryphon Racing</p>
               </a>
               <a href="https://macformularacing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>MAC Formula Electric</p>
               </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://www.mcgillformulaelectric.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>McGill Formula Electric</p>
               </a>
+              <a href="https://formulasae.mtu.edu/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Michigan Tech Racing</p>
+              </a>
+              <a href="https://villanovafsae.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>NovaRacing</p>
+              </a>
+              <a href="https://engineering.ontariotechu.ca/current-students/current-undergraduate/clubs_and_societies/ontario-tech-racing.php" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Ontario Tech Racing</p>
+              </a>
+              <a href="https://www.engineering.pitt.edu/subsites/student-orgs/fsae/fsae/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>Panther Racing</p>
+              </a>
             </div>
             <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
-              <a href="https://www.mracing.engin.umich.edu/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>MRacing</p>
-              </a>
               <a href="https://ravensracing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Ravens Racing</p>
               </a>
-              <a href="https://www.tmformularacing.com/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Toronto Metropolitan Formula Racing</p>
+              <a href="https://www.ritformula.com/electric" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>RIT Racing</p>
               </a>
-              <a href="https://fsaeutoronto.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>University of Toronto Formula Racing</p>
+              <a href="https://www.facebook.com/SherbyRacing/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Sherby Racing</p>
+              </a>
+              <a href="https://racing.umd.edu/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Terps Racing EV</p>
+              </a>
+              <a href="https://torontometformularacing.com/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Toronto Metropolitan Formula Racing</p>
               </a>
             </div>
             <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
-              <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>UW Formula Electric</p>
+              <a href="https://fsaeutoronto.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>University of Toronto</p>
               </a>
+              <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>University of Waterloo Formula Electric</p>
+              </a>
+              <a href="https://fsae.eng.wayne.edu/" target="_blank" rel="noreferrer">
+                <p className='hover:text-gray-300 transition duration-300'>Warrior Racing | Wayne State Univ</p>
+              </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://westernformularacing.org/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Western Formula Racing</p>
               </a>
               <a href="https://zipsracing.org/" target="_blank" rel="noreferrer">
-                <p className='hover:text-gray-300 transition duration-300'>Zips Racing Electric</p>
+                <p className='hover:text-gray-300 transition duration-300'>Zips Racing
+                </p>
               </a>
             </div>
           </Fade>
