@@ -142,14 +142,14 @@ const Shootout = () => {
               <a href="https://sites.clarkson.edu/cfek/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Clarkson University Electric Knights</p>
               </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://concordiaformularacing.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Concordia Formula Racing EV</p>
               </a>
               <a href="https://www.formulauottawa.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>Formula uOttawa</p>
               </a>
-            </div>
-            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://formule-ets.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Formule ETS</p>
               </a>
@@ -162,11 +162,11 @@ const Shootout = () => {
               <a href="https://macformularacing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>MAC Formula Electric</p>
               </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://www.mcgillformulaelectric.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300 pb-3 md:pb-0'>McGill Formula Electric</p>
               </a>
-            </div>
-            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://formulasae.mtu.edu/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Michigan Tech Racing</p>
               </a>
@@ -193,22 +193,22 @@ const Shootout = () => {
               <a href="https://racing.umd.edu/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Terps Racing EV</p>
               </a>
-            </div>
-            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://torontometformularacing.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Toronto Metropolitan Formula Racing</p>
               </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://fsaeutoronto.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>University of Toronto</p>
               </a>
               <a href="https://www.uwfsae.ca/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>University of Waterloo Formula Electric</p>
               </a>
-            </div>
-            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://fsae.eng.wayne.edu/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Warrior Racing | Wayne State Univ</p>
               </a>
+            </div>
+            <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:py-5 flex-col md:flex-row text-center'>
               <a href="https://westernformularacing.org/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Western Formula Racing</p>
               </a>
