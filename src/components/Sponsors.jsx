@@ -1,50 +1,11 @@
 import React from 'react'
+import { IKImage } from 'imagekitio-react'
 import SponsorHeader from '../assets/Sponsors_Wing.jpg'
 import SponsorshipPackage from '../assets/UT24SponsorshipPackage.pdf'
 
-// Diamond Sponsors
-import Batemo from '../assets/Sponsors/SponsorLogosColoured/Batemo.png'
-import Tesla from '../assets/Sponsors/SponsorLogosColoured/Tesla.png'
-import Skule from '../assets/Sponsors/SponsorLogosColoured/SKULE.png'
-import Pulsenics from '../assets/Sponsors/SponsorLogosColoured/Pulsenics.png'
-
-// Platinum Sponsors
-import ActnowHPC from '../assets/Sponsors/SponsorLogosColoured/ACTnowHPC.png'
-import PetroCanada from '../assets/Sponsors/SponsorLogosColoured/PetroColour.png'
-
 // Gold Sponsors
-import DeutscheHydrapro from '../assets/Sponsors/SponsorLogosColoured/HydraPro.png'
-import MC78 from '../assets/Sponsors/SponsorLogosColoured/MC-78.png'
-import NewEra from '../assets/Sponsors/SponsorLogosColoured/NewEra.png'
 import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
-import Sobek from '../assets/Sponsors/SponsorLogosColoured/Sobek.png'
-
-import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
-
-// Silver Sponsors
-import Altium from '../assets/Sponsors/SponsorLogosColoured/Altium.png'
-import Ansys from '../assets/Sponsors/SponsorLogosColoured/Ansys.png'
-import BCamera from '../assets/Sponsors/SponsorLogosColoured/BCamera.png'
-import Becker from '../assets/Sponsors/SponsorLogosColoured/Becker.png'
-import Bosch from '../assets/Sponsors/SponsorLogosColoured/Bosch.png'
-
-import Embotech from '../assets/Sponsors/SponsorLogosColoured/Embotech.png'
-import FacFox from '../assets/Sponsors/SponsorLogosColoured/FacFox.png'
-import Ford from '../assets/Sponsors/SponsorLogosColoured/Ford.png'
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
-import Magna from '../assets/Sponsors/SponsorLogosColoured/Magna.png'
-
-import MG from '../assets/Sponsors/SponsorLogosColoured/MG.png'
-import Molex from '../assets/Sponsors/SponsorLogosColoured/Molex.png'
-import Movella from '../assets/Sponsors/SponsorLogosColoured/Movella.png'
-import Martinrea from '../assets/Sponsors/SponsorLogosColoured/Martinrea.png'
-import NorthAmericaCrating from '../assets/Sponsors/SponsorLogosColoured/NACI.png'
-
-import NTN from '../assets/Sponsors/SponsorLogosColoured/NTN.png'
-import Rudolphs from '../assets/Sponsors/SponsorLogosColoured/Rudolphs.png'
-import Solidworks from '../assets/Sponsors/SponsorLogosColoured/SolidworksLogo.png'
-import Tektronix from '../assets/Sponsors/SponsorLogosColoured/Tektronix.png'
-import Villa from '../assets/Sponsors/SponsorLogosColoured/Villa.png'
 
 // Bronze Sponsors
 import ABCO from '../assets/Sponsors/SponsorLogosColoured/Abco.png'
@@ -99,12 +60,14 @@ import HMS from '../assets/Sponsors/SponsorLogosColoured/HMS.png'
 import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
 import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
 import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
+import Optimumarc from '../assets/Sponsors/SponsorLogosColoured/Optimumarc.png'
+
 import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import TRAIL from '../assets/Sponsors/SponsorLogosColoured/TrailLabs.webp'
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
-
 import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
+
 import Winsource from '../assets/Sponsors/SponsorLogosColoured/Winsource.png'
 import Zebra from '../assets/Sponsors/SponsorLogosColoured/Zebra.png'
 
@@ -112,6 +75,8 @@ import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
 const Sponsors = () => {
+  const urlEndpoint = 'https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/'
+
   return (
     <div>
         <div className='w-full h-screen relative' style={{
@@ -139,13 +104,16 @@ const Sponsors = () => {
             </div>
             </Fade>
         </div>
+
+        {/* DIAMOND SPONSORS */}
         <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
         <div className='flex justify-center bg-[#e3e3e3]'>
             <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
+                {/* SKULE */}
                 <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                 <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
                     <div className='h-[200px] bg-[#f1f1f1]' style={{
-                    backgroundImage: `url(${Skule})`,
+                    backgroundImage: `url(https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/SKULE.png)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
@@ -157,11 +125,12 @@ const Sponsors = () => {
                     </div>
                 </div>
                 </a>
-
+                
+                {/* TESLA */}
                 <a href="https://www.tesla.com/" target="_blank" rel="noreferrer">
                 <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
                     <div className='h-[200px] bg-[#f1f1f1]' style={{
-                    backgroundImage: `url(${Tesla})`,
+                    backgroundImage: `url(https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/Tesla.png)`,
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
@@ -174,10 +143,11 @@ const Sponsors = () => {
                 </div>
                 </a>
 
+                {/* BATEMO */}
                 <a href="http://www.batemo.de/" target="_blank" rel="noreferrer">
                 <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
                     <div className='h-[200px] bg-[#f1f1f1]' style={{
-                    backgroundImage: `url(${Batemo})`,
+                    backgroundImage: `url(https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/Batemo.png)`,
                     backgroundPosition: 'center',
                     backgroundSize: '90%',
                     backgroundRepeat: 'no-repeat'
@@ -190,10 +160,11 @@ const Sponsors = () => {
                 </div>
                 </a>
 
+                {/* PULSENICS */}
                 <a href="http://pulsenics.com/" target="_blank" rel="noreferrer">
                 <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
                     <div className='h-[200px] bg-[#f1f1f1]' style={{
-                    backgroundImage: `url(${Pulsenics})`,
+                    backgroundImage: `url(https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/Pulsenics.png)`,
                     backgroundPosition: 'center',
                     backgroundSize: '90%',
                     backgroundRepeat: 'no-repeat'
@@ -208,130 +179,134 @@ const Sponsors = () => {
             </div>
         </div>
 
+        {/* REST OF THE SPONSORS */}
         <div className='text-black bg-[#e3e3e3] py-10'>
-
+            {/* PLATINUM SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Platinum Sponsors</h1>
             <div className='flex justify-center pt-10 pb-16 items-center'>
                 <div className='grid md:grid-cols-2 gap-x-10'>
                     <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={ActnowHPC} alt="" />
+                        <IKImage urlEndpoint={urlEndpoint} path="ACTnowHPC.png" className='sponsorImg'/>
                     </a>
                     <a href="https://lubricants.petro-canada.com/" target="_blank" rel="noreferrer">
-                        <img className="sponsorImg" src={PetroCanada} alt="" />
+                        <IKImage urlEndpoint={urlEndpoint} path="PetroColour.png" className='sponsorImg'/>
                     </a>
                 </div>
             </div>
-
+            
+            {/* GOLD SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             <div className='px-16'>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.hydrapro.com.au/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={DeutscheHydrapro} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="HydraPro.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.mie.utoronto.ca/student-life-services/machine-shop/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg pl-10" src={MC78} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="UofTMIE.png" className='sponsorImg'/>
                         </a>
                         <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NewEra} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="NewEra.png" className='sponsorImg'/>
                         </a>
                         <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg w-full" src={RLX} alt="" />
+                            <img className="sponsorImg" src={RLX} alt="" />
                         </a>
                         <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Sobek} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.topdon.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg w-full" src={Topdon} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="ACTnowHPC.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
             </div>
 
+            {/* SILVER SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Silver Sponsors</h1>
             <div className='px-16'>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://www.altium.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-2" src={Altium} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Altium.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.ansys.com/academic/students/student-teams" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-2" src={Ansys} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Ansys.png" className='sponsorImg'/>
                         </a>
                         <a href="https://bcamera.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-2 py-2" src={BCamera} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="BCamera.png" className='sponsorImg'/>
                         </a>
                         <a href="https://beckerpumps.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Becker} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Becker.png" className='sponsorImg'/>
                         </a>
                         <a href="http://bosch.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Bosch} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Bosch.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.embotech.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Embotech} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Embotech.png" className='sponsorImg'/>
                         </a>
                         <a href="https://facfox.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={FacFox} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="FacFox.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.ford.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-4" src={Ford} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Ford.png" className='sponsorImg'/>
                         </a>
                         <a href="http://www.julepower.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Jule} alt="" />
                         </a>
                         <a href="https://www.magna.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Magna} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Magna.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://mgchemicals.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={MG} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="MG.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.molex.com/en-us/home" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Molex} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Molex.png" className='sponsorImg'/>
                         </a>
                         <a href="http://www.movella.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Movella} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Movella.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.martinrea.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Martinrea} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Martinrea.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.nacicanada.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NorthAmericaCrating} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="NACI.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="https://ntn.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={NTN} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="NTN.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.rudolphsbakeries.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Rudolphs} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Rudolphs.png" className='sponsorImg'/>
                         </a>
                         <a href="http://www.solidworks.com/students" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Solidworks} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="SolidworksLogo.png" className='sponsorImg'/>
                         </a>
                         <a href="https://www.tek.com/en" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Tektronix} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Tektronix.png" className='sponsorImg'/>
                         </a>
                         <a href="http://www.villacharities.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Villa} alt="" />
+                            <IKImage urlEndpoint={urlEndpoint} path="Villa.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>
             </div>
 
+            {/* BRONZE SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Bronze Sponsors</h1>
             <div className='px-16'>
                 <div className='flex justify-center pt-10 items-center'>
@@ -447,6 +422,7 @@ const Sponsors = () => {
                 </div>
             </div>
 
+            {/* AFFILIATES */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Affiliates</h1>
             <div className='px-16'>
                 <div className='flex justify-center pt-10 items-center'>
@@ -501,14 +477,16 @@ const Sponsors = () => {
                         <a href="https://odriverobotics.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Odrive} alt="" />
                         </a>
-                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Rexco} alt="" />
+                        <a href="https://www.optimumarc.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Optimumarc} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
-
+                        <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={Rexco} alt="" />
+                        </a>
                         <a href="https://starslab.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Stars} alt="" />
                         </a>
@@ -521,14 +499,14 @@ const Sponsors = () => {
                         <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VR3Engineering} alt="" />
                         </a>
-                        <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Winsource} alt="" />
-                        </a>
+
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
-
+                        <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Winsource} alt="" />
+                        </a>
                         <a href="https://www.zebra.com/us/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Zebra} alt="" />
                         </a>
