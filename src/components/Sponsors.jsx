@@ -197,7 +197,7 @@ const Sponsors = () => {
             {/* GOLD SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             <div className='px-16'>
-                <div className='flex justify-center pt-10 items-center'>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
                         <a href="http://www.hydrapro.com.au/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="HydraPro.png" className='sponsorImg'/>
@@ -213,13 +213,6 @@ const Sponsors = () => {
                         </a>
                         <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg'/>
-                        </a>
-                    </div>
-                </div>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
-                        <a href="https://www.topdon.com/" target="_blank" rel="noreferrer">
-                            <IKImage urlEndpoint={urlEndpoint} path="ACTnowHPC.png" className='sponsorImg'/>
                         </a>
                     </div>
                 </div>

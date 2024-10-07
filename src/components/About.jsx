@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className='w-full h-[100%] text-white bg-[#181818]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='h-full w-full about flex flex-col md:flex-row'>
+        <div className='h-full w-full about flex flex-col lg:flex-row'>
           <div className='p-10 lg:w-[130%]'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-4xl font-bold inline border-b-4 border-[#ED3833] pr-2'>Who We Are</p>

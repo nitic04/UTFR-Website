@@ -51,7 +51,7 @@ const History = () => {
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>
-          <div className='h-full w-full about flex flex-col md:flex-row'>
+          <div className='h-full w-full about flex flex-col lg:flex-row'>
             <div className='p-10 w-[90%]'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>Our History</p>
@@ -71,7 +71,7 @@ const History = () => {
       </div>
       <div>
         <div className='text-white flex flex-col justify-center items-center w-full h-full'>
-          <div className='h-full w-full about flex flex-col md:flex-row'>
+          <div className='h-full w-full about flex flex-col lg:flex-row'>
             <div className='p-10 w-[90%]'>
               <Fade cascade damping={0.2} triggerOnce>
               <p className='text-3xl md:text-4xl font-bold inline border-b-4 border-[#ED3833]'>What's in it for me?</p>
