@@ -4,8 +4,10 @@ import SponsorHeader from '../assets/Sponsors_Wing.jpg'
 import SponsorshipPackage from '../assets/UT24SponsorshipPackage.pdf'
 
 // Gold Sponsors
+import CenteringTech from '../assets/Sponsors/SponsorLogosColoured/CenteringTech.jpeg'
 import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
+import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 
 // Bronze Sponsors
 import ABCO from '../assets/Sponsors/SponsorLogosColoured/Abco.png'
@@ -23,22 +25,24 @@ import Foxglove from '../assets/Sponsors/SponsorLogosColoured/Foxglove.png'
 import Gardel from '../assets/Sponsors/SponsorLogosColoured/Gardel.png'
 import Haas from '../assets/Sponsors/SponsorLogosColoured/Haas.png'
 import Harwin from '../assets/Sponsors/SponsorLogosColoured/Harwin.png'
+import Hexagon from '../assets/Sponsors/SponsorLogosColoured/Hexagon.png'
 import Holley from '../assets/Sponsors/SponsorLogosColoured/Holley.png'
-import Kenesto from '../assets/Sponsors/SponsorLogosColoured/Kenesto.png'
 
+import Kenesto from '../assets/Sponsors/SponsorLogosColoured/Kenesto.png'
 import KISSsoft from '../assets/Sponsors/SponsorLogosColoured/KissSoft.png'
 import Kunsemi from '../assets/Sponsors/SponsorLogosColoured/Kunsemi.png'
 import LRA3d from '../assets/Sponsors/SponsorLogosColoured/LRA.png'
 import LucidVision from '../assets/Sponsors/SponsorLogosColoured/Lucid.png'
 import Multimatic from '../assets/Sponsors/SponsorLogosColoured/Multimatic.png'
-import RapidHarness from '../assets/Sponsors/SponsorLogosColoured/RapidHarness.png'
 
+import RapidHarness from '../assets/Sponsors/SponsorLogosColoured/RapidHarness.png'
 import Rivian from '../assets/Sponsors/SponsorLogosColoured/Rivian.png' 
 import Sensata from '../assets/Sponsors/SponsorLogosColoured/Sensata.webp'
 import SherwinWilliams from '../assets/Sponsors/SponsorLogosColoured/SherwinWilliams.png'
 import Siemens from '../assets/Sponsors/SponsorLogosColoured/Siemens.png'
-import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 
+import Simdiff from '../assets/Sponsors/SponsorLogosColoured/Simdiff.png'
+import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
 import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
 import ERP from '../assets/Sponsors/SponsorLogosColoured/3ERP.png'
@@ -197,8 +201,9 @@ const Sponsors = () => {
             {/* GOLD SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             <div className='px-16'>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
+                        <img className="sponsorImg" src={CenteringTech} alt="" />
                         <a href="http://www.hydrapro.com.au/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="HydraPro.png" className='sponsorImg'/>
                         </a>
@@ -208,11 +213,18 @@ const Sponsors = () => {
                         <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="NewEra.png" className='sponsorImg'/>
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
+                    <div className='grid md:grid-cols-3 gap-x-10'>
                         <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RLX} alt="" />
                         </a>
                         <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
-                            <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg'/>
+                            <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg px-5'/>
+                        </a>
+                        <a href="https://m.topdon.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Topdon} alt="" />
                         </a>
                     </div>
                 </div>
@@ -354,13 +366,16 @@ const Sponsors = () => {
                         <a href="https://www.harwin.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Harwin} alt="" />
                         </a>
-                        <a href="https://www.holley.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Holley} alt="" />
+                        <a href="https://hexagon.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Hexagon} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.holley.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={Holley} alt="" />
+                        </a>
                         <a href="https://www.kenesto.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Kenesto} alt="" />
                         </a>
@@ -373,13 +388,13 @@ const Sponsors = () => {
                         <a href="https://lra3d.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={LRA3d} alt="" />
                         </a>
-                        <a href="https://thinklucid.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={LucidVision} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://thinklucid.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={LucidVision} alt="" />
+                        </a>
                         <a href="https://www.multimatic.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Multimatic} alt="" />
                         </a>
@@ -392,22 +407,27 @@ const Sponsors = () => {
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
                         </a>
-                        <a href="https://industrial.sherwin-williams.com/na/us/en/automotive.html" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={SherwinWilliams} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://industrial.sherwin-williams.com/na/us/en/automotive.html" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={SherwinWilliams} alt="" />
+                        </a>
                         <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Siemens} alt="" />
                         </a>
+                        <img className="sponsorImg" src={Simdiff} alt="" />
                         <a href="http://texonic.net/en" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Texonic} alt="" />
                         </a>
                         <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Textreme} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                         <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TibetTechSols} alt="" />
                         </a>
