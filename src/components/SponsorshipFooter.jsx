@@ -13,7 +13,7 @@ const SponsorshipFooter = () => {
     <div className="w-full bg-[#131212]">
       <div className="px-16">
         <div className="flex justify-center items-center md:pt-5">
-          <div className="grid md:grid-cols-3 gap-x-5">
+          <div className="grid grid-cols-3 gap-x-5">
             <a
               href="https://www.mie.utoronto.ca/student-life-services/machine-shop/"
               target="_blank"
@@ -35,7 +35,7 @@ const SponsorshipFooter = () => {
         </div>
 
         <div className="flex justify-center items-center md:py-5">
-          <div className="grid md:grid-cols-4 gap-x-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5">
             <a href="https://alumni.engineering.utoronto.ca/engineering-alumni-network/" target="_blank" rel="noreferrer">
               <img className="sponsorImg2" src={EngAlumni} alt="" />
             </a>
