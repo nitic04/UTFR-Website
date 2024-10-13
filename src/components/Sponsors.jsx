@@ -1,11 +1,12 @@
 import React from 'react'
 import { IKImage } from 'imagekitio-react'
 import SponsorHeader from '../assets/Sponsors_Wing.jpg'
-import SponsorshipPackage from '../assets/UT24SponsorshipPackage.pdf'
 
 // Gold Sponsors
+import CenteringTech from '../assets/Sponsors/SponsorLogosColoured/CenteringTech.jpeg'
 import RLX from '../assets/Sponsors/SponsorLogosColoured/RLX.png'
 import Jule from '../assets/Sponsors/SponsorLogosColoured/Jule.png'
+import Topdon from '../assets/Sponsors/SponsorLogosColoured/Topdon.png'
 
 // Bronze Sponsors
 import ABCO from '../assets/Sponsors/SponsorLogosColoured/Abco.png'
@@ -23,22 +24,24 @@ import Foxglove from '../assets/Sponsors/SponsorLogosColoured/Foxglove.png'
 import Gardel from '../assets/Sponsors/SponsorLogosColoured/Gardel.png'
 import Haas from '../assets/Sponsors/SponsorLogosColoured/Haas.png'
 import Harwin from '../assets/Sponsors/SponsorLogosColoured/Harwin.png'
+import Hexagon from '../assets/Sponsors/SponsorLogosColoured/Hexagon.png'
 import Holley from '../assets/Sponsors/SponsorLogosColoured/Holley.png'
-import Kenesto from '../assets/Sponsors/SponsorLogosColoured/Kenesto.png'
 
+import Kenesto from '../assets/Sponsors/SponsorLogosColoured/Kenesto.png'
 import KISSsoft from '../assets/Sponsors/SponsorLogosColoured/KissSoft.png'
 import Kunsemi from '../assets/Sponsors/SponsorLogosColoured/Kunsemi.png'
 import LRA3d from '../assets/Sponsors/SponsorLogosColoured/LRA.png'
 import LucidVision from '../assets/Sponsors/SponsorLogosColoured/Lucid.png'
 import Multimatic from '../assets/Sponsors/SponsorLogosColoured/Multimatic.png'
-import RapidHarness from '../assets/Sponsors/SponsorLogosColoured/RapidHarness.png'
 
+import RapidHarness from '../assets/Sponsors/SponsorLogosColoured/RapidHarness.png'
 import Rivian from '../assets/Sponsors/SponsorLogosColoured/Rivian.png' 
 import Sensata from '../assets/Sponsors/SponsorLogosColoured/Sensata.webp'
 import SherwinWilliams from '../assets/Sponsors/SponsorLogosColoured/SherwinWilliams.png'
 import Siemens from '../assets/Sponsors/SponsorLogosColoured/Siemens.png'
-import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 
+import Simdiff from '../assets/Sponsors/SponsorLogosColoured/Simdiff.png'
+import Texonic from '../assets/Sponsors/SponsorLogosColoured/Texonic.png'
 import Textreme from '../assets/Sponsors/SponsorLogosColoured/Textreme.png'
 import TibetTechSols from '../assets/Sponsors/SponsorLogosColoured/TibetTechSols.jpg'
 import ERP from '../assets/Sponsors/SponsorLogosColoured/3ERP.png'
@@ -99,7 +102,7 @@ const Sponsors = () => {
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
-                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
+                <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'><a href="https://ik.imagekit.io/utfr/UTFR_2025_Sponsorship_Package.pdf" target="_blank" rel="noreferrer">View Our Sponsorship Package</a></button>
                 <button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'><a href="https://www.gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferrer">Donate</a></button>
             </div>
             </Fade>
@@ -197,8 +200,9 @@ const Sponsors = () => {
             {/* GOLD SPONSORS */}
             <h1 className='flex justify-center text-5xl font-bold text-center'>Gold Sponsors</h1>
             <div className='px-16'>
-                <div className='flex justify-center pt-10 pb-16 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10'>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-4 gap-x-10'>
+                        <img className="sponsorImg" src={CenteringTech} alt="" />
                         <a href="http://www.hydrapro.com.au/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="HydraPro.png" className='sponsorImg'/>
                         </a>
@@ -208,11 +212,18 @@ const Sponsors = () => {
                         <a href="https://neweragroup.co/" target="_blank" rel="noreferrer">
                             <IKImage urlEndpoint={urlEndpoint} path="NewEra.png" className='sponsorImg'/>
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 pb-16 items-center'>
+                    <div className='grid md:grid-cols-3 gap-x-10'>
                         <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={RLX} alt="" />
                         </a>
                         <a href="http://www.sobek-motorsporttechnik.de/" target="_blank" rel="noreferrer">
-                            <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg'/>
+                            <IKImage urlEndpoint={urlEndpoint} path="Sobek.png" className='sponsorImg px-5'/>
+                        </a>
+                        <a href="https://m.topdon.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Topdon} alt="" />
                         </a>
                     </div>
                 </div>
@@ -354,13 +365,16 @@ const Sponsors = () => {
                         <a href="https://www.harwin.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Harwin} alt="" />
                         </a>
-                        <a href="https://www.holley.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={Holley} alt="" />
+                        <a href="https://hexagon.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Hexagon} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.holley.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={Holley} alt="" />
+                        </a>
                         <a href="https://www.kenesto.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Kenesto} alt="" />
                         </a>
@@ -373,13 +387,13 @@ const Sponsors = () => {
                         <a href="https://lra3d.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={LRA3d} alt="" />
                         </a>
-                        <a href="https://thinklucid.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={LucidVision} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://thinklucid.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={LucidVision} alt="" />
+                        </a>
                         <a href="https://www.multimatic.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Multimatic} alt="" />
                         </a>
@@ -392,15 +406,18 @@ const Sponsors = () => {
                         <a href="http://www.sensata.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Sensata} alt="" />
                         </a>
-                        <a href="https://industrial.sherwin-williams.com/na/us/en/automotive.html" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={SherwinWilliams} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
-                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
+                    <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://industrial.sherwin-williams.com/na/us/en/automotive.html" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={SherwinWilliams} alt="" />
+                        </a>
                         <a href="https://www.siemens.com/ca/en.html" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Siemens} alt="" />
+                        </a>
+                        <a href="https://www.ensoftcorp.com/simdiff/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Simdiff} alt="" />
                         </a>
                         <a href="http://texonic.net/en" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Texonic} alt="" />
@@ -408,6 +425,10 @@ const Sponsors = () => {
                         <a href="https://www.textreme.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Textreme} alt="" />
                         </a>
+                    </div>
+                </div>
+                <div className='flex justify-center pt-10 items-center'>
+                    <div className='grid md:grid-cols-5 gap-x-10 pb-16'>
                         <a href="https://www.muratkanitibet.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={TibetTechSols} alt="" />
                         </a>

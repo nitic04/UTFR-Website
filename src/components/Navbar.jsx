@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import ChromeLogo from '../assets/UTFRChromeLogo.png'
+import RedLogo from '../assets/UTFRLogoRed.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { NavLink } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='navbar fixed w-full h-[70px] flex justify-between items-center px-10 text-white bg-[#18181849] z-20'>
       <div>
-        <NavLink to="/" ><img src={ChromeLogo} alt="Logo" style={{width: '170px'}} /></NavLink>
+        <NavLink to="/" ><img src={RedLogo} alt="Logo" style={{width: '170px'}} /></NavLink>
       </div>
 
       <ul className='hidden lg:flex text-lg'>

@@ -1,9 +1,10 @@
 import React from 'react'
 import BothCars from '../assets/TeamCarPhotos/Car.jpeg'
+import TeamImage from '../assets/2024/UnveilingTeamPhoto.jpg'
+
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 
-import TeamImage from '../assets/2024/UnveilingTeamPhoto.jpg'
 
 
 const Team = () => {
