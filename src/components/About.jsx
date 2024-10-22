@@ -1,5 +1,5 @@
 import React from 'react'
-import CarPic from '../assets/CzechRepublic2023/Czech1.jpeg'
+import CarPic from '../assets/2023/CzechRepublic2023/Czech1.jpeg'
 import GoToTop from './GoToTop'
 import { Fade } from "react-awesome-reveal";
 import { NavLink } from 'react-router-dom';

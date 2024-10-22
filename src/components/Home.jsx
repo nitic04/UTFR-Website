@@ -1,4 +1,4 @@
-import Background from '../assets/LandingPageImage.png'
+import Background from '../assets/2024/LandingPageImage.png'
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {

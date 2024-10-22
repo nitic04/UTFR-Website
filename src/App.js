@@ -4,13 +4,10 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TeamHeader from "./components/TeamHeader";
 import History from "./components/History";
 import Countdown from "./components/Countdown";
-import Team2024 from "./components/Team2024";
-import Team2023 from "./components/Team2023";
+import Team2025 from "./components/Team2025";
 import HomeCarousel from "./components/HomeCarousel";
-import NH23Blog from "./components/NH23Blog";
 import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
 import Sponsors from "./components/Sponsors";
@@ -54,9 +51,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1718236800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
-          <Route path="/nh23blog" element={<NH23Blog />}/>
-          <Route path="/team" element={<><Navbar /><TeamHeader /><Team2024 /><Footer /></>} />
-          <Route path="/team2023" element={<><Navbar /><TeamHeader /><Team2023 /><Footer /></>} />
+          <Route path="/team" element={<><Navbar /><Team2025 /><Footer /></>} />
           <Route path="/history" element={<><Navbar /><History /></>} />
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
           <Route path="/sponsors" element={<><Navbar /><Sponsors /><Footer /></>} />

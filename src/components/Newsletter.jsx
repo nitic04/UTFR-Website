@@ -1,5 +1,5 @@
 import React from 'react'
-import NewsletterHeader from '../assets/CzechRepublic2023/Czech8.jpeg'
+import NewsletterHeader from '../assets/2023/CzechRepublic2023/Czech8.jpeg'
 import GoToTop from './GoToTop'
 import NewsletterSignUp from './NewsletterSignUp'
 import { IoMailOpenOutline } from "react-icons/io5";
