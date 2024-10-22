@@ -172,7 +172,7 @@ const dvLeads = [
     name: "Halle Teh",
     imageUrl: "https://i.postimg.cc/x1k09Ggg/Halle-Teh.jpg",
     linkedinUrl: "https://www.linkedin.com/in/halle-teh",
-    title: "Deep Learning Perception Lead",
+    title: "Deep Learning Lead",
     program: "Indy 2T6 + PEY"
   },
   {
