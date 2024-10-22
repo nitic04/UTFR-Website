@@ -104,7 +104,7 @@ const HomeCarousel = () => {
             <p className="text-white">The team secured 1st place overall in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
-            <img alt="" src="https://i.postimg.cc/SKbsdRtW/Team-Photo-Unveiling.webp"/>
+            <img alt="" src="https://ik.imagekit.io/18gwys9x0/TeamMembers/TeamPhotoUnveiling.webp"/>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
             <p className="text-white">UTFR's first electric and driverless capable car was unveiled!</p>
           </div>

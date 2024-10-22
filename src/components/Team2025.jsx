@@ -4,52 +4,54 @@ import GoToTop from "./GoToTop";
 import Czech_2 from "../assets/HistoricCarPhotos/UT23/2023-Czech-2.jpeg";
 import TeamImage from "../assets/2024/UnveilingTeamPhoto.jpg";
 import TeamMemberCard from "./TeamMemberCard";
+
+const prefix = "https://ik.imagekit.io/18gwys9x0/TeamMembers/UTFR_2025_Team_Headshots/"
 const teamLeadership = [
   {
     name: "Ayrton Antenucci",
-    imageUrl: "https://i.postimg.cc/XYhY51XT/Ayrton-Antenucci.jpg",
+    imageUrl: prefix + "Ayrton_Antenucci.JPG",
     linkedinUrl: "https://www.linkedin.com/in/ayrton-antenucci",
     title: "Team Principal",
     program: "EE 2T4 + PEY"
   },
   {
     name: "Christian Stalteri",
-    imageUrl: "https://i.postimg.cc/xTWgzPGc/Christian-Stalteri.jpg",
+    imageUrl: prefix + "Christian_Stalteri.JPG",
     linkedinUrl: "https://www.linkedin.com/in/christian-stalteri/",
     title: "Mechanical Technical Director",
     program: "Mech 2T4 + PEY"
   },
   {
     name: "Nicholas Burley",
-    imageUrl: "https://i.postimg.cc/PJN71yCR/Nicholas-Burley.jpg",
+    imageUrl: prefix + "Nicholas_Burley.jpg",
     linkedinUrl: "",
     title: "Electrical Technical Director",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Youssef Elhadad",
-    imageUrl: "https://i.postimg.cc/02T4JpPV/Youssef-Elhadad.jpg",
+    imageUrl: prefix + "Youssef_Elhadad.jpg",
     linkedinUrl: "",
     title: "Driverless Technical Director",
     program: "CE 2T5 + PEY"
   },
   {
     name: "Evan Tal",
-    imageUrl: "https://i.postimg.cc/tCvq0vdY/Evan-Tal.jpg",
+    imageUrl: prefix + "Evan_Tal.jpg",
     linkedinUrl: "https://www.linkedin.com/in/evan-tal/",
     title: "Business Director",
     program: "Rotman 2T5"
   },
   {
     name: "Nam Nguyen",
-    imageUrl: "https://i.postimg.cc/4yjCYd3F/Nam-Nguyen.jpg",
+    imageUrl: prefix + "Nam_Nguyen.jpg",
     linkedinUrl: "www.linkedin.com/in/nam-nguyen-b366731b0",
     title: "Chief Race Engineer",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Victoria Moore",
-    imageUrl: "https://i.postimg.cc/KzbF76bs/Victoria-Moore.jpg",
+    imageUrl: prefix + "Victoria_Moore.JPG",
     linkedinUrl: "https://www.linkedin.com/in/victoria-moore-6008a1293/",
     title: "Shop Manager",
     program: "Physics & Math 2T6"
@@ -59,70 +61,70 @@ const teamLeadership = [
 const mechLeads = [
   {
     name: "Winston Young",
-    imageUrl: "https://i.postimg.cc/QtqDffxN/Winston-Young.jpg",
+    imageUrl: prefix + "Winston_Young.JPG",
     linkedinUrl: "https://www.linkedin.com/in/winston-young",
     title: "Aerodynamics Lead",
     program: "Eng Sci Aero 2T6 + PEY"
   },
   {
     name: "Juan Moon",
-    imageUrl: "https://i.postimg.cc/nhm6d338/Juan-Moon.jpg",
+    imageUrl: prefix + "Juan_Moon.jpg",
     linkedinUrl: "https://www.linkedin.com/in/juan-moon",
     title: "Chassis Lead",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Nicole Scala",
-    imageUrl: "https://i.postimg.cc/Xvd4CVRC/Nicole-Scala.jpg",
+    imageUrl: prefix + "Nicole_Scala.JPG",
     linkedinUrl: "",
     title: "Ergonomics Lead",
     program: "Indy 2T6 + PEY"
   },
   {
     name: "Bryan Vu",
-    imageUrl: "https://i.postimg.cc/KzhcqKPf/Bryan-Vu.jpg",
+    imageUrl: prefix + "Bryan_Vu.JPG",
     linkedinUrl: "https://www.linkedin.com/in/bryan-vu/",
     title: "Brakes Lead",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Niemo Fang",
-    imageUrl: "https://i.postimg.cc/c1520pjy/Niemo-Fang.jpg",
+    imageUrl: prefix + "Niemo_Fang.jpg",
     linkedinUrl: "https://www.linkedin.com/in/niemo-fang",
     title: "Composites Lead",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Mackenzie Powell",
-    imageUrl: "https://i.postimg.cc/vBYkZbbM/Mackenzie-Powell.jpg",
+    imageUrl: prefix + "Mackenzie_Powell.jpg",
     linkedinUrl: "https://www.linkedin.com/in/mackenzie-powell04/",
     title: "Suspension Lead",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Adam Abdulahad",
-    imageUrl: "https://i.postimg.cc/rFVs2tvY/Adam-Abdulahad.jpg",
+    imageUrl: prefix + "Adam_Abdulahad.JPG",
     linkedinUrl: "",
     title: "Drivetrain Lead",
     program: "Eng Sci Robo 2T6 + PEY"
   },
   {
     name: "Francesca Fortino",
-    imageUrl: "https://i.postimg.cc/HskYh1yq/Francesca-Fortino.jpg",
+    imageUrl: prefix + "Francesca_Fortino.JPG",
     linkedinUrl: "https://www.linkedin.com/in/francesca-fortino-867511202/",
     title: "Steering Lead",
     program: "Mech 2T6 + PEY"
   },
   {
     name: "Naomi Johnson",
-    imageUrl: "https://i.postimg.cc/260JqMSW/Naomi-Johnson.jpg",
+    imageUrl: prefix + "Naomi_Johnson.jpg",
     linkedinUrl: "https://ca.linkedin.com/in/naomi-johnson-547254206",
     title: "Powertrain Mechanical Lead",
     program: "Mech 2T4 + PEY"
   },
   {
     name: "Ajay Anand",
-    imageUrl: "https://i.postimg.cc/J4yP0Fkf/Ajay-Anand.jpg",
+    imageUrl: prefix + "Ajay_Anand.jpeg",
     linkedinUrl: "https://www.linkedin.com/in/ajay-b-anand",
     title: "Vehicle Dynamics Lead",
     program: "Mech 2T4 + PEY"
@@ -132,28 +134,28 @@ const mechLeads = [
 const elecLeads = [
   {
     name: "Matthew Lee",
-    imageUrl: "https://i.postimg.cc/SR4gBCqN/Matthew-Lee.jpg",
+    imageUrl: prefix + "Matthew_Lee.jpg",
     linkedinUrl: "http://www.linkedin.com/in/mathlee",
     title: "Powertrain Lead",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Chen Zhang",
-    imageUrl: "https://i.postimg.cc/5054ZxpV/Chen-Zhang.jpg",
+    imageUrl: prefix + "Chen_Zhang.JPG",
     linkedinUrl: "",
     title: "LV Architecture Lead",
     program: "Eng Sci 2T6 + PEY"
   },
   {
     name: "Robert Firsov",
-    imageUrl: "https://i.postimg.cc/pXh7T0b9/Robert-Firsov.jpg",
+    imageUrl: prefix + "Robert_Firsov.jpg",
     linkedinUrl: "https://www.linkedin.com/in/robert-firsov/",
     title: "Electronics Lead",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Nadia Zhou",
-    imageUrl: "https://i.postimg.cc/ZngMHN3K/Nadia-Zhou.jpg",
+    imageUrl: prefix + "Nadia_Zhou.jpg",
     linkedinUrl: "https://www.linkedin.com/in/nadia-zhou/",
     title: "Firmware Lead",
     program: "ECE 2T6 + PEY"
@@ -163,49 +165,49 @@ const elecLeads = [
 const dvLeads = [
   {
     name: "Alex Cho",
-    imageUrl: "https://i.postimg.cc/wTZCcCcc/Alex-Cho.jpg",
+    imageUrl: prefix + "Alex_Cho.jpg",
     linkedinUrl: "https://www.linkedin.com/in/alex-cho-738056154/",
     title: "Perception Lead",
     program: "Eng Sci Robotics 2T6 + PEY"
   },
   {
     name: "Halle Teh",
-    imageUrl: "https://i.postimg.cc/x1k09Ggg/Halle-Teh.jpg",
+    imageUrl: prefix + "Halle_Teh.jpg",
     linkedinUrl: "https://www.linkedin.com/in/halle-teh",
     title: "Deep Learning Lead",
     program: "Indy 2T6 + PEY"
   },
   {
     name: "Yulu Jiang",
-    imageUrl: "https://i.postimg.cc/GthCVvHF/Yulu-Jiang.jpg",
+    imageUrl: prefix + "Yulu_Jiang.JPG",
     linkedinUrl: "https://www.linkedin.com/in/yul-jiang/",
     title: "Mapping Lead",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Richard Li",
-    imageUrl: "https://i.postimg.cc/SQnvYj01/UTFR-Placeholder.png",
+    imageUrl: prefix + "UTFR_Placeholder.png",
     linkedinUrl: "",
     title: "Navigation Lead",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Ayaan Pathan",
-    imageUrl: "https://i.postimg.cc/HLCFFbNr/Ayaan-Pathan.jpg",
+    imageUrl: prefix + "Ayaan_Pathan.jpg",
     linkedinUrl: "",
     title: "Controls Lead",
     program: "ECE 2T6 + PEY"
   },
   {
     name: "Allan Zhou",
-    imageUrl: "https://i.postimg.cc/YCjShB26/Allan-Zhou.jpg",
+    imageUrl: prefix + "Allan_Zhou.JPG",
     linkedinUrl: "https://www.linkedin.com/in/allanlzee/",
     title: "DV Integration Co-Lead",
     program: "Eng Sci 2T7 + PEY"
   },
   {
     name: "Justin Lim",
-    imageUrl: "https://i.postimg.cc/DzdRh8VB/Justin-Lim.jpg",
+    imageUrl: prefix + "Justin_Lim.jpg",
     linkedinUrl: "",
     title: "DV Integration Co-Lead",
     program: "Eng Sci 2T6 + PEY"
@@ -215,49 +217,49 @@ const dvLeads = [
 const businessLeads = [
   {
     name: "Alicia Kho",
-    imageUrl: "https://i.postimg.cc/kMFGHyhb/Alicia-Kho.jpg",
+    imageUrl: prefix + "Alicia_Kho.JPG",
     linkedinUrl: "www.linkedin.com/in/alicia-kho-3a9b48261",
     title: "Events Lead",
     program: "Indy 2T6 + PEY"
   },
   {
     name: "Cammyn Lim",
-    imageUrl: "https://i.postimg.cc/zvJzN9PR/Cammyn-Lim.jpg",
+    imageUrl: prefix + "Cammyn_Lim.JPG",
     linkedinUrl: "https://www.linkedin.com/in/cammyn-lim/",
     title: "Marketing Lead",
     program: "Rotman Commerce 2T6"
   },
   {
     name: "Amelia Dease",
-    imageUrl: "https://i.postimg.cc/8C6Pmd6s/Amelia-Dease.jpg",
+    imageUrl: prefix + "Amelia_Dease.jpg",
     linkedinUrl: "",
     title: "Graphic Design Lead",
     program: "Political Science 2T6"
   },
   {
     name: "Aleksander Kiudorf",
-    imageUrl: "https://i.postimg.cc/5y3tFxF3/Aleks-Kiudorf.jpg",
+    imageUrl: prefix + "Aleks_Kiudorf.JPG",
     linkedinUrl: "",
     title: "External Relations Lead",
     program: "Rotman Management 2T6"
   },
   {
     name: "Krisha Kalsi",
-    imageUrl: "https://i.postimg.cc/6pDBq7mK/Krisha-Kalsi.jpg",
+    imageUrl: prefix + "Krisha_Kalsi.JPG",
     linkedinUrl: "https://www.linkedin.com/in/krisha-kalsi/",
     title: "Recruitment Co-Lead",
     program: "Comp Sci 2T6 + PEY"
   },
   {
     name: "Clara Coukell",
-    imageUrl: "https://i.postimg.cc/ZYcYH5CP/Clara-Coukell.jpg",
+    imageUrl: prefix + "Clara_Coukell.JPG",
     linkedinUrl: "https://www.linkedin.com/in/clara-coukell/",
     title: "Recruitment Co-Lead",
     program: "Mech 2T7 + PEY"
   },
   {
     name: "Zoe Jenkin",
-    imageUrl: "https://i.postimg.cc/sx6rr1ht/Zoe-Jenkin.jpg",
+    imageUrl: prefix + "Zoe_Jenkin.JPG",
     linkedinUrl: "https://www.linkedin.com/in/zoe-jenkin-a53247268/",
     title: "Recruitment Co-Lead",
     program: "Eng Sci 2T7 + PEY"

@@ -3,6 +3,7 @@ import GoToTop from './GoToTop'
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 import { Fade } from "react-awesome-reveal";
+import Chassis_pic from "../assets/2023/chassis_pic.jpeg"
 
 const History = () => {
   const form = useRef();
@@ -32,7 +33,7 @@ const History = () => {
   return (
     <div className='bg-[#181818]'>
       <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(https://i.postimg.cc/y84s45XK/chassis-pic.webp)`,
+        backgroundImage: `url(${Chassis_pic})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
@@ -58,7 +59,7 @@ const History = () => {
             <div>
               <Fade>
               <div className='w-[100%]'>
-                <img src="https://i.postimg.cc/RVn4Y9tG/ergo-pic.jpg" alt="team" className='h-full w-full p-10'/>
+                <img src="https://ik.imagekit.io/18gwys9x0/TeamMembers/ActionPhotos/ergo_pic.jpeg" alt="team" className='h-full w-full p-10'/>
               </div>
               </Fade>
             </div>
@@ -77,7 +78,7 @@ const History = () => {
             </div>
             <Fade>
             <div className='w-[100%]'>
-                <img src="https://i.postimg.cc/WpysStdh/suspension-pic.jpg" alt="team" className='h-full w-full p-10'/>
+                <img src="https://ik.imagekit.io/18gwys9x0/TeamMembers/ActionPhotos/suspension_pic.jpeg" alt="team" className='h-full w-full p-10'/>
             </div>
             </Fade>
           </div>
