@@ -141,7 +141,7 @@ const elecLeads = [
     name: "Chen Zhang",
     imageUrl: "https://i.postimg.cc/5054ZxpV/Chen-Zhang.jpg",
     linkedinUrl: "",
-    title: "Low Voltage Architecture Lead",
+    title: "LV Architecture Lead",
     program: "Eng Sci 2T6 + PEY"
   },
   {
