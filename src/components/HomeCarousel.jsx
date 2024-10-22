@@ -2,11 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import TeamPhoto from '../assets/NewHampshire2023/TeamPhoto.jpeg';
-import UnveilingPhoto from '../assets/TeamMembers/TeamPhotoUnveiling.webp';
-import MichiganPhoto from '../assets/Michigan2023/Michigan23Win.jpeg';
-import CzechPhoto from '../assets/CzechRepublic2023/Czech23Win.jpeg';
-import ArticlePhoto from '../assets/VarsityArticleImage.jpg';
+import TeamPhoto from '../assets/2023/NewHampshire2023/TeamPhoto.jpeg';
+import MichiganPhoto from '../assets/2023/Michigan2023/Michigan23Win.jpeg';
+import CzechPhoto from '../assets/2023/CzechRepublic2023/Czech23Win.jpeg';
+import ArticlePhoto from '../assets/2023/VarsityArticleImage.jpg';
 import NH24Win from '../assets/2024/2024NHWin.jpg';
 import Michigan24 from '../assets/2024/Michigan_2024.JPG'
 
@@ -105,7 +104,7 @@ const HomeCarousel = () => {
             <p className="text-white">The team secured 1st place overall in the 2023 Formula SAE competition in New Hampshire</p>
           </div>
           <div className="carouselCard">
-            <img alt="" src={UnveilingPhoto}/>
+            <img alt="" src="https://i.postimg.cc/SKbsdRtW/Team-Photo-Unveiling.webp"/>
             <h1 className="text-white text-xl font-bold py-2">Unveiling the UT23</h1>
             <p className="text-white">UTFR's first electric and driverless capable car was unveiled!</p>
           </div>

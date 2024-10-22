@@ -1,6 +1,6 @@
 import React from 'react'
 import { IKImage } from 'imagekitio-react'
-import SponsorHeader from '../assets/Sponsors_Wing.jpg'
+import SponsorHeader from '../assets/2024/Sponsors_Wing.jpg'
 
 // Gold Sponsors
 import CenteringTech from '../assets/Sponsors/SponsorLogosColoured/CenteringTech.jpeg'

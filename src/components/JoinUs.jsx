@@ -1,8 +1,4 @@
 import React, { useRef } from 'react'
-import HeaderImage from '../assets/TeamMembers/ActionPhotos/chassis_pic.webp'
-// import DVPic from '../assets/TeamMembers/ActionPhotos/dv_pic.jpeg'
-import ErgoPic from '../assets/TeamMembers/ActionPhotos/ergo_pic.jpeg'
-import SuspensionPic from '../assets/TeamMembers/ActionPhotos/suspension_pic.jpeg'
 import GoToTop from './GoToTop'
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
@@ -36,7 +32,7 @@ const History = () => {
   return (
     <div className='bg-[#181818]'>
       <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(${HeaderImage})`,
+        backgroundImage: `url(https://i.postimg.cc/y84s45XK/chassis-pic.webp)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
@@ -62,7 +58,7 @@ const History = () => {
             <div>
               <Fade>
               <div className='w-[100%]'>
-                <img src={ErgoPic} alt="team" className='h-full w-full p-10'/>
+                <img src="https://i.postimg.cc/RVn4Y9tG/ergo-pic.jpg" alt="team" className='h-full w-full p-10'/>
               </div>
               </Fade>
             </div>
@@ -81,7 +77,7 @@ const History = () => {
             </div>
             <Fade>
             <div className='w-[100%]'>
-                <img src={SuspensionPic} alt="team" className='h-full w-full p-10'/>
+                <img src="https://i.postimg.cc/WpysStdh/suspension-pic.jpg" alt="team" className='h-full w-full p-10'/>
             </div>
             </Fade>
           </div>
