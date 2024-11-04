@@ -57,20 +57,21 @@ import Enepaq from '../assets/Sponsors/SponsorLogosColoured/Enepaq.png'
 import FactoryTire from '../assets/Sponsors/SponsorLogosColoured/FactoryTire.png'
 import Hakko from '../assets/Sponsors/SponsorLogosColoured/Hakko.png'
 import Hawkeye from '../assets/Sponsors/SponsorLogosColoured/HawkeyeIndustries.png'
-import ISL from '../assets/Sponsors/SponsorLogosColoured/TISL.png'
+import HBF from '../assets/Sponsors/SponsorLogosColoured/HBF.png'
 
+import ISL from '../assets/Sponsors/SponsorLogosColoured/TISL.png'
 import HMS from '../assets/Sponsors/SponsorLogosColoured/HMS.png'
 import Lantor from '../assets/Sponsors/SponsorLogosColoured/LantorComposites.png'
 import Metex from '../assets/Sponsors/SponsorLogosColoured/Metex.png'
 import Odrive from '../assets/Sponsors/SponsorLogosColoured/Odrive.png'
-import Optimumarc from '../assets/Sponsors/SponsorLogosColoured/Optimumarc.png'
 
+import Optimumarc from '../assets/Sponsors/SponsorLogosColoured/Optimumarc.png'
 import Rexco from '../assets/Sponsors/SponsorLogosColoured/Rexco.png' 
 import Stars from '../assets/Sponsors/SponsorLogosColoured/Stars.png'
 import TRAIL from '../assets/Sponsors/SponsorLogosColoured/TrailLabs.webp'
 import VIGrade from '../assets/Sponsors/SponsorLogosColoured/VI.png'
-import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 
+import VR3Engineering from '../assets/Sponsors/SponsorLogosColoured/VR3.png'
 import Winsource from '../assets/Sponsors/SponsorLogosColoured/Winsource.png'
 import Zebra from '../assets/Sponsors/SponsorLogosColoured/Zebra.png'
 
@@ -111,7 +112,7 @@ const Sponsors = () => {
         {/* DIAMOND SPONSORS */}
         <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
         <div className='flex justify-center bg-[#e3e3e3]'>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
                 {/* SKULE */}
                 <a href="https://skule.ca/" target="_blank" rel="noreferrer">
                 <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
@@ -159,23 +160,6 @@ const Sponsors = () => {
                     <div className='p-5'>
                     <h1 className='font-bold text-4xl'>Batemo</h1>
                     <p className='text-base pt-3'>Batemo is the global industry leader for the creation of lithium-ion battery simulation software. They kindly provide our team with battery simulators. For more information about the incredible work they do, please see their website.</p>
-                    </div>
-                </div>
-                </a>
-
-                {/* PULSENICS */}
-                <a href="http://pulsenics.com/" target="_blank" rel="noreferrer">
-                <div className='w-[350px] h-[500px] bg-[#dddddd] transition duration-200 rounded-md'>
-                    <div className='h-[200px] bg-[#f1f1f1]' style={{
-                    backgroundImage: `url(https://ik.imagekit.io/utfr/SponsorLogos/ColouredLogos/Pulsenics.png)`,
-                    backgroundPosition: 'center',
-                    backgroundSize: '90%',
-                    backgroundRepeat: 'no-repeat'
-                    }}>
-                    </div>
-                    <div className='p-5'>
-                    <h1 className='font-bold text-4xl'>Pulsenics</h1>
-                    <p className='text-base pt-3'>Pulsenics is a Toronto based company which develops proprietary analytical tools for the advancement of industrial electrochemical systems. Thanks to their generous support we are working to better understand how our cells degrade over time, and other critical characteristics of our battery cells.</p>
                     </div>
                 </div>
                 </a>
@@ -472,13 +456,16 @@ const Sponsors = () => {
                         <a href="https://hawk-eye.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Hawkeye} alt="" />
                         </a>
-                        <a href="http://www.hms-networks.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg px-5" src={HMS} alt="" />
+                        <a href="https://www.hbfuller.com/en" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={HBF} alt="" />
                         </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://www.hms-networks.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg px-5" src={HMS} alt="" />
+                        </a>
                         <a href="https://tisl.cs.toronto.edu/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg py-2" src={ISL} alt="" />
                         </a>
@@ -491,13 +478,13 @@ const Sponsors = () => {
                         <a href="https://odriverobotics.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Odrive} alt="" />
                         </a>
-                        <a href="https://www.optimumarc.com/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={Optimumarc} alt="" />
-                        </a>
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="https://www.optimumarc.com/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={Optimumarc} alt="" />
+                        </a>
                         <a href="https://rexco-usa.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg px-5" src={Rexco} alt="" />
                         </a>
@@ -510,14 +497,13 @@ const Sponsors = () => {
                         <a href="https://www.vi-grade.com/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={VIGrade} alt="" />
                         </a>
-                        <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
-                            <img className="sponsorImg" src={VR3Engineering} alt="" />
-                        </a>
-
                     </div>
                 </div>
                 <div className='flex justify-center pt-10 items-center'>
                     <div className='grid md:grid-cols-5 gap-x-10'>
+                        <a href="http://vr3.ca/" target="_blank" rel="noreferrer">
+                            <img className="sponsorImg" src={VR3Engineering} alt="" />
+                        </a>
                         <a href="https://www.win-source.net/" target="_blank" rel="noreferrer">
                             <img className="sponsorImg" src={Winsource} alt="" />
                         </a>
