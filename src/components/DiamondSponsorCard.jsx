@@ -1,5 +1,4 @@
 import React from 'react';
-import Fade from 'react-awesome-reveal';
 
 const DiamondSponsorCard = ({ name, url, imageUrl, description }) => {
     return (

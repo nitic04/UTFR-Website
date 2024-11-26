@@ -1,7 +1,4 @@
 import React from 'react';
-import { IKImage } from 'imagekitio-react';
-
-const urlEndpoint = 'https://ik.imagekit.io/utfroutreach/'
 
 const SponsorLogos = ({ title, sponsors }) => {
     return (
