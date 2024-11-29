@@ -34,6 +34,10 @@ const platinumSponsors = [
         url: "https://www.actnowhpc.com/"
     },
     {
+        imageUrl: urlEndpoint + "Platinum/CPSIF.png",
+        url: "https://www.engineering.utoronto.ca/current-students/centralized-process-for-student-initiative-funding-cpsif/"
+    },
+    {
         imageUrl: urlEndpoint + "Platinum/PetroColour.png",
         url: "https://lubricants.petro-canada.com/"
     },
@@ -336,6 +340,10 @@ const affiliateSponsors = [
     {
         imageUrl: urlEndpoint + "Affiliates/FactoryTire.png",
         url: "https://www.factorytire.ca/"
+    },
+    {
+        imageUrl: urlEndpoint + "Affiliates/HBF.png",
+        url: "https://www.hbfuller.com/en"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/HMS.png",

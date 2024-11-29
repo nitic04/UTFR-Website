@@ -172,7 +172,7 @@ const dvLeads = [
   },
   {
     name: "Halle Teh",
-    imageUrl: prefix + "Halle_Teh.jpg",
+    imageUrl: prefix + "Halle_Teh.jpg?updatedAt=1732892071755",
     linkedinUrl: "https://www.linkedin.com/in/halle-teh",
     title: "Deep Learning Lead",
     program: "Indy 2T6 + PEY"
