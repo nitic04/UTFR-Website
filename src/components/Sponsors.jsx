@@ -176,6 +176,10 @@ const silverSponsors = [
         url: "https://www.rudolphsbakeries.com/"
     },
     {
+        imageUrl: urlEndpoint + "Silver/Simerics.png",
+        url: "https://www.simerics.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/SolidworksLogo.png",
         url: "http://www.solidworks.com/students"
     },
@@ -285,6 +289,10 @@ const bronzeSponsors = [
     {
         imageUrl: urlEndpoint + "Bronze/Kunsemi.png",
         url: "https://www.kunsemi.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/Lily.png",
+        url: "https://www.lily-bearing.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/LRA.png",
