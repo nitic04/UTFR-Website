@@ -68,10 +68,10 @@ const goldSponsors = [
         imageUrl: urlEndpoint + "Gold/NewEra.png",
         url: "https://neweragroup.co/"
     },
-    // {
-    //     imageUrl: urlEndpoint + "Gold/RLX.png",
-    //     url: "https://rlxsolutions.com/"
-    // },
+    {
+        imageUrl: urlEndpoint + "Gold/RLX_Logo.png?updatedAt=1734039962970",
+        url: "https://rlxsolutions.com/"
+    },
     {
         imageUrl: urlEndpoint + "Gold/Siemens.png",
         url: "https://www.siemens.com/ca/en.html"
@@ -83,6 +83,10 @@ const goldSponsors = [
     {
         imageUrl: urlEndpoint + "Gold/Topdon.png",
         url: "https://m.topdon.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Gold/Vesevo.png?updatedAt=1734039429796",
+        url: "https://www.vesevo.eu/"
     },
 ]
 
