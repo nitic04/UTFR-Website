@@ -295,7 +295,7 @@ const bronzeSponsors = [
         url: "https://www.kunsemi.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Lily.png",
+        imageUrl: urlEndpoint + "Bronze/Lily.png?updatedAt=1734473423504",
         url: "https://www.lily-bearing.com/"
     },
     {
