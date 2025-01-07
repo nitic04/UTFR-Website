@@ -20,12 +20,6 @@ const diamondSponsors = [
         url: "https://skule.ca/",
         
     },
-    {
-        name: "Tesla",
-        imageUrl: urlEndpoint + "Diamond/Tesla.png",
-        desc: "Tesla, the leading forefront in electric vehicle production, has generously funded UTFR with the battery modules for our high voltage battery packs, allowing us to build our electric cars. For more information on how Tesla leads the way in sustainable innovation, see the Tesla website.",
-        url: "https://www.tesla.com/",
-    }
 ]
 
 const platinumSponsors = [
@@ -40,6 +34,10 @@ const platinumSponsors = [
     {
         imageUrl: urlEndpoint + "Platinum/PetroColour.png",
         url: "https://lubricants.petro-canada.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Diamond/Tesla.png",
+        url: "https://www.tesla.com/"
     },
 ]
 
@@ -152,6 +150,10 @@ const silverSponsors = [
         url: "https://www.martinrea.com/"
     },
     {
+        imageUrl: urlEndpoint + "Silver/Melasta.png",
+        url: "https://www.melasta.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Molex.png",
         url: "https://www.molex.com/en-us/home"
     },
@@ -225,6 +227,10 @@ const bronzeSponsors = [
     {
         imageUrl: urlEndpoint + "Bronze/Brechin.png",
         url: "https://gamebridgegokarts.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/Cloudzy.png",
+        url: "https://cloudzy.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/Crosslink.png",
@@ -448,7 +454,7 @@ const Sponsors = () => {
         {/* Diamond Sponsors */}
         <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
         <div className='flex justify-center bg-[#e3e3e3]'>
-            <div className="grid lg:grid-cols-3 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
                 {diamondSponsors.map((sponsor, index) => (
                     <Fade delay={0.2} triggerOnce>
                         <DiamondSponsorCard
