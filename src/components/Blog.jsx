@@ -97,6 +97,8 @@ const Newsletter = () => {
             </div>
                 <div className='col-span-3 pb-5'>
                     <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                        <NewsletterCard title={"June Issue"} summary={"The team refined UT24's aerodynamics at Ford’s Allen Park facility while advancing mechanical, electrical and driverless upgrades. Also read our interview with Electrical Director Jake Sprenger! ✈️"} date={"04/06/24"} link={newsletterEndpoint + ""} image_link={newsletterCoverEndpoint + "June_2024_NewsCover.jpg"}/>
+
                         <NewsletterCard title={"May Issue"} summary={"Celebrate UTFR’s first-place finish at New Hampshire and get an insider look at fine-tuning UT24 at Multimatic, plus read an interview with team principal Daniel LaRosa! 🏆"} date={"06/05/24"} link={newsletterEndpoint + "May_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "May_2024_NewsCover.png"}/>
 
                         <NewsletterCard title={"April Issue"} summary={"Experience UT24’s unveiling and explore advancements in acceleration, skidpad times, mechanical fine-tuning, and thermal testing! 🧰"} date={"01/04/24"} link={newsletterEndpoint + "April_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "April_2024_NewsCover.png"}/>
