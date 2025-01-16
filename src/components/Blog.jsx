@@ -90,18 +90,18 @@ const Newsletter = () => {
             </a>
         )}
         </div>
-        <div className='w-full text-white px-5 md:px-10 py-5 pt-5 md:pt-10'>
+        <div className='w-full text-white px-5 md:px-10 py-5 pt-10'>
             <Fade cascade delay={150} damping={0.2} triggerOnce>
             <div className='flex'>
             <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Stories From The 2024 Season</p>
             </div>
-                <div className='col-span-3'>
+                <div className='col-span-3 pb-5'>
                     <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                         <NewsletterCard title={"May Issue"} summary={"Celebrate UTFR’s first-place finish at New Hampshire and get an insider look at fine-tuning UT24 at Multimatic, plus read an interview with team principal Daniel LaRosa! 🏆"} date={"06/05/24"} link={newsletterEndpoint + "May_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "May_2024_NewsCover.png"}/>
 
                         <NewsletterCard title={"April Issue"} summary={"Experience UT24’s unveiling and explore advancements in acceleration, skidpad times, mechanical fine-tuning, and thermal testing! 🧰"} date={"01/04/24"} link={newsletterEndpoint + "April_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "April_2024_NewsCover.png"}/>
 
-                        <NewsletterCard title={"March Issue"} summary={"In March, UTFR achieved many things with the mechanical team hitting the rolling car milestone to the electrical team’s lightning-fast battery pack assembly. ⚙️"} date={"04/03/24"} link={newsletterEndpoint + "March_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "March_2024_NewsCover.jpg"}/>
+                        <NewsletterCard title={"March Issue"} summary={"UTFR achieved many things this month with the mechanical team hitting the rolling car milestone to the electrical team’s lightning-fast battery pack assembly. ⚙️"} date={"04/03/24"} link={newsletterEndpoint + "March_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "March_2024_NewsCover.jpg"}/>
 
                         <NewsletterCard title={"February Issue"} summary={"Discover the team’s revolutionary LIDAR advancements and read about UTFR’s 25th anniversary with the grand unveiling of UT24! 🏁"} date={"05/02/24"} link={newsletterEndpoint + "February_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "February_2024_NewsCover.png"}/>
 
@@ -113,7 +113,7 @@ const Newsletter = () => {
 
                         <NewsletterCard title={"October Issue"} summary={"Relive the excitement of UTFR’s Women in Motorsports Panel and explore the team’s latest traction control and undertray innovations! 🌟"} date={"02/10/23"} link={newsletterEndpoint + "October_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "October_2023_NewsCover.png"}/>
 
-                        <NewsletterCard title={"September Issue"} summary={"Checkout UTFR’s UT23 victories and read about the team’s thrilling upcoming events including the Toronto Shootout! 🔧"} date={"05/09/23"} link={newsletterEndpoint + "September_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "September_2023_NewsCover.jpg"}/>
+                        <NewsletterCard title={"September Issue"} summary={"Check out UTFR’s UT23 victories and read about the team’s thrilling upcoming events including the Toronto Shootout! 🔧"} date={"05/09/23"} link={newsletterEndpoint + "September_2023_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "September_2023_NewsCover.jpg"}/>
                     </div>
                 </div>
             </Fade>
