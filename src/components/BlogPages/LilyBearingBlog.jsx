@@ -5,10 +5,10 @@ import { FaUser } from "react-icons/fa";
 
 const LilyBearingBlog = () => {
   return (
-    <div className='text-white w-full h-[100%] bg-[#181818] lg:px-80 md:px-10'>
+    <div className='text-white w-full h-[100%] bg-[#181818] px-5 lg:px-80 md:px-10'>
       <div className=''>
         <div className='pt-28 font-sans'>
-          <h1 className='text-4xl font-bold'>The Use of Lily Bearings in Our Transition to Four-Wheel Drive</h1>
+          <h1 className='text-3xl md:text-4xl font-bold'>The Use of Lily Bearings in Our Transition to Four-Wheel Drive</h1>
           <div className='pt-5 flex'>
             <div className='flex items-center'>
               <IoCalendar />
