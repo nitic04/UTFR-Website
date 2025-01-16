@@ -12,7 +12,7 @@ import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
-import Newsletter from "./components/Newsletter";
+import Blog from "./components/Blog";
 // import LoadingScreen from './components/LoadingScreen';
 
 import TeamPage1997 from "./components/CarPages/TeamPage1997";
@@ -44,6 +44,7 @@ import UT22 from "./components/CarPages/UT22";
 import UT23 from "./components/CarPages/UT23";
 import UT24 from "./components/CarPages/UT24";
 import ShootoutNavbar from "./components/ShootoutNavbar";
+import LilyBearingBlog from "./components/BlogPages/LilyBearingBlog";
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
           <Route path="/sponsors" element={<><Navbar /><Sponsors /><Footer /></>} />
           <Route path="/shootout" element={<><ShootoutNavbar /><Shootout /><Footer /></>} />
-          <Route path="/newsletter" element={<><Navbar /><Newsletter /><Footer /></>} />
+          <Route path="/blog" element={<><Navbar /><Blog /><Footer /></>} />
           <Route path="/1997" element={<><Navbar /><TeamPage1997 /><Footer /></>} />
           <Route path="/1998" element={<><Navbar /><TeamPage1998 /><Footer /></>} />
           <Route path="/UT99" element={<><Navbar /><UT99 /><Footer /></>} />
@@ -85,6 +86,7 @@ function App() {
           <Route path="/UT22" element={<><Navbar /><UT22 /><Footer /></>} />
           <Route path="/UT23" element={<><Navbar /><UT23 /><Footer /></>} />
           <Route path="/UT24" element={<><Navbar /><UT24 /><Footer /></>} />
+          <Route path="/lilybearingblog" element={<><Navbar /><LilyBearingBlog /><Footer /></>} />
         </Routes>
       </Router>
     </div>

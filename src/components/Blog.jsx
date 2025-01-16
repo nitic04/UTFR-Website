@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import NewsletterHeader from '../assets/2023/CzechRepublic2023/Czech8.jpeg'
 import GoToTop from './GoToTop'
 import NewsletterSignUp from './NewsletterSignUp'
 import { IoMailOpenOutline } from "react-icons/io5";
-import NewsletterCard from '../components/NewsletterCard'
+import NewsletterCard from './NewsletterCard'
 import { Fade } from "react-awesome-reveal";
-
+import { NavLink } from 'react-router-dom';
 
 const Newsletter = () => {
     const newsletterEndpoint = 'https://ik.imagekit.io/18gwys9x0/Newsletters/PDFs/'
     const newsletterCoverEndpoint = 'https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/'
+
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+        setIsSmallScreen(window.innerWidth < 1024);
+        };
+        handleResize();
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
   return (
     <div className='bg-[#181818]'>
@@ -21,7 +32,7 @@ const Newsletter = () => {
             }}>
         <div className='headerOverlay'></div>
             <div className='h-full flex flex-col justify-end'>
-            <Fade delay={0.2} triggerOnce><h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Newsletters</h1></Fade>
+            <Fade delay={0.2} triggerOnce><h1 className='font-bold text-[4.75rem] md:text-9xl text-white text-center md:text-left md:pl-10 mb-48 md:mb-24'>Blog</h1></Fade>
             </div>
         </div>
 
@@ -43,39 +54,50 @@ const Newsletter = () => {
         </div>
 
 
-        <div className='mx-5 md:mx-10 pt-5'>
-            <Fade cascade delay={150} damping={0.2} triggerOnce>
-            <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>The Latest From Us</p>
-            <a href={newsletterEndpoint + "June_2024_Newsletter.pdf"} target="_blank" rel="noreferrer">
-                <div className='newsletterCard text-white px-12 py-12'>
-                    <div className='grid grid-cols-2 md:grid-cols-3'>
-                        <div className='col-span-2 pr-5 pb-12'>
-                            <h1 className='text-4xl font-bold'>June Issue</h1>
-                            <div className="flex justify-between">
-                                <p className='text-gray-400 pt-2'>04/06/24</p>
-                            </div>
-                            <p className='pt-1 pr-14'>Fresh off their New Hampshire win, the team tested their complete aerodynamic package at Ford’s Allen Park facility, gaining vital data for FSAE Michigan. Explore the latest mechanical and electrical developments the team has made this month, including a new cooling system and launch control system, preparing UT24 for peak performance on the track! The driverless team has also made significant advancements in their pursuit to develop a fully driverless system within the car! Finally, this month’s “Deep Dives” series features an insightful interview with Electrical Technical Director Jake Sprenger, whose dedication and competitive spirit has been pivotal in UTFR’s innovation and success! ✈️</p>
-                        </div>
-                        <div className='col-span-1 w-full rounded-lg' style={{
-                            backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/June_2024_NewsCover.jpg)`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat'
-                            }}>
-                                <div className=''></div>
-                        </div>
+        <div className="mx-5 md:mx-10 pt-5">
+        <p className="text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]">
+            The Latest From Us
+        </p>
+        {isSmallScreen ? (
+            <NewsletterCard
+            title="Sponsor Highlight - Lily Bearing"
+            summary="Discover how Lily Bearing helped us make a groundbreaking shift to a four-wheel drive system for our upcoming UT25 racecar. This article delves into the challenges of designing compact hub assemblies and how Lily Bearing's specialized thin-section bearings have become the cornerstone of the team's innovative hub assembly. ⚡"
+            date="13/01/25"
+            link="https://fsaeutoronto.ca/lilybearingblog"
+            image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/Lily_Bearing_Cover.jpg"
+            />
+        ) : (
+            <a href="https://fsaeutoronto.ca/lilybearingblog" target="_blank" rel="noreferrer">
+            <div className="newsletterCard text-white px-12 py-12">
+                <div className="grid grid-cols-2 md:grid-cols-3">
+                    <div className="col-span-2 pr-5 pb-12">
+                    <h1 className="text-4xl font-bold">Sponsor Highlight - Lily Bearing</h1>
+                    <div className="flex justify-between">
+                        <p className="text-gray-400 pt-2">13/01/25</p>
                     </div>
+                    <p className="pt-1 pr-14">Discover how Lily Bearing helped us make a groundbreaking shift to a four-wheel drive system for our upcoming UT25 racecar. This article delves into the challenges of designing compact hub assemblies and how Lily Bearing's specialized thin-section bearings have become the cornerstone of the team's innovative hub assembly. ⚡</p>
+                    </div>
+                    <div
+                    className="col-span-1 w-full rounded-lg"
+                    style={{
+                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/Lily_Bearing_Cover.jpg)`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                    ></div>
                 </div>
+            </div>
             </a>
-            </Fade>
+        )}
         </div>
-        <div className='w-full text-white px-5 md:px-10 py-5 pt-10'>
+        <div className='w-full text-white px-5 md:px-10 py-5 pt-5 md:pt-10'>
             <Fade cascade delay={150} damping={0.2} triggerOnce>
             <div className='flex'>
-            <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Other Stories From The 2024 Season</p>
+            <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Stories From The 2024 Season</p>
             </div>
                 <div className='col-span-3'>
-                    <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+                    <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                         <NewsletterCard title={"May Issue"} summary={"Celebrate UTFR’s first-place finish at New Hampshire and get an insider look at fine-tuning UT24 at Multimatic, plus read an interview with team principal Daniel LaRosa! 🏆"} date={"06/05/24"} link={newsletterEndpoint + "May_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "May_2024_NewsCover.png"}/>
 
                         <NewsletterCard title={"April Issue"} summary={"Experience UT24’s unveiling and explore advancements in acceleration, skidpad times, mechanical fine-tuning, and thermal testing! 🧰"} date={"01/04/24"} link={newsletterEndpoint + "April_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "April_2024_NewsCover.png"}/>

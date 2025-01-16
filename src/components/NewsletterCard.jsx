@@ -1,6 +1,6 @@
 const NewsletterCard = ({title, summary, date, link, image_link}) => {
     return (
-        <div className="newsletterCard m-5">
+        <div className="newsletterCard text-white">
             <a href={link} target="_blank" rel="noreferrer">
                 <div className='h-[250px] bg-[#f1f1f1] rounded-t-lg' style={{
                     backgroundImage: `url(${image_link})`,
