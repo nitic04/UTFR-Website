@@ -5,7 +5,6 @@ import NewsletterSignUp from './NewsletterSignUp'
 import { IoMailOpenOutline } from "react-icons/io5";
 import NewsletterCard from './NewsletterCard'
 import { Fade } from "react-awesome-reveal";
-import { NavLink } from 'react-router-dom';
 
 const Newsletter = () => {
     const newsletterEndpoint = 'https://ik.imagekit.io/18gwys9x0/Newsletters/PDFs/'
