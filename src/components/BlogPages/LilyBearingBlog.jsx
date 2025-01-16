@@ -3,6 +3,8 @@ import GoToTop from '../GoToTop'
 import { IoCalendar } from "react-icons/io5";
 import { FaUser } from "react-icons/fa";
 
+// Lily Bearing specifically asked for the noreferrer attributes to be removed... hence all the warnings.
+
 const LilyBearingBlog = () => {
   return (
     <div className='text-white w-full h-[100%] bg-[#181818] lg:px-80 md:px-10'>
