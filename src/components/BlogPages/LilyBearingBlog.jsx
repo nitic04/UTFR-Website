@@ -61,7 +61,7 @@ const LilyBearingBlog = () => {
       <div className='text-white text-lg'>
         <h1 className='text-2xl pb-5 font-semibold pt-5'>Lily Bearing:</h1>
         <p className='text-base'>
-        Lily Bearing has been an invaluable partner in our transition to a 4WD system. Their thin-section bearings are the cornerstone of our newly designed upright and hub assembly, making this technical development possible. For more information on Lily Bearing’s extensive product range, visit their website: <a className="text-[#4493E9]" href="https://www.lily-bearing.com/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/</a>
+        Lily Bearing has been an invaluable partner in our transition to a 4WD system. Their thin-section bearings are the cornerstone of our newly designed upright and hub assembly, making this technical development possible. For more information on Lily Bearing’s extensive product range, visit their website: <a className="text-[#4493E9]" href="https://www.lily-bearing.com/" target="_blank">https://www.lily-bearing.com/</a>
         </p>
       </div>
       <div className='text-white text-lg'>
@@ -69,25 +69,25 @@ const LilyBearingBlog = () => {
         <p className='text-base pb-2'>
         We selected the following bearings for our design:
         </p>
-        <p className='text-base pb-2'><a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/</a>
+        <p className='text-base pb-2'><a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank">https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/</a>
         </p>
         <p className='text-base pb-2'>
-        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/constant-section-cs-bearings/</a>
+        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank">https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/constant-section-cs-bearings/</a>
         </p>
         <p className='text-base pb-2'>
         The specific bearings that we selected were:
         </p>
         <p className='text-base pb-2'>
-        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/products/j08008xp0/</a>
+        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank">https://www.lily-bearing.com/products/j08008xp0/</a>
         </p>
         <p className='text-base pb-2'>
-        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/products/ja040xp0/</a>
+        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank">https://www.lily-bearing.com/products/ja040xp0/</a>
         </p>
         <p className='text-base pb-2'>
         Lily Bearing’s search tool was instrumental in identifying and specifying the bearings for our application:
         </p>
         <p className='text-base'>
-        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank" rel="noreferrer">https://www.lily-bearing.com/product/ball-bearing/</a>
+        <a className="text-[#4493E9]" href="https://www.lily-bearing.com/product/ball-bearing/thin-section-bearings/" target="_blank">https://www.lily-bearing.com/product/ball-bearing/</a>
         </p>
       </div>
       <div className='text-white text-lg pt-5 pb-10'>
