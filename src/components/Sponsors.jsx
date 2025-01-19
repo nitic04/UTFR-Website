@@ -32,7 +32,7 @@ const platinumSponsors = [
         url: "https://www.engineering.utoronto.ca/current-students/centralized-process-for-student-initiative-funding-cpsif/"
     },
     {
-        imageUrl: urlEndpoint + "Platinum/PetroColour.png",
+        imageUrl: urlEndpoint + "Platinum/PetroColour.png?updatedAt=1737254718780",
         url: "https://lubricants.petro-canada.com/"
     },
     {
@@ -315,6 +315,10 @@ const bronzeSponsors = [
     {
         imageUrl: urlEndpoint + "Bronze/MechanicalAdvertising.png",
         url: "http://mechanicaladvertising.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/Peripheral.png",
+        url: "https://www.peripheral.so/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/RapidHarness.png",
