@@ -178,7 +178,7 @@ const silverSponsors = [
         url: "http://www.optimumarc.com/"
     },
     {
-        imageUrl: urlEndpoint + "Silver/Percepio.png",
+        imageUrl: urlEndpoint + "Silver/Percepio.png?updatedAt=1737603693212",
         url: "https://percepio.com/"
     },
     {
