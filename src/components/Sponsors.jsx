@@ -178,6 +178,10 @@ const silverSponsors = [
         url: "http://www.optimumarc.com/"
     },
     {
+        imageUrl: urlEndpoint + "Silver/Percepio.png",
+        url: "https://percepio.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Rudolphs.png",
         url: "https://www.rudolphsbakeries.com/"
     },
