@@ -433,7 +433,7 @@ const Sponsors = () => {
     return (
     <div>
         <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(https://ik.imagekit.io/utfroutreach/Sponsors_Wing.jpg)`,
+        backgroundImage: `url(https://ik.imagekit.io/utfroutreach/Sponsors_Wing.jpg?updatedAt=1737930374496)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
