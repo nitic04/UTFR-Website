@@ -368,6 +368,10 @@ const affiliateSponsors = [
         url: "https://www.digikey.ca/"
     },
     {
+        imageUrl: urlEndpoint + "Affiliates/EDL.png",
+        url: "https://www.engdesignlab.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/FactoryTire.png",
         url: "https://www.factorytire.ca/"
     },
