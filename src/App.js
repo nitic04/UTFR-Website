@@ -45,13 +45,15 @@ import UT23 from "./components/CarPages/UT23";
 import UT24 from "./components/CarPages/UT24";
 import ShootoutNavbar from "./components/ShootoutNavbar";
 import LilyBearingBlog from "./components/BlogPages/LilyBearingBlog";
+import OctoberIssue2024 from "./components/BlogPages/OctoberIssue2024";
+import DecemberIssue2024 from "./components/BlogPages/DecemberIssue2024";
 
 function App() {
   return (
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1718236800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
+          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1743418800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
           <Route path="/team" element={<><Navbar /><Team2025 /><Footer /></>} />
           <Route path="/history" element={<><Navbar /><History /></>} />
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
@@ -87,6 +89,8 @@ function App() {
           <Route path="/UT23" element={<><Navbar /><UT23 /><Footer /></>} />
           <Route path="/UT24" element={<><Navbar /><UT24 /><Footer /></>} />
           <Route path="/lilybearingblog" element={<><Navbar /><LilyBearingBlog /><Footer /></>} />
+          <Route path="/octoberissue2024" element={<><Navbar /><OctoberIssue2024 /><Footer /></>} />
+          <Route path="/decemberissue2024" element={<><Navbar /><DecemberIssue2024 /><Footer /></>} />
         </Routes>
       </Router>
     </div>

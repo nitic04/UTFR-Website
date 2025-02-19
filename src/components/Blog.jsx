@@ -91,13 +91,25 @@ const Newsletter = () => {
         )}
         </div>
         <div className='w-full text-white px-5 md:px-10 py-5 pt-10'>
-            <Fade cascade delay={150} damping={0.2} triggerOnce>
+        <Fade cascade delay={150} damping={0.2} triggerOnce>
             <div className='flex'>
+            <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Stories From The 2025 Season</p>
+            </div>
+                <div className='col-span-3 pb-5'>
+                    <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                        <NewsletterCard title={"December Issue"} summary={"From accomplishing big goals in our autonomous driving system to speaking at TEDxUTS, this month has been full of achievements! ✅"} date={"19/12/24"} link="https://fsaeutoronto.ca/decemberissue2024" image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/DecemberIssueImages2024/December_Issue_3.jpg"/>
+                        
+                        <NewsletterCard title={"October Issue"} summary={"Wrapping up UT24's season, the team is ready to jump back into action for developing UT25! 🚨"} date={"14/10/24"} link="https://fsaeutoronto.ca/octoberissue2024" image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/OctoberIssueImages2024/October_Issue_1.avif"/>
+                    </div>
+                </div>
+            </Fade>
+            <Fade cascade delay={150} damping={0.2} triggerOnce>
+            <div className='flex pt-5'>
             <p className='text-2xl pl-2 text-red-600 md:text-3xl font-bold border-l-4 border-[#DC2626]'>Stories From The 2024 Season</p>
             </div>
                 <div className='col-span-3 pb-5'>
                     <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                        <NewsletterCard title={"June Issue"} summary={"The team refined UT24's aerodynamics at Ford’s Allen Park facility while advancing mechanical, electrical and driverless upgrades. Also read our interview with Electrical Director Jake Sprenger! ✈️"} date={"04/06/24"} link={newsletterEndpoint + ""} image_link={newsletterCoverEndpoint + "June_2024_NewsCover.jpg"}/>
+                        <NewsletterCard title={"June Issue"} summary={"The team refined UT24's aerodynamics at Ford’s Allen Park facility while advancing mechanical, electrical and driverless upgrades. Also read our interview with Electrical Director Jake Sprenger! ✈️"} date={"04/06/24"} link={newsletterEndpoint + "June_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "June_2024_NewsCover.jpg"}/>
 
                         <NewsletterCard title={"May Issue"} summary={"Celebrate UTFR’s first-place finish at New Hampshire and get an insider look at fine-tuning UT24 at Multimatic, plus read an interview with team principal Daniel LaRosa! 🏆"} date={"06/05/24"} link={newsletterEndpoint + "May_2024_Newsletter.pdf"} image_link={newsletterCoverEndpoint + "May_2024_NewsCover.png"}/>
 

@@ -10,7 +10,7 @@ const NewsletterCard = ({title, summary, date, link, image_link}) => {
                     }}>
                 </div>
                 <div className='p-5'>
-                    <h1 className='font-bold text-3xl'>{title}</h1>
+                    <h1 className='font-bold text-[28px]/9'>{title}</h1>
                     <div className="flex justify-between">
                         {/* <p className='text-sm text-gray-400 pt-2'>Read time: {readtime} mins</p> */}
                         <p className='text-sm text-gray-400 pt-2'>{date}</p>
