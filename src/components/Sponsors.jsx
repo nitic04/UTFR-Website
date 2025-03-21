@@ -249,6 +249,10 @@ const bronzeSponsors = [
         url: "https://www.di-soric.com/int-en"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/DMC.png",
+        url: "https://dmctools.com/?srsltid=AfmBOopvRGYNhqMzK8yG_lL7bgfWRDnIAjMHJ-pLmch_FmfZ5V0M7-C0"
+    },
+    {
         imageUrl: urlEndpoint + "Bronze/Durham.png",
         url: "https://disensors.com/"
     },
