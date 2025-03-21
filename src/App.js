@@ -53,7 +53,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1743418800000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
+          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1743462000000}/><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
           <Route path="/team" element={<><Navbar /><Team2025 /><Footer /></>} />
           <Route path="/history" element={<><Navbar /><History /></>} />
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
