@@ -15,11 +15,11 @@ const teamLeadership = [
     program: "EE 2T4 + PEY"
   },
   {
-    name: "Christian Stalteri",
-    imageUrl: prefix + "Christian_Stalteri.JPG",
-    linkedinUrl: "https://www.linkedin.com/in/christian-stalteri/",
+    name: "Winston Young",
+    imageUrl: prefix + "Winston_Young.JPG",
+    linkedinUrl: "https://www.linkedin.com/in/winston-young",
     title: "Mechanical Technical Director",
-    program: "Mech 2T4 + PEY"
+    program: "Eng Sci Aero 2T6 + PEY"
   },
   {
     name: "Nicholas Burley",
@@ -74,11 +74,11 @@ const mechLeads = [
     program: "Mech 2T6 + PEY"
   },
   {
-    name: "Nicole Scala",
-    imageUrl: prefix + "Nicole_Scala.JPG",
-    linkedinUrl: "",
+    name: "Victoria Moore",
+    imageUrl: prefix + "Victoria_Moore.JPG",
+    linkedinUrl: "https://www.linkedin.com/in/victoria-moore-6008a1293/",
     title: "Ergonomics Lead",
-    program: "Indy 2T6 + PEY"
+    program: "Physics & Math 2T6"
   },
   {
     name: "Bryan Vu",
