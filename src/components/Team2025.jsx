@@ -60,11 +60,11 @@ const teamLeadership = [
 
 const mechLeads = [
   {
-    name: "Winston Young",
-    imageUrl: prefix + "Winston_Young.JPG",
-    linkedinUrl: "https://www.linkedin.com/in/winston-young",
+    name: "Eman Daudpota",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "https://www.linkedin.com/in/eman-daudpota/",
     title: "Aerodynamics Lead",
-    program: "Eng Sci Aero 2T6 + PEY"
+    program: "Mech 2T7 + PEY"
   },
   {
     name: "Juan Moon",
