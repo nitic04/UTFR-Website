@@ -61,7 +61,7 @@ const teamLeadership = [
 const mechLeads = [
   {
     name: "Eman Daudpota",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Eman_Daudpota.JPG?updatedAt=1743289242111",
     linkedinUrl: "https://www.linkedin.com/in/eman-daudpota/",
     title: "Aerodynamics Lead",
     program: "Mech 2T7 + PEY"
