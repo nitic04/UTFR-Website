@@ -59,30 +59,31 @@ const Newsletter = () => {
         </p>
         {isSmallScreen ? (
             <NewsletterCard
-            title="Sponsor Highlight - Lily Bearing"
-            summary="Discover how Lily Bearing helped us make a groundbreaking shift to a four-wheel drive system for our upcoming UT25 racecar. This article delves into the challenges of designing compact hub assemblies and how Lily Bearing's specialized thin-section bearings have become the cornerstone of the team's innovative hub assembly. ⚡"
-            date="13/01/25"
-            link="https://fsaeutoronto.ca/lilybearingblog"
-            image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/Lily_Bearing_Cover.jpg"
+            title="March Issue"
+            summary="February marked a turning point for UTFR as key milestones brought us closer to the track. In this edition: a spotlight on Women in Motorsports, an exclusive look at our newest challenger, a deep dive with Driverless Technical Director Youssef Elhaded, and exciting section updates—including a meeting with the Dean of Engineering. 🛠️"
+            date="07/03/25"
+            link="https://fsaeutoronto.ca/marchissue2025"
+            image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/MarchIssueImages2025/March_Issue_2.jpg"
             />
         ) : (
-            <a href="https://fsaeutoronto.ca/lilybearingblog" target="_blank" rel="noreferrer">
+            <a href="https://fsaeutoronto.ca/marchissue2025" target="_blank" rel="noreferrer">
             <div className="newsletterCard text-white px-12 py-12">
                 <div className="grid grid-cols-2 md:grid-cols-3">
                     <div className="col-span-2 pr-5 pb-12">
-                    <h1 className="text-4xl font-bold">Sponsor Highlight - Lily Bearing</h1>
+                    <h1 className="text-4xl font-bold">March Issue</h1>
                     <div className="flex justify-between">
-                        <p className="text-gray-400 pt-2">13/01/25</p>
+                        <p className="text-gray-400 pt-2">07/03/25</p>
                     </div>
-                    <p className="pt-1 pr-14">Discover how Lily Bearing helped us make a groundbreaking shift to a four-wheel drive system for our upcoming UT25 racecar. This article delves into the challenges of designing compact hub assemblies and how Lily Bearing's specialized thin-section bearings have become the cornerstone of the team's innovative hub assembly. ⚡</p>
+                    <p className="pt-1 pr-14">February marked a turning point for UTFR as key milestones brought us closer to the track. In this edition: a spotlight on Women in Motorsports, an exclusive look at our newest challenger, a deep dive with Driverless Technical Director Youssef Elhaded, and exciting section updates—including a meeting with the Dean of Engineering. 🛠️</p>
                     </div>
                     <div
                     className="col-span-1 w-full rounded-lg"
                     style={{
-                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/Lily_Bearing_Cover.jpg)`,
+                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Newsletters/MarchIssueImages2025/March_Issue_2.jpg)`,
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
+                        backgroundPositionY: '40%',
                     }}
                     ></div>
                 </div>
@@ -97,6 +98,8 @@ const Newsletter = () => {
             </div>
                 <div className='col-span-3 pb-5'>
                     <div className='pt-5 flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                        <NewsletterCard title={"Sponsor Highlight - Lily Bearing"} summary={"Discover how Lily Bearing helped us make a groundbreaking shift to a four-wheel drive system for our upcoming UT25 racecar.⚡"} date={"13/01/25"} link="https://fsaeutoronto.ca/lilybearingblog" image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/CoverImages/Lily_Bearing_Cover.jpg"/>
+
                         <NewsletterCard title={"December Issue"} summary={"From accomplishing big goals in our autonomous driving system to speaking at TEDxUTS, this month has been full of achievements! ✅"} date={"19/12/24"} link="https://fsaeutoronto.ca/decemberissue2024" image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/DecemberIssueImages2024/December_Issue_3.jpg"/>
                         
                         <NewsletterCard title={"October Issue"} summary={"Wrapping up UT24's season, the team is ready to jump back into action for developing UT25! 🚨"} date={"14/10/24"} link="https://fsaeutoronto.ca/octoberissue2024" image_link="https://ik.imagekit.io/18gwys9x0/Newsletters/OctoberIssueImages2024/October_Issue_1.avif"/>

@@ -102,11 +102,11 @@ const mechLeads = [
     program: "Mech 2T6 + PEY"
   },
   {
-    name: "Adam Abdulahad",
-    imageUrl: prefix + "Adam_Abdulahad.JPG",
-    linkedinUrl: "",
+    name: "Nam Nguyen",
+    imageUrl: prefix + "Nam_Nguyen.jpg",
+    linkedinUrl: "www.linkedin.com/in/nam-nguyen-b366731b0",
     title: "Drivetrain Lead",
-    program: "Eng Sci Robo 2T6 + PEY"
+    program: "Mech 2T6 + PEY"
   },
   {
     name: "Francesca Fortino",
