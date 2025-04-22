@@ -355,6 +355,10 @@ const bronzeSponsors = [
         url: "https://www.textreme.com/"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/TibetTechSolutions.jpg",
+        url: "https://www.muratkanitibet.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Bronze/Wiha.png",
         url: "http://wihatools.ca/"
     },
