@@ -1,6 +1,5 @@
 import GoToTop from "./GoToTop"
 import { Fade } from "react-awesome-reveal";
-import SponsorHeader from '../assets/2024/Sponsors_Wing.jpg'
 import DiamondSponsorCard from "./DiamondSponsorCard";
 import SponsorLogos from "./SponsorLogos";
 
@@ -87,6 +86,10 @@ const goldSponsors = [
     {
         imageUrl: urlEndpoint + "Gold/Vesevo.png?updatedAt=1734039429796",
         url: "https://www.vesevo.eu/"
+    },
+    {
+        imageUrl: urlEndpoint + "Gold/6SIGMA.png",
+        url: "https://6sigmasimracing.ca/"
     },
 ]
 
