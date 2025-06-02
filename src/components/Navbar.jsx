@@ -15,7 +15,7 @@ const Navbar = () => {
 
       <ul className='hidden lg:flex text-lg'>
         <NavLink to="/team"><li className='transition duration-200 hover:text-gray-300'>Team</li></NavLink>
-        <NavLink to="/UT24"><li className='transition duration-200 hover:text-gray-300'>UT24</li></NavLink>
+        <NavLink to="/UT25"><li className='transition duration-200 hover:text-gray-300'>UT25</li></NavLink>
         <NavLink to="/history"><li className='transition duration-200 hover:text-gray-300'>History</li></NavLink>
         {/* <NavLink to="/events"><li className='transition duration-200 hover:text-gray-300'>Events</li></NavLink> */}
         <NavLink to="/shootout"><li className='transition duration-200 hover:text-gray-300'>Shootout</li></NavLink>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full text-3xl h-screen flex flex-col justify-center items-center text-gray-300 bg-[#181818]'}>
         <NavLink to="/team" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Team</li></NavLink>
-        <NavLink to="/UT24" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>UT24</li></NavLink>
+        <NavLink to="/UT25" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>UT25</li></NavLink>
         <NavLink to="/history" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>History</li></NavLink>
         {/* <NavLink to="/events" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Events</li></NavLink> */}
         <NavLink to="/shootout" onClick={handleClick}><li className='py-6 transition duration-200 hover:text-white'>Shootout</li></NavLink>

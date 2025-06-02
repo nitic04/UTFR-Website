@@ -48,6 +48,7 @@ import LilyBearingBlog from "./components/BlogPages/LilyBearingBlog";
 import OctoberIssue2024 from "./components/BlogPages/OctoberIssue2024";
 import DecemberIssue2024 from "./components/BlogPages/DecemberIssue2024";
 import MarchIssue2025 from "./components/BlogPages/MarchIssue2025";
+import UT25 from "./components/CarPages/UT25";
 
 function App() {
   return (
@@ -89,6 +90,7 @@ function App() {
           <Route path="/UT22" element={<><Navbar /><UT22 /><Footer /></>} />
           <Route path="/UT23" element={<><Navbar /><UT23 /><Footer /></>} />
           <Route path="/UT24" element={<><Navbar /><UT24 /><Footer /></>} />
+          <Route path="/UT25" element={<><Navbar /><UT25 /><Footer /></>} />
           <Route path="/lilybearingblog" element={<><Navbar /><LilyBearingBlog /><Footer /></>} />
           <Route path="/octoberissue2024" element={<><Navbar /><OctoberIssue2024 /><Footer /></>} />
           <Route path="/decemberissue2024" element={<><Navbar /><DecemberIssue2024 /><Footer /></>} />
