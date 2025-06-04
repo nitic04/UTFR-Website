@@ -217,7 +217,7 @@ const UT25 = () => {
                     </div>
                     <div className='flex border-b-2'>
                         <span className='hidden md:inline md:text-2xl py-5'>Vehicle Weight</span>
-                        <p className='md:text-2xl py-5 ml-auto'>526 lbs</p>
+                        <p className='md:text-2xl py-5 ml-auto'>239 kg</p>
                     </div>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Power</p>
@@ -225,7 +225,7 @@ const UT25 = () => {
                     </div>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Torque</p>
-                        <p className='md:text-2xl py-5 ml-auto'>169.64 ft-lbs</p>
+                        <p className='md:text-2xl py-5 ml-auto'>230 Nm</p>
                     </div>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>0 - 100 km/h</p>
@@ -233,7 +233,7 @@ const UT25 = () => {
                     </div>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Downforce</p>
-                        <p className='md:text-2xl py-5 ml-auto'>105kg</p>
+                        <p className='md:text-2xl py-5 ml-auto'>105 kg</p>
                     </div>
                     </Fade>
                 </div>
