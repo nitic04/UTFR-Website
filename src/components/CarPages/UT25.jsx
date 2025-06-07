@@ -45,7 +45,7 @@ const UT25 = () => {
                 </div>
                 <div>
                     <h2 className="text-[#3A4254] text-center text-xl md:text-2xl font-bold">Downforce</h2>
-                    <h2 className="text-center text-white text-3xl md:text-4xl font-bold">105 kg</h2>
+                    <h2 className="text-center text-white text-3xl md:text-4xl font-bold">110 kg @ 80 km/h</h2>
                 </div>
             </div>
             </Fade>
@@ -233,7 +233,7 @@ const UT25 = () => {
                     </div>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Downforce</p>
-                        <p className='md:text-2xl py-5 ml-auto'>105 kg</p>
+                        <p className='md:text-2xl py-5 ml-auto'>110 kg @ 80 km/h</p>
                     </div>
                     </Fade>
                 </div>

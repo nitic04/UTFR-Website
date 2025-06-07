@@ -365,6 +365,10 @@ const bronzeSponsors = [
         imageUrl: urlEndpoint + "Bronze/Wiha.png",
         url: "http://wihatools.ca/"
     },
+    {
+        imageUrl: urlEndpoint + "Bronze/3DX.png",
+        url: "https://3dconnexion.com/us/"
+    },
 ]
 
 const affiliateSponsors = [
