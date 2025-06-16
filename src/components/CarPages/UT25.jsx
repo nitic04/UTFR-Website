@@ -61,7 +61,7 @@ const UT25 = () => {
             </div>
             <div className='mx-auto my-auto px-10 pb-10 lg:pt-10 lg:pr-24'>
                 <Fade cascade damping={0.2} triggerOnce>
-                <IKImage urlEndpoint={urlEndpoint} path="UT25_1.jpeg"/>
+                <IKImage urlEndpoint={urlEndpoint} path="UT25_OnTrack.jpg?updatedAt=1750035991937"/>
                 </Fade>
             </div>
         </div>
