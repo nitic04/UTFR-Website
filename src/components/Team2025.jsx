@@ -2,7 +2,6 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import GoToTop from "./GoToTop";
 import Czech_2 from "../assets/HistoricCarPhotos/UT23/2023-Czech-2.jpeg";
-import TeamImage from "../assets/2024/UnveilingTeamPhoto.jpg";
 import TeamMemberCard from "./TeamMemberCard";
 
 const prefix = "https://ik.imagekit.io/18gwys9x0/TeamMembers/UTFR_2025_Team_Headshots/"
@@ -273,7 +272,7 @@ const Team2025 = () => {
         className="w-full h-screen relative"
         loading="style"
         style={{
-          backgroundImage: `url(${TeamImage})`,
+          backgroundImage: `url(https://ik.imagekit.io/utfroutreach/UT25/UT25_NH.jpg)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

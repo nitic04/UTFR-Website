@@ -42,7 +42,7 @@ const Countdown = ({ countdownTimestampMS }) => {
         <div className='w-full bg-[#131212] text-white'>
             <div className='p-8'>
                 <Fade delay={500} cascade damping={0.1} triggerOnce>
-                    <h1 className='countdownDay text-2xl pl-2'>UT25 Unveiling</h1>
+                    <h1 className='countdownDay text-2xl pl-2'>Formula SAE Electric - Michigan</h1>
                     <div className='md:w-full countdownTimer py-12 text-[1.33rem] lg:text-[2.75rem] flex'>
                         <span className='font-semibold text-[#ED3833]'>{remainingTime.days}</span>
                         <span className='font-light'>{window.innerWidth <= 768 ? 'days' : 'days'}</span>
@@ -54,7 +54,7 @@ const Countdown = ({ countdownTimestampMS }) => {
                         <span className='font-light'>{window.innerWidth <= 768 ? 'secs' : 'seconds'}</span>
                     </div>
 
-
+{/* 
                     <div className="mt-3 mb-5 flex justify-center w-full">
                         <div className="w-[90%] aspect-video mx-auto">
                             <iframe
@@ -67,7 +67,7 @@ const Countdown = ({ countdownTimestampMS }) => {
                                 allowfullscreen
                             ></iframe>
                         </div>
-                    </div>
+                    </div> */}
 
                 </Fade>
             </div>

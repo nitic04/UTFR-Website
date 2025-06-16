@@ -25,6 +25,10 @@ const UT25 = () => {
           image: 'https://ik.imagekit.io/utfroutreach/UT25/UT25_5.jpeg',
           description: ''
         },
+        {
+          image: 'https://ik.imagekit.io/utfroutreach/UT25/UT25_1.jpeg',
+          description: ''
+        },
       ];
 
   return (

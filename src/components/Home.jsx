@@ -1,11 +1,10 @@
-import Background from '../assets/2024/LandingPageImage.png'
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   return (
     <div>
       <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(${Background})`,
+        backgroundImage: `url(https://ik.imagekit.io/utfroutreach/UT25/UT25_Homepage.jpg?updatedAt=1750037259993)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
