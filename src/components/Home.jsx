@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div className='w-full h-screen relative' style={{
-        backgroundImage: `url(https://ik.imagekit.io/utfroutreach/UT25/UT25_Homepage2.png?updatedAt=1752537703315)`,
+        backgroundImage: `url(https://ik.imagekit.io/utfroutreach/UT25/UT25_Homepage3.jpg?updatedAt=1753235820989)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

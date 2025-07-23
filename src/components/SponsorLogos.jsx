@@ -9,7 +9,7 @@ const SponsorLogos = ({ title, sponsors }) => {
                     <div className={`grid ${sponsors.length >= 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'} gap-x-20`}>
                         {sponsors.map((sponsor, index) => (
                             sponsor.url ? (
-                                <a key={index} href={sponsor.url} target="_blank">
+                                <a key={index} href={sponsor.url} target="_blank" rel="noreferrer">
                                         <img className="sponsorImg" src={sponsor.imageUrl} alt={sponsor.alt || ""} />
                                 </a>
                             ) : (

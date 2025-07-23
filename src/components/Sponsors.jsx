@@ -342,6 +342,10 @@ const bronzeSponsors = [
         url: "https://rivian.com/"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/Roboflow.png",
+        url: "https://roboflow.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Bronze/Sensata.webp",
         url: "http://www.sensata.com/"
     },
