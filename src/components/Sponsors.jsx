@@ -29,10 +29,6 @@ const diamondSponsors = [
 
 const platinumSponsors = [
     {
-        imageUrl: urlEndpoint + "Platinum/ACTnowHPC.png",
-        url: "https://www.actnowhpc.com/"
-    },
-    {
         imageUrl: urlEndpoint + "Platinum/CPSIF.png",
         url: "https://www.engineering.utoronto.ca/current-students/centralized-process-for-student-initiative-funding-cpsif/"
     },
