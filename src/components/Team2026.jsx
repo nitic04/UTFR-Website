@@ -30,8 +30,8 @@ const teamLeadership = [
   },
   {
     name: "Mehar Singh",
-    imageUrl: prefix + "UTFR_Placeholder.png",
-    linkedinUrl: "",
+    imageUrl: prefix + "Mehar_Singh.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/meharsingh1 ",
     title: "Electrical Technical Director",
     program: "ECE 2T7 + PEY"
   },
@@ -90,7 +90,7 @@ const mechLeads = [
   {
     name: "Amalia Orsmond",
     imageUrl: prefix + "UTFR_Placeholder.png",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/aors",
     title: "Suspension Lead",
     program: "Mech 2T8 + PEY"
   },
@@ -120,7 +120,7 @@ const mechLeads = [
 const elecLeads = [
   {
     name: "Ibrahim Fadel",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Ibrahim_Fadel.jpg",
     linkedinUrl: "https://www.linkedin.com/in/ibrahim-fadel/",
     title: "Firmware Lead",
     program: "ECE 2T7 + PEY"
@@ -165,7 +165,7 @@ const dvLeads = [
   },
   {
     name: "Arwin Sondhi",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Arwin_Sondhi.jpg?updatedAt=1756313457244",
     linkedinUrl: "https://www.linkedin.com/in/arwinsondhi/",
     title: "Mapping Lead",
     program: "ECE 2T5 + PEY"
