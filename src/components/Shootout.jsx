@@ -121,7 +121,7 @@ const Shootout = () => {
             <p className='flex justify-center text-lg text-center px-10 py-5'>The annual Toronto shootout is an event which hosts university level formula racing teams from across North America to compete against each other and showcase the hard work they have put in throughout the year. All the teams participate in a design competition series called FSAE and compete in multiple competitions during the year.</p>
             <div className='text-white pb-10 flex justify-center'>
               {/* <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/forms/d/e/1FAIpQLSf55OA_mx0awvEtdQoJtJ3FP6DJ4NWpl9hZlufOdCShoVWU1w/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up Form</a></button> */}
-              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/document/d/1OT-wIhODrSY8rYEvATB-xtZkZ4jFyt87FF-7uacltXo/edit?usp=sharing" target="_blank" rel="noreferrer">Handbook</a></button>
+              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/document/d/1OT-wIhODrSY8rYEvATB-xtZkZ4jFyt87FF-7uacltXo/edit?usp=sharing" target="_blank" rel="noreferrer">Event Handbook</a></button>
             </div>
           </Fade>
         </div>
