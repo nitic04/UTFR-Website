@@ -117,17 +117,17 @@ const Shootout = () => {
         <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
             <h1 className='flex px-5 justify-center text-5xl font-bold pt-12 text-center'>Toronto Shootout</h1>
-            <h1 className='flex px-5 justify-center text-4xl font-bold pt-3 text-center'>September 28th, 2024 - Brechin Motorsports Park</h1>
+            <h1 className='flex px-5 justify-center text-4xl font-bold pt-3 text-center'>October 4th, 2025 - Brechin Motorsports Park</h1>
             <p className='flex justify-center text-lg text-center px-10 py-5'>The annual Toronto shootout is an event which hosts university level formula racing teams from across North America to compete against each other and showcase the hard work they have put in throughout the year. All the teams participate in a design competition series called FSAE and compete in multiple competitions during the year.</p>
             <div className='text-white pb-10 flex justify-center'>
-              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/forms/d/e/1FAIpQLSf55OA_mx0awvEtdQoJtJ3FP6DJ4NWpl9hZlufOdCShoVWU1w/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up Form</a></button>
-              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/document/d/1zXJPxuGC-46imlmR5Cu4m3mY8R3YkeXHQ_v_0CeNHZM/edit?usp=sharing" target="_blank" rel="noreferrer">Handbook</a></button>
+              {/* <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/forms/d/e/1FAIpQLSf55OA_mx0awvEtdQoJtJ3FP6DJ4NWpl9hZlufOdCShoVWU1w/viewform?usp=sf_link" target="_blank" rel="noreferrer">Sign Up Form</a></button> */}
+              <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href="https://docs.google.com/document/d/1OT-wIhODrSY8rYEvATB-xtZkZ4jFyt87FF-7uacltXo/edit?usp=sharing" target="_blank" rel="noreferrer">Handbook</a></button>
             </div>
           </Fade>
         </div>
         <div className='text-white bg-[#242424] pb-10'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
-            <h1 className='flex px-5 justify-center text-3xl font-bold pt-10 md:pb-10 pb-5 text-center'>2024 Participating Teams</h1>
+            <h1 className='flex px-5 justify-center text-3xl font-bold pt-10 md:pb-10 pb-5 text-center'>Past Participating Teams</h1>
             <div className='flex justify-center gap-y-2 md:gap-y-0 gap-x-10 text-2xl md:pb-5 flex-col md:flex-row text-center'>
               <a href="https://www.bearcatmotorsports.com/" target="_blank" rel="noreferrer">
                 <p className='hover:text-gray-300 transition duration-300'>Bearcat Motorsports</p>
@@ -222,7 +222,7 @@ const Shootout = () => {
 
         <div className='w-full bg-[#131212]'>
         <Fade cascade damping={0.2} triggerOnce>
-        <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Event Sponsors</h1>
+        <h1 className='flex justify-center text-4xl font-bold pt-10 text-white'>Past Event Sponsors</h1>
         <p className='flex text-white justify-center text-lg text-center px-10 py-5'>Interested in sponsoring Toronto Shootout? Visit the link below to view our sponsorship package!</p>
         <div className='text-white flex justify-center'>
           <button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'><a href={SponsorshipPackage} target="_blank" rel="noreferrer">Sponsorship Package</a></button>
