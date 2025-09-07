@@ -115,6 +115,13 @@ const mechLeads = [
     title: "Vehicle Controls Lead",
     program: "Mech 2T5 + PEY"
   },
+  {
+    name: "Janie Ma",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "",
+    title: "Recruitment Lead",
+    program: "Mech 2T8 + PEY"
+  }
 ]
 
 const elecLeads = [
@@ -146,6 +153,13 @@ const elecLeads = [
     title: "Powertrain Lead",
     program: "Eng Sci 2T7"
   },
+  {
+    name: "Julien Gaius",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "",
+    title: "Recruitment Lead",
+    program: "ECE 2T8 + PEY"
+  }
 ]
 
 const dvLeads = [
@@ -184,6 +198,13 @@ const dvLeads = [
     title: "Controls Lead",
     program: "CE 2T8 + PEY"
   },
+  {
+    name: "Arthur Xu",
+    imageUrl: prefix + "Arthur_Xu.jpg",
+    linkedinUrl: "",
+    title: "Recruitment Lead",
+    program: "CE 2T5 + PEY"
+  }
 ]
 
 const businessLeads = [
@@ -205,7 +226,7 @@ const businessLeads = [
     name: "Rohan Sadekar",
     imageUrl: prefix + "UTFR_Placeholder.png",
     linkedinUrl: "https://www.linkedin.com/in/rohan-sadekar-692a12260/",
-    title: "External Relations Lead",
+    title: "External Relations & Recruitment Lead",
     program: "Economics 2T8"
   },
   {
@@ -214,31 +235,7 @@ const businessLeads = [
     linkedinUrl: "https://www.linkedin.com/in/david-c-bi/",
     title: "Graphic Design Lead",
     program: "Architectural Studies 2T7"
-  },
-]
-
-const recruitmentLeads = [
-  {
-    name: "Rohan Sadekar",
-    imageUrl: prefix + "UTFR_Placeholder.png",
-    linkedinUrl: "https://www.linkedin.com/in/rohan-sadekar-692a12260/",
-    title: "Recruitment Lead",
-    program: "Economics 2T8"
-  },
-  {
-    name: "Janie Ma",
-    imageUrl: prefix + "UTFR_Placeholder.png",
-    linkedinUrl: "",
-    title: "Recruitment Lead",
-    program: "Mech 2T8 + PEY"
-  },
-  {
-    name: "Arthur Xu",
-    imageUrl: prefix + "Arthur_Xu.jpg",
-    linkedinUrl: "",
-    title: "Recruitment Lead",
-    program: "CE 2T5 + PEY"
-  },
+  }
 ]
 
 const Team2025 = () => {
@@ -252,6 +249,7 @@ const Team2025 = () => {
           backgroundPosition: "bottom",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          backgroundPositionY: "35%"
         }}
       >
         <div className="h-full flex flex-col justify-end">
@@ -380,26 +378,6 @@ const Team2025 = () => {
         </Fade>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-x-auto px-3 pb-10">
           {businessLeads.map((member, index) => (
-            <Fade delay={0.2} triggerOnce>
-              <TeamMemberCard
-                key={index}
-                imageUrl={member.imageUrl}
-                linkedinUrl={member.linkedinUrl}
-                name={member.name}
-                title={member.title}
-                program={member.program}
-              />
-            </Fade>
-          ))}
-        </div>
-      </div>
-
-        <div>
-        <Fade delay={0.2} triggerOnce>
-          <p className='text-4xl font-bold flex justify-center pb-8'>Recruitment Leads</p>
-        </Fade>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-x-auto px-3 pb-10">
-          {recruitmentLeads.map((member, index) => (
             <Fade delay={0.2} triggerOnce>
               <TeamMemberCard
                 key={index}
