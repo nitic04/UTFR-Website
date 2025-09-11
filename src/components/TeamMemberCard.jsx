@@ -10,7 +10,7 @@ const TeamMemberCard = ({ imageUrl, linkedinUrl, name, title, program }) => {
             <img
               src={imageUrl}
               alt={name}
-              className="w-full h-full object-cover object-top rounded-md"
+              className="w-full h-full object-cover object-bottom rounded-md"
             />
           </div>
 
