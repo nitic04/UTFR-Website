@@ -38,6 +38,10 @@ const platinumSponsors = [
 
 const goldSponsors = [
     {
+        imageUrl: urlEndpoint + "Bronze/AtomsLab.png",
+        url: "https://astg.ca/"
+    },
+    {
         imageUrl: urlEndpoint + "Gold/CenteringTech.png",
         url: " "
     },
@@ -214,10 +218,6 @@ const bronzeSponsors = [
     {
         imageUrl: urlEndpoint + "Bronze/Abco.png",
         url: "https://www.abcofreight.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/AtomsLab.png",
-        url: "https://astg.ca/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/Bender.png",
@@ -473,7 +473,7 @@ const Sponsors = () => {
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
-                <a href="https://ik.imagekit.io/utfr/UTFR_Sponsorship_Package.pdf" target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>View Our Sponsorship Package</button></a>
+                <a href="https://ik.imagekit.io/utfroutreach/UT26/Sponsorship_Package_September_2025-26.pdf" target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>View Our Sponsorship Package</button></a>
                 <a href="https://www.gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>Donate</button></a>
             </div>
             </Fade>
