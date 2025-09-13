@@ -185,6 +185,10 @@ const silverSponsors = [
         url: "https://percepio.com/"
     },
     {
+        imageUrl: urlEndpoint + "Silver/Pompous_Fox_Wood_Company.png",
+        url: "https://pompousfoxwoodco.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Rudolphs.png",
         url: "https://www.rudolphsbakeries.com/"
     },
