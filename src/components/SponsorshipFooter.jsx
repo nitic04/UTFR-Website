@@ -1,8 +1,6 @@
 import React from "react";
 import MIE from "../assets/Sponsors/SponsorLogosWhite/UofTMIE.png";
-import Tesla from "../assets/Sponsors/SponsorLogosWhite/Tesla.png";
 import Skule from "../assets/Sponsors/SponsorLogosWhite/SkuleWhite.png";
-import NewEra from "../assets/Sponsors/SponsorLogosWhite/NewEraWhite.png";
 
 import MC78 from "../assets/Sponsors/SponsorLogosWhite/MC78FilledWhite.png";
 import EngAlumni from "../assets/Sponsors/SponsorLogosWhite/EngAlumniNetwork.png";
@@ -28,23 +26,16 @@ const SponsorshipFooter = () => {
             >
               <img className="sponsorImg2" src={Skule} alt="" />
             </a>
-            <a href="https://neweragroup.ca/" target="_blank" rel="noreferrer">
-              <img className="sponsorImg2" src={NewEra} alt="" />
+            <a href="https://rlxsolutions.com/" target="_blank" rel="noreferrer">
+              <img className="sponsorImg2" src="https://ik.imagekit.io/utfroutreach/Diamond/RLXWhite.png?updatedAt=1758336872527" alt="" />
             </a>
           </div>
         </div>
 
         <div className="flex justify-center items-center md:py-5">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5">
+          <div className="grid grid-cols-3 gap-x-5">
             <a href="https://alumni.engineering.utoronto.ca/engineering-alumni-network/" target="_blank" rel="noreferrer">
               <img className="sponsorImg2" src={EngAlumni} alt="" />
-            </a>
-            <a
-              href="https://www.tesla.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="sponsorImg2 px-5" src={Tesla} alt="" />
             </a>
             <a href="https://www.actnowhpc.com/" target="_blank" rel="noreferrer">
               <img className="sponsorImg2" src={ActNow} alt="" />
