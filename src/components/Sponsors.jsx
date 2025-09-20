@@ -29,17 +29,13 @@ const platinumSponsors = [
     {
         imageUrl: urlEndpoint + "Platinum/PetroColour.png?updatedAt=1737254718780",
         url: "https://lubricants.petro-canada.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Diamond/Tesla.png",
-        url: "https://www.tesla.com/"
-    },
+    }
 ]
 
 const goldSponsors = [
     {
-        imageUrl: urlEndpoint + "Bronze/AtomsLab.png",
-        url: "https://astg.ca/"
+        imageUrl: urlEndpoint + "Bronze/AtomsLab.png?updatedAt=1758336553051",
+        url: "https://atoms.mie.utoronto.ca/"
     },
     {
         imageUrl: urlEndpoint + "Gold/CenteringTech.png",
@@ -60,10 +56,6 @@ const goldSponsors = [
     {
         imageUrl: urlEndpoint + "Gold/Multimatic.png",
         url: "https://www.multimatic.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Gold/NewEra.png",
-        url: "https://neweragroup.co/"
     },
     {
         imageUrl: urlEndpoint + "Gold/Siemens.png",
