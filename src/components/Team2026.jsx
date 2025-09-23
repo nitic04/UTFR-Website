@@ -175,7 +175,7 @@ const dvLeads = [
     imageUrl: prefix + "Oscar_Sun.jpg?updatedAt=1758335333428",
     linkedinUrl: "https://www.linkedin.com/in/oscar-sun-a1960b287/",
     title: "Deep Learning Perception Lead",
-    program: "Eng Sci 2T7"
+    program: "Eng Sci 2T7 + PEY"
   },
   {
     name: "Arwin Sondhi",
