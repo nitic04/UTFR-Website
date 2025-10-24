@@ -117,7 +117,7 @@ const mechLeads = [
   },
   {
     name: "Janie Ma",
-    imageUrl: prefix + "Janie_Ma.jpg?updatedAt=1758335336205",
+    imageUrl: prefix + "Janie_Ma.jpg?updatedAt=1761271450696",
     linkedinUrl: "",
     title: "Recruitment Lead",
     program: "Mech 2T8 + PEY"
@@ -224,9 +224,9 @@ const businessLeads = [
   },
   {
     name: "Rohan Sadekar",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Rohan_Sadekar.JPG?updatedAt=1761271374475",
     linkedinUrl: "https://www.linkedin.com/in/rohan-sadekar-692a12260/",
-    title: "External Relations & Recruitment Lead",
+    title: "External Relations Lead & Recruitment Lead",
     program: "Economics 2T8"
   },
   {
