@@ -9,6 +9,26 @@ const UT25 = () => {
 
     const slides = [
         {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/FSG/fsg_6.jpg',
+            description: ''
+        },
+        {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/FSG/fsg_7.jpg',
+            description: ''
+        },
+        {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/FSG/fsg_3.jpg',
+            description: ''
+        },
+        {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/FSG/fsg_8.jpg',
+            description: ''
+        },
+        {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/Michigan/michigan_2.jpg',
+            description: ''
+        },
+        {
             image: 'https://ik.imagekit.io/utfroutreach/UT25/UT25_6.png',
             description: ''
         },
@@ -74,14 +94,13 @@ const UT25 = () => {
         <div className='bg-[#062644] text-white'>
             <Fade cascade damping={0.2} triggerOnce>
             <h1 className='text-4xl md:text-6xl font-bold py-10 text-center'>COMPETITIONS</h1>
-            <div className='grid lg:grid-cols-1 items-center pb-10'>
-                <div className='px-10'>
-                    <div className='competitionCard h-[600px]' style={{
+            <div className='grid lg:grid-cols-3 items-center pb-10 gap-y-5 gap-x-5 px-5'>
+                <div className=''>
+                    <div className='competitionCard h-[400px]' style={{
                         backgroundImage: `url(https://ik.imagekit.io/utfroutreach/UT25/UT25_NH.jpg?updatedAt=1748204881576)`,
-                        backgroundPosition: 'center',
+                        backgroundPosition: 'center 20%',
                         backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "50%"
+                        backgroundRepeat: 'no-repeat'
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
@@ -89,20 +108,31 @@ const UT25 = () => {
                     {/* <h3 className='text-center text-2xl font-bold pb-10 lg:pb-0'>1st Place Overall</h3> */}
                     </Fade>
                 </div>
-                {/* <div className='px-10'>
+                <div className=''>
                     <div className='competitionCard h-[400px]' style={{
-                        backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/UTFR/UT24/UT24_NH1.jpg)`,
-                        backgroundPosition: 'center',
+                        backgroundImage: `url(https://ik.imagekit.io/utfr/2025_2026/Michigan/michigan_1.jpg)`,
+                        backgroundPosition: 'center 80%',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        backgroundPositionY: "100%"
                         }}>
                     </div>
                     <Fade cascade damping={0.2} triggerOnce>
                     <h3 className='text-center text-2xl pt-5'>Formula SAE Electric Michigan</h3>
-                    <h3 className='text-center text-2xl font-bold'>9th Place Overall</h3>
                     </Fade>
-                </div> */}
+                </div>
+                <div className=''>
+                    <div className='competitionCard h-[400px]' style={{
+                        backgroundImage: `url(https://ik.imagekit.io/utfr/2025_2026/FSG/fsg_1.jpg)`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundPositionY: "50%"
+                        }}>
+                    </div>
+                    <Fade cascade damping={0.2} triggerOnce>
+                    <h3 className='text-center text-2xl pt-5'>Formula Student Germany</h3>
+                    </Fade>
+                </div>
             </div>
             </Fade>
         </div>
