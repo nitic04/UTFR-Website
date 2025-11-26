@@ -7,6 +7,13 @@ const urlEndpoint = 'https://ik.imagekit.io/utfroutreach/'
 
 const diamondSponsors = [
     {
+        name: "Aston Dynamics",
+        imageUrl: urlEndpoint + "Diamond/AstonDynamics.png",
+        desc: "Aston Dynamics has been an essential partner in enabling UTFR’s transition to a 4WD powertrain. Their generous support helped us purchase inverters and motors that form the core of our new powertrain system. With these components, our team is unlocking new levels of torque vectoring, acceleration, and overall vehicle performance — capabilities that directly advance our electric and driverless development goals. Aston Dynamics’ continued support empowers our members to push the boundaries of what a student-built race car can achieve, and has a meaningful impact on our competitiveness around the world.",
+        url: "https://aston-dynamics.com/",
+        
+    },
+    {
         name: "RLXSolutions",
         imageUrl: urlEndpoint + "Gold/RLX_Logo.png?updatedAt=1734039962970",
         desc: "RLX Solutions has generously supported UTFR through the manufacturing of the many custom Printed Circuit Boards (PCBs) that go on the car. The resulting high quality PCBs can surmount the rigorous racing conditions when delivering power, reading sensor data, managing our high voltage battery pack, and ensuring the car operates safely. Their generous support keeps the electrical systems on the car running year after year, and has resulted in top finishes at all competitions we've competed at.",
@@ -478,7 +485,7 @@ const Sponsors = () => {
         {/* Diamond Sponsors */}
         <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
         <div className='flex justify-center bg-[#e3e3e3]'>
-            <div className="grid lg:grid-cols-2 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
+            <div className="grid lg:grid-cols-3 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
                 {diamondSponsors.map((sponsor, index) => (
                     <Fade delay={0.2} triggerOnce>
                         <DiamondSponsorCard

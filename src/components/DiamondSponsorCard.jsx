@@ -3,7 +3,7 @@ import React from 'react';
 const DiamondSponsorCard = ({ name, url, imageUrl, description }) => {
     return (
         <a href={url} target="_blank" rel="noreferrer">
-            <div className="w-[450px] h-[575px] bg-[#dddddd] transition duration-200 rounded-md">
+            <div className="w-[450px] h-[600px] bg-[#dddddd] transition duration-200 rounded-md">
                 <div className="h-[200px] bg-[#f1f1f1] rounded-t-md flex items-center justify-center">
                     <img
                         src={imageUrl}

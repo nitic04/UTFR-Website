@@ -209,20 +209,6 @@ const dvLeads = [
 
 const businessLeads = [
   {
-    name: "Vedant Gupta",
-    imageUrl: prefix + "UTFR_Placeholder.png",
-    linkedinUrl: "https://www.linkedin.com/in/vedantgupta2003/",
-    title: "Events Lead",
-    program: "Eng Sci Aero 2T5 + PEY"
-  },
-  {
-    name: "Angela Cheng",
-    imageUrl: prefix + "Angela_Cheng.jpg?updatedAt=1758335334587",
-    linkedinUrl: "",
-    title: "Marketing Lead",
-    program: "Chem Eng 2T8 + PEY"
-  },
-  {
     name: "Rohan Sadekar",
     imageUrl: prefix + "Rohan_Sadekar.JPG?updatedAt=1761271374475",
     linkedinUrl: "https://www.linkedin.com/in/rohan-sadekar-692a12260/",
@@ -235,6 +221,27 @@ const businessLeads = [
     linkedinUrl: "https://www.linkedin.com/in/david-c-bi/",
     title: "Graphic Design Lead",
     program: "Architectural Studies 2T7"
+  },
+  {
+    name: "Jimmy Ji",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "http://www.linkedin.com/in/jimmy-ji-61649b303",
+    title: "Events Co-lead",
+    program: "ECE 2T8 + PEY"
+  },
+  {
+    name: "Haylie Nguyen",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "",
+    title: "Events Co-lead",
+    program: "Human Biology and Physiology 2T8"
+  },
+  {
+    name: "Claire Harvey",
+    imageUrl: prefix + "UTFR_Placeholder.png",
+    linkedinUrl: "https://www.linkedin.com/in/claire-harvey-353208167",
+    title: "Marketing Lead",
+    program: "Nursing 2T6"
   }
 ]
 
