@@ -88,18 +88,18 @@ const mechLeads = [
     program: "Mech 2T5 + PEY"
   },
   {
-    name: "Amalia Orsmond",
-    imageUrl: prefix + "Amalia_Orsmond.jpg?updatedAt=1758335334716",
-    linkedinUrl: "https://www.linkedin.com/in/aors",
-    title: "Suspension Lead",
-    program: "Mech 2T8 + PEY"
-  },
-  {
     name: "Clara Coukell",
     imageUrl: prefix + "Clara_Coukell.jpg",
     linkedinUrl: "https://www.linkedin.com/in/clara-coukell/",
     title: "Accumulator Lead",
     program: "Mech 2T7 + PEY"
+  },
+  {
+    name: "Amalia Orsmond",
+    imageUrl: prefix + "Amalia_Orsmond.jpg?updatedAt=1758335334716",
+    linkedinUrl: "https://www.linkedin.com/in/aors",
+    title: "Suspension Lead",
+    program: "Mech 2T8 + PEY"
   },
   {
     name: "Kody Cao",
