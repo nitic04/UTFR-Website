@@ -24,7 +24,7 @@ const teamLeadership = [
   {
     name: "Caley McNeill",
     imageUrl: prefix + "Caley_McNeill.jpg?updatedAt=1758335335041",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/caleymcneill/",
     title: "Business Director",
     program: "Indy 2T5 + PEY"
   },
@@ -44,14 +44,14 @@ const teamLeadership = [
   },
   {
     name: "Nam Nguyen",
-    imageUrl: prefix + "Nam_Nguyen.jpg?updatedAt=1758335332694",
+    imageUrl: prefix + "Nam_Nguyen.jpg",
     linkedinUrl: "https://www.linkedin.com/in/nam-nguyen-b366731b0/",
     title: "Chief Race Engineer",
     program: "Mech Eng 2T6"
   },
   {
     name: "Veronica Abdel Malak",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Veronica_Abdel_Malak.jpg",
     linkedinUrl: "",
     title: "Shop Manager",
     program: "Mech Eng 2T7 + PEY"
@@ -96,7 +96,7 @@ const mechLeads = [
   },
   {
     name: "Clara Coukell",
-    imageUrl: prefix + "Clara_Coukell.jpg?updatedAt=1758335334966",
+    imageUrl: prefix + "Clara_Coukell.jpg",
     linkedinUrl: "https://www.linkedin.com/in/clara-coukell/",
     title: "Accumulator Lead",
     program: "Mech 2T7 + PEY"
@@ -224,21 +224,21 @@ const businessLeads = [
   },
   {
     name: "Jimmy Ji",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Jimmy_Ji.jpg",
     linkedinUrl: "http://www.linkedin.com/in/jimmy-ji-61649b303",
     title: "Events Co-lead",
     program: "ECE 2T8 + PEY"
   },
   {
     name: "Haylie Nguyen",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Haylie_Nguyen.jpg",
     linkedinUrl: "",
     title: "Events Co-lead",
     program: "Human Biology and Physiology 2T8"
   },
   {
     name: "Claire Harvey",
-    imageUrl: prefix + "UTFR_Placeholder.png",
+    imageUrl: prefix + "Claire_Harvey.jpg",
     linkedinUrl: "https://www.linkedin.com/in/claire-harvey-353208167",
     title: "Marketing Lead",
     program: "Nursing 2T6"
