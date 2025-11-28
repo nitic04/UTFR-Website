@@ -60,6 +60,69 @@ function PrevArrow(props) {
   );
 }
 
+const ShootoutYearCard = ({ year, backgroundImage, resultsUrl, photographyUrl, backgroundPositionY = 'center' }) => {
+  const cardStyle = {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    ...(backgroundPositionY !== 'center' && { backgroundPositionY })
+  };
+
+  return (
+    <div className='shootoutCard relative w-full h-[200px] md:h-[300px] lg:h-[350px] mx-auto mb-8 overflow-hidden' style={cardStyle}>
+      <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent'></div>
+      
+      <div className='relative h-full flex flex-col justify-center items-center'>
+        <h1 className='text-white text-4xl md:text-5xl font-bold text-center mb-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]'>
+          Shootout {year}
+        </h1>
+        <div className='flex justify-center gap-x-4 md:gap-x-5 flex-wrap'>
+          {resultsUrl && (
+            <a href={resultsUrl} target="_blank" rel="noreferrer">
+              <p className='text-white text-base md:text-lg hover:text-gray-300 transition duration-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]'>
+                Official Results
+              </p>
+            </a>
+          )}
+          {photographyUrl && (
+            <a href={photographyUrl} target="_blank" rel="noreferrer">
+              <p className='text-white text-base md:text-lg hover:text-gray-300 transition duration-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]'>
+                Official Photography
+              </p>
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const SponsorCard = ({ name, description, url, logo, logoType = 'image', logoPadding = 'py-[58px] px-[10px]' }) => {
+  return (
+    <a href={url} target="_blank" rel="noreferrer">
+      <div className='w-[300px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
+        <div className='h-[200px]' style={logoType === 'background' ? {
+          backgroundImage: `url(${logo})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        } : {}}>
+          {logoType === 'image' && (
+            <div className={`h-[200px] ${logoPadding} flex items-center justify-center`}>
+              <img src={logo} alt={name} className='max-w-full max-h-full object-contain' />
+            </div>
+          )}
+        </div>
+        <div className='p-5'>
+          <h1 className='text-white text-2xl'>{name}</h1>
+          <p className='text-[#C1C1C1] text-base pt-3'>{description}</p>
+        </div>
+      </div>
+    </a>
+  );
+};
+
 const Shootout = () => {
   var settings = {
     speed: 500,
@@ -80,15 +143,6 @@ const Shootout = () => {
       }
     ]
   };
-
-  // const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   // Play the video when component mounts
-  //   if (videoRef.current) {
-  //     videoRef.current.play();
-  //   }
-  // }, []);
   
   return (
     <div>
@@ -106,13 +160,6 @@ const Shootout = () => {
               </Fade>
             </div>
           </div>
-          {/* <div className='flex justify-center'>
-              <div className=''>
-                  <video preload="auto" ref={videoRef} loop autoPlay playsInline muted className='bg-video'>
-                      <source src={ShootoutVideo} type="video/mp4"/>
-                  </video>
-              </div>
-          </div> */}
       </div>
         <div className='text-white bg-[#181818] pb-5'>
           <Fade cascade delay={300} damping={0.2} triggerOnce>
@@ -228,123 +275,96 @@ const Shootout = () => {
           <a href={SponsorshipPackage} target="_blank" rel="noreferrer"><button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'>Sponsorship Package</button></a>
         </div>
         <div className='flex justify-center'>
-        <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-10'>
-            <a href="https://www.hoosiertire.com/" target="_blank" rel="noreferrer">
-              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
-                <div className='h-[200px]' style={{
-                backgroundImage: `url(${HoosierLogo})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
-                }}>
-                </div>
-                <div className='p-5'>
-                  <h1 className='text-white text-2xl'>Hoosier Racing Tire</h1>
-                  <p className='text-[#C1C1C1] text-base pt-3'>Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually.</p>
-                </div>
-              </div>
-            </a>
-            <a href="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products" target="_blank" rel="noreferrer">
-              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
-                <div className='h-[200px] py-[58px] px-[15px]'>
-                  <img src={Mobil1Logo} alt="" />
-                </div>
-                <div className='p-5'>
-                  <h1 className='text-white text-2xl'>Mobil 1</h1>
-                  <p className='text-[#C1C1C1] pt-3'>Mobil 1 (via David Swain Racing Products) proudly supports Toronto Shootout by supplying cases of engine oil for podium finishers.</p>
-                </div>
-              </div>
-            </a>
-            <a href="https://gamebridgegokarts.com/" target="_blank" rel="noreferrer">
-              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
-                <div className='h-[200px] py-[58px] px-[10px]'>
-                  <img src={BrechinLogo} alt="" />
-                </div>
-                <div className='p-5'>
-                  <h1 className='text-white text-2xl'>Brechin Motorsport Park</h1>
-                  <p className='text-[#C1C1C1] pt-3'>Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018.</p>
-                </div>
-              </div>
-            </a>
-            <a href="https://www.sae.org" target="_blank" rel="noreferrer">
-              <div className='w-[320px] h-[450px] bg-[#1E1E1E] hover:bg-[#303030] transition duration-200 rounded-md'>
-                <div className='h-[200px] py-[58px] px-[10px]'>
-                  <img src={SAEOntarioLogo} alt="" />
-                </div>
-                <div className='p-5'>
-                  <h1 className='text-white text-2xl'>SAE Central Ontario</h1>
-                  <p className='text-[#C1C1C1] pt-3'>SAE Central Ontario is the local section of the International Society of Automotive Engineers. SAE Central Ontario proudly provides financial support to help make Toronto shootout a reality each year.</p>
-                </div>
-              </div>
-            </a>
-        </div>
+          <div className='grid lg:grid-cols-5 md:grid-cols-2 py-10 gap-x-8 gap-y-8'>
+            <SponsorCard
+              name="Hoosier Racing Tire"
+              description="Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually."
+              url="https://www.hoosiertire.com/"
+              logo={HoosierLogo}
+              logoType="background"
+            />
+            <SponsorCard
+              name="Mobil 1"
+              description="Mobil 1 (via David Swain Racing Products) proudly supports Toronto Shootout by supplying cases of engine oil for podium finishers."
+              url="https://www.mobil.com/en/lubricants/for-personal-vehicles/our-products/motor-oils/mobil-1-motor-oil-products"
+              logo={Mobil1Logo}
+              logoType="image"
+              logoPadding="py-[58px] px-[15px]"
+            />
+            <SponsorCard
+              name="Brechin Motorsport Park"
+              description="Brechin Motorsport Park / Gamebridge Go-Karts has provided an excellent venue for Shootout since 2018."
+              url="https://gamebridgegokarts.com/"
+              logo={BrechinLogo}
+              logoType="image"
+              logoPadding="py-[58px] px-[10px]"
+            />
+            <SponsorCard
+              name="SAE Central Ontario"
+              description="SAE Central Ontario is the local section of the International Society of Automotive Engineers. SAE Central Ontario proudly provides financial support to help make Toronto shootout a reality each year."
+              url="https://www.sae.org"
+              logo={SAEOntarioLogo}
+              logoType="image"
+              logoPadding="py-[58px] px-[10px]"
+            />
+            <SponsorCard
+              name="6 Sigma"
+              description="With 6 Sigma's support, our team now uses a professional-level sim rig for setup sweeps, driver coaching, and controls engineering, raising the standard of our entire program."
+              url="https://6sigmasimracing.com/en-ca?srsltid=AfmBOoq5BvRZVD8dVLN4W9UuS-OC8cWssZTOyHHQ5h2DbriSwXiAQRHh"
+              logo="https://ik.imagekit.io/utfroutreach/Gold/6sigma_white.png"
+              logoType="image"
+              logoPadding="py-[58px] px-[10px]"
+            />
+          </div>
         </div>
         </Fade>
         </div>
 
-        <div className='text-[#F3F3F3] bg-[#181818] pb-10'>
+        <div className='text-[#F3F3F3] bg-[#181818] pb-5'>
           <Fade cascade damping={0.2} triggerOnce>
-          <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
-          <div className='justify-center pt-10'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 px-auto'>
-              <div className='pl-0 mx-auto lg:pl-20'>
-                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-16' style={{
-                    backgroundImage: `url(https://ik.imagekit.io/18gwys9x0/Shootout2023.png)`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPositionY: "80%"
-                    }}>
-                    <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2023</h1>
-                    <div className='flex pt-3 justify-center gap-x-5'>
-                      <a href="https://drive.google.com/drive/folders/1-0KWrDWQlu8jaCu4Bat6KrAITDT5xIvo?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                      <a href="https://drive.google.com/drive/folders/1--OE2K79EN1onx6phieEd4jFBua8pgRU?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
-                    </div>
-                  </div>
-
-                  <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
-                        backgroundImage: `url(${ShootoutCard2021Image})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                        }}>
-                      <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2021</h1>
-                      <div className='flex pt-3 justify-center gap-x-5'>
-                        <a href="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                        <a href="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
-                      </div>
-                  </div>
-                </div>
-              <div className='mx-auto'>
-              <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-16' style={{
-                  backgroundImage: `url(${ShootoutCard2019Image})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat'
-                  }}>
-                  <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2019</h1>
-                  <div className='flex pt-3 justify-center gap-x-5'>
-                    <a href="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                    <a href="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200' >Official Photography</p></a>
-                  </div>
-                </div>
-                
-                <div className='shootoutCard w-[350px] h-[200px] md:w-[700px] md:h-[300px] mx-5 mb-5' style={{
-                  backgroundImage: `url(${ShootoutCard2018Image_2})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
-                  backgroundRepeat: 'no-repeat'
-                  }}>
-                  <h1 className='flex justify-center text-5xl font-bold pt-16 md:pt-32'>Shootout 2018</h1>
-                  <div className='flex pt-3 justify-center gap-x-5'>
-                    <a href="https://docs.google.com/spreadsheets/u/1/d/1DG3YR5VZxDNAfsyb20JhmGvHxYcLyYVY28OfpoZLQi0/edit?usp=drive_web&ouid=105352858794991473194" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Results</p></a>
-                    <a href="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l" target="_blank" rel="noreferrer"><p className='text-lg hover:text-gray-300 transition duration-200'>Official Photography</p></a>
-                  </div>
-                </div>
-
+            <h1 className='flex justify-center text-4xl font-bold pt-10'>Previous Years</h1>
+            <div className='flex justify-center pt-10'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 mx-auto px-5 w-full'>
+                <ShootoutYearCard
+                  year={2025}
+                  backgroundImage="https://ik.imagekit.io/utfroutreach/UT26/Shootout_Team_2025.jpeg"
+                  resultsUrl="https://docs.google.com/spreadsheets/d/13l5UqXPChiQcRrAP7YbWF5_U79SKrsWekVgQ2mR8bCc"
+                  photographyUrl="https://drive.google.com/drive/folders/1WMrWSOOpM3EqGPkdTJIdpwSWlk3h8js-?usp=sharing"
+                  backgroundPositionY="80%"
+                />
+                <ShootoutYearCard
+                  year={2024}
+                  backgroundImage="https://ik.imagekit.io/utfroutreach/UT25/Shootout_Team_2024.jpeg"
+                  photographyUrl="https://drive.google.com/drive/folders/1DILUmJvHmYXqWPkViDpvIOihItgQI5N0?usp=sharing"
+                  backgroundPositionY="80%"
+                />
+                <ShootoutYearCard
+                  year={2023}
+                  backgroundImage="https://ik.imagekit.io/18gwys9x0/Shootout2023.png"
+                  resultsUrl="https://drive.google.com/drive/folders/1-0KWrDWQlu8jaCu4Bat6KrAITDT5xIvo?usp=sharing"
+                  photographyUrl="https://drive.google.com/drive/folders/1--OE2K79EN1onx6phieEd4jFBua8pgRU?usp=sharing"
+                  backgroundPositionY="80%"
+                />
+                <ShootoutYearCard
+                  year={2021}
+                  backgroundImage={ShootoutCard2021Image}
+                  resultsUrl="https://docs.google.com/spreadsheets/u/4/d/149xlNqXhhEaQdj7Bto80WQzUqyR0rrDdc8-bdC4OVwU/edit?usp=sharing"
+                  photographyUrl="https://drive.google.com/drive/u/3/folders/1w77s7Mhibkfyakz1BfZ6w1TiKGmTew2A"
+                />
+                <ShootoutYearCard
+                  year={2019}
+                  backgroundImage={ShootoutCard2019Image}
+                  resultsUrl="https://docs.google.com/spreadsheets/d/1YENFcnf0Cyh2U3froM9PQei7RHiANrUHWjx8A5oifwg/edit#gid=224179064"
+                  photographyUrl="https://drive.google.com/drive/u/3/folders/14EwBEUBqF-8kOvZG1zvI1CQpSOmkyS5j"
+                />
+                <ShootoutYearCard
+                  year={2018}
+                  backgroundImage={ShootoutCard2018Image_2}
+                  resultsUrl="https://docs.google.com/spreadsheets/u/1/d/1DG3YR5VZxDNAfsyb20JhmGvHxYcLyYVY28OfpoZLQi0/edit?usp=drive_web&ouid=105352858794991473194"
+                  photographyUrl="https://drive.google.com/drive/u/1/folders/1yqlPyXtykjWb5A9PesBc4De_VZ7fqV9l"
+                />
               </div>
             </div>
-          </div>
           </Fade>
         </div>
         
