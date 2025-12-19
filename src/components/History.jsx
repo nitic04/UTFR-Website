@@ -146,66 +146,95 @@ const historyData = [
 
 const History = () => {
   return (
-    <div className="w-full h-[100dvh] bg-[#1A1B1C] overflow-hidden relative">
-      <Swiper
-        direction={"vertical"}
-        // the sensitivity of the mousewheel
-        mousewheel={{
-          sensitivity: 0.4,
-          thresholdTime: 600,
-        }}
-        threshold={20}
-        // the speed of the slide
-        speed={600}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Mousewheel]}
-        className="mySwiper h-full w-full"
-      >
-        {historyData.map((item, index) => (
-          <SwiperSlide key={index} className="flex items-center justify-center">
-            <div className="w-full h-full flex items-center justify-center p-4 pr-12">
-              <div className="relative w-full max-w-sm landscape:max-w-4xl bg-[#2C2D2E] rounded-3xl p-6 shadow-2xl border border-[#424242] flex flex-col landscape:flex-row landscape:items-center landscape:gap-8 items-center">
-                {/* the header (year) */}
-                <h2 className="text-6xl font-bold text-white mb-6 tracking-tighter landscape:hidden">
-                  {item.year}
-                </h2>
-
-                {/* image */}
-                {item.image ? (
-                  <div
-                    // In landscape: swtich to rectangle form with half hte width
-                    className="w-full h-[250px] mb-8 landscape:mb-0 landscape:h-[200px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url(${item.image})` }}
-                  />
-                ) : (
-                  <div className="w-full h-[250px] landscape:h-[150px] landscape:w-1/2 mb-8 landscape:mb-0 flex items-center justify-center border-2 border-dashed border-gray-600 rounded-xl">
-                    <span className="text-gray-500 italic">
-                      No Vehicle Image
-                    </span>
-                  </div>
-                )}
-
-                <div className="w-full landscape:w-1/2 flex flex-col justify-center">
-                  <h2 className="hidden landscape:block text-5xl font-bold text-white mb-2 tracking-tighter">
-                    {item.year}
-                  </h2>
-
-                  <NavLink to={item.link} className="w-full">
-                    <div className="group cursor-pointer flex items-center justify-between border-t border-gray-600 pt-6 mt-2 landscape:pt-4 landscape:mt-0 hover:text-[#d3d3d3] transition-colors">
-                      <h3 className="text-2xl font-semibold text-white group-hover:text-[#d3d3d3]">
-                        {item.title}
-                      </h3>
-                      <FaRegArrowAltCircleRight className="text-2xl text-white group-hover:text-[#d3d3d3]" />
-                    </div>
-                  </NavLink>
-                </div>
+    <div className="flex flex-col justify-center">
+      <div className="w-full h-[100dvh] bg-[#1A1B1C] overflow-hidden relative">
+        <Swiper
+          direction={"vertical"}
+          // the sensitivity of the mousewheel
+          mousewheel={{
+            sensitivity: 0.4,
+            thresholdTime: 600,
+          }}
+          threshold={20}
+          // the speed of the slide
+          speed={600}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination, Mousewheel]}
+          className="mySwiper h-full w-full"
+        >
+          <SwiperSlide key={0} className="flex items-center justify-center">
+            <div className=" bg-[#fcfcfc] h-full flex flex-col items-center justify-center pr-7">
+              <h2 className="text-5xl font-bold">Team History</h2>
+              <div className="flex flex-col items-center justify-center ml-2">
+                <p className="px-8 py-5">
+                  The University of Toronto Formula SAE Racing Team was founded
+                  during the 1996-97 academic year. Leading up to our first
+                  competition season in 1999 the team was busy finding sponsors,
+                  conducting R&D and developing a prototype vehicle. In 2003,
+                  2005, and 2006, the team took three overall championships at
+                  Formula Student UK - a record that would stand until 2016! We
+                  also placed in the top 5 in 2002, 2004 and 2007.
+                </p>
+                <p className="px-8 pb-10">
+                  Over the course of the 2000s, several different chassis
+                  concepts were explored, moving from steel space frames to
+                  hybrid concepts, and finally to a full carbon fibre monocoque
+                  by the end of the decade. Now our team has transitioned from
+                  combustion vehicles to fully electric marking yet another era
+                  in UTFR's legacy.
+                </p>
               </div>
             </div>
           </SwiperSlide>
-        ))}
-      </Swiper>
+          {historyData.map((item, index) => (
+            <SwiperSlide
+              key={index + 1}
+              className="flex items-center justify-center"
+            >
+              <div className="w-full h-full flex items-center justify-center p-4 pr-12">
+                <div className="relative w-full max-w-sm landscape:max-w-4xl bg-[#2C2D2E] rounded-3xl p-6 shadow-2xl border border-[#424242] flex flex-col landscape:flex-row landscape:items-center landscape:gap-8 items-center">
+                  {/* the header (year) */}
+                  <h2 className="text-6xl font-bold text-white mb-6 tracking-tighter landscape:hidden">
+                    {item.year}
+                  </h2>
+
+                  {/* image */}
+                  {item.image ? (
+                    <div
+                      // In landscape: swtich to rectangle form with half hte width
+                      className="w-full h-[250px] mb-8 landscape:mb-0 landscape:h-[200px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
+                      style={{ backgroundImage: `url(${item.image})` }}
+                    />
+                  ) : (
+                    <div className="w-full h-[250px] landscape:h-[150px] landscape:w-1/2 mb-8 landscape:mb-0 flex items-center justify-center border-2 border-dashed border-gray-600 rounded-xl">
+                      <span className="text-gray-500 italic">
+                        No Vehicle Image
+                      </span>
+                    </div>
+                  )}
+
+                  <div className="w-full landscape:w-1/2 flex flex-col justify-center">
+                    <h2 className="hidden landscape:block text-5xl font-bold text-white mb-2 tracking-tighter">
+                      {item.year}
+                    </h2>
+
+                    <NavLink to={item.link} className="w-full">
+                      <div className="group cursor-pointer flex items-center justify-between border-t border-gray-600 pt-6 mt-2 landscape:pt-4 landscape:mt-0 hover:text-[#d3d3d3] transition-colors">
+                        <h3 className="text-2xl font-semibold text-white group-hover:text-[#d3d3d3]">
+                          {item.title}
+                        </h3>
+                        <FaRegArrowAltCircleRight className="text-2xl text-white group-hover:text-[#d3d3d3]" />
+                      </div>
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };
