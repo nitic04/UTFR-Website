@@ -150,82 +150,120 @@ const History = () => {
       <div className="w-full h-[100dvh] bg-[#1A1B1C] overflow-hidden relative">
         <Swiper
           direction={"vertical"}
-          // the sensitivity of the mousewheel
           mousewheel={{
             sensitivity: 0.4,
             thresholdTime: 600,
           }}
           threshold={20}
-          // the speed of the slide
           speed={600}
           pagination={{
             clickable: true,
+            renderBullet: function (index, className) {
+              const labelText =
+                index === 0 ? "Team History" : historyData[index - 1]?.year;
+
+              return `
+                <span class="${className} group !overflow-visible relative flex items-center justify-center !w-3 !h-3 
+                  !bg-gray-600 !opacity-100 transition-all duration-300 
+                  hover:!bg-white hover:!scale-110
+                  [&.swiper-pagination-bullet-active]:!bg-white 
+                  [&.swiper-pagination-bullet-active]:!scale-125 
+                  [&.swiper-pagination-bullet-active]:shadow-[0_0_10px_rgba(255,255,255,0.5)]
+                ">
+                  <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-100 text-gray-900 text-xs font-bold font-sans px-3 py-1.5 rounded-md shadow-[0_0_15px_rgba(0,0,0,0.5)] transition-all duration-300 pointer-events-none whitespace-nowrap translate-x-2 group-hover:translate-x-0">
+                    ${labelText}
+                    <span class="absolute top-1/2 -right-1.5 -translate-y-1/2 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-100"></span>
+                  </span>
+                </span>
+              `;
+            },
           }}
           modules={[Pagination, Mousewheel]}
           className="mySwiper h-full w-full"
         >
           <SwiperSlide key={0} className="flex items-center justify-center">
-            <div className=" bg-[#fcfcfc] h-full flex flex-col items-center justify-center pr-7">
-              <h2 className="text-5xl font-bold">Team History</h2>
-              <div className="flex flex-col items-center justify-center ml-2">
-                <p className="px-8 py-5">
+            <div className="bg-[#fcfcfc] h-full flex flex-col items-center justify-center pr-8 pl-4 md:pr-7">
+              <h2
+                className="text-4xl md:text-5xl font-bold text-center"
+                style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+              >
+                Team History
+              </h2>
+              <div className="flex flex-col items-center justify-center ml-0 md:ml-2 max-w-2xl">
+                <p className="px-4 md:px-8 py-5 text-center text-sm md:text-base">
                   The University of Toronto Formula SAE Racing Team was founded
                   during the 1996-97 academic year. Leading up to our first
                   competition season in 1999 the team was busy finding sponsors,
-                  conducting R&D and developing a prototype vehicle. In 2003,
-                  2005, and 2006, the team took three overall championships at
-                  Formula Student UK - a record that would stand until 2016! We
-                  also placed in the top 5 in 2002, 2004 and 2007.
+                  conducting R&D and developing a prototype vehicle.
                 </p>
-                <p className="px-8 pb-10">
+                <p className="px-4 md:px-8 pb-10 text-center text-sm md:text-base">
                   Over the course of the 2000s, several different chassis
                   concepts were explored, moving from steel space frames to
                   hybrid concepts, and finally to a full carbon fibre monocoque
-                  by the end of the decade. Now our team has transitioned from
-                  combustion vehicles to fully electric marking yet another era
-                  in UTFR's legacy.
+                  by the end of the decade.
                 </p>
               </div>
             </div>
           </SwiperSlide>
+
           {historyData.map((item, index) => (
             <SwiperSlide
               key={index + 1}
               className="flex items-center justify-center"
             >
-              <div className="w-full h-full flex items-center justify-center p-4 pr-12">
-                <div className="relative w-full max-w-sm landscape:max-w-4xl bg-[#2C2D2E] rounded-3xl p-6 shadow-2xl border border-[#424242] flex flex-col landscape:flex-row landscape:items-center landscape:gap-8 items-center">
-                  {/* the header (year) */}
-                  <h2 className="text-6xl font-bold text-white mb-6 tracking-tighter landscape:hidden">
+              <div className="w-full h-full flex items-center justify-center p-4 pr-8">
+                <div
+                  className={`
+                    relative w-full bg-[#2C2D2E] rounded-2xl md:rounded-3xl p-4 md:p-6 shadow-2xl border border-[#424242] 
+                    flex flex-col items-center 
+                    ${
+                      item.image
+                        ? "max-w-sm landscape:max-w-4xl landscape:flex-row landscape:gap-8"
+                        : "max-w-sm landscape:max-w-md"
+                    }
+                  `}
+                >
+                  <h2
+                    className={`CarYear text-5xl md:text-6xl font-bold text-white mb-4 md:mb-6 tracking-tighter ${
+                      item.image ? "landscape:hidden" : ""
+                    }`}
+                    style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+                  >
                     {item.year}
                   </h2>
 
-                  {/* image */}
                   {item.image ? (
                     <div
-                      // In landscape: swtich to rectangle form with half hte width
-                      className="w-full h-[250px] mb-8 landscape:mb-0 landscape:h-[200px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
+                      className="w-full h-[200px] md:h-[250px] mb-4 md:mb-8 landscape:mb-0 landscape:h-[200px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
                       style={{ backgroundImage: `url(${item.image})` }}
                     />
-                  ) : (
-                    <div className="w-full h-[250px] landscape:h-[150px] landscape:w-1/2 mb-8 landscape:mb-0 flex items-center justify-center border-2 border-dashed border-gray-600 rounded-xl">
-                      <span className="text-gray-500 italic">
-                        No Vehicle Image
-                      </span>
-                    </div>
-                  )}
+                  ) : null}
 
-                  <div className="w-full landscape:w-1/2 flex flex-col justify-center">
-                    <h2 className="hidden landscape:block text-5xl font-bold text-white mb-2 tracking-tighter">
+                  <div
+                    className={`w-full flex flex-col justify-center ${
+                      item.image ? "landscape:w-1/2" : ""
+                    }`}
+                  >
+                    <h2
+                      className={`CarYear hidden text-5xl font-bold text-white mb-2 tracking-tighter ${
+                        item.image ? "landscape:block" : "hidden"
+                      }`}
+                      style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+                    >
                       {item.year}
                     </h2>
-
                     <NavLink to={item.link} className="w-full">
-                      <div className="group cursor-pointer flex items-center justify-between border-t border-gray-600 pt-6 mt-2 landscape:pt-4 landscape:mt-0 hover:text-[#d3d3d3] transition-colors">
-                        <h3 className="text-2xl font-semibold text-white group-hover:text-[#d3d3d3]">
+                      <div
+                        className="group cursor-pointer flex items-center justify-between border-t border-gray-600 pt-4 md:pt-6 mt-2 landscape:pt-4 landscape:mt-0 hover:text-[#d3d3d3] transition-colors"
+                        style={{ fontFamily: "Montserrat, Arial" }}
+                      >
+                        <h3
+                          className="text-xl md:text-2xl font-semibold text-white group-hover:text-[#d3d3d3]"
+                          style={{ fontFamily: "Montserrat, Arial" }}
+                        >
                           {item.title}
                         </h3>
-                        <FaRegArrowAltCircleRight className="text-2xl text-white group-hover:text-[#d3d3d3]" />
+                        <FaRegArrowAltCircleRight className="text-xl md:text-2xl text-white group-hover:text-[#d3d3d3]" />
                       </div>
                     </NavLink>
                   </div>
