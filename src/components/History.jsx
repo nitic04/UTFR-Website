@@ -3,7 +3,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Mousewheel } from "swiper/modules";
+import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -150,9 +150,15 @@ const History = () => {
       <div className="w-full h-[100dvh] bg-[#1A1B1C] overflow-hidden relative">
         <Swiper
           direction={"vertical"}
+          keyboard={{
+            enabled: true,
+            onlyInViewport: true
+          }}
           mousewheel={{
-            sensitivity: 0.4,
-            thresholdTime: 600,
+            sensitivity: 0.1,
+            thresholdTime: 1000,
+            forceToAxis: true,
+            thresholdDelta: 50
           }}
           threshold={20}
           speed={600}
@@ -178,14 +184,13 @@ const History = () => {
               `;
             },
           }}
-          modules={[Pagination, Mousewheel]}
+          modules={[Pagination, Mousewheel, Keyboard]}
           className="mySwiper h-full w-full"
         >
           <SwiperSlide key={0} className="flex items-center justify-center">
             <div className="bg-[#fcfcfc] h-full flex flex-col items-center justify-center pr-8 pl-4 md:pr-7">
               <h2
                 className="text-4xl md:text-5xl font-bold text-center"
-                style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
               >
                 Team History
               </h2>
@@ -227,7 +232,6 @@ const History = () => {
                     className={`CarYear text-5xl md:text-6xl font-bold text-white mb-4 md:mb-6 tracking-tighter ${
                       item.image ? "landscape:hidden" : ""
                     }`}
-                    style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
                   >
                     {item.year}
                   </h2>
