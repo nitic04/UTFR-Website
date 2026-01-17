@@ -275,7 +275,7 @@ const Shootout = () => {
           <a href={SponsorshipPackage} target="_blank" rel="noreferrer"><button className='text-white border-2 px-5 md:px-24 py-3 mt-2 flex items-center bg-[#ffffff37] transition duration-200 hover:bg-[#0190cd] hover:border-[#0190cd] text-xl mx-5'>Sponsorship Package</button></a>
         </div>
         <div className='flex justify-center'>
-          <div className='grid lg:grid-cols-5 md:grid-cols-2 py-10 gap-x-8 gap-y-8'>
+          <div className='grid lg:grid-cols-4 md:grid-cols-2 py-10 gap-x-8 gap-y-8'>
             <SponsorCard
               name="Hoosier Racing Tire"
               description="Hoosier generously provides valuable discount certificates to the top two teams at Toronto Shootout annually."
