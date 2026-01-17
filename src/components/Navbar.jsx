@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink to="/sponsors"><li className='transition duration-200 hover:text-gray-300'>Sponsors</li></NavLink>
         <NavLink to="/blog"><li className='transition duration-200 hover:text-gray-300'>Blog</li></NavLink>
         <NavLink to="/joinUs"><li className='transition duration-200 hover:text-gray-300'>Join Us</li></NavLink>
-        <NavLink to="http://gofundme.com/f/university-of-toronto-formula-racing-donations" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
+        <NavLink to="https://www.gofundme.com/f/support-utfrs-road-to-michigan-germany" target="_blank" rel="noreferer"><li className='transition duration-200 hover:text-gray-300'>Donate</li></NavLink>
       </ul>
 
       <div onClick={handleClick} className='lg:hidden z-10 text-gray-300 hover:text-white cursor-pointer'>
