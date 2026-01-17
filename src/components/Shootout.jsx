@@ -307,14 +307,6 @@ const Shootout = () => {
               logoType="image"
               logoPadding="py-[58px] px-[10px]"
             />
-            <SponsorCard
-              name="6 Sigma"
-              description="With 6 Sigma's support, our team now uses a professional-level sim rig for setup sweeps, driver coaching, and controls engineering, raising the standard of our entire program."
-              url="https://6sigmasimracing.com/en-ca?srsltid=AfmBOoq5BvRZVD8dVLN4W9UuS-OC8cWssZTOyHHQ5h2DbriSwXiAQRHh"
-              logo="https://ik.imagekit.io/utfroutreach/Gold/6sigma_white.png"
-              logoType="image"
-              logoPadding="py-[58px] px-[10px]"
-            />
           </div>
         </div>
         </Fade>
