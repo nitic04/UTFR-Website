@@ -65,7 +65,7 @@ const goldSponsors = [
         url: "https://www.multimatic.com/"
     },
     {
-        imageUrl: urlEndpoint + "Gold/OptimumArc.png",
+        imageUrl: urlEndpoint + "Gold/ScanHub.png",
         url: "https://www.scanhub.ca/"
     },
     {
