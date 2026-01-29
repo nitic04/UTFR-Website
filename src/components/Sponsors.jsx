@@ -66,7 +66,7 @@ const goldSponsors = [
     },
     {
         imageUrl: urlEndpoint + "Gold/OptimumArc.png",
-        url: "http://www.optimumarc.com/"
+        url: "https://www.scanhub.ca/"
     },
     {
         imageUrl: urlEndpoint + "Gold/Siemens.png",
@@ -92,7 +92,7 @@ const goldSponsors = [
 
 const silverSponsors = [
     {
-        imageUrl: urlEndpoint + "Silver/Aerovac.png",
+        imageUrl: urlEndpoint + "Silver/Composites_One.png",
         url: "https://www.aerovac.com/"
     },
     {
