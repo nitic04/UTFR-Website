@@ -8,7 +8,7 @@ import History from "./components/History";
 // import Countdown from "./components/Countdown";
 import Team2026 from "./components/Team2026";
 import HomeCarousel from "./components/HomeCarousel";
-import SponsorshipFooter from "./components/SponsorshipFooter";
+// import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
 import Sponsors from "./components/Sponsors";
 import Shootout from "./components/Shootout";
@@ -55,7 +55,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<><Navbar /><Home /><About /><HomeCarousel /><SponsorshipFooter /><Footer /></>} />
+          <Route path="/" element={<><Navbar /><Home /><About /><HomeCarousel /><Footer /></>} />
           <Route path="/team" element={<><Navbar /><Team2026 /><Footer /></>} />
           <Route path="/history" element={<><Navbar /><History /></>} />
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
