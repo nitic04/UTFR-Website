@@ -100,10 +100,6 @@ const silverSponsors = [
         url: "https://www.ansys.com/academic/students/student-teams"
     },
     {
-        imageUrl: urlEndpoint + "Silver/Bcamera.png",
-        url: "https://bcamera.ca/"
-    },
-    {
         imageUrl: urlEndpoint + "Silver/DassaultSystemes.png",
         url: "https://www.3ds.com/"
     },
