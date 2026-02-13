@@ -145,39 +145,70 @@ const History = () => {
     <div className="flex flex-col justify-center">
       <div className="w-full h-[100dvh] bg-[#1A1B1C] overflow-hidden relative">
         <Swiper
-          direction="vertical"
-          keyboard={{ enabled: true, onlyInViewport: true }}
+          direction={"vertical"}
+          keyboard={{
+            enabled: true,
+            onlyInViewport: true
+          }}
           mousewheel={{
-            sensitivity: 0.1,
+            sensitivity: 0.005,
+            thresholdDelta: 10,
             thresholdTime: 1000,
             forceToAxis: true,
-            thresholdDelta: 50,
+            releaseOnEdges: true,
           }}
-          speed={600}
-          pagination={{ clickable: true }}
+          threshold={5}
+          speed={800}
+          pagination={{
+            clickable: true,
+            renderBullet: function (index, className) {
+              const labelText =
+                index === 0 ? "Team History" : historyData[index - 1]?.year;
+
+              return `
+                <span class="${className} group !overflow-visible relative flex items-center justify-center !w-3 !h-3 
+                  !bg-gray-600 !opacity-100 transition-all duration-300 
+                  hover:!bg-white hover:!scale-110
+                  [&.swiper-pagination-bullet-active]:!bg-white 
+                  [&.swiper-pagination-bullet-active]:!scale-125 
+                  [&.swiper-pagination-bullet-active]:shadow-[0_0_10px_rgba(255,255,255,0.5)]
+                ">
+                  <span class="absolute right-6 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 bg-gray-100 text-gray-900 text-xs font-bold font-sans px-3 py-1.5 rounded-md shadow-[0_0_15px_rgba(0,0,0,0.5)] transition-all duration-300 pointer-events-none whitespace-nowrap translate-x-2 group-hover:translate-x-0">
+                    ${labelText}
+                    <span class="absolute top-1/2 -right-1.5 -translate-y-1/2 border-t-[6px] border-t-transparent border-b-[6px] border-b-transparent border-l-[6px] border-l-gray-100"></span>
+                  </span>
+                </span>
+              `;
+            },
+          }}
           modules={[Pagination, Mousewheel, Keyboard]}
-          className="h-full w-full"
+          className="mySwiper h-full w-full"
         >
-          <SwiperSlide className="flex items-center justify-center">
-            <div className="bg-[#fcfcfc] w-full h-full flex flex-col items-center justify-center pr-14 pl-4 md:pr-20 relative md:pb-32">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6">
+          <SwiperSlide key={0} className="flex items-center justify-center">
+            <div className="w-full h-full bg-[#2C2D2E] rounded-2xl md:rounded-3xl p-8 flex flex-col items-center justify-center relative">
+              <h2
+                className="text-4xl md:text-5xl font-bold text-center text-white mb-6"
+                style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+              >
                 Team History
               </h2>
-              <div className="max-w-4xl">
-                <p className="px-4 md:px-8 py-5 text-center text-sm md:text-lg lg:text-xl leading-relaxed">
+              <div className="flex flex-col items-center justify-center max-w-3xl">
+                <p className="px-4 md:px-8 py-4 text-center text-base md:text-lg text-gray-300 leading-relaxed" style={{ fontFamily: "Montserrat, Arial, sans-serif" }}>
                   The University of Toronto Formula SAE Racing Team was founded
-                  during the 1996-97 academic year.
+                  during the 1996-97 academic year. Leading up to our first
+                  competition season in 1999 the team was busy finding sponsors,
+                  conducting R&D and developing a prototype vehicle.
                 </p>
-                <p className="px-4 md:px-8 pb-10 text-center text-sm md:text-lg lg:text-xl leading-relaxed">
+                <p className="px-4 md:px-8 pb-10 text-center text-base md:text-lg text-gray-300 leading-relaxed" style={{ fontFamily: "Montserrat, Arial, sans-serif" }}>
                   Over the course of the 2000s, several different chassis
-                  concepts were explored.
+                  concepts were explored, moving from steel space frames to
+                  hybrid concepts, and finally to a full carbon fibre monocoque
+                  by the end of the decade.
                 </p>
               </div>
-              <div className="absolute bottom-28 md:bottom-64 flex flex-col items-center">
-                <span className="text-gray-500 text-xs md:text-sm font-semibold mb-2 uppercase tracking-widest">
-                  Scroll Down to See Our History
-                </span>
-                <FaChevronDown className="text-gray-500 text-xl animate-bounce" />
+              <div className="absolute bottom-8 flex flex-col items-center justify-center text-white/50 animate-bounce">
+                <span className="text-xs font-bold tracking-widest mb-2">SCROLL</span>
+                <FaChevronDown className="text-2xl" />
               </div>
             </div>
           </SwiperSlide>
@@ -185,50 +216,63 @@ const History = () => {
           {historyData.map((item, index) => (
             <SwiperSlide
               key={index + 1}
-              className="flex items-center justify-center h-full"
+              className="flex items-center justify-center"
             >
-              <div className="w-full h-full flex items-center justify-center pl-4 pr-12 py-4 sm:p-8 sm:pr-8 md:p-8 md:pr-20 md:pb-36 lg:p-12 lg:pr-24">
+              <div className="w-full h-full flex items-center justify-center p-4 pr-8">
                 <div
                   className={`
-                        relative w-full bg-[#2C2D2E] rounded-2xl md:rounded-[3rem]
-                        p-4 md:p-8 lg:p-12 shadow-2xl border border-[#424242]
-                        flex flex-col items-center justify-center
-                        ${
-                          item.image
-                            ? "max-w-sm landscape:max-w-7xl landscape:flex-row landscape:gap-16"
-                            : "max-w-sm landscape:max-w-7xl"
-                        }
-                      `}
+                    relative w-full bg-[#2C2D2E] rounded-2xl md:rounded-3xl p-4 md:p-6 shadow-2xl border border-[#424242] 
+                    flex flex-col items-center justify-center md:h-[70vh]
+                    ${
+                      item.image
+                        ? "max-w-sm md:max-w-2xl landscape:max-w-5xl landscape:flex-row landscape:gap-12"
+                        : "max-w-sm md:max-w-xl landscape:max-w-2xl"
+                    }
+                  `}
                 >
                   <h2
-                    className={`text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 tracking-tighter ${
+                    className={`CarYear text-5xl md:text-6xl font-bold text-white mb-4 md:mb-6 tracking-tighter text-center ${
                       item.image ? "landscape:hidden" : ""
                     }`}
+                    style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
                   >
                     {item.year}
                   </h2>
 
-                  {item.image && (
+                  {item.image ? (
                     <div
-                      className="w-full h-[200px] md:h-[250px] lg:h-[350px] landscape:h-[400px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
+                      className="w-full h-[200px] md:h-[300px] mb-4 md:mb-8 landscape:mb-0 landscape:h-[400px] landscape:w-1/2 bg-contain bg-center bg-no-repeat"
                       style={{ backgroundImage: `url(${item.image})` }}
                     />
-                  )}
+                  ) : null}
 
                   <div
-                    className={`w-full flex flex-col justify-center ${
+                    className={`w-full flex flex-col justify-center items-center ${
                       item.image ? "landscape:w-1/2" : ""
                     }`}
                   >
-                    <h2 className="hidden landscape:block text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
+                    <h2
+                      className={`CarYear hidden text-5xl font-bold text-white mb-2 tracking-tighter text-center ${
+                        item.image ? "landscape:block" : "hidden"
+                      }`}
+                      style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+                    >
                       {item.year}
                     </h2>
                     <NavLink to={item.link} className="w-full">
-                      <div className="group flex items-center justify-between border-t border-gray-600 pt-6 hover:text-[#d3d3d3] transition-colors">
-                        <h3 className="text-xl md:text-3xl lg:text-4xl font-semibold text-white">
-                          {item.title}
-                        </h3>
-                        <FaRegArrowAltCircleRight className="text-xl md:text-3xl lg:text-4xl text-white" />
+                      <div
+                        className="group cursor-pointer flex flex-col items-center justify-center border-t border-gray-600 pt-4 md:pt-6 mt-2 landscape:pt-4 landscape:mt-0 hover:text-[#d3d3d3] transition-colors relative"
+                        style={{ fontFamily: "Montserrat, Arial" }}
+                      >
+                        <div className="w-full flex items-center justify-between gap-3 px-1">
+                          <h3
+                            className="flex-1 text-xl md:text-2xl font-semibold text-white group-hover:text-[#d3d3d3] text-center"
+                            style={{ fontFamily: "Montserrat, Arial, sans-serif" }}
+                          >
+                            {item.title}
+                          </h3>
+                          <FaRegArrowAltCircleRight className="text-xl md:text-2xl text-white group-hover:text-[#d3d3d3] flex-shrink-0" />
+                        </div>
                       </div>
                     </NavLink>
                   </div>
