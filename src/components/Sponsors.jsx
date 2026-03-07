@@ -113,7 +113,7 @@ const silverSponsors = [
     },
     {
         imageUrl: urlEndpoint + "Silver/Ensoft.png",
-        url: "https://www.ensoftcorp.com"
+        url: "https://www.ensoftinc.com"
     },
     {
         imageUrl: urlEndpoint + "Silver/ESAB.png",
@@ -307,7 +307,7 @@ const bronzeSponsors = [
         url: "https://industrial.sherwin-williams.com/na/us/en/automotive.html"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Simdiff.png",
+        imageUrl: urlEndpoint + "Bronze/Ensoft_Simdiff.png",
         url: "https://www.ensoftcorp.com/simdiff/"
     },
     {
