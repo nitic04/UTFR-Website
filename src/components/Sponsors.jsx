@@ -1,4 +1,4 @@
-iimport GoToTop from "./GoToTop"
+import GoToTop from "./GoToTop"
 import { Fade } from "react-awesome-reveal";
 import DiamondSponsorCard from "./DiamondSponsorCard";
 import SponsorLogos from "./SponsorLogos";
