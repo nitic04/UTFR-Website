@@ -112,7 +112,7 @@ const silverSponsors = [
         url: "http://www.embotech.com/"
     },
     {
-        imageUrl: urlEndpoint + "Silver/Ensoft.png",
+        imageUrl: urlEndpoint + "Silver/Ensoft_Simdiff.png",
         url: "https://www.ensoftcorp.com"
     },
     {
