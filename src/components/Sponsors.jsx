@@ -1,4 +1,4 @@
-import GoToTop from "./GoToTop"
+iimport GoToTop from "./GoToTop"
 import { Fade } from "react-awesome-reveal";
 import DiamondSponsorCard from "./DiamondSponsorCard";
 import SponsorLogos from "./SponsorLogos";
@@ -112,8 +112,8 @@ const silverSponsors = [
         url: "http://www.embotech.com/"
     },
     {
-        imageUrl: urlEndpoint + "Silver/Ensoft_Simdiff.png",
-        url: "https://www.ensoftcorp.com"
+        imageUrl: urlEndpoint + "Silver/Ensoft.png",
+        url: "https://www.ensoftinc.com"
     },
     {
         imageUrl: urlEndpoint + "Silver/ESAB.png",
@@ -307,7 +307,7 @@ const bronzeSponsors = [
         url: "https://industrial.sherwin-williams.com/na/us/en/automotive.html"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Simdiff.png",
+        imageUrl: urlEndpoint + "Bronze/Ensoft_Simdiff.png",
         url: "https://www.ensoftcorp.com/simdiff/"
     },
     {
