@@ -6,7 +6,7 @@ const SponsorLogos = ({ title, sponsors }) => {
             <h1 className="flex justify-center text-5xl font-bold text-center">{title}</h1>
             <div className="px-16">
                 <div className="flex justify-center pt-10 items-center">
-                    <div className={`grid ${sponsors.length >= 4 ? 'md:grid-cols-4' : 'md:grid-cols-2'} gap-x-20`}>
+                    <div className={`grid ${sponsors.length >= 4 ? 'lg:grid-cols-4 md:grid-cols-3' : 'md:grid-cols-2'} gap-x-20`}>
                         {sponsors.map((sponsor, index) => (
                             sponsor.url ? (
                                 <a key={index} href={sponsor.url} target="_blank" rel="noreferrer">

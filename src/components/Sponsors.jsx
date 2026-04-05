@@ -14,6 +14,13 @@ const diamondSponsors = [
         
     },
     {
+        name: "Litens",
+        imageUrl: urlEndpoint + "Diamond/Litens.png",
+        desc: "Litens Automotive Group has joined UTFR as a new partner, bringing with them both financial and in-kind support that has already made a tangible difference for our team. Their contributions have opened the door for us to compete internationally, including the opportunity to take the car to competitions in Europe, and have supported our exciting transition to a 4WD powertrain. We are thrilled to have Litens in our corner and look forward to building a lasting partnership as we continue to push the limits of what our team can achieve on the global stage.",
+        url: "https://www.litens.com/",
+        
+    },
+    {
         name: "RLXSolutions",
         imageUrl: urlEndpoint + "Gold/RLX_Logo.png?updatedAt=1734039962970",
         desc: "RLX Solutions has generously supported UTFR through the manufacturing of the many custom Printed Circuit Boards (PCBs) that go on the car. The resulting high quality PCBs can surmount the rigorous racing conditions when delivering power, reading sensor data, managing our high voltage battery pack, and ensuring the car operates safely. Their generous support keeps the electrical systems on the car running year after year, and has resulted in top finishes at all competitions we've competed at.",
@@ -69,6 +76,14 @@ const goldSponsors = [
         url: "https://neweragroup.ca/"
     },
     {
+        imageUrl: urlEndpoint + "Gold/Procision.png",
+        url: "https://www.procision-manufacturing.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Gold/RFPro.png",
+        url: "https://rfpro.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Gold/ScanHub.png",
         url: "https://www.scanhub.ca/"
     },
@@ -88,16 +103,20 @@ const goldSponsors = [
 
 const silverSponsors = [
     {
-        imageUrl: urlEndpoint + "Silver/Composites_One.png",
-        url: "https://www.aerovac.com/"
-    },
-    {
         imageUrl: urlEndpoint + "Silver/Altium.png",
         url: "https://www.altium.com/"
     },
     {
         imageUrl: urlEndpoint + "Silver/Ansys.png",
         url: "https://www.ansys.com/academic/students/student-teams"
+    },
+    {
+        imageUrl: urlEndpoint + "Silver/Composites_One.png",
+        url: "https://www.aerovac.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Silver/ConcurrentRealTime.png",
+        url: "https://concurrent-rt.com/"
     },
     {
         imageUrl: urlEndpoint + "Silver/DassaultSystemes.png",
@@ -189,6 +208,10 @@ const bronzeSponsors = [
     {
         imageUrl: urlEndpoint + "Bronze/3ERP.png",
         url: "http://www.3erp.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/ACCut.png",
+        url: "https://accut.ca/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/AST.png",
@@ -350,6 +373,10 @@ const affiliateSponsors = [
         url: "https://hawk-eye.com/"
     },
     {
+        imageUrl: urlEndpoint + "Affiliates/HHDataManagement.png",
+        url: "https://hh-dev.com/HHDataManagement"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/Metex.png",
         url: "http://www.metexht.com/"
     },
@@ -368,6 +395,14 @@ const affiliateSponsors = [
     {
         imageUrl: urlEndpoint + "Affiliates/ShannonvilleMotorsportsPark.png?updatedAt=1770182322212",
         url: "https://shannonville.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Affiliates/SystemsProtection.png",
+        url: "https://www.systemsprotection.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Affiliates/TelemetryOverlay.png",
+        url: "https://goprotelemetryextractor.com/"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/VI.png",
@@ -413,7 +448,7 @@ const Sponsors = () => {
         {/* Diamond Sponsors */}
         <h1 className='flex justify-center bg-[#e3e3e3] pt-10 text-5xl font-bold text-center'>Diamond Sponsors</h1>
         <div className='flex justify-center bg-[#e3e3e3]'>
-            <div className="grid lg:grid-cols-3 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 py-10 gap-x-8 gap-y-10">
                 {diamondSponsors.map((sponsor, index) => (
                     <Fade delay={0.2} triggerOnce>
                         <DiamondSponsorCard
