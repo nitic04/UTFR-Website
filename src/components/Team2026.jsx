@@ -74,18 +74,25 @@ const mechLeads = [
     program: "Mech 2T7 + PEY"
   },
   {
-    name: "Sam Bahrami",
-    imageUrl: prefix + "Sam_Bahrami.jpeg?updatedAt=1758335333752",
-    linkedinUrl: "https://www.linkedin.com/in/sam-bahrami/",
+    name: "Andrew Lee",
+    imageUrl: prefix + "Andy_Lee.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/andrewlee95/",
     title: "Chassis Lead",
-    program: "Mech 2T5 + PEY"
+    program: "Mech 2T8 + PEY"
   },
   {
-    name: "Kelvin Cao",
-    imageUrl: prefix + "Kelvin_Cao.jpg?updatedAt=1758335332639",
-    linkedinUrl: "https://www.linkedin.com/in/kelvincaoyx/",
-    title: "Drivetrain Lead",
-    program: "Mech 2T5 + PEY"
+    name: "Ruodi Yuan",
+    imageUrl: prefix + "Tinah_Yuan.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/ruodiyuan/",
+    title: "Drivetrain Co-Lead",
+    program: "Mech 2T9 + PEY"
+  },
+  {
+    name: "Ruolan Yuan",
+    imageUrl: prefix + "Lancy_Yuan.jpg",
+    linkedinUrl: "https://www.linkedin.com/in/ruolan-yuan/",
+    title: "Drivetrain Co-Lead",
+    program: "Mech 2T8 + PEY"
   },
   {
     name: "Clara Coukell",
