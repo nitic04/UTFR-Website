@@ -4,6 +4,7 @@ import DiamondSponsorCard from "./DiamondSponsorCard";
 import SponsorLogos from "./SponsorLogos";
 
 const urlEndpoint = 'https://ik.imagekit.io/utfroutreach/'
+const urlEndpointUT26 = 'https://ik.imagekit.io/utfroutreach/UT26/'
 
 const diamondSponsors = [
     {
@@ -40,6 +41,15 @@ const platinumSponsors = [
         imageUrl: urlEndpoint + "Platinum/CPSIF.png",
         url: "https://www.engineering.utoronto.ca/current-students/centralized-process-for-student-initiative-funding-cpsif/"
     },
+    {
+        imageUrl: urlEndpointUT26 + "Fischer.png",
+        url: "https://fischer-elektromotoren.de/en/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "NipponExpress.png",
+        url: "https://www.nipponexpress.com/"
+    },
+
     {
         imageUrl: urlEndpoint + "Platinum/SensoricSolutions.png",
         url: "https://www.sensoric-solutions.com/"
@@ -88,12 +98,16 @@ const goldSponsors = [
         url: "https://www.scanhub.ca/"
     },
     {
+        imageUrl: urlEndpointUT26 + "SEF.png",
+        url: "https://skule.ca/finances/SEF.html"
+    },
+    {
         imageUrl: urlEndpoint + "Gold/Siemens.png",
         url: "https://www.siemens.com/ca/en.html"
     },
     {
-        imageUrl: urlEndpoint + "Gold/Vesevo.png?updatedAt=1734039429796",
-        url: "https://www.vesevo.eu/"
+        imageUrl: urlEndpointUT26 + "Sobek.png",
+        url: "https://sobek-group.de/"
     },
     {
         imageUrl: urlEndpoint + "Gold/6SIGMA.png",
@@ -111,6 +125,10 @@ const silverSponsors = [
         url: "https://www.ansys.com/academic/students/student-teams"
     },
     {
+        imageUrl: urlEndpointUT26 + "Brembo.png",
+        url: "https://www.brembo.com/en"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Composites_One.png",
         url: "https://www.aerovac.com/"
     },
@@ -125,6 +143,10 @@ const silverSponsors = [
     {
         imageUrl: urlEndpoint + "Silver/DigitalResearchAlliance.png",
         url: "https://www.alliancecan.ca/en"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "Ekos.png",
+        url: " "
     },
     {
         imageUrl: urlEndpoint + "Silver/Embotech.png",
@@ -183,6 +205,10 @@ const silverSponsors = [
         url: "https://percepio.com/"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/Peripheral.png",
+        url: "https://www.peripheral.so/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Pompous_Fox_Wood_Company.png",
         url: "https://pompousfoxwoodco.com/"
     },
@@ -191,24 +217,20 @@ const silverSponsors = [
         url: "https://www.rudolphsbakeries.com/"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/Sekanskin.png",
+        url: "https://sekanskin.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Silver/Simerics.png",
         url: "https://www.simerics.com/"
     },
     {
         imageUrl: urlEndpoint + "Silver/SolidworksLogo.png",
         url: "http://www.solidworks.com/students"
-    },
-    {
-        imageUrl: urlEndpoint + "Silver/Tektronix.png",
-        url: "http://tek.com/en"
     }
 ]
 
 const bronzeSponsors = [
-    {
-        imageUrl: urlEndpoint + "Bronze/3ERP.png",
-        url: "http://www.3erp.com/"
-    },
     {
         imageUrl: urlEndpoint + "Bronze/ACCut.png",
         url: "https://accut.ca/"
@@ -218,16 +240,8 @@ const bronzeSponsors = [
         url: "https://astg.ca/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Abco.png",
-        url: "https://www.abcofreight.com/"
-    },
-    {
         imageUrl: urlEndpoint + "Bronze/Bender.png",
         url: "https://www.benderinc.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/Brafasco.png",
-        url: "https://brafasco.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/Brechin.png",
@@ -238,24 +252,12 @@ const bronzeSponsors = [
         url: "https://cloudzy.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Crosslink.png",
-        url: "https://crosslinktech.com/"
-    },
-    {
         imageUrl: urlEndpoint + "Bronze/CubeMars.png",
         url: "https://www.cubemars.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/DiSoric.png",
-        url: "https://www.di-soric.com/int-en"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/DMC.png",
-        url: "https://dmctools.com/?srsltid=AfmBOopvRGYNhqMzK8yG_lL7bgfWRDnIAjMHJ-pLmch_FmfZ5V0M7-C0"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/Durham.png",
-        url: "https://disensors.com/"
+        imageUrl: urlEndpointUT26 + "ElectroMeters.png",
+        url: "https://www.electro-meters.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/Evonik.png",
@@ -290,40 +292,40 @@ const bronzeSponsors = [
         url: "https://www.holley.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/KissSoft.png",
-        url: "https://www.kisssoft.com/de"
+        imageUrl: urlEndpointUT26 + "HKA.png",
+        url: "https://www.hka.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Lily.png?updatedAt=1734473423504",
-        url: "https://www.lily-bearing.com/"
+        imageUrl: urlEndpoint + "Bronze/KissSoft.png",
+        url: "https://www.kisssoft.com/de"
     },
     {
         imageUrl: urlEndpoint + "Bronze/LRA.png",
         url: "https://lra3d.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/MechanicalAdvertising.png",
-        url: "http://mechanicaladvertising.com/"
+        imageUrl: urlEndpointUT26 + "MillerAdvisors.png",
+        url: "https://www.miller-advisors.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "Motion.png",
+        url: "https://www.motioncanada.ca/"
     },
     {
         imageUrl: urlEndpoint + "Silver/NACI.png",
         url: "https://www.nacicanada.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Peripheral.png",
-        url: "https://www.peripheral.so/"
+        imageUrl: urlEndpoint + "Affiliates/RiceRocket.png?updatedAt=1770182379158",
+        url: "https://rice-rocket.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/Roboflow.png",
         url: "https://roboflow.com/"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Sensata.webp",
-        url: "http://www.sensata.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/Sekanskin.png",
-        url: "https://sekanskin.com/"
+        imageUrl: urlEndpoint + "Affiliates/ShannonvilleMotorsportsPark.png?updatedAt=1770182322212",
+        url: "https://shannonville.com/"
     },
     {
         imageUrl: urlEndpoint + "Bronze/SherwinWilliams.png",
@@ -338,14 +340,6 @@ const bronzeSponsors = [
         url: "http://texonic.net/en"
     },
     {
-        imageUrl: urlEndpoint + "Bronze/Textreme.png",
-        url: "https://www.textreme.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Bronze/TibetTechSolutions.jpg",
-        url: "https://www.muratkanitibet.com/"
-    },
-    {
         imageUrl: urlEndpoint + "Bronze/3DX.png",
         url: "https://3dconnexion.com/us/"
     },
@@ -353,16 +347,16 @@ const bronzeSponsors = [
 
 const affiliateSponsors = [
     {
+        imageUrl: urlEndpoint + "Bronze/Crosslink.png",
+        url: "https://crosslinktech.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/DigiKey.png",
         url: "https://www.digikey.ca/"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/EDL.png",
         url: "https://www.engdesignlab.com/"
-    },
-    {
-        imageUrl: urlEndpoint + "Affiliates/FactoryTire.png",
-        url: "https://www.factorytire.ca/"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/Fastenal.png",
@@ -377,24 +371,52 @@ const affiliateSponsors = [
         url: "https://hh-dev.com/HHDataManagement"
     },
     {
+        imageUrl: urlEndpointUT26 + "LifeScience.png",
+        url: "https://www.life-scienceinnovations.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "MannSupply.png",
+        url: "https://mannsupply.com/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/MechanicalAdvertising.png",
+        url: "http://mechanicaladvertising.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/Metex.png",
         url: "http://www.metexht.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "MeritDecoratingCentre.png",
+        url: "https://meritdecorating.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "Mouser.webp",
+        url: "https://www.mouser.ca/"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/OakvilleBlueprint.png",
         url: "http://www.oakvilleblueprinting.ca/"
     },
     {
+        imageUrl: urlEndpointUT26 + "Oshawa Gear.png",
+        url: "https://www.oshawagear.ca/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/Phytools.png",
         url: "https://phytools.com"
     },
     {
-        imageUrl: urlEndpoint + "Affiliates/RiceRocket.png?updatedAt=1770182379158",
-        url: "https://rice-rocket.com/"
+        imageUrl: urlEndpointUT26 + "RedBull.png",
+        url: "https://www.redbull.com/ca-en"
     },
     {
-        imageUrl: urlEndpoint + "Affiliates/ShannonvilleMotorsportsPark.png?updatedAt=1770182322212",
-        url: "https://shannonville.com/"
+        imageUrl: urlEndpoint + "Bronze/Sensata.webp",
+        url: "http://www.sensata.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "SKF.png",
+        url: "https://www.skf.com/group"
     },
     {
         imageUrl: urlEndpoint + "Affiliates/SystemsProtection.png",
@@ -405,13 +427,33 @@ const affiliateSponsors = [
         url: "https://goprotelemetryextractor.com/"
     },
     {
+        imageUrl: urlEndpointUT26 + "Texense.png",
+        url: "https://www.texense.com/en/"
+    },
+    {
+        imageUrl: urlEndpoint + "Bronze/TibetTechSolutions.jpg",
+        url: "https://www.muratkanitibet.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "TISL.png",
+        url: "https://tisl.cs.toronto.edu/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/VI.png",
         url: "https://www.vi-grade.com/"
     },
     {
+        imageUrl: urlEndpointUT26 + "VillaCharities.png",
+        url: "https://www.villacharities.com/"
+    },
+    {
+        imageUrl: urlEndpointUT26 + "VitalCPR.png",
+        url: "https://www.vitalcpr.com/"
+    },
+    {
         imageUrl: urlEndpoint + "Affiliates/VR3.png",
         url: "http://vr3.ca/"
-    },
+    }
 ]
 
 const Sponsors = () => {
