@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import History from "./components/History";
-// import Countdown from "./components/Countdown";
+import Countdown from "./components/Countdown";
 import Team2026 from "./components/Team2026";
 import HomeCarousel from "./components/HomeCarousel";
 // import SponsorshipFooter from "./components/SponsorshipFooter";
@@ -55,7 +55,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<><Navbar /><Home /><About /><HomeCarousel /><Footer /></>} />
+          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1781582400000}/><HomeCarousel /><Footer /></>} />
           <Route path="/team" element={<><Navbar /><Team2026 /><Footer /></>} />
           <Route path="/history" element={<><Navbar /><History /></>} />
           <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />

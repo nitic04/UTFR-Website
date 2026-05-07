@@ -304,6 +304,10 @@ const bronzeSponsors = [
         url: "https://lra3d.com/"
     },
     {
+        imageUrl: urlEndpoint + "Bronze/MarksandClerk.png",
+        url: "https://www.marks-clerk.com/"
+    },
+    {
         imageUrl: urlEndpointUT26 + "MillerAdvisors.png",
         url: "https://www.miller-advisors.com/"
     },
