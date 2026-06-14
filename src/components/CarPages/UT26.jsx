@@ -251,7 +251,7 @@ const UT26 = () => {
                     <Fade cascade damping={0.1} triggerOnce>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Motor</p>
-                        <p className='md:text-2xl py-5 ml-auto'>Fischer Elektromotoren Formula Student Motor</p>
+                        <p className='md:text-2xl py-5 ml-auto text-right'>Fischer Elektromotoren Formula Student Motor</p>
                     </div>
                     <div className='flex border-b-2'>
                         <span className='hidden md:inline md:text-2xl py-5'>Vehicle Weight</span>
