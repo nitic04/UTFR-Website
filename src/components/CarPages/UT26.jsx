@@ -9,15 +9,15 @@ const UT26 = () => {
 
     const slides = [
         {
-            image: 'https://ik.imagekit.io/utfr/2025_2026/UT26_3.jpg',
-            description: ''
-        },
-        {
             image: 'https://ik.imagekit.io/utfr/2025_2026/UT26_2.jpg',
             description: ''
         },
         {
             image: 'https://ik.imagekit.io/utfr/2025_2026/UT26_1.jpg',
+            description: ''
+        },
+        {
+            image: 'https://ik.imagekit.io/utfr/2025_2026/UT26_3.jpg',
             description: ''
         },
       ];
@@ -89,7 +89,7 @@ const UT26 = () => {
             </div>
             <div className='mx-auto my-auto px-10 pb-10 lg:pt-10 lg:pr-24'>
                 <Fade cascade damping={0.2} triggerOnce>
-                <IKImage urlEndpoint={urlEndpoint} path="UT25_OnTrack.jpg?updatedAt=1750035991937"/>
+                <IKImage urlEndpoint="https://ik.imagekit.io/utfr/2025_2026" path="UT26_3.jpg"/>
                 </Fade>
             </div>
         </div>
@@ -251,7 +251,7 @@ const UT26 = () => {
                     <Fade cascade damping={0.1} triggerOnce>
                     <div className='flex border-b-2'>
                         <p className='md:text-2xl py-5'>Motor</p>
-                        <p className='md:text-2xl py-5 pl-5 ml-auto'>Fischer Elektromotoren Formula Student Motor</p>
+                        <p className='md:text-2xl py-5 ml-auto'>Fischer Elektromotoren Formula Student Motor</p>
                     </div>
                     <div className='flex border-b-2'>
                         <span className='hidden md:inline md:text-2xl py-5'>Vehicle Weight</span>
